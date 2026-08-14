@@ -1,44 +1,58 @@
 # Calendário editorial — Semana 34/2026 (17/08–22/08)
 
-Panorama da semana. Cada linha resume um briefing completo — o detalhe está
-no arquivo individual da pasta.
+Panorama da semana, nos dois canais. Cada linha resume um briefing
+completo — o detalhe está no arquivo individual da pasta do canal.
+
+Esta é a primeira semana gerada sob o esquema de dois calendários
+(LinkedIn + Instagram) — âncora do ciclo de rodízio (`docs/formatos.md`).
+Substitui o ensaio manual anterior desta mesma semana, feito sob o
+esquema antigo (1 calendário, 6 posts, incluía formato Stories).
+
+## LinkedIn (3 posts)
 
 | Dia | Área | Formato | Tema | Arquivo | Conformidade OAB |
 |---|---|---|---|---|---|
-| Segunda 17/08 | Empresarial | Carrossel | Cláusulas essenciais em contratos entre sócios | `01-segunda-empresarial.md` | ✅ |
-| Terça 18/08 | Cível | Post estático | O prazo de arrependimento em compras online | `02-terca-civel.md` | ✅ |
-| Quarta 19/08 | Trabalhista | Reel | As 3 formas de terminar um contrato de trabalho | `03-quarta-trabalhista.md` | ✅ |
-| Quinta 20/08 | Tributário | Carrossel | O cronograma da reforma tributária, ano a ano | `04-quinta-tributario.md` | ✅ |
-| Sexta 21/08 | Família | Stories | União estável e casamento: o que muda de fato | `05-sexta-familia.md` | ✅ |
-| Sábado 22/08 | Previdenciário | LinkedIn | Regras de transição da aposentadoria: um panorama | `06-sabado-previdenciario.md` | ✅ |
+| Segunda 17/08 | Empresarial | Texto longo | Cláusulas essenciais de um contrato social | `linkedin/01-segunda-empresarial.md` | ✅ |
+| Quarta 19/08 | Trabalhista | Texto longo | Rescisão de contrato de trabalho — tipos e o que cada um garante | `linkedin/02-quarta-trabalhista.md` | ✅ |
+| Sexta 21/08 | Família | Texto longo | Pacto antenupcial — o que é e quando costuma ser considerado | `linkedin/03-sexta-familia.md` | ✅ |
+
+## Instagram (6 posts)
+
+| Dia | Área | Formato | Tema | Arquivo | Conformidade OAB |
+|---|---|---|---|---|---|
+| Segunda 17/08 | Empresarial | Carrossel | Diferenças entre MEI, EI e sociedade limitada | `instagram/01-segunda-empresarial.md` | ✅ |
+| Terça 18/08 | Cível | Post estático | O prazo de arrependimento em compras online | `instagram/02-terca-civel.md` | ✅ |
+| Quarta 19/08 | Trabalhista | Reel | Trabalho híbrido e home office — o que a CLT exige | `instagram/03-quarta-trabalhista.md` | ✅ |
+| Quinta 20/08 | Tributário | Carrossel | Reforma tributária — o que muda com IBS e CBS | `instagram/04-quinta-tributario.md` | ✅ |
+| Sexta 21/08 | Família | Post estático | União estável — como se caracteriza | `instagram/05-sexta-familia.md` | ✅ |
+| Sábado 22/08 | Previdenciário | Reel | Aposentadoria por idade após a Reforma da Previdência | `instagram/06-sabado-previdenciario.md` | ✅ |
+
+Observação: Empresarial, Trabalhista e Família aparecem nos dois canais
+esta semana (Grupo 1 do LinkedIn coincide com essas três áreas) — cada
+canal usa um tema diferente do banco da área, para não repetir a mesma
+pauta duas vezes na mesma semana.
 
 ## Fonte dos temas
 
-Todos os 6 temas vieram do banco de temas (item 1 de cada arquivo em
-`temas/`) — esta é a primeira semana de execução, sem `temas/historico.md`
-anterior a evitar. Nenhum acesso à web foi necessário para esta rodada:
+Todos os 9 temas vieram do banco de temas (`temas/<area>.md`) — primeira
+execução real do novo esquema, sem `temas/historico.md` anterior sob este
+esquema a evitar. Nenhum acesso à web foi necessário para esta rodada:
 todos os temas do banco eram evergreen e adequados sem substituição por
 atualidade.
-
-## Notas da semana
-
-- Semana 1 do ciclo de rodízio de formatos (`docs/formatos.md`).
-- O tema de Previdenciário (Sábado) tem risco de conformidade marcado como
-  **Alto** no banco de temas — checklist aplicado com atenção redobrada
-  para não sugerir estimativa de elegibilidade a benefício.
-- Todos os 6 briefings passaram no checklist de conformidade OAB sem
-  necessidade de reescrita.
-- Varredura de termos-gatilho (lista em `docs/normas-oab.md`) rodada sobre
-  os 6 arquivos: nenhuma ocorrência.
 
 ## Publicação no Notion
 
 - Página: Calendário Editorial (`3bb1d8cd0ae680ccad77ccddb430d0ab`)
-- Banco "Posts": 6 linhas criadas, status inicial "Em aprovação"
-- Sub-página da semana: [Semana 34 · 17–22/08](https://app.notion.com/p/3bc1d8cd0ae681568997df9a345a6432)
+- Banco "Posts": 9 linhas criadas (3 Canal=LinkedIn, 6 Canal=Instagram),
+  status inicial "Em aprovação"
+- Sub-página da semana: substituída — ver `docs/notion.md` para o link
+  atual (a sub-página e as 6 páginas do ensaio anterior desta semana foram
+  arquivadas)
 
 ## Pendências / o que ficou de fora
 
-Nenhuma. Ensaio manual completo: 6 briefings gerados, checklist de
+Nenhuma. Regeneração completa da semana 2026-S34 sob o esquema de dois
+calendários: 9 briefings gerados (3 LinkedIn + 6 Instagram), checklist de
 conformidade aplicado a cada peça, publicação no Notion concluída
-(database + sub-página), `temas/historico.md` atualizado.
+(database + sub-página, substituindo o conteúdo do ensaio anterior),
+`temas/historico.md` atualizado.

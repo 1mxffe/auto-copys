@@ -31,7 +31,7 @@ linha — não reescreva as anteriores.
 CREATE TABLE "Posts" (
   "Tema" TITLE,
   "date:Data:start" TEXT,           -- data de publicação (ISO)
-  "Semana" TEXT,                    -- ex.: "2026-S35"
+  "Semana" TEXT,                    -- ex.: "2026-S34"
   "Área" SELECT('Empresarial', 'Cível', 'Trabalhista', 'Tributário',
                  'Família', 'Previdenciário'),
   "Canal" SELECT('LinkedIn', 'Instagram'),
@@ -46,11 +46,11 @@ CREATE TABLE "Posts" (
 Todas as opções de Select já existem no data source — não recriar.
 
 `Canal` foi adicionado em 2026-08-14, junto com a opção `Texto longo` em
-`Formato` (renomeação funcional de `LinkedIn`, mantida como opção legada
-porque já está em uso nos registros da semana 2026-S34 — não remover).
-Toda execução a partir da 2026-S35 preenche `Canal`; as 6 linhas antigas
-da 2026-S34 ficaram sem esse campo (pré-existentes ao esquema de dois
-calendários) e podem ser preenchidas manualmente depois, se quiser.
+`Formato` (renomeação funcional de `LinkedIn`). As opções `Stories` e
+`LinkedIn` (Formato) ficam mantidas como legado no Select mesmo sem uso —
+remover uma opção em uso é destrutivo para as páginas que a usam. Toda
+execução a partir da 2026-S34 (regenerada em 2026-08-14 sob o esquema de
+dois calendários) preenche `Canal`.
 
 ## Como publicar uma semana nova
 

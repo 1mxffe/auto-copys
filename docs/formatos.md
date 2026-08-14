@@ -47,8 +47,7 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
   sem CTA de conversão (Pergunta 04).
 
 > **Descontinuado**: o formato Stories saiu do rodízio. Não usar em novas
-> execuções — as únicas peças em Stories que existem são as da semana
-> 2026-S34 (ensaio manual, esquema antigo), preservadas como estão.
+> execuções.
 
 ## O formato do LinkedIn
 
@@ -117,10 +116,10 @@ seguidas na mesma área:
 | Sábado | Previdenciário | Post estático |
 
 O ciclo reinicia na semana 4 (= semana 1 novamente). Para saber em que
-semana do ciclo do Instagram uma execução está, use `((N - 35) mod 3) + 1`
-— `N` é o número da semana ISO e `35` é a primeira semana gerada já sob
-este esquema (a semana 34 foi o ensaio manual, sob o esquema antigo de
-5 formatos e 1 calendário só, e não entra nesta conta).
+semana do ciclo do Instagram uma execução está, use `((N - 34) mod 3) + 1`
+— `N` é o número da semana ISO e `34` é a primeira semana gerada já sob
+este esquema (a semana 2026-S34 foi regenerada em 2026-08-14 para
+substituir o ensaio antigo de 5 formatos e 1 calendário só).
 
 ## LinkedIn — área × dia (grupo alternado, ciclo de 2 semanas)
 
@@ -144,7 +143,7 @@ LinkedIn a cada 2 semanas:
 | Quarta | Tributário |
 | Sexta | Previdenciário |
 
-Use `(N - 35) mod 2`: resto `0` → Grupo 1, resto `1` → Grupo 2.
+Use `(N - 34) mod 2`: resto `0` → Grupo 1, resto `1` → Grupo 2.
 
 ## Combinando os dois ciclos
 

@@ -71,7 +71,7 @@ ajuste, pelo campo **Status**.
 
 ## Convenção de nomes
 
-- Semana ISO: pasta `calendarios/AAAA-SNN` (ex.: `calendarios/2026-S35`).
+- Semana ISO: pasta `calendarios/AAAA-SNN` (ex.: `calendarios/2026-S34`).
 - Post do LinkedIn: `calendarios/AAAA-SNN/linkedin/NN-dia-area.md` (ex.:
   `01-segunda-empresarial.md`).
 - Post do Instagram: `calendarios/AAAA-SNN/instagram/NN-dia-area.md` (ex.:

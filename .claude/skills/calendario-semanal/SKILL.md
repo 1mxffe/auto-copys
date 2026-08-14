@@ -32,18 +32,17 @@ Sempre antes de qualquer leitura ou escrita. Como a rotina escreve direto em
   partir da data de hoje. Se hoje é sexta, a próxima semana começa na
   segunda seguinte (3 dias depois).
 - Nomeie a pasta de saída `calendarios/AAAA-SNN` usando o número da semana
-  ISO (ex.: `2026-S35`).
+  ISO (ex.: `2026-S34`).
 - Determine as duas posições de ciclo que se aplicam a esta semana (ver
   `docs/formatos.md` para as tabelas completas):
   - **Ciclo do Instagram** (3 semanas, controla o formato):
-    `((N - 35) mod 3) + 1`.
+    `((N - 34) mod 3) + 1`.
   - **Ciclo do LinkedIn** (2 semanas, controla o grupo de 3 áreas):
-    `(N - 35) mod 2` — `0` = Grupo 1, `1` = Grupo 2.
-  - `N` é o número da semana ISO alvo; `35` é a âncora porque a semana 34
-    foi o ensaio manual, sob o esquema antigo de 1 calendário só. Se esta
-    execução for um ensaio/primeira execução real do novo esquema, trate a
-    semana atual como se fosse a semana 35 (ciclo do Instagram = semana 1,
-    ciclo do LinkedIn = Grupo 1).
+    `(N - 34) mod 2` — `0` = Grupo 1, `1` = Grupo 2.
+  - `N` é o número da semana ISO alvo; `34` é a âncora — a semana 2026-S34
+    foi regenerada em 2026-08-14 como a primeira execução real deste
+    esquema de dois calendários, substituindo o ensaio anterior (esquema
+    antigo de 1 calendário só).
 
 ## 2. Ler o contexto antes de escrever qualquer coisa
 

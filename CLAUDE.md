@@ -6,10 +6,11 @@ disparada pela Routine semanal — deve carregar este contexto antes de agir.
 
 ## O que este repositório é
 
-Uma automação que gera, semana a semana, 6 briefings de post (um por área do
-direito), passa cada um pelo checklist de conformidade da OAB (Provimento
-205/2021), grava tudo em Markdown versionado e publica a mesma informação em
-um banco de dados no Notion, sob a página **Calendário Editorial**.
+Uma automação que gera, semana a semana, **dois calendários editoriais
+separados** — um por canal, cada um com a própria cadência — passa cada
+peça pelo checklist de conformidade da OAB (Provimento 205/2021), grava
+tudo em Markdown versionado e publica a mesma informação em um banco de
+dados no Notion, sob a página **Calendário Editorial**.
 
 O Markdown em `calendarios/` é a fonte da verdade. O Notion é a camada de
 publicação e aprovação — a camada onde o time efetivamente aprova ou pede
@@ -17,8 +18,12 @@ ajuste, pelo campo **Status**.
 
 ## Regras que não mudam
 
-- **Volume**: 6 posts por semana, um por área — Empresarial, Cível,
-  Trabalhista, Tributário, Família, Previdenciário.
+- **Volume**: 9 posts por semana, em dois calendários de canal
+  independentes — **LinkedIn**: 3 posts (segunda, quarta, sexta), sempre
+  formato "Texto longo". **Instagram**: 6 posts (segunda a sábado), um por
+  área — Empresarial, Cível, Trabalhista, Tributário, Família,
+  Previdenciário —, formato em rodízio. Regras completas de área × dia ×
+  formato por canal em `docs/formatos.md`.
 - **Git**: commit direto na branch `main`, sem Pull Request. `git pull origin
   main` sempre antes de commitar. O commit semanal só deve tocar
   `calendarios/<semana nova>/` e o append em `temas/historico.md` — nunca
@@ -46,13 +51,13 @@ ajuste, pelo campo **Status**.
 | `.claude/skills/calendario-semanal/SKILL.md` | Procedimento completo, passo a passo, usado pela Routine e por execuções manuais |
 | `docs/normas-oab.md` | Transcrição das 15 perguntas da Cartilha CFOAB + checklist operacional bloqueante |
 | `docs/perfil-escritorio.md` | Marca, tom de voz, público-alvo, áreas de atuação |
-| `docs/formatos.md` | Specs dos 5 formatos + matriz de rodízio área × formato (ciclo de 3 semanas) |
+| `docs/formatos.md` | Canais, cadência, specs de formato e as matrizes de rodízio de cada canal (área × dia × formato) |
 | `docs/notion.md` | IDs do Notion (página, database, views) e como publicar |
 | `templates/briefing-post.md` | Template de briefing por post — 8 seções, espelha o `.docx` original |
-| `templates/calendario-semanal.md` | Template do panorama semanal |
+| `templates/calendario-semanal.md` | Template do panorama semanal (dois calendários, um por canal) |
 | `temas/<area>.md` | Banco de temas evergreen por área (6 arquivos) |
 | `temas/historico.md` | Registro de tudo já publicado — consultado para evitar repetição |
-| `calendarios/AAAA-SNN/` | Saída de cada semana: `calendario.md` + um arquivo por post |
+| `calendarios/AAAA-SNN/` | Saída de cada semana: `calendario.md` (panorama dos dois canais) + `linkedin/` e `instagram/`, cada um com um arquivo por post |
 
 ## Antes de qualquer execução
 
@@ -66,6 +71,9 @@ ajuste, pelo campo **Status**.
 
 ## Convenção de nomes
 
-- Semana ISO: pasta `calendarios/AAAA-SNN` (ex.: `calendarios/2026-S34`).
-- Arquivo de post: `NN-dia-area.md` (ex.: `01-segunda-empresarial.md`).
+- Semana ISO: pasta `calendarios/AAAA-SNN` (ex.: `calendarios/2026-S35`).
+- Post do LinkedIn: `calendarios/AAAA-SNN/linkedin/NN-dia-area.md` (ex.:
+  `01-segunda-empresarial.md`).
+- Post do Instagram: `calendarios/AAAA-SNN/instagram/NN-dia-area.md` (ex.:
+  `01-segunda-empresarial.md`).
 - Commit semanal: `Calendário editorial — Semana NN/AAAA`.

@@ -1,23 +1,29 @@
 # auto-copys
 
 Automação do calendário editorial semanal do escritório **Gutmann & Silva**.
-Toda sexta às 8h, uma Routine do Claude Code gera 6 briefings de post — um
-por área do direito —, confere cada um contra o checklist de conformidade da
+Toda sexta às 8h (Brasília), uma Routine do Claude Code gera **dois
+calendários separados** — LinkedIn (3 posts/semana) e Instagram (6
+posts/semana) —, confere cada peça contra o checklist de conformidade da
 OAB, publica no Notion e comita direto na branch `main` deste repositório.
 
 ## Como funciona
 
 ```
-sexta 8h ──► Routine dispara sessão nova
+sexta 8h (Brasília) ──► Routine dispara sessão nova
              │
              ├─ 1. git pull origin main
-             ├─ 2. lê perfil, formatos, normas OAB, histórico de temas
-             ├─ 3. escolhe 6 temas (banco de temas, ou atualidade se houver web)
-             ├─ 4. define rodízio de formato por área (ciclo de 3 semanas)
-             ├─ 5. escreve 6 briefings completos (copy final incluída)
+             ├─ 2. lê perfil, formatos/canais, normas OAB, histórico de temas
+             ├─ 3. escolhe os temas dos 9 posts (banco de temas, ou
+             │      atualidade se houver web) — 3 para LinkedIn, 6 para
+             │      Instagram, sem repetir nada do histórico entre os canais
+             ├─ 4. define área×dia de cada canal e o rodízio de formato do
+             │      Instagram (LinkedIn é sempre "Texto longo")
+             ├─ 5. escreve os 9 briefings completos (copy final incluída)
              ├─ 6. roda o checklist OAB peça por peça — reescreve se necessário
-             ├─ 7. salva em calendarios/AAAA-SNN/, atualiza temas/historico.md
-             ├─ 8. publica no Notion (database "Posts" + sub-página da semana)
+             ├─ 7. salva em calendarios/AAAA-SNN/{linkedin,instagram}/,
+             │      atualiza temas/historico.md
+             ├─ 8. publica no Notion (database "Posts", campo Canal
+             │      preenchido, + sub-página da semana com os dois calendários)
              └─ 9. commit + push direto em main (sem PR)
 ```
 
@@ -43,12 +49,12 @@ neste repositório, e não por Pull Request.
 | `.claude/skills/calendario-semanal/` | Procedimento completo, passo a passo |
 | `docs/normas-oab.md` | As 15 perguntas da Cartilha CFOAB + checklist bloqueante |
 | `docs/perfil-escritorio.md` | Marca, tom de voz, público, áreas |
-| `docs/formatos.md` | Specs dos 5 formatos + matriz de rodízio |
+| `docs/formatos.md` | Canais (LinkedIn/Instagram), cadência, specs de formato e matrizes de rodízio de cada canal |
 | `docs/notion.md` | IDs do Notion e como publicar |
-| `templates/` | Template de briefing e de panorama semanal |
+| `templates/` | Template de briefing e de panorama semanal (dois calendários) |
 | `temas/<area>.md` | Banco de temas evergreen, 6 arquivos |
-| `temas/historico.md` | Anti-repetição — tudo já publicado |
-| `calendarios/AAAA-SNN/` | Saída de cada semana |
+| `temas/historico.md` | Anti-repetição — tudo já publicado, nos dois canais |
+| `calendarios/AAAA-SNN/` | Saída de cada semana — `calendario.md` + `linkedin/` + `instagram/` |
 
 ## Conformidade OAB
 

@@ -1,8 +1,9 @@
 # Perfil do escritório — Gutmann & Silva
 
 Referência de marca e tom de voz para toda peça gerada pela automação. Serve
-para manter consistência entre os 6 posts semanais, mesmo escritos em
-sessões diferentes, meses de distância.
+para manter consistência entre os 9 posts semanais dos dois calendários
+(LinkedIn e Instagram — ver `docs/formatos.md`), mesmo escritos em sessões
+diferentes, meses de distância.
 
 ## Identidade
 
@@ -10,8 +11,11 @@ sessões diferentes, meses de distância.
 - **Áreas de atuação cobertas pelo calendário**: Direito Empresarial, Direito
   Cível, Direito Trabalhista, Direito Tributário, Direito de Família,
   Direito Previdenciário.
-- **Canais**: Instagram, LinkedIn e site institucional. WhatsApp e telefone
-  como contato direto (permitido pela Pergunta 04 da Cartilha OAB — ver
+- **Canais**: Instagram e LinkedIn têm calendário editorial próprio nesta
+  automação — cadência, área×dia e formato de cada um em
+  `docs/formatos.md`. Site institucional é canal da marca mas ainda sem
+  calendário/formato definidos aqui. WhatsApp e telefone como contato
+  direto (permitido pela Pergunta 04 da Cartilha OAB — ver
   `docs/normas-oab.md`).
 - **E-mail de contato**: financeiro@gutmannesilva.com.br (uso administrativo
   interno; não necessariamente o canal público de contato do escritório —

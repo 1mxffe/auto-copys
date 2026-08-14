@@ -1,8 +1,26 @@
-# Formatos e rodízio
+# Canais, formatos e rodízio
 
-## Os 5 formatos
+## Canais e cadência
 
-### Carrossel (Instagram/LinkedIn)
+O escritório mantém **dois calendários editoriais separados**, cada um com
+cadência própria — não é mais um único calendário de 6 posts:
+
+| Canal | Posts/semana | Dias | Formato |
+|---|---|---|---|
+| LinkedIn | 3 | Segunda, quarta, sexta | Sempre "Texto longo" (sem rodízio) |
+| Instagram | 6 | Segunda a sábado | Rodízio entre Carrossel, Post estático e Reel |
+
+"Site institucional" segue listado como canal da marca em
+`docs/perfil-escritorio.md`, mas não tem formato nem calendário definidos
+nesta automação — fora de escopo até ser desenhado à parte.
+
+Cada canal gera sua própria pasta de saída dentro da mesma semana:
+`calendarios/AAAA-SNN/linkedin/` e `calendarios/AAAA-SNN/instagram/` (ver
+`.claude/skills/calendario-semanal/SKILL.md`).
+
+## Os 3 formatos do Instagram
+
+### Carrossel
 - **Extensão**: 5 slides.
 - **Estrutura fixa**: capa/gancho → identificação (o que é / por que
   importa) → informação-chave → aprofundamento → encerramento sóbrio.
@@ -28,16 +46,13 @@
   informação central até os 30s, fechamento sóbrio nos últimos segundos —
   sem CTA de conversão (Pergunta 04).
 
-### Stories
-- **Extensão**: 3 telas encadeadas.
-- **Estrutura fixa**: 3 telas + 1 elemento interativo (enquete ou caixinha
-  informativa — nunca caixinha de pergunta jurídica aberta a caso concreto,
-  ver Pergunta 01 em `docs/normas-oab.md`).
-- **Entrega**: texto das 3 telas + a enquete/caixinha proposta.
-- **O que a copy precisa entregar**: a informação já útil na tela 1 (quem só
-  vê a primeira tela ainda sai com algo); telas 2–3 aprofundam.
+> **Descontinuado**: o formato Stories saiu do rodízio. Não usar em novas
+> execuções — as únicas peças em Stories que existem são as da semana
+> 2026-S34 (ensaio manual, esquema antigo), preservadas como estão.
 
-### LinkedIn (texto longo)
+## O formato do LinkedIn
+
+### Texto longo
 - **Extensão**: 250–400 palavras.
 - **Estrutura fixa**: nenhuma estrutura de slide — texto corrido, registro
   analítico, parágrafos completos.
@@ -46,11 +61,27 @@
 - **O que a copy precisa entregar**: profundidade real — é o formato onde
   cabe nuance, contexto histórico da norma, comparação antes/depois. Não é
   o carrossel reescrito em prosa.
+- Único formato do canal — os 3 posts semanais do LinkedIn usam sempre
+  "Texto longo", sem rodízio.
 
-## Matriz de rodízio (ciclo de 3 semanas)
+## Instagram — área × dia (fixo)
 
-Cada área passa por um formato diferente a cada semana, num ciclo de 3
-semanas, para o feed não repetir o mesmo par área×formato toda semana.
+Cada área tem um dia fixo, toda semana:
+
+| Dia | Área |
+|---|---|
+| Segunda | Empresarial |
+| Terça | Cível |
+| Quarta | Trabalhista |
+| Quinta | Tributário |
+| Sexta | Família |
+| Sábado | Previdenciário |
+
+## Instagram — rodízio de formato (ciclo de 3 semanas)
+
+Formato por dia, variando por semana do ciclo — cada área passa pelos 3
+formatos ao longo de 3 semanas, sem repetir o mesmo formato em duas semanas
+seguidas na mesma área:
 
 **Semana 1 do ciclo**
 
@@ -60,36 +91,70 @@ semanas, para o feed não repetir o mesmo par área×formato toda semana.
 | Terça | Cível | Post estático |
 | Quarta | Trabalhista | Reel |
 | Quinta | Tributário | Carrossel |
-| Sexta | Família | Stories |
-| Sábado | Previdenciário | LinkedIn |
+| Sexta | Família | Post estático |
+| Sábado | Previdenciário | Reel |
 
 **Semana 2 do ciclo**
-
-| Dia | Área | Formato |
-|---|---|---|
-| Segunda | Empresarial | Stories |
-| Terça | Cível | Carrossel |
-| Quarta | Trabalhista | Post estático |
-| Quinta | Tributário | Reel |
-| Sexta | Família | Carrossel |
-| Sábado | Previdenciário | Post estático |
-
-**Semana 3 do ciclo**
 
 | Dia | Área | Formato |
 |---|---|---|
 | Segunda | Empresarial | Post estático |
 | Terça | Cível | Reel |
 | Quarta | Trabalhista | Carrossel |
-| Quinta | Tributário | Stories |
-| Sexta | Família | LinkedIn |
+| Quinta | Tributário | Post estático |
+| Sexta | Família | Reel |
 | Sábado | Previdenciário | Carrossel |
 
-O ciclo reinicia na semana 4 (= semana 1 novamente). Para saber em que
-semana do ciclo uma execução está, conte a partir da primeira semana gerada
-pela automação (Semana 34/2026 = semana 1 do ciclo) e aplique
-`((N - 34) mod 3) + 1`.
+**Semana 3 do ciclo**
 
-Formato LinkedIn é sempre reservado a uma área por semana (evita saturar o
-canal); Carrossel pode se repetir entre áreas na mesma semana, já que sai em
-dias e contas diferentes.
+| Dia | Área | Formato |
+|---|---|---|
+| Segunda | Empresarial | Reel |
+| Terça | Cível | Carrossel |
+| Quarta | Trabalhista | Post estático |
+| Quinta | Tributário | Reel |
+| Sexta | Família | Carrossel |
+| Sábado | Previdenciário | Post estático |
+
+O ciclo reinicia na semana 4 (= semana 1 novamente). Para saber em que
+semana do ciclo do Instagram uma execução está, use `((N - 35) mod 3) + 1`
+— `N` é o número da semana ISO e `35` é a primeira semana gerada já sob
+este esquema (a semana 34 foi o ensaio manual, sob o esquema antigo de
+5 formatos e 1 calendário só, e não entra nesta conta).
+
+## LinkedIn — área × dia (grupo alternado, ciclo de 2 semanas)
+
+Só 3 áreas por semana cabem no LinkedIn. As 6 áreas se revezam em dois
+grupos de 3, alternando semana sim, semana não — toda área aparece no
+LinkedIn a cada 2 semanas:
+
+**Grupo 1 (semana ímpar do ciclo)**
+
+| Dia | Área |
+|---|---|
+| Segunda | Empresarial |
+| Quarta | Trabalhista |
+| Sexta | Família |
+
+**Grupo 2 (semana par do ciclo)**
+
+| Dia | Área |
+|---|---|
+| Segunda | Cível |
+| Quarta | Tributário |
+| Sexta | Previdenciário |
+
+Use `(N - 35) mod 2`: resto `0` → Grupo 1, resto `1` → Grupo 2.
+
+## Combinando os dois ciclos
+
+O ciclo do Instagram (3 semanas) e o do LinkedIn (2 semanas) têm mínimo
+múltiplo comum de 6 — o panorama completo (quem publica o quê, em qual
+formato, nos dois canais) se repete a cada 6 semanas.
+
+## Anti-repetição é por tema, não por canal
+
+`temas/historico.md` é consultado e atualizado pelos dois calendários. Um
+tema usado no Instagram não pode ser reusado no LinkedIn (nem vice-versa) —
+a regra de não repetir tema (`CLAUDE.md`) vale para a automação inteira,
+independente de canal.

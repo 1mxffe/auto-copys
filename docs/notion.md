@@ -31,11 +31,12 @@ linha — não reescreva as anteriores.
 CREATE TABLE "Posts" (
   "Tema" TITLE,
   "date:Data:start" TEXT,           -- data de publicação (ISO)
-  "Semana" TEXT,                    -- ex.: "2026-S34"
+  "Semana" TEXT,                    -- ex.: "2026-S35"
   "Área" SELECT('Empresarial', 'Cível', 'Trabalhista', 'Tributário',
                  'Família', 'Previdenciário'),
+  "Canal" SELECT('LinkedIn', 'Instagram'),
   "Formato" SELECT('Carrossel', 'Post estático', 'Reel', 'Stories',
-                    'LinkedIn'),
+                    'LinkedIn', 'Texto longo'),
   "Status" SELECT('Rascunho', 'Em aprovação', 'Aprovado', 'Publicado'),
   "Gancho" TEXT,
   "Conformidade OAB" SELECT('OK', 'Revisar')
@@ -44,20 +45,28 @@ CREATE TABLE "Posts" (
 
 Todas as opções de Select já existem no data source — não recriar.
 
+`Canal` foi adicionado em 2026-08-14, junto com a opção `Texto longo` em
+`Formato` (renomeação funcional de `LinkedIn`, mantida como opção legada
+porque já está em uso nos registros da semana 2026-S34 — não remover).
+Toda execução a partir da 2026-S35 preenche `Canal`; as 6 linhas antigas
+da 2026-S34 ficaram sem esse campo (pré-existentes ao esquema de dois
+calendários) e podem ser preenchidas manualmente depois, se quiser.
+
 ## Como publicar uma semana nova
 
 1. Ler `notion://docs/enhanced-markdown-spec` antes de escrever qualquer
    conteúdo (sintaxe do Notion Markdown tem particularidades — tabelas em
    XML, não Markdown puro; blocos de código para trechos monoespaçados
    etc.).
-2. Para cada um dos 6 posts, `notion-create-pages` com
-   `parent.data_source_id = collection://71818c42-f4bd-4c7b-8471-8ab4bfad9bdd`,
-   propriedades (`Tema`, `date:Data:start`, `Semana`, `Área`, `Formato`,
-   `Status = "Em aprovação"`, `Gancho`, `Conformidade OAB`) e o briefing
-   completo (8 seções do template) como `content`.
+2. Para cada um dos 9 posts (3 LinkedIn + 6 Instagram), `notion-create-pages`
+   com `parent.data_source_id = collection://71818c42-f4bd-4c7b-8471-8ab4bfad9bdd`,
+   propriedades (`Tema`, `date:Data:start`, `Semana`, `Área`, `Canal`,
+   `Formato`, `Status = "Em aprovação"`, `Gancho`, `Conformidade OAB`) e o
+   briefing completo (8 seções do template) como `content`.
 3. Criar a sub-página da semana (`notion-create-pages`,
    `parent.page_id = 3bb1d8cd0ae680ccad77ccddb430d0ab`) com o panorama da
-   semana e `<mention-page>` para cada um dos 6 posts criados no passo 2.
+   semana (os dois calendários, ver `templates/calendario-semanal.md`) e
+   `<mention-page>` para cada um dos 9 posts criados no passo 2.
 4. Não recriar database, data source nem views — eles persistem entre
    execuções.
 5. Registrar a nova sub-página na tabela acima, neste arquivo, e commitar

@@ -6,7 +6,8 @@
 |---|---|
 | Escritório | Gutmann & Silva |
 | Área | [Empresarial / Cível / Trabalhista / Tributário / Família / Previdenciário] |
-| Formato | [Carrossel / Post estático / Reel / Stories / LinkedIn] |
+| Canal | [LinkedIn / Instagram] |
+| Formato | [Texto longo (só LinkedIn) / Carrossel / Post estático / Reel (só Instagram)] |
 | Data de publicação | [AAAA-MM-DD, dia da semana] |
 | Tema | [tema, como consta em `temas/<area>.md` ou pauta de atualidade] |
 | Fonte do tema | [Banco de temas | Atualidade jurídica — citar norma/decisão] |
@@ -57,8 +58,8 @@ colchetes, redação final.
 **Slide/tela 5**
 > [texto final]
 
-(Para Reel: incluir roteiro com marcação de tempo. Para LinkedIn: texto
-corrido de 250–400 palavras, sem divisão em slides.)
+(Para Reel: incluir roteiro com marcação de tempo. Para Texto longo
+(LinkedIn): texto corrido de 250–400 palavras, sem divisão em slides.)
 
 ## 5. Legenda proposta
 

@@ -63,6 +63,46 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
 - Único formato do canal — os 3 posts semanais do LinkedIn usam sempre
   "Texto longo", sem rodízio.
 
+### Registro: dois subtipos, proporção 80/20
+
+Desde 2026-08-17, o LinkedIn existe para atrair empresas e reforçar o
+escritório como referência técnica — não é o Instagram em texto mais longo.
+Todo post continua passando pelo checklist de `docs/normas-oab.md` sem
+exceção; o que muda é o **registro** da copy, em dois subtipos:
+
+**Autoridade técnica (80% dos posts — 4 em cada 5)**
+- Cita dispositivo legal com precisão (artigo, lei, decisão), não só "a lei
+  diz que...".
+- Compara antes/depois da norma, ou situa o tema num debate doutrinário ou
+  jurisprudencial em curso — é o que demonstra domínio, não só informação.
+- Framing de risco e gestão para quem decide na empresa: "o que sua empresa
+  precisa observar", "o que muda na operação" — nunca "seus direitos como
+  cidadão", que é o framing do Instagram.
+- Mais denso e analítico — usa as 250–400 palavras para desenvolver
+  argumento, não só listar fatos.
+
+**Informativo direto (20% dos posts — 1 em cada 5)**
+- Mesmo tom corporativo e mesma área/dia fixos, mas objetivo: "isto mudou,
+  isto é o que significa na prática" — sem a camada extra de análise
+  doutrinária. Serve para cobrir mais mudanças legislativas ao longo do
+  tempo sem que todo post vire um ensaio.
+- Ainda mais denso que o Instagram (é LinkedIn, público já é PJ), só não
+  carrega a comparação/aprofundamento do subtipo acima.
+
+**Como alternar**: a skill mantém um contador de posts de LinkedIn já
+publicados (conta as linhas com `Canal = LinkedIn` em `temas/historico.md`).
+A cada 5 posts consecutivos (posição `contador mod 5`), a posição `4`
+(a cada 5ª) é **Informativo direto**; as posições `0`–`3` são **Autoridade
+técnica**. Como o LinkedIn publica 3x/semana, o subtipo muda de área para
+área dentro da mesma semana às vezes — não é "toda sexta é informativo",
+é por post, na ordem cronológica de publicação.
+
+**Em ambos os subtipos**: o fechamento pode nomear a área de atuação do
+escritório relevante ao tema (permitido pela Pergunta 08 de
+`docs/normas-oab.md`) — nunca com superlativo ("referência no mercado",
+"líder") nem CTA de conversão (Pergunta 04). Autoridade se demonstra pela
+precisão da análise, não por autoelogio.
+
 ## Instagram — área × dia (fixo)
 
 Cada área tem um dia fixo, toda semana:
@@ -121,35 +161,29 @@ semana do ciclo do Instagram uma execução está, use `((N - 34) mod 3) + 1`
 este esquema (a semana 2026-S34 foi regenerada em 2026-08-14 para
 substituir o ensaio antigo de 5 formatos e 1 calendário só).
 
-## LinkedIn — área × dia (grupo alternado, ciclo de 2 semanas)
+## LinkedIn — área × dia (fixo, sem rodízio)
 
-Só 3 áreas por semana cabem no LinkedIn. As 6 áreas se revezam em dois
-grupos de 3, alternando semana sim, semana não — toda área aparece no
-LinkedIn a cada 2 semanas:
+Desde 2026-08-17, o LinkedIn é canal 100% B2B — só as 3 áreas inerentemente
+corporativas, sempre as mesmas, sem alternância de grupo. Cível, Família e
+Previdenciário (áreas de pessoa física) saem do LinkedIn e seguem só no
+Instagram.
 
-**Grupo 1 (semana ímpar do ciclo)**
+| Dia | Área | Ângulo |
+|---|---|---|
+| Segunda | Empresarial | Societário, contratos, compliance, regulação de atividade econômica |
+| Quarta | Trabalhista | Sempre pelo ângulo empregador/RH — obrigações, risco, gestão de pessoas. Mesmo que o tema em `temas/trabalhista.md` liste "Público: trabalhadores e RH", no LinkedIn o enquadramento é sempre pelo lado da empresa |
+| Sexta | Tributário | Obrigações fiscais, planejamento lícito, reforma tributária |
 
-| Dia | Área |
-|---|---|
-| Segunda | Empresarial |
-| Quarta | Trabalhista |
-| Sexta | Família |
+Não há mais ciclo de semanas para o LinkedIn — essas 3 áreas se repetem
+toda semana, sempre nesses dias. O que varia semana a semana é só o tema
+escolhido (`temas/<area>.md`, sem repetir `temas/historico.md`) e o
+subtipo de registro (Autoridade técnica × Informativo direto, proporção
+80/20 — ver "Registro: dois subtipos" acima), nunca a área em si.
 
-**Grupo 2 (semana par do ciclo)**
+## O ciclo do Instagram continua sozinho
 
-| Dia | Área |
-|---|---|
-| Segunda | Cível |
-| Quarta | Tributário |
-| Sexta | Previdenciário |
-
-Use `(N - 34) mod 2`: resto `0` → Grupo 1, resto `1` → Grupo 2.
-
-## Combinando os dois ciclos
-
-O ciclo do Instagram (3 semanas) e o do LinkedIn (2 semanas) têm mínimo
-múltiplo comum de 6 — o panorama completo (quem publica o quê, em qual
-formato, nos dois canais) se repete a cada 6 semanas.
+Sem o ciclo do LinkedIn, só resta o ciclo de 3 semanas do Instagram (ver
+seção acima) — não há mais combinação de ciclos entre canais.
 
 ## Anti-repetição é por tema, não por canal
 

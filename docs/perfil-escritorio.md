@@ -23,14 +23,25 @@ diferentes, meses de distância.
 
 ## Público-alvo
 
-- **Pessoa física** (Cível, Família, Previdenciário, parte de Trabalhista):
-  público leigo, sem vocabulário jurídico prévio. Prioridade: clareza acima
-  de precisão técnica exaustiva — precisão não pode ser sacrificada, mas o
-  texto precisa ser lido por quem nunca abriu um código.
-- **Pessoa jurídica** (Empresarial, Tributário, parte de Trabalhista):
-  gestores, sócios e departamentos financeiro/RH de pequenas e médias
-  empresas. Podem ter algum vocabulário de negócios, mas não jurídico.
-  Prioridade: relevância prática — o que muda na operação da empresa.
+Desde 2026-08-17, público-alvo se define primeiro por **canal**, depois por
+área (ver `docs/formatos.md` para a divisão de área×dia×formato de cada
+canal):
+
+- **LinkedIn — pessoa jurídica, exclusivamente.** Gestores, sócios,
+  jurídico interno, RH e financeiro de empresas. O canal existe para
+  atrair empresas e reforçar o escritório como referência técnica — por
+  isso só cobre as 3 áreas inerentemente B2B (Empresarial, Trabalhista pelo
+  ângulo empregador, Tributário). Podem ter vocabulário de negócios
+  desenvolvido, mas não necessariamente jurídico. Prioridade: relevância
+  prática para quem decide na empresa — o que muda na operação, no risco,
+  na gestão.
+- **Instagram — misto, por área.** Pessoa física (Cível, Família,
+  Previdenciário, parte de Trabalhista): público leigo, sem vocabulário
+  jurídico prévio. Prioridade: clareza acima de precisão técnica
+  exaustiva — precisão não pode ser sacrificada, mas o texto precisa ser
+  lido por quem nunca abriu um código. Pessoa jurídica (Empresarial,
+  Tributário, parte de Trabalhista): mesmo público de negócios do LinkedIn,
+  mas em registro mais curto e didático (ver `docs/formatos.md`).
 
 ## Tom de voz
 
@@ -45,6 +56,16 @@ diferentes, meses de distância.
 - **Frases curtas nas peças de mídia social** (carrossel, stories, reel);
   registro mais analítico e com parágrafos completos apenas no formato
   LinkedIn (ver `docs/formatos.md`).
+- **LinkedIn especificamente é registro de autoridade técnica corporativa**
+  (ver "Registro: dois subtipos" em `docs/formatos.md`) — cita dispositivo
+  legal com precisão, compara antes/depois da norma, usa framing de risco e
+  gestão para quem decide na empresa. O fechamento pode identificar a
+  especialidade do escritório na área do post (permitido pela Pergunta 08),
+  sempre sóbrio — nomear "atua em Direito Empresarial" é diferente de
+  "somos referência em Direito Empresarial". O primeiro é informação; o
+  segundo é autoelogio vedado pela Pergunta 07. Autoridade se constrói pela
+  precisão e profundidade da análise, nunca pela afirmação da própria
+  competência.
 - **Nunca**: urgência, superlativos automráticos ("o melhor", "líder"),
   garantia de resultado, menção a caso real de cliente. Ver checklist
   completo em `docs/normas-oab.md`.

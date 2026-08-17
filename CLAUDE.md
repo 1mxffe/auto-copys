@@ -24,6 +24,14 @@ ajuste, pelo campo **Status**.
   área — Empresarial, Cível, Trabalhista, Tributário, Família,
   Previdenciário —, formato em rodízio. Regras completas de área × dia ×
   formato por canal em `docs/formatos.md`.
+- **LinkedIn é canal 100% B2B**: existe para atrair empresas e reforçar o
+  escritório como referência técnica. Só 3 áreas, fixas, sem rodízio —
+  Empresarial, Trabalhista (sempre ângulo empregador/RH), Tributário.
+  Cível, Família e Previdenciário ficam só no Instagram. 80% dos posts do
+  LinkedIn em registro "Autoridade técnica", 20% "Informativo direto" — ver
+  `docs/formatos.md`. Autoridade se constrói pela precisão da análise,
+  nunca por autoelogio — isso não abre exceção nenhuma no checklist de
+  `docs/normas-oab.md`.
 - **Git**: commit direto na branch `main`, sem Pull Request. `git pull origin
   main` sempre antes de commitar. O commit semanal só deve tocar
   `calendarios/<semana nova>/` e o append em `temas/historico.md` — nunca

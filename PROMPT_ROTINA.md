@@ -1,9 +1,10 @@
 # Prompt da Routine — calendário editorial semanal
 
-Cole este texto como prompt da Routine (quinta-feira, 8h de Brasília — cron
-`0 11 * * 4`, UTC). O conector **Notion** precisa estar anexado à Routine —
-sessões disparadas por trigger não herdam os conectores da conversa em que
-a Routine foi criada.
+Cole este texto como prompt da Routine (segunda-feira, 8h de Brasília — cron
+`0 11 * * 1`, UTC). Rodar na segunda dá a semana inteira (segunda a domingo)
+para aprovar no Notion e produzir a arte antes da semana de publicação. O
+conector **Notion** precisa estar anexado à Routine — sessões disparadas por
+trigger não herdam os conectores da conversa em que a Routine foi criada.
 
 ---
 
@@ -65,7 +66,7 @@ commit e na sub-página do Notion o que ficou de fora e por quê — e em qual c
 
 ## Checklist de configuração da Routine
 
-- [ ] `cron_expression`: `0 11 * * 4` (UTC) = 8h de Brasília, quinta-feira
+- [ ] `cron_expression`: `0 11 * * 1` (UTC) = 8h de Brasília, segunda-feira
 - [ ] `connectors`: `["Notion"]` — se sua organização bloquear o parâmetro
       `connectors` na criação via ferramenta, anexe manualmente pela
       interface de Routines do claude.ai depois de criar o trigger.

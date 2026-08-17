@@ -1,6 +1,6 @@
 ---
 name: calendario-semanal
-description: Gera dois calendários editoriais semanais separados — LinkedIn (3 posts) e Instagram (6 posts, um por área do direito) — do escritório Gutmann & Silva, aplica o checklist de conformidade OAB, gera o relatório de métricas pendente, publica no Notion e comita em main. Use quando disparado pela Routine de quinta-feira ou quando pedirem para gerar/ensaiar o calendário de uma semana.
+description: Gera dois calendários editoriais semanais separados — LinkedIn (3 posts) e Instagram (6 posts, um por área do direito) — do escritório Gutmann & Silva, aplica o checklist de conformidade OAB, gera o relatório de métricas pendente, publica no Notion e comita em main. Use quando disparado pela Routine de segunda-feira ou quando pedirem para gerar/ensaiar o calendário de uma semana.
 ---
 
 # Calendário editorial semanal — Gutmann & Silva
@@ -71,8 +71,10 @@ passo 1:
 ## 3. Calcular a semana ISO alvo (semana nova)
 
 - "Próxima semana" = próxima semana ISO completa (segunda a sábado) a
-  partir da data de hoje. Se hoje é quinta (dia normal de execução da
-  Routine), a próxima semana começa na segunda seguinte (4 dias depois).
+  partir da data de hoje. Se hoje é segunda (dia normal de execução da
+  Routine), a próxima semana começa na segunda seguinte (7 dias depois) —
+  isso dá a semana corrente inteira para aprovar no Notion e produzir a
+  arte antes da semana de publicação.
 - Nomeie a pasta de saída `calendarios/AAAA-SNN` usando o número da semana
   ISO (ex.: `2026-S34`).
 - Determine as duas posições de ciclo que se aplicam a esta semana (ver

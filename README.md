@@ -1,16 +1,18 @@
 # auto-copys
 
 Automação do calendário editorial semanal do escritório **Gutmann & Silva**.
-Toda quinta às 8h (Brasília), uma Routine do Claude Code gera **dois
+Toda segunda às 8h (Brasília), uma Routine do Claude Code gera **dois
 calendários separados** — LinkedIn (3 posts/semana, 100% B2B, para atrair
-empresas) e Instagram (6 posts/semana, um por área) —, confere cada peça
-contra o checklist de conformidade da OAB, publica no Notion e comita
-direto na branch `main` deste repositório.
+empresas) e Instagram (6 posts/semana, um por área) — para a semana
+seguinte, confere cada peça contra o checklist de conformidade da OAB,
+publica no Notion e comita direto na branch `main` deste repositório. Rodar
+na segunda da semana anterior à de publicação dá uma semana inteira de
+folga para aprovar no Notion e produzir a arte antes de publicar.
 
 ## Como funciona
 
 ```
-quinta 8h (Brasília) ──► Routine dispara sessão nova
+segunda 8h (Brasília) ──► Routine dispara sessão nova
              │
              ├─ 1. git pull origin main
              ├─ 2. verifica se há relatório de métricas pendente (posts de
@@ -123,4 +125,5 @@ trava.
 - **Renovar a Routine**: Routines recorrentes podem expirar após um período
   em algumas configurações de agendamento. Verifique periodicamente se a
   Routine segue ativa (`next_run_at` no futuro) e recrie com os parâmetros
-  de `PROMPT_ROTINA.md` se necessário.
+  de `PROMPT_ROTINA.md` se necessário. Ao recriar, confirme que não sobrou
+  nenhuma Routine antiga duplicada com cron diferente.

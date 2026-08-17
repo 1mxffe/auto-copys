@@ -1,7 +1,7 @@
 # auto-copys
 
 Automação do calendário editorial semanal do escritório **Gutmann & Silva**.
-Toda sexta às 8h (Brasília), uma Routine do Claude Code gera **dois
+Toda quinta às 8h (Brasília), uma Routine do Claude Code gera **dois
 calendários separados** — LinkedIn (3 posts/semana) e Instagram (6
 posts/semana) —, confere cada peça contra o checklist de conformidade da
 OAB, publica no Notion e comita direto na branch `main` deste repositório.
@@ -9,7 +9,7 @@ OAB, publica no Notion e comita direto na branch `main` deste repositório.
 ## Como funciona
 
 ```
-sexta 8h (Brasília) ──► Routine dispara sessão nova
+quinta 8h (Brasília) ──► Routine dispara sessão nova
              │
              ├─ 1. git pull origin main
              ├─ 2. verifica se há relatório de métricas pendente (posts de

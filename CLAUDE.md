@@ -40,9 +40,16 @@ ajuste, pelo campo **Status**.
   STF/STJ/TST) no lugar de um tema do banco. Se não houver rede, use o banco
   de temas e siga em frente — a rotina nunca falha por falta de acesso à
   internet.
+- **Conformidade nunca cede a métrica**: o relatório semanal de resultados
+  (`docs/aprendizados.md`, `templates/relatorio-semanal.md`) pode recomendar
+  ajuste de formato, área, tema ou cadência — nunca pode sugerir afrouxar um
+  item de `docs/normas-oab.md`. Otimizar por engajamento é exatamente a
+  pressão que empurra copy para urgência e sensacionalismo; essa pressão
+  perde sempre.
 - **Fora de escopo**: geração de arte/design visual, publicação automática
-  em redes sociais, métricas de desempenho. O entregável é briefing + copy;
-  a aprovação humana no Notion é o portão antes de qualquer publicação real.
+  em redes sociais, automação da coleta de métricas via API (a entrada é
+  manual — ver `docs/notion.md`). O entregável é briefing + copy; a
+  aprovação humana no Notion é o portão antes de qualquer publicação real.
 
 ## Onde está cada coisa
 
@@ -55,9 +62,11 @@ ajuste, pelo campo **Status**.
 | `docs/notion.md` | IDs do Notion (página, database, views) e como publicar |
 | `templates/briefing-post.md` | Template de briefing por post — 8 seções, espelha o `.docx` original |
 | `templates/calendario-semanal.md` | Template do panorama semanal (dois calendários, um por canal) |
+| `templates/relatorio-semanal.md` | Template do relatório de métricas — ranking, desempenho por área/formato, recomendações |
+| `docs/aprendizados.md` | Registro cumulativo de recomendações de desempenho, consultado ao escolher tema/área |
 | `temas/<area>.md` | Banco de temas evergreen por área (6 arquivos) |
 | `temas/historico.md` | Registro de tudo já publicado — consultado para evitar repetição |
-| `calendarios/AAAA-SNN/` | Saída de cada semana: `calendario.md` (panorama dos dois canais) + `linkedin/` e `instagram/`, cada um com um arquivo por post |
+| `calendarios/AAAA-SNN/` | Saída de cada semana: `calendario.md` (panorama dos dois canais) + `linkedin/` e `instagram/` (um arquivo por post) + `relatorio.md` (quando gerado, ~2 semanas depois) |
 
 ## Antes de qualquer execução
 

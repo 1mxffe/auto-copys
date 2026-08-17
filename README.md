@@ -12,19 +12,26 @@ OAB, publica no Notion e comita direto na branch `main` deste repositório.
 sexta 8h (Brasília) ──► Routine dispara sessão nova
              │
              ├─ 1. git pull origin main
-             ├─ 2. lê perfil, formatos/canais, normas OAB, histórico de temas
-             ├─ 3. escolhe os temas dos 9 posts (banco de temas, ou
+             ├─ 2. verifica se há relatório de métricas pendente (posts de
+             │      ~2 semanas atrás já com número no Notion); se houver,
+             │      gera o relatório e atualiza docs/aprendizados.md ANTES
+             │      de seguir
+             ├─ 3. lê perfil, formatos/canais, normas OAB, histórico de
+             │      temas e aprendizados de desempenho
+             ├─ 4. escolhe os temas dos 9 posts (banco de temas, ou
              │      atualidade se houver web) — 3 para LinkedIn, 6 para
              │      Instagram, sem repetir nada do histórico entre os canais
-             ├─ 4. define área×dia de cada canal e o rodízio de formato do
+             ├─ 5. define área×dia de cada canal e o rodízio de formato do
              │      Instagram (LinkedIn é sempre "Texto longo")
-             ├─ 5. escreve os 9 briefings completos (copy final incluída)
-             ├─ 6. roda o checklist OAB peça por peça — reescreve se necessário
-             ├─ 7. salva em calendarios/AAAA-SNN/{linkedin,instagram}/,
+             ├─ 6. escreve os 9 briefings completos (copy final incluída)
+             ├─ 7. roda o checklist OAB peça por peça — reescreve se
+             │      necessário (este passo nunca é afrouxado por métrica)
+             ├─ 8. salva em calendarios/AAAA-SNN/{linkedin,instagram}/,
              │      atualiza temas/historico.md
-             ├─ 8. publica no Notion (database "Posts", campo Canal
-             │      preenchido, + sub-página da semana com os dois calendários)
-             └─ 9. commit + push direto em main (sem PR)
+             ├─ 9. publica no Notion (database "Posts", campo Canal
+             │      preenchido, + sub-página da semana com os dois
+             │      calendários; campos de kanban e métrica em branco)
+             └─ 10. commit + push direto em main (sem PR)
 ```
 
 O procedimento completo está em
@@ -51,10 +58,11 @@ neste repositório, e não por Pull Request.
 | `docs/perfil-escritorio.md` | Marca, tom de voz, público, áreas |
 | `docs/formatos.md` | Canais (LinkedIn/Instagram), cadência, specs de formato e matrizes de rodízio de cada canal |
 | `docs/notion.md` | IDs do Notion e como publicar |
-| `templates/` | Template de briefing e de panorama semanal (dois calendários) |
+| `templates/` | Template de briefing, de panorama semanal e de relatório de métricas |
+| `docs/aprendizados.md` | Recomendações de desempenho acumuladas, semana a semana |
 | `temas/<area>.md` | Banco de temas evergreen, 6 arquivos |
 | `temas/historico.md` | Anti-repetição — tudo já publicado, nos dois canais |
-| `calendarios/AAAA-SNN/` | Saída de cada semana — `calendario.md` + `linkedin/` + `instagram/` |
+| `calendarios/AAAA-SNN/` | Saída de cada semana — `calendario.md` + `linkedin/` + `instagram/` + `relatorio.md` quando gerado |
 
 ## Conformidade OAB
 
@@ -65,12 +73,31 @@ sem caso concreto de cliente, sem CTA de conversão, sem linguagem de
 urgência. Ver `docs/normas-oab.md` para o detalhe de cada regra e exemplos
 de reescrita.
 
+## Kanban de produção e métricas
+
+O banco "Posts" do Notion também acompanha a produção depois da aprovação
+editorial — Status com 6 etapas (Rascunho → Em aprovação → Aprovado → Em
+produção → Pronto para publicar → Publicado), mais `Link da arte`, `Link do
+post` e `Responsável`. E acumula métricas de desempenho (Alcance, Curtidas,
+Comentários, Compartilhamentos, Salvamentos, Cliques, Taxa de engajamento),
+preenchidas manualmente pelo escritório ~2 semanas após a publicação.
+
+A cada execução semanal, a rotina verifica se há métricas novas prontas para
+virar relatório (`templates/relatorio-semanal.md`) — ranking, desempenho por
+área e por formato, e recomendações para o próximo ciclo, registradas em
+`docs/aprendizados.md`. Essas recomendações só ajustam formato, área, tema
+ou cadência — **nunca** afrouxam o checklist de conformidade OAB. Ver
+`docs/notion.md` para o esquema completo e `docs/aprendizados.md` para a
+trava.
+
 ## Fora de escopo
 
 - Geração de arte/design visual — o entregável é briefing + copy.
 - Publicação automática em redes sociais — a rotina para na aprovação
   (Status no Notion).
-- Métricas de desempenho dos posts.
+- Automação da coleta de métricas via API do Instagram/Meta — a entrada é
+  manual por ora; o que seria necessário para automatizar está documentado
+  em `docs/notion.md`.
 
 ## Operação
 

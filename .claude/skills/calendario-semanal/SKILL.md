@@ -17,6 +17,11 @@ canal**, não mais um único calendário de 6 posts:
 | LinkedIn | 3 | Segunda, quarta, sexta | Sempre "Texto longo" |
 | Instagram | 6 | Segunda a sábado | Rodízio entre Carrossel, Post estático, Reel |
 
+Desde 2026-08-17, o LinkedIn é canal **100% B2B**, fixo em 3 áreas
+(Empresarial, Trabalhista pelo ângulo empregador, Tributário — sem mais
+rodízio de área), e alterna dois subtipos de registro (Autoridade técnica
+80%, Informativo direto 20%) — ver `docs/formatos.md`.
+
 Desde a mesma data, o banco "Posts" do Notion também é um **kanban de
 produção** (Status com 6 etapas, Link da arte, Link do post, Responsável) e
 acumula **métricas de desempenho** (Alcance, Curtidas, Comentários,
@@ -75,24 +80,22 @@ passo 1:
   Routine), a próxima semana começa na segunda seguinte (4 dias depois).
 - Nomeie a pasta de saída `calendarios/AAAA-SNN` usando o número da semana
   ISO (ex.: `2026-S34`).
-- Determine as duas posições de ciclo que se aplicam a esta semana (ver
-  `docs/formatos.md` para as tabelas completas):
-  - **Ciclo do Instagram** (3 semanas, controla o formato):
-    `((N - 34) mod 3) + 1`.
-  - **Ciclo do LinkedIn** (2 semanas, controla o grupo de 3 áreas):
-    `(N - 34) mod 2` — `0` = Grupo 1, `1` = Grupo 2.
-  - `N` é o número da semana ISO alvo; `34` é a âncora — a semana 2026-S34
-    foi regenerada em 2026-08-14 como a primeira execução real deste
-    esquema de dois calendários, substituindo o ensaio anterior (esquema
-    antigo de 1 calendário só).
+- Determine a posição do ciclo do Instagram, que controla o formato (ver
+  `docs/formatos.md` para as tabelas completas): `((N - 34) mod 3) + 1` —
+  `N` é o número da semana ISO alvo; `34` é a âncora (semana 2026-S34,
+  primeira execução do esquema de dois calendários, 2026-08-14).
+- O LinkedIn não tem mais ciclo de semana — as 3 áreas são fixas todo
+  período (ver passo 5). O que varia por post é o **subtipo de registro**
+  (Autoridade técnica × Informativo direto), calculado no passo 5 a partir
+  da contagem de posts de LinkedIn já publicados, não da semana ISO.
 
 ## 4. Ler o contexto antes de escrever qualquer coisa
 
 Nesta ordem:
 1. `docs/perfil-escritorio.md` — tom de voz, público, áreas, canais.
-2. `docs/formatos.md` — canais, cadência, specs de formato e as duas
-   matrizes de rodízio (área×dia×formato do Instagram; área×dia do
-   LinkedIn) que se aplicam a esta semana.
+2. `docs/formatos.md` — canais, cadência, specs de formato, a matriz de
+   rodízio área×dia×formato do Instagram que se aplica a esta semana, a
+   área×dia fixa do LinkedIn e os dois subtipos de registro do LinkedIn.
 3. `docs/normas-oab.md` — as 15 perguntas e o checklist bloqueante.
 4. `temas/historico.md` — tudo que já foi publicado, nos dois canais, para
    não repetir.
@@ -102,16 +105,25 @@ Nesta ordem:
 
 ## 5. Definir os 9 posts da semana
 
-**LinkedIn (3 posts)**: usando o grupo do ciclo do LinkedIn calculado no
-passo 3, pegue as 3 áreas de `docs/formatos.md` (Grupo 1 ou Grupo 2) e seus
-dias fixos (segunda/quarta/sexta). Formato: sempre "Texto longo".
+**LinkedIn (3 posts)**: sempre as mesmas 3 áreas fixas — Empresarial
+(segunda), Trabalhista (quarta, ângulo empregador/RH), Tributário (sexta)
+— ver `docs/formatos.md`. Formato: sempre "Texto longo".
+
+Para cada um dos 3, determine o **subtipo de registro**: conte quantas
+linhas com `Canal = LinkedIn` existem em `temas/historico.md` antes desta
+execução — esse número é o contador. Para cada novo post de LinkedIn desta
+semana, incremente o contador em 1 e calcule `contador mod 5`: resultado
+`4` → **Informativo direto**; resultados `0`–`3` → **Autoridade técnica**
+(ver "Registro: dois subtipos" em `docs/formatos.md`). Isso mantém a
+proporção 80/20 ao longo do tempo, incremental a cada post, não só dentro
+da semana.
 
 **Instagram (6 posts)**: uma área por dia, segunda a sábado, fixo (ver
 `docs/formatos.md`). Formato de cada dia vem da semana do ciclo do
 Instagram calculada no passo 3.
 
-Isso dá uma lista de 9 (área, canal, dia, formato) para os quais escolher
-tema.
+Isso dá uma lista de 9 (área, canal, dia, formato, e para LinkedIn também o
+subtipo de registro) para os quais escolher tema.
 
 ## 6. Selecionar o tema de cada um dos 9 posts
 
@@ -121,10 +133,10 @@ Para cada item da lista do passo 5:
   apareça em `temas/historico.md` — a checagem é global entre os dois
   canais: um tema usado no Instagram não pode reaparecer no LinkedIn (nem
   vice-versa), mesmo que a área seja a mesma.
-- Se a mesma área tiver posts nos dois canais na mesma semana (possível
-  quando o grupo do LinkedIn coincide com aquele dia do Instagram), use
-  dois temas diferentes do banco daquela área — nunca o mesmo tema nos dois
-  canais na mesma semana.
+- Empresarial, Trabalhista e Tributário aparecem nos dois canais **toda
+  semana** (são as 3 áreas fixas do LinkedIn, e também têm dia fixo no
+  Instagram) — use sempre dois temas diferentes do banco daquela área, um
+  para cada canal, nunca o mesmo tema nos dois na mesma semana.
 - Considere `docs/aprendizados.md`: se houver uma recomendação ativa sobre
   área/tema (ex.: "priorizar temas de X"), aplique-a como critério de
   desempate entre temas igualmente elegíveis — nunca como critério que pule
@@ -153,6 +165,15 @@ Um arquivo por post, a partir de `templates/briefing-post.md`, com todas as
 8 seções preenchidas (incluindo o campo **Canal** no cabeçalho) e a copy
 final pronta para arte — sem placeholder, sem colchete sobrando. Escreva no
 tom de `docs/perfil-escritorio.md`.
+
+Para os 3 posts do LinkedIn especificamente: escreva sempre para público
+exclusivamente PJ (gestores, sócios, jurídico interno, RH, financeiro —
+nunca "você" genérico de pessoa física), no subtipo determinado no passo 5
+(Autoridade técnica ou Informativo direto — specs completas em
+`docs/formatos.md`). Trabalhista no LinkedIn é sempre pelo ângulo
+empregador/RH, mesmo que `temas/trabalhista.md` liste público misto para
+aquele tema. Registrar o subtipo escolhido no cabeçalho do briefing (seção
+1, campo novo "Subtipo LinkedIn").
 
 ## 9. Rodar o checklist OAB peça por peça
 

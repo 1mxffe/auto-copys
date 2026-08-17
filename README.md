@@ -2,9 +2,10 @@
 
 Automação do calendário editorial semanal do escritório **Gutmann & Silva**.
 Toda quinta às 8h (Brasília), uma Routine do Claude Code gera **dois
-calendários separados** — LinkedIn (3 posts/semana) e Instagram (6
-posts/semana) —, confere cada peça contra o checklist de conformidade da
-OAB, publica no Notion e comita direto na branch `main` deste repositório.
+calendários separados** — LinkedIn (3 posts/semana, 100% B2B, para atrair
+empresas) e Instagram (6 posts/semana, um por área) —, confere cada peça
+contra o checklist de conformidade da OAB, publica no Notion e comita
+direto na branch `main` deste repositório.
 
 ## Como funciona
 
@@ -21,8 +22,10 @@ quinta 8h (Brasília) ──► Routine dispara sessão nova
              ├─ 4. escolhe os temas dos 9 posts (banco de temas, ou
              │      atualidade se houver web) — 3 para LinkedIn, 6 para
              │      Instagram, sem repetir nada do histórico entre os canais
-             ├─ 5. define área×dia de cada canal e o rodízio de formato do
-             │      Instagram (LinkedIn é sempre "Texto longo")
+             ├─ 5. define área×dia×formato do Instagram (rodízio) e o
+             │      subtipo de registro de cada post do LinkedIn (Autoridade
+             │      técnica 80% / Informativo direto 20% — área é sempre
+             │      Empresarial/Trabalhista/Tributário, sem rodízio)
              ├─ 6. escreve os 9 briefings completos (copy final incluída)
              ├─ 7. roda o checklist OAB peça por peça — reescreve se
              │      necessário (este passo nunca é afrouxado por métrica)
@@ -72,6 +75,20 @@ Advocacia: entendendo o Provimento 205/2021" — sem promessa de resultado,
 sem caso concreto de cliente, sem CTA de conversão, sem linguagem de
 urgência. Ver `docs/normas-oab.md` para o detalhe de cada regra e exemplos
 de reescrita.
+
+## LinkedIn — canal 100% B2B
+
+Desde 2026-08-17, o LinkedIn existe para atrair empresas e reforçar o
+escritório como referência técnica — não é o Instagram em texto mais longo.
+Só cobre as 3 áreas inerentemente corporativas (Empresarial, Trabalhista
+pelo ângulo empregador/RH, Tributário), sempre nos mesmos dias, sem
+rodízio de área. 80% dos posts adotam registro de **autoridade técnica**
+(análise mais profunda, comparação antes/depois da norma, framing de risco
+para quem decide na empresa); 20% são **informativo direto** (mesmo tom
+corporativo, mais objetivo). Ver `docs/formatos.md` para as specs completas
+e `docs/perfil-escritorio.md` para o tom de voz. O checklist de
+`docs/normas-oab.md` vale integralmente nos dois subtipos — autoridade se
+constrói pela precisão da análise, nunca por autoelogio.
 
 ## Kanban de produção e métricas
 

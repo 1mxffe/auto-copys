@@ -24,12 +24,16 @@ completo; o resumo do que deve sair:
    `docs/normas-oab.md`.
 2. Calcule a próxima semana ISO (segunda a sábado) a partir da data de hoje.
 3. Produza 9 posts, em dois calendários com cadência própria:
-   - LinkedIn: 3 posts (segunda, quarta, sexta), sempre formato "Texto longo".
+   - LinkedIn: 3 posts (segunda, quarta, sexta), sempre formato "Texto longo",
+     canal 100% B2B — só as 3 áreas fixas Empresarial, Trabalhista (ângulo
+     empregador/RH) e Tributário, sem rodízio de área. 80% dos posts em
+     registro "Autoridade técnica", 20% em "Informativo direto" (ver
+     `docs/formatos.md`).
    - Instagram: 6 posts (segunda a sábado), um por área — Empresarial, Cível,
      Trabalhista, Tributário, Família, Previdenciário —, formato em rodízio.
-4. Determine área×dia×formato de cada canal seguindo as matrizes de
-   `docs/formatos.md` (ciclo de 3 semanas no Instagram, ciclo de 2 semanas
-   de grupo de área no LinkedIn).
+4. Determine formato de cada dia do Instagram seguindo a matriz de
+   `docs/formatos.md` (ciclo de 3 semanas). As áreas fixas e o subtipo de
+   registro do LinkedIn também estão em `docs/formatos.md`.
 5. Escolha os temas em `temas/<area>.md`, sem repetir nada de
    `temas/historico.md` — a checagem de repetição vale para os dois canais
    juntos, não separadamente. Considere `docs/aprendizados.md` como critério

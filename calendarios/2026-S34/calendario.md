@@ -8,13 +8,20 @@ Esta é a primeira semana gerada sob o esquema de dois calendários
 Substitui o ensaio manual anterior desta mesma semana, feito sob o
 esquema antigo (1 calendário, 6 posts, incluía formato Stories).
 
-## LinkedIn (3 posts)
+**Atualização de 2026-08-17**: os 3 posts do LinkedIn foram regenerados
+sob o reposicionamento B2B do canal (ver `CLAUDE.md` e `docs/formatos.md`)
+— Empresarial e Trabalhista mantiveram o tema, com registro subido para
+"Autoridade técnica"; Família saiu do LinkedIn (área não é mais coberta
+pelo canal) e foi substituída por um tema de Tributário. O Instagram desta
+semana não foi alterado.
+
+## LinkedIn (3 posts) — canal 100% B2B, registro Autoridade técnica
 
 | Dia | Área | Formato | Tema | Arquivo | Conformidade OAB |
 |---|---|---|---|---|---|
-| Segunda 17/08 | Empresarial | Texto longo | Cláusulas essenciais de um contrato social | `linkedin/01-segunda-empresarial.md` | ✅ |
-| Quarta 19/08 | Trabalhista | Texto longo | Rescisão de contrato de trabalho — tipos e o que cada um garante | `linkedin/02-quarta-trabalhista.md` | ✅ |
-| Sexta 21/08 | Família | Texto longo | Pacto antenupcial — o que é e quando costuma ser considerado | `linkedin/03-sexta-familia.md` | ✅ |
+| Segunda 17/08 | Empresarial | Texto longo | Três cláusulas que decidem o destino de uma sociedade quando os sócios discordam | `linkedin/01-segunda-empresarial.md` | ✅ |
+| Quarta 19/08 | Trabalhista | Texto longo | O que sua empresa precisa provisionar em cada modalidade de rescisão | `linkedin/02-quarta-trabalhista.md` | ✅ |
+| Sexta 21/08 | Tributário | Texto longo | A linha entre planejamento tributário lícito e evasão fiscal | `linkedin/03-sexta-tributario.md` | ✅ |
 
 ## Instagram (6 posts)
 
@@ -27,10 +34,11 @@ esquema antigo (1 calendário, 6 posts, incluía formato Stories).
 | Sexta 21/08 | Família | Post estático | União estável — como se caracteriza | `instagram/05-sexta-familia.md` | ✅ |
 | Sábado 22/08 | Previdenciário | Reel | Aposentadoria por idade após a Reforma da Previdência | `instagram/06-sabado-previdenciario.md` | ✅ |
 
-Observação: Empresarial, Trabalhista e Família aparecem nos dois canais
-esta semana (Grupo 1 do LinkedIn coincide com essas três áreas) — cada
-canal usa um tema diferente do banco da área, para não repetir a mesma
-pauta duas vezes na mesma semana.
+Observação: Empresarial, Trabalhista e Tributário aparecem nos dois canais
+esta semana — e vão aparecer toda semana daqui em diante, já que são as 3
+áreas fixas do LinkedIn (`docs/formatos.md`). Cada canal usa um tema
+diferente do banco da área, para não repetir a mesma pauta duas vezes na
+mesma semana.
 
 ## Fonte dos temas
 
@@ -43,16 +51,16 @@ atualidade.
 ## Publicação no Notion
 
 - Página: Calendário Editorial (`3bb1d8cd0ae680ccad77ccddb430d0ab`)
-- Banco "Posts": 9 linhas criadas (3 Canal=LinkedIn, 6 Canal=Instagram),
-  status inicial "Em aprovação"
-- Sub-página da semana: substituída — ver `docs/notion.md` para o link
-  atual (a sub-página e as 6 páginas do ensaio anterior desta semana foram
-  arquivadas)
+- Banco "Posts": 9 linhas — as 3 do LinkedIn foram **atualizadas in-place**
+  em 2026-08-17 (mesma página, título/propriedades/conteúdo substituídos)
+  para refletir o reposicionamento B2B; as 6 do Instagram não mudaram.
+- Sub-página da semana: mesma de antes, conteúdo do painel LinkedIn
+  atualizado.
 
 ## Pendências / o que ficou de fora
 
-Nenhuma. Regeneração completa da semana 2026-S34 sob o esquema de dois
-calendários: 9 briefings gerados (3 LinkedIn + 6 Instagram), checklist de
-conformidade aplicado a cada peça, publicação no Notion concluída
-(database + sub-página, substituindo o conteúdo do ensaio anterior),
-`temas/historico.md` atualizado.
+Nenhuma. Regeneração dos 3 posts de LinkedIn sob o reposicionamento B2B
+(2026-08-17): checklist de conformidade reaplicado às 3 peças, páginas do
+Notion atualizadas in-place, `temas/historico.md` atualizado (3 linhas de
+LinkedIn substituídas). Os 6 posts do Instagram desta semana não foram
+tocados.

@@ -65,7 +65,9 @@ neste repositório, e não por Pull Request.
 | `docs/aprendizados.md` | Recomendações de desempenho acumuladas, semana a semana |
 | `temas/<area>.md` | Banco de temas evergreen, 6 arquivos |
 | `temas/historico.md` | Anti-repetição — tudo já publicado, nos dois canais |
-| `calendarios/AAAA-SNN/` | Saída de cada semana — `calendario.md` + `linkedin/` + `instagram/` + `relatorio.md` quando gerado |
+| `calendarios/AAAA-SNN/` | Saída de cada semana — `calendario.md` + `linkedin/` + `instagram/` + `posts.json` + `relatorio.md` quando gerado |
+| `docs/metricas-automacao.md` + `scripts/` + `.github/workflows/` | Automação opcional de coleta de métricas do Instagram (GitHub Actions) |
+| `docs/templates-figma.md` + `docs/formatos-json.md` + `figma-plugin/` | Automação opcional (semiautomática) de população de template no Figma |
 
 ## Conformidade OAB
 
@@ -113,14 +115,21 @@ ou cadência — **nunca** afrouxam o checklist de conformidade OAB. Ver
 `docs/notion.md` para o esquema completo e `docs/aprendizados.md` para a
 trava.
 
+## Design visual e população de template (opcional)
+
+A skill nunca desenha a peça — só entrega briefing + copy. Mas existe um
+plugin de Figma semiautomático que popula templates já prontos (feitos
+pelo designer) com o texto de cada post, a partir do `posts.json` gerado
+toda semana — ver [`docs/templates-figma.md`](docs/templates-figma.md)
+(convenção de nomes exigida) e [`docs/formatos-json.md`](docs/formatos-json.md)
+(schema do `posts.json`). Ainda precisa de alguém abrindo o Figma e
+rodando o plugin — não é geração de arte do zero nem publicação
+automática.
+
 ## Fora de escopo
 
-- Geração de arte/design visual — o entregável é briefing + copy.
 - Publicação automática em redes sociais — a rotina para na aprovação
   (Status no Notion).
-- Automação da coleta de métricas via API do Instagram/Meta — a entrada é
-  manual por ora; o que seria necessário para automatizar está documentado
-  em `docs/notion.md`.
 
 ## Operação
 

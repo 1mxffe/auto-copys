@@ -54,9 +54,17 @@ ajuste, pelo campo **Status**.
   item de `docs/normas-oab.md`. Otimizar por engajamento é exatamente a
   pressão que empurra copy para urgência e sensacionalismo; essa pressão
   perde sempre.
-- **Fora de escopo**: geração de arte/design visual, publicação automática
-  em redes sociais. O entregável é briefing + copy; a aprovação humana no
-  Notion é o portão antes de qualquer publicação real.
+- **Fora de escopo**: publicação automática em redes sociais. O
+  entregável é briefing + copy (mais, opcionalmente, os templates de
+  Instagram já populados com esse texto — ver abaixo); a aprovação
+  humana no Notion é o portão antes de qualquer publicação real.
+- **Design visual**: a skill nunca desenha a peça — quem define
+  estrutura, paleta e tipografia é o designer, no Figma. Existe uma
+  automação opcional (`docs/templates-figma.md`, `figma-plugin/`) que
+  popula os templates já prontos com o texto de cada post, a partir do
+  `posts.json` gerado no passo 10 da skill — um plugin do Figma
+  semiautomático (alguém precisa abrir o Figma e rodar), não geração de
+  arte do zero.
 - **Coleta de métricas**: existe uma automação opcional, separada desta
   Routine, que sincroniza Alcance/Curtidas/Comentários/Compartilhamentos/
   Salvamentos do Instagram para o Notion via GitHub Actions — ver
@@ -78,6 +86,9 @@ ajuste, pelo campo **Status**.
 | `docs/notion.md` | IDs do Notion (página, database, views) e como publicar |
 | `docs/metricas-automacao.md` | Automação opcional (GitHub Actions) de coleta de métricas do Instagram — pré-requisitos, setup, limitações |
 | `scripts/sync_metricas_instagram.py` + `.github/workflows/sync-metricas-instagram.yml` | Implementação da automação acima |
+| `docs/templates-figma.md` | Convenção de nomes que os templates do Figma precisam seguir, para o plugin de população automática |
+| `docs/formatos-json.md` | Schema do `posts.json` gerado a cada semana (recorte estruturado dos 6 posts de Instagram) |
+| `figma-plugin/` | Plugin do Figma (semiautomático) que popula os templates com o `posts.json` da semana |
 | `templates/briefing-post.md` | Template de briefing por post — 8 seções, espelha o `.docx` original |
 | `templates/calendario-semanal.md` | Template do panorama semanal (dois calendários, um por canal) |
 | `templates/relatorio-semanal.md` | Template do relatório de métricas — ranking, desempenho por área/formato, recomendações |

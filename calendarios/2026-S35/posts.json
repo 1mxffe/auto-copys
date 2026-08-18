@@ -1,0 +1,134 @@
+{
+  "semana": "2026-S35",
+  "periodo": "24/08–29/08",
+  "instagram": [
+    {
+      "arquivo": "01-segunda-empresarial",
+      "dia": "Segunda",
+      "data": "2026-08-24",
+      "area": "Empresarial",
+      "formato": "Post estático",
+      "conteudo": {
+        "titulo": "3 cláusulas que faltam em muito contrato social",
+        "corpo": "Contrato social pronto em poucos minutos, copiado de modelo pronto, é comum — e também é onde costumam faltar três pontos que só aparecem quando alguém precisa deles: como os lucros são distribuídos entre os sócios, o que acontece quando um sócio quer sair da sociedade, e como as decisões importantes são tomadas quando os sócios não estão de acordo. Definir isso na formação da sociedade é mais simples do que definir depois."
+      },
+      "legenda": "Contrato social não é só o documento que formaliza a empresa no registro — é o que define, por escrito, como a sociedade funciona quando as coisas não são óbvias: divisão de lucro, saída de sócio, forma de decidir. O escritório atua em Direito Empresarial e Societário. Mais no site — link na bio.",
+      "hashtags": ["#direitoempresarial", "#contratosocial", "#sociedadelimitada"]
+    },
+    {
+      "arquivo": "02-terca-civel",
+      "dia": "Terça",
+      "data": "2026-08-25",
+      "area": "Cível",
+      "formato": "Reel",
+      "conteudo": {
+        "roteiro": [
+          {
+            "tempo": "0:00–0:05",
+            "tela": "Nem toda chateação vira dano moral.",
+            "fala": "Nem toda chateação do dia a dia gera direito a indenização. Veja o que a lei e os tribunais costumam considerar."
+          },
+          {
+            "tempo": "0:05–0:20",
+            "tela": "Critério 1: mais que mero aborrecimento",
+            "fala": "O primeiro critério é a intensidade: um contratempo comum, resolvido sem maior consequência, costuma ser tratado como mero aborrecimento — não como dano moral."
+          },
+          {
+            "tempo": "0:20–0:35",
+            "tela": "Critério 2: lesão a direito da personalidade",
+            "fala": "O segundo é a natureza do que foi atingido — imagem, honra, dignidade. É essa lesão, reconhecida caso a caso pela jurisprudência, que caracteriza o dano moral."
+          },
+          {
+            "tempo": "0:35–0:45",
+            "tela": "Cada caso depende de análise concreta",
+            "fala": "Por isso, cada situação exige análise própria — não existe fórmula automática. O escritório atua em Direito Cível."
+          }
+        ]
+      },
+      "legenda": "Dano moral não é sinônimo de qualquer contrariedade — a lei e a jurisprudência exigem critérios específicos para reconhecê-lo. Neste vídeo, dois critérios gerais usados para diferenciar mero aborrecimento de dano moral indenizável. O escritório atua em Direito Cível. Mais no site — link na bio.",
+      "hashtags": ["#direitocivel", "#danomoral", "#direitodoconsumidor"]
+    },
+    {
+      "arquivo": "03-quarta-trabalhista",
+      "dia": "Quarta",
+      "data": "2026-08-26",
+      "area": "Trabalhista",
+      "formato": "Carrossel",
+      "conteudo": {
+        "slides": [
+          "Banco de horas: como funciona dentro da lei",
+          "Banco de horas é o sistema que permite compensar horas extras trabalhadas com folga depois, em vez de pagamento em dinheiro no mês seguinte.",
+          "Precisa de acordo formal para existir: individual escrito, com prazo de compensação de até 6 meses, ou por convenção/acordo coletivo, com prazo de até 1 ano.",
+          "Se as horas extras não forem compensadas dentro do prazo do acordo, viram hora extra a pagar normalmente — banco de horas não é forma de \"guardar\" hora extra indefinidamente.",
+          "Regras variam conforme o tipo de acordo e a categoria profissional. O escritório atua em Direito Trabalhista."
+        ]
+      },
+      "legenda": "Banco de horas só existe dentro de regras específicas — e o prazo para compensar as horas é uma das partes que mais gera dúvida, tanto para quem trabalha quanto para quem gerencia a equipe. Neste carrossel, o que a lei exige para o banco de horas valer. O escritório atua em Direito Trabalhista. Mais no site — link na bio.",
+      "hashtags": ["#direitotrabalhista", "#bancodehoras", "#clt"]
+    },
+    {
+      "arquivo": "04-quinta-tributario",
+      "dia": "Quinta",
+      "data": "2026-08-27",
+      "area": "Tributário",
+      "formato": "Post estático",
+      "conteudo": {
+        "titulo": "Débito tributário em aberto: existe caminho formal",
+        "corpo": "Débito tributário federal em aberto não precisa ficar indefinido — a legislação prevê modalidades de parcelamento pela Receita Federal e pela PGFN, com adesão feita pelos canais oficiais. Cada modalidade tem regras próprias de prazo e de encargos, definidas na legislação específica de cada programa, e a manutenção das parcelas em dia é condição para permanecer no parcelamento."
+      },
+      "legenda": "Existência de débito tributário não significa ausência de caminho formal — a legislação prevê modalidades de parcelamento, cada uma com regras próprias. O escritório atua em Direito Tributário. Mais no site — link na bio.",
+      "hashtags": ["#direitotributario", "#parcelamento", "#receitafederal"]
+    },
+    {
+      "arquivo": "05-sexta-familia",
+      "dia": "Sexta",
+      "data": "2026-08-28",
+      "area": "Família",
+      "formato": "Reel",
+      "conteudo": {
+        "roteiro": [
+          {
+            "tempo": "0:00–0:05",
+            "tela": "Pacto antenupcial não é desconfiança",
+            "fala": "Pacto antenupcial costuma ser associado a desconfiança entre o casal — mas juridicamente é só a escolha do regime de bens do casamento."
+          },
+          {
+            "tempo": "0:05–0:20",
+            "tela": "O que é",
+            "fala": "É o documento, feito antes da cerimônia, que define como fica o patrimônio do casal — se cada um mantém o que é seu, se tudo se comunica, ou um regime misto."
+          },
+          {
+            "tempo": "0:20–0:35",
+            "tela": "Quando costuma ser considerado",
+            "fala": "Casais que querem um regime diferente da comunhão parcial — que é o regime padrão quando não há pacto — costumam considerar essa opção, por motivos pessoais e patrimoniais próprios de cada casal."
+          },
+          {
+            "tempo": "0:35–0:45",
+            "tela": "Cada regime é uma opção prevista em lei",
+            "fala": "Não existe regime 'melhor' — existe o que faz sentido para cada casal. O escritório atua em Direito de Família."
+          }
+        ]
+      },
+      "legenda": "Regime de bens é uma escolha, não um veredito sobre a relação. Neste vídeo, o que é o pacto antenupcial e quando costuma entrar na conversa de quem vai casar. O escritório atua em Direito de Família. Mais no site — link na bio.",
+      "hashtags": ["#direitodefamilia", "#pactoantenupcial", "#regimedebens"]
+    },
+    {
+      "arquivo": "06-sabado-previdenciario",
+      "dia": "Sábado",
+      "data": "2026-08-29",
+      "area": "Previdenciário",
+      "formato": "Carrossel",
+      "conteudo": {
+        "slides": [
+          "Aposentadoria por tempo de contribuição: as regras de transição",
+          "Quem já contribuía ao INSS antes da Reforma da Previdência de 2019 não perdeu o direito adquirido até ali — passou a se enquadrar em regras de transição, criadas justamente para não aplicar a mudança de forma abrupta.",
+          "Regra dos pontos: soma da idade com o tempo de contribuição precisa atingir um mínimo, que sobe progressivamente a cada ano (a chamada tabela de pontos).",
+          "Regra do pedágio: dependendo da opção, é preciso cumprir um adicional de 50% ou 100% sobre o tempo que faltava para se aposentar em 2019.",
+          "Qual regra se aplica — e se já é vantajosa — depende do histórico individual de contribuição de cada segurado. O escritório atua em Direito Previdenciário."
+        ]
+      },
+      "legenda": "As regras de transição existem para quem já contribuía antes da Reforma de 2019 — mas são várias, e cada uma exige uma conta diferente. Neste carrossel, panorama de duas das principais regras. O escritório atua em Direito Previdenciário. Mais no site — link na bio.",
+      "hashtags": ["#direitoprevidenciario", "#aposentadoria", "#inss"]
+    }
+  ]
+}

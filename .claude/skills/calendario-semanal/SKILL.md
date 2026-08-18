@@ -198,6 +198,14 @@ Este passo é **inegociável e não é influenciado por `docs/aprendizados.md`**
   `02-quarta-area.md`, `03-sexta-area.md`).
 - `instagram/NN-dia-area.md` — os 6 posts do Instagram
   (`01-segunda-empresarial.md` até `06-sabado-previdenciario.md`).
+- `posts.json` — recorte estruturado só dos 6 posts de Instagram (texto
+  visual + legenda + hashtags, sem o resto do briefing), no schema de
+  `docs/formatos-json.md`. É o que o plugin do Figma
+  (`figma-plugin/`, ver `docs/templates-figma.md`) consome para popular
+  os templates — gerar sempre, mesmo que ninguém vá rodar o plugin
+  naquela semana. Os campos vêm dos mesmos briefings já escritos no
+  passo 8/9 — não é uma decisão de conteúdo nova, só outro formato do
+  que já foi decidido.
 
 ## 11. Atualizar `temas/historico.md`
 

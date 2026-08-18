@@ -96,8 +96,14 @@ O banco "Posts" do Notion também acompanha a produção depois da aprovação
 editorial — Status com 6 etapas (Rascunho → Em aprovação → Aprovado → Em
 produção → Pronto para publicar → Publicado), mais `Link da arte`, `Link do
 post` e `Responsável`. E acumula métricas de desempenho (Alcance, Curtidas,
-Comentários, Compartilhamentos, Salvamentos, Cliques, Taxa de engajamento),
-preenchidas manualmente pelo escritório ~2 semanas após a publicação.
+Comentários, Compartilhamentos, Salvamentos, Cliques, Taxa de engajamento).
+
+5 desses campos (todos menos Cliques) podem ser sincronizados
+automaticamente do Instagram via GitHub Actions — ver
+[`docs/metricas-automacao.md`](docs/metricas-automacao.md) para
+pré-requisitos (Meta App, token) e como ativar. Até essa automação estar
+configurada, o preenchimento continua manual, ~2 semanas após a
+publicação.
 
 A cada execução semanal, a rotina verifica se há métricas novas prontas para
 virar relatório (`templates/relatorio-semanal.md`) — ranking, desempenho por

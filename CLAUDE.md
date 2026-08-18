@@ -55,9 +55,17 @@ ajuste, pelo campo **Status**.
   pressão que empurra copy para urgência e sensacionalismo; essa pressão
   perde sempre.
 - **Fora de escopo**: geração de arte/design visual, publicação automática
-  em redes sociais, automação da coleta de métricas via API (a entrada é
-  manual — ver `docs/notion.md`). O entregável é briefing + copy; a
-  aprovação humana no Notion é o portão antes de qualquer publicação real.
+  em redes sociais. O entregável é briefing + copy; a aprovação humana no
+  Notion é o portão antes de qualquer publicação real.
+- **Coleta de métricas**: existe uma automação opcional, separada desta
+  Routine, que sincroniza Alcance/Curtidas/Comentários/Compartilhamentos/
+  Salvamentos do Instagram para o Notion via GitHub Actions — ver
+  `docs/metricas-automacao.md`. Ela roda com cron próprio (não faz parte
+  da Routine semanal do calendário) e depende de credenciais do Meta que
+  só o escritório pode configurar; até que isso esteja feito, o
+  preenchimento continua manual e a skill semanal segue funcionando do
+  mesmo jeito. `Cliques no link` nunca é automatizado — ver o documento
+  para o porquê.
 
 ## Onde está cada coisa
 
@@ -68,6 +76,8 @@ ajuste, pelo campo **Status**.
 | `docs/perfil-escritorio.md` | Marca, tom de voz, público-alvo, áreas de atuação |
 | `docs/formatos.md` | Canais, cadência, specs de formato e as matrizes de rodízio de cada canal (área × dia × formato) |
 | `docs/notion.md` | IDs do Notion (página, database, views) e como publicar |
+| `docs/metricas-automacao.md` | Automação opcional (GitHub Actions) de coleta de métricas do Instagram — pré-requisitos, setup, limitações |
+| `scripts/sync_metricas_instagram.py` + `.github/workflows/sync-metricas-instagram.yml` | Implementação da automação acima |
 | `templates/briefing-post.md` | Template de briefing por post — 8 seções, espelha o `.docx` original |
 | `templates/calendario-semanal.md` | Template do panorama semanal (dois calendários, um por canal) |
 | `templates/relatorio-semanal.md` | Template do relatório de métricas — ranking, desempenho por área/formato, recomendações |

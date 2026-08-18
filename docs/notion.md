@@ -83,20 +83,20 @@ briefing ao post no ar, não só a aprovação editorial. `Responsável` é camp
 de texto simples (não Pessoa/People) para não depender de todo o time estar
 cadastrado como membro do workspace Notion.
 
-**Métricas — entrada manual por ora.** Sem conector de Instagram/Meta
-disponível neste ambiente, a coleta é manual: o escritório olha o Instagram
-Insights e preenche os 6 campos numéricos direto na linha do post,
-tipicamente ~2 semanas após a publicação (tempo de o número estabilizar).
-`Taxa de engajamento` é uma Formula, calculada automaticamente a partir dos
-outros campos — não preencher manualmente.
-
-*Caminho de automação futura (não construído agora):* a coleta poderia ser
-automatizada via Instagram Graph API, o que exigiria (1) um Meta App
-registrado e, para certas permissões, revisado pela Meta; (2) a conta do
-Instagram como conta profissional vinculada a uma Página do Facebook; (3) um
-token de acesso de longa duração, que expira e precisa ser renovado a cada
-~60 dias. É um projeto de infraestrutura à parte — decisão editorial
-explícita do usuário, não algo a construir dentro desta automação.
+**Métricas — coleta automatizável via GitHub Actions, opcional.** Existe uma
+automação separada (`docs/metricas-automacao.md`,
+`scripts/sync_metricas_instagram.py`,
+`.github/workflows/sync-metricas-instagram.yml`) que sincroniza 5 dos 6
+campos numéricos (Alcance, Curtidas, Comentários, Compartilhamentos,
+Salvamentos) via Instagram Graph API, com cron próprio — não faz parte da
+Routine semanal do calendário. Depende de um Meta App e token que só o
+escritório pode configurar (ver o documento para o passo a passo); até essa
+configuração estar pronta, o preenchimento continua manual, olhando o
+Instagram Insights diretamente. `Cliques no link` nunca é automatizado —
+não há métrica de clique em link disponível via API para post orgânico de
+feed/Reel/carrossel. `Taxa de engajamento` é uma Formula, calculada
+automaticamente a partir dos outros campos — não preencher manualmente, nem
+manual nem via automação.
 
 ## Como publicar uma semana nova
 

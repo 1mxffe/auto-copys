@@ -5,11 +5,15 @@ completo — o detalhe está no arquivo individual da pasta do canal.
 
 ## LinkedIn (3 posts)
 
-| Dia | Área | Formato | Tema | Arquivo | Conformidade OAB |
-|---|---|---|---|---|---|
-| Segunda | [área] | Texto longo | [tema] | `linkedin/01-segunda-area.md` | ✅/⚠️ |
-| Quarta | [área] | Texto longo | [tema] | `linkedin/02-quarta-area.md` | ✅/⚠️ |
-| Sexta | [área] | Texto longo | [tema] | `linkedin/03-sexta-area.md` | ✅/⚠️ |
+Todo post tem texto longo (legenda) + visual obrigatório — coluna Visual
+decorre do Subtipo (Autoridade técnica → Carrossel curto; Informativo
+direto → Card estático — ver `docs/formatos.md`).
+
+| Dia | Área | Subtipo | Visual | Tema | Arquivo | Conformidade OAB |
+|---|---|---|---|---|---|---|
+| Segunda | [área] | [Autoridade técnica/Informativo direto] | [Carrossel curto/Card estático] | [tema] | `linkedin/01-segunda-area.md` | ✅/⚠️ |
+| Quarta | [área] | [Autoridade técnica/Informativo direto] | [Carrossel curto/Card estático] | [tema] | `linkedin/02-quarta-area.md` | ✅/⚠️ |
+| Sexta | [área] | [Autoridade técnica/Informativo direto] | [Carrossel curto/Card estático] | [tema] | `linkedin/03-sexta-area.md` | ✅/⚠️ |
 
 ## Instagram (6 posts)
 

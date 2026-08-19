@@ -7,7 +7,7 @@ cadência própria — não é mais um único calendário de 6 posts:
 
 | Canal | Posts/semana | Dias | Formato |
 |---|---|---|---|
-| LinkedIn | 3 | Segunda, quarta, sexta | Sempre "Texto longo" (sem rodízio) |
+| LinkedIn | 3 | Segunda, quarta, sexta | Sempre "Texto longo" (legenda) + visual obrigatório (Carrossel curto ou Card estático, conforme o subtipo — sem rodízio independente) |
 | Instagram | 6 | Segunda a sábado | Rodízio entre Carrossel, Post estático e Reel |
 
 "Site institucional" segue listado como canal da marca em
@@ -63,7 +63,16 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
 
 ## O formato do LinkedIn
 
-### Texto longo
+Desde 2026-08-19, todo post do LinkedIn tem **dois componentes obrigatórios**,
+sempre juntos — nunca um sem o outro:
+
+1. **Texto longo** (a legenda/corpo do post) — a análise, o que sustenta
+   "autoridade técnica".
+2. **Visual** (Carrossel curto ou Card estático) — o que aparece no feed
+   antes de qualquer clique em "ver mais". Só texto não segura a atenção;
+   o visual é o gancho.
+
+### Texto longo (legenda)
 - **Extensão**: 250–400 palavras.
 - **Estrutura fixa**: nenhuma estrutura de slide — texto corrido, registro
   analítico, parágrafos completos.
@@ -72,8 +81,38 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
 - **O que a copy precisa entregar**: profundidade real — é o formato onde
   cabe nuance, contexto histórico da norma, comparação antes/depois. Não é
   o carrossel reescrito em prosa.
-- Único formato do canal — os 3 posts semanais do LinkedIn usam sempre
-  "Texto longo", sem rodízio.
+- Único formato de texto do canal — os 3 posts semanais do LinkedIn usam
+  sempre "Texto longo" como legenda, sem rodízio. O rodízio do canal está
+  no visual que acompanha (ver abaixo), não no texto.
+
+### Visual obrigatório: Carrossel curto ou Card estático
+
+O visual **não duplica** o texto longo — é um resumo/gancho autônomo, que
+faz sentido mesmo para quem não vai clicar em "ver mais". Qual dos dois
+formatos usar é determinado pelo subtipo de registro do post (ver abaixo),
+não por escolha livre a cada semana.
+
+**Carrossel curto** (post em registro Autoridade técnica)
+- **Extensão**: até 5 cards (pode ser menos — 3 ou 4 — se o argumento
+  fechar antes; nunca mais que 5, é "curto" por definição).
+- **Estrutura**: capa (a tese do post, curta) → 1–3 cards de
+  desenvolvimento (dado, comparação antes/depois, dispositivo legal) →
+  encerramento + identificação do escritório.
+- **Registro visual**: sóbrio e corporativo — sem o tom didático-leigo do
+  carrossel do Instagram; cada card já pressupõe público PJ.
+- **O que a copy precisa entregar**: a versão "manchete" dos pontos que o
+  texto longo desenvolve — não repete frase do texto, resume a ideia em
+  poucas palavras. Tetos de tamanho em `templates/briefing-post.md`, seção
+  4 (mesmo teto do Carrossel do Instagram, ≤ 25 palavras por card).
+
+**Card estático** (post em registro Informativo direto)
+- **Extensão**: 1 card único.
+- **Estrutura**: título (a mudança/fato) + subtítulo curto (o que significa
+  na prática).
+- **O que a copy precisa entregar**: uma informação só, objetiva — o
+  mesmo espírito objetivo do subtipo Informativo direto, em forma de
+  card. Tetos de tamanho em `templates/briefing-post.md`, seção 4 (mesmo
+  teto do Post estático do Instagram).
 
 ### Registro: dois subtipos, proporção 80/20
 
@@ -109,11 +148,15 @@ técnica**. Como o LinkedIn publica 3x/semana, o subtipo muda de área para
 área dentro da mesma semana às vezes — não é "toda sexta é informativo",
 é por post, na ordem cronológica de publicação.
 
-**Em ambos os subtipos**: o fechamento pode nomear a área de atuação do
-escritório relevante ao tema (permitido pela Pergunta 08 de
-`docs/normas-oab.md`) — nunca com superlativo ("referência no mercado",
+**O mesmo cálculo decide o visual** — não há contador separado:
+`contador mod 5` = `4` → Informativo direto → **Card estático**;
+`contador mod 5` = `0`–`3` → Autoridade técnica → **Carrossel curto**.
+
+**Em ambos os subtipos**: o fechamento (no texto e no visual) pode nomear a
+área de atuação do escritório relevante ao tema (permitido pela Pergunta 08
+de `docs/normas-oab.md`) — nunca com superlativo ("referência no mercado",
 "líder") nem CTA de conversão (Pergunta 04). Autoridade se demonstra pela
-precisão da análise, não por autoelogio.
+precisão da análise, não por autoelogio — no texto ou no card.
 
 ## Instagram — área × dia (fixo)
 

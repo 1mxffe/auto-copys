@@ -19,19 +19,24 @@ ajuste, pelo campo **Status**.
 ## Regras que não mudam
 
 - **Volume**: 9 posts por semana, em dois calendários de canal
-  independentes — **LinkedIn**: 3 posts (segunda, quarta, sexta), sempre
-  formato "Texto longo". **Instagram**: 6 posts (segunda a sábado), um por
-  área — Empresarial, Cível, Trabalhista, Tributário, Família,
+  independentes — **LinkedIn**: 3 posts (segunda, quarta, sexta), texto
+  sempre "Texto longo" (250–400 palavras) **acompanhado de um visual
+  obrigatório** — Carrossel curto (≤ 5 cards) ou Card estático, conforme o
+  subtipo de registro do post. **Instagram**: 6 posts (segunda a sábado),
+  um por área — Empresarial, Cível, Trabalhista, Tributário, Família,
   Previdenciário —, formato em rodízio. Regras completas de área × dia ×
   formato por canal em `docs/formatos.md`.
 - **LinkedIn é canal 100% B2B**: existe para atrair empresas e reforçar o
   escritório como referência técnica. Só 3 áreas, fixas, sem rodízio —
   Empresarial, Trabalhista (sempre ângulo empregador/RH), Tributário.
   Cível, Família e Previdenciário ficam só no Instagram. 80% dos posts do
-  LinkedIn em registro "Autoridade técnica", 20% "Informativo direto" — ver
-  `docs/formatos.md`. Autoridade se constrói pela precisão da análise,
-  nunca por autoelogio — isso não abre exceção nenhuma no checklist de
-  `docs/normas-oab.md`.
+  LinkedIn em registro "Autoridade técnica" (visual: Carrossel curto), 20%
+  "Informativo direto" (visual: Card estático) — ver `docs/formatos.md`. O
+  texto longo continua sendo o corpo/legenda do post — o visual acompanha,
+  não substitui, e nunca duplica o texto inteiro no card. Autoridade se
+  constrói pela precisão da análise, nunca por autoelogio — isso não abre
+  exceção nenhuma no checklist de `docs/normas-oab.md`, nem no texto nem
+  no visual.
 - **Git**: commit direto na branch `main`, sem Pull Request. `git pull origin
   main` sempre antes de commitar. O commit semanal só deve tocar
   `calendarios/<semana nova>/` e o append em `temas/historico.md` — nunca

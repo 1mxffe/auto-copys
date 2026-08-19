@@ -77,6 +77,15 @@ remover uma opção em uso é destrutivo para as páginas que a usam. Toda
 execução a partir da 2026-S34 (regenerada em 2026-08-14 sob o esquema de
 dois calendários) preenche `Canal`.
 
+Desde 2026-08-19, todo post de LinkedIn carrega também um **visual
+obrigatório** (Carrossel curto ≤ 5 cards ou Card estático — ver
+`docs/formatos.md`). Isso **não** cria opção nova no Select `Formato` — a
+propriedade continua `Texto longo` para os 3 posts de LinkedIn (é o
+formato nativo de texto do canal); o visual e o subtipo de registro ficam
+documentados no cabeçalho do briefing (seção 1, campos "Subtipo LinkedIn"
+e "Visual LinkedIn"), dentro do `content` da página. Não recriar o schema
+para acomodar isso.
+
 `Status` ganhou duas etapas novas na mesma data ("Em produção", "Pronto para
 publicar") — o board "Produção" passou a cobrir o pipeline inteiro, do
 briefing ao post no ar, não só a aprovação editorial. `Responsável` é campo

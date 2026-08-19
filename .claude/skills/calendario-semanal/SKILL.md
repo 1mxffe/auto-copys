@@ -14,13 +14,15 @@ canal**, não mais um único calendário de 6 posts:
 
 | Canal | Posts | Dias | Formato |
 |---|---|---|---|
-| LinkedIn | 3 | Segunda, quarta, sexta | Sempre "Texto longo" |
+| LinkedIn | 3 | Segunda, quarta, sexta | Sempre "Texto longo" (legenda) + visual obrigatório |
 | Instagram | 6 | Segunda a sábado | Rodízio entre Carrossel, Post estático, Reel |
 
 Desde 2026-08-17, o LinkedIn é canal **100% B2B**, fixo em 3 áreas
 (Empresarial, Trabalhista pelo ângulo empregador, Tributário — sem mais
 rodízio de área), e alterna dois subtipos de registro (Autoridade técnica
-80%, Informativo direto 20%) — ver `docs/formatos.md`.
+80%, Informativo direto 20%) — ver `docs/formatos.md`. Desde 2026-08-19,
+o subtipo também decide o **visual obrigatório** de cada post (Carrossel
+curto ≤ 5 cards, ou Card estático) — só texto não segura atenção no feed.
 
 Desde a mesma data, o banco "Posts" do Notion também é um **kanban de
 produção** (Status com 6 etapas, Link da arte, Link do post, Responsável) e
@@ -107,7 +109,9 @@ Nesta ordem:
 
 **LinkedIn (3 posts)**: sempre as mesmas 3 áreas fixas — Empresarial
 (segunda), Trabalhista (quarta, ângulo empregador/RH), Tributário (sexta)
-— ver `docs/formatos.md`. Formato: sempre "Texto longo".
+— ver `docs/formatos.md`. Formato de texto: sempre "Texto longo"
+(legenda). Todo post carrega também um **visual obrigatório** — não existe
+mais post de LinkedIn só com texto.
 
 Para cada um dos 3, determine o **subtipo de registro**: conte quantas
 linhas com `Canal = LinkedIn` existem em `temas/historico.md` antes desta
@@ -116,14 +120,16 @@ semana, incremente o contador em 1 e calcule `contador mod 5`: resultado
 `4` → **Informativo direto**; resultados `0`–`3` → **Autoridade técnica**
 (ver "Registro: dois subtipos" em `docs/formatos.md`). Isso mantém a
 proporção 80/20 ao longo do tempo, incremental a cada post, não só dentro
-da semana.
+da semana. O mesmo `contador mod 5` decide o **visual**, sem cálculo
+separado: `4` → **Card estático**; `0`–`3` → **Carrossel curto** (≤ 5
+cards) — ver "Visual obrigatório" em `docs/formatos.md`.
 
 **Instagram (6 posts)**: uma área por dia, segunda a sábado, fixo (ver
 `docs/formatos.md`). Formato de cada dia vem da semana do ciclo do
 Instagram calculada no passo 3.
 
 Isso dá uma lista de 9 (área, canal, dia, formato, e para LinkedIn também o
-subtipo de registro) para os quais escolher tema.
+subtipo de registro e o visual decorrente) para os quais escolher tema.
 
 ## 6. Selecionar o tema de cada um dos 9 posts
 
@@ -152,7 +158,8 @@ Para cada item da lista do passo 5:
 
 ## 7. Formato de cada post
 
-Já determinado no passo 5 — LinkedIn é sempre "Texto longo"; o formato de
+Já determinado no passo 5 — LinkedIn é sempre "Texto longo" + visual
+(Carrossel curto ou Card estático, decorrente do subtipo); o formato de
 cada post do Instagram vem da matriz de rodízio da semana do ciclo
 calculada no passo 3. `docs/aprendizados.md` pode influenciar qual **área**
 ganha qual **tema** (passo 6), nunca a matriz de rodízio de formato em si —
@@ -172,9 +179,16 @@ por marcadores em vez de parágrafo denso definidos em
 uma ideia por slide/tela. A seção 6 (design) preenche uma linha por
 slide/tela com **título, subtítulo, ícone e imagem sugeridos**, com o
 texto exato da peça — instrução pronta para o designer montar a arte sem
-reinterpretar a copy. No LinkedIn (Texto longo), a seção 4 mantém
-250–400 palavras corridas (a regra de brevidade não se aplica) e a seção
-6 só registra imagem de capa, se houver.
+reinterpretar a copy.
+
+No LinkedIn, a seção 4 tem dois blocos obrigatórios: o texto longo
+(250–400 palavras corridas, sem regra de brevidade) **e** o visual —
+Carrossel curto ou Card estático, conforme o campo "Visual LinkedIn" do
+cabeçalho (definido no passo 5) — seguindo os mesmos tetos de tamanho do
+Instagram, sem repetir frase do texto longo. A seção 6 preenche a mesma
+tabela de título/subtítulo/ícone/imagem por card, em registro sóbrio e
+corporativo. Nunca preencher os dois formatos de visual no mesmo
+briefing — só o que o campo "Visual LinkedIn" determina.
 
 Para os 3 posts do LinkedIn especificamente: escreva sempre para público
 exclusivamente PJ (gestores, sócios, jurídico interno, RH, financeiro —
@@ -182,8 +196,8 @@ nunca "você" genérico de pessoa física), no subtipo determinado no passo 5
 (Autoridade técnica ou Informativo direto — specs completas em
 `docs/formatos.md`). Trabalhista no LinkedIn é sempre pelo ângulo
 empregador/RH, mesmo que `temas/trabalhista.md` liste público misto para
-aquele tema. Registrar o subtipo escolhido no cabeçalho do briefing (seção
-1, campo novo "Subtipo LinkedIn").
+aquele tema. Registrar o subtipo e o visual escolhidos no cabeçalho do
+briefing (seção 1, campos "Subtipo LinkedIn" e "Visual LinkedIn").
 
 ## 9. Rodar o checklist OAB peça por peça
 

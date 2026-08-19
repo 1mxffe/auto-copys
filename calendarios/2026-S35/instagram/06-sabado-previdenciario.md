@@ -64,16 +64,16 @@ individual do tempo de contribuição de cada segurado.
 
 **Slide 5**
 > Qual regra se aplica — e se já é vantajosa — depende do histórico
-> individual de contribuição de cada segurado. O escritório atua em
-> Direito Previdenciário.
+> individual de contribuição de cada segurado, ponto que a equipe de
+> Direito Previdenciário do escritório avalia caso a caso.
 
 ## 5. Legenda proposta
 
 > As regras de transição existem para quem já contribuía antes da
 > Reforma de 2019 — mas são várias, e cada uma exige uma conta
-> diferente. Neste carrossel, panorama de duas das principais regras.
-> O escritório atua em Direito Previdenciário. Mais no site — link na
-> bio.
+> diferente. Neste carrossel, panorama de duas das principais regras —
+> tema recorrente na prática de Direito Previdenciário do escritório.
+> Mais no site, link na bio.
 
 **Hashtags**: #direitoprevidenciario #aposentadoria #inss
 

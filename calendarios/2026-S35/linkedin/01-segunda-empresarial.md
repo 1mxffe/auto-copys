@@ -74,7 +74,8 @@ Texto corrido (sem estrutura de slide) — 250–400 palavras:
 > passa por segurança da informação e gestão de incidentes. Mas são o
 > ponto de partida mais comum onde PMEs ainda deixam lacuna.
 >
-> O escritório atua em Direito Empresarial, incluindo adequação à LGPD.
+> Adequação à LGPD é uma das frentes que a equipe de Direito Empresarial
+> do escritório acompanha de perto.
 
 ## 5. Legenda proposta
 

@@ -73,8 +73,9 @@ Texto corrido (sem estrutura de slide) — 250–400 palavras:
 > multa autônoma em caso de atraso.
 >
 > Gestão fiscal responsável trata o calendário de obrigações acessórias
-> como prioridade própria, separada do controle de imposto a pagar. O
-> escritório atua em Direito Tributário.
+> como prioridade própria, separada do controle de imposto a pagar —
+> ponto que a equipe de Direito Tributário do escritório acompanha de
+> perto.
 
 ## 5. Legenda proposta
 

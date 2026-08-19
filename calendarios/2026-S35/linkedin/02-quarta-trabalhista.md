@@ -77,8 +77,8 @@ Texto corrido (sem estrutura de slide) — 250–400 palavras:
 > prestadora, e o acompanhamento de que ela está cumprindo suas
 > obrigações trabalhistas, que reduz a exposição da contratante.
 >
-> O escritório atua em Direito Trabalhista, com foco em gestão de risco
-> para empresas.
+> É esse tipo de gestão de risco que a equipe de Direito Trabalhista do
+> escritório apoia empresas a estruturar.
 
 ## 5. Legenda proposta
 

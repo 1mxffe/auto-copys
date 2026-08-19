@@ -61,14 +61,15 @@ Roteiro de Reel, 30–45 segundos:
 >
 > **0:35–0:45** — Tela: "Cada regime é uma opção prevista em lei" | Fala:
 > "Não existe regime 'melhor' — existe o que faz sentido para cada
-> casal. O escritório atua em Direito de Família."
+> casal. Esse tipo de escolha é algo que a equipe de Direito de
+> Família do escritório ajuda a esclarecer."
 
 ## 5. Legenda proposta
 
 > Regime de bens é uma escolha, não um veredito sobre a relação. Neste
 > vídeo, o que é o pacto antenupcial e quando costuma entrar na conversa
-> de quem vai casar. O escritório atua em Direito de Família. Mais no
-> site — link na bio.
+> de quem vai casar. Dúvidas assim aparecem direto na prática de
+> Direito de Família do escritório — mais no site, link na bio.
 
 **Hashtags**: #direitodefamilia #pactoantenupcial #regimedebens
 

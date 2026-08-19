@@ -53,9 +53,16 @@ canal):
 - **Terceira pessoa institucional** ("o escritório", "a equipe") em vez de
   primeira pessoa do singular — evita a sensação de promoção pessoal de um
   advogado específico, o que também ajuda a manter a Pergunta 07 em dia.
-- **Frases curtas nas peças de mídia social** (carrossel, stories, reel);
-  registro mais analítico e com parágrafos completos apenas no formato
-  LinkedIn (ver `docs/formatos.md`).
+- **Frases curtas nas peças de mídia social** (carrossel, post estático,
+  reel); registro mais analítico e com parágrafos completos apenas no
+  formato LinkedIn (ver `docs/formatos.md`).
+- **Escaneável no Instagram**: o card precisa comunicar a ideia central em
+  poucos segundos de leitura — título forte e curto, corpo em lista
+  quando há mais de um item, nunca parágrafo denso tentando caber tudo.
+  Prender atenção é o título e a primeira linha, não o volume de texto.
+  Tetos de tamanho e o formato de título/subtítulo/ícone/imagem por slide
+  em `templates/briefing-post.md`, seções 4 e 6. Densidade de argumento
+  fica reservada para o LinkedIn.
 - **LinkedIn especificamente é registro de autoridade técnica corporativa**
   (ver "Registro: dois subtipos" em `docs/formatos.md`) — cita dispositivo
   legal com precisão, compara antes/depois da norma, usa framing de risco e

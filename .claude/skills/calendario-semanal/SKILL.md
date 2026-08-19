@@ -166,6 +166,16 @@ Um arquivo por post, a partir de `templates/briefing-post.md`, com todas as
 final pronta para arte — sem placeholder, sem colchete sobrando. Escreva no
 tom de `docs/perfil-escritorio.md`.
 
+No Instagram, a seção 4 (copy) segue os tetos de tamanho e a preferência
+por marcadores em vez de parágrafo denso definidos em
+`templates/briefing-post.md` — o card precisa ser lido em poucos segundos,
+uma ideia por slide/tela. A seção 6 (design) preenche uma linha por
+slide/tela com **título, subtítulo, ícone e imagem sugeridos**, com o
+texto exato da peça — instrução pronta para o designer montar a arte sem
+reinterpretar a copy. No LinkedIn (Texto longo), a seção 4 mantém
+250–400 palavras corridas (a regra de brevidade não se aplica) e a seção
+6 só registra imagem de capa, se houver.
+
 Para os 3 posts do LinkedIn especificamente: escreva sempre para público
 exclusivamente PJ (gestores, sócios, jurídico interno, RH, financeiro —
 nunca "você" genérico de pessoa física), no subtipo determinado no passo 5

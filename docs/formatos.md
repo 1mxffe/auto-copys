@@ -28,6 +28,9 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
 - **O que a copy precisa entregar**: cada slide deve fazer sentido lido
   isoladamente (usuário desliza rápido), mas a sequência tem que fechar uma
   ideia completa até o slide 5.
+- **Copy enxuta**: uma ideia por slide, frase curta, sem parágrafo denso.
+  Tetos de tamanho e instrução de título/subtítulo/ícone/imagem por slide
+  em `templates/briefing-post.md`, seções 4 e 6.
 
 ### Post estático
 - **Extensão**: card único.
@@ -36,6 +39,11 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
 - **O que a copy precisa entregar**: uma ideia só, sem tentar caber o
   carrossel inteiro num card — se o tema pede mais que 4 linhas de corpo,
   não é candidato a post estático naquela semana.
+- **Copy enxuta**: se o corpo lista mais de um item (ex.: "3 cláusulas",
+  "2 prazos"), usar marcadores — nunca emendar os itens numa frase corrida
+  só para caber em "4 linhas". Tetos de tamanho e instrução de
+  título/subtítulo/ícone/imagem em `templates/briefing-post.md`, seções 4
+  e 6.
 
 ### Reel / vídeo curto
 - **Extensão**: roteiro de 30–45 segundos.
@@ -45,6 +53,10 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
 - **O que a copy precisa entregar**: gancho nos primeiros 3 segundos,
   informação central até os 30s, fechamento sóbrio nos últimos segundos —
   sem CTA de conversão (Pergunta 04).
+- **Copy enxuta**: texto de tela ≤ 10 palavras por trecho de tempo — a
+  fala pode detalhar um pouco mais, mas sem sair da ideia daquele trecho.
+  Tetos completos e instrução de título/subtítulo/ícone/imagem por tela em
+  `templates/briefing-post.md`, seções 4 e 6.
 
 > **Descontinuado**: o formato Stories saiu do rodízio. Não usar em novas
 > execuções.

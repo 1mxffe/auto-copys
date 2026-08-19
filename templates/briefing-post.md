@@ -44,11 +44,32 @@ Tabela slide/tela × conteúdo × função — adaptar número de linhas ao form
 Texto exato de cada peça, pronto para a arte — sem placeholder, sem
 colchetes, redação final.
 
+**Regra de tamanho e leitura (Instagram)**: uma ideia por slide/card, nunca
+duas. Frase curta, sujeito e verbo claros, sem oração subordinada
+empilhada. Lista com mais de um item vira **marcadores**, nunca frase
+corrida emendando os itens com vírgula. Tetos por formato (ver
+`docs/formatos.md`):
+- **Carrossel**: capa só com o gancho (≤ 8 palavras); slides de meio ≤ 25
+  palavras cada, preferindo 2–3 linhas curtas ou lista a parágrafo;
+  encerramento curto + identificação.
+- **Post estático**: título ≤ 8 palavras; corpo em até 4 linhas curtas —
+  se o corpo é uma lista de itens, usar marcadores, não frase única.
+- **Reel**: texto de tela ≤ 10 palavras por trecho de tempo; a fala pode
+  detalhar um pouco mais, mas sem sair da ideia daquele trecho.
+- **Texto longo (LinkedIn)**: mantém 250–400 palavras corridas, sem
+  divisão em slides — é o único formato pensado para densidade; a regra
+  de brevidade acima não se aplica aqui.
+
+Enxuto não é raso: o termo técnico continua correto e citado quando
+necessário — só chega explicado em menos palavras, sem parágrafo denso
+para provar domínio do assunto.
+
 **Slide/tela 1**
+> [título/gancho — curto]
 > [texto final]
 
 **Slide/tela 2**
-> [texto final]
+> [texto final — marcadores se houver mais de um item]
 
 **Slide/tela 3**
 > [texto final]
@@ -57,7 +78,7 @@ colchetes, redação final.
 > [texto final]
 
 **Slide/tela 5**
-> [texto final]
+> [texto final — encerramento sóbrio + identificação]
 
 (Para Reel: incluir roteiro com marcação de tempo. Para Texto longo
 (LinkedIn): texto corrido de 250–400 palavras, sem divisão em slides.)
@@ -70,11 +91,34 @@ colchetes, redação final.
 
 ## 6. Elementos de design recomendados
 
+Instrução pronta para o designer montar a arte sem precisar reinterpretar a
+copy — uma linha por slide/tela, com o texto exato que vai na peça (não o
+resumo da seção 3, o texto final mesmo).
+
+**Instagram (Carrossel, Post estático, Reel)** — uma linha por slide/tela:
+
+| Slide/tela | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 1 | [texto exato, ≤ 8 palavras] | [texto exato, opcional, ≤ 12 palavras] | [1 ícone, simples de reconhecer em miniatura, ou "nenhum"] | [descrição objetiva, ou "sem imagem — só tipografia/ícone"] |
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
+| 5 | | | | |
+
+(Ajustar número de linhas ao formato — 5 para Carrossel, 1 para Post
+estático, uma por trecho de tempo para Reel.)
+
+Notas gerais, válidas para todos os slides/telas acima:
 - Paleta: seguir manual de marca do escritório.
-- Ícones/imagens sugeridas: [descrição]
 - Logotipo do escritório: [posição] — símbolo/logotipo da OAB: **não usar**
   (Pergunta 13, `docs/normas-oab.md`).
-- Tipografia/hierarquia: [notas, se relevantes]
+- Tipografia/hierarquia: [ex.: título sempre maior que subtítulo; item de
+  lista com peso visual diferente do texto corrido].
+
+**Texto longo (LinkedIn)**: não há card/slide — registrar aqui só se há
+imagem de capa (descrição neutra, ou "nenhuma arte obrigatória") e a
+assinatura visual do post, se usada. Símbolo/logotipo da OAB continua
+proibido mesmo sem card (Pergunta 13).
 
 ## 7. Conformidade OAB
 

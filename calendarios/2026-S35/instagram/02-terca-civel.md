@@ -62,15 +62,17 @@ Roteiro de Reel, 30–45 segundos:
 >
 > **0:35–0:45** — Tela: "Cada caso depende de análise concreta" | Fala:
 > "Por isso, cada situação exige análise própria — não existe fórmula
-> automática. O escritório atua em Direito Cível."
+> automática. É esse tipo de critério que a equipe de Direito Cível do
+> escritório avalia caso a caso."
 
 ## 5. Legenda proposta
 
 > Dano moral não é sinônimo de qualquer contrariedade — a lei e a
 > jurisprudência exigem critérios específicos para reconhecê-lo. Neste
 > vídeo, dois critérios gerais usados para diferenciar mero
-> aborrecimento de dano moral indenizável. O escritório atua em Direito
-> Cível. Mais no site — link na bio.
+> aborrecimento de dano moral indenizável. Dúvidas assim aparecem com
+> frequência na prática de Direito Cível do escritório — mais conteúdo
+> no site, link na bio.
 
 **Hashtags**: #direitocivel #danomoral #direitodoconsumidor
 

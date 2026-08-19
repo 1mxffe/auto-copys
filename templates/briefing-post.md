@@ -148,6 +148,23 @@ definidos no Cabeçalho — nunca os dois ao mesmo tempo.)
 
 > [legenda completa, pronta para publicar]
 
+**Regra de naturalidade (obrigatória)**: a legenda é texto escrito por
+alguém, não campo de mala direta. **Nunca fechar com a mesma
+frase-fórmula de post para post** — "O escritório atua em Direito X.
+Mais no site — link na bio." repetida toda semana, só trocando o nome
+da área, é exatamente o padrão que soa robotizado (mesmo problema no
+fechamento do texto longo do LinkedIn, trocando só "atua em Direito
+X"). Cada fechamento precisa:
+- conectar com o conteúdo específico daquele post, não ser um bloco
+  genérico colado no fim sem relação com o parágrafo anterior;
+- variar a estrutura da frase de post para post — nunca a mesma
+  abertura ("O escritório atua em...") toda vez;
+- variar o verbo/framing de identificação — ver variações prontas em
+  `docs/perfil-escritorio.md`, seção "Fechamento e identificação";
+- variar até se o CTA de identificação aparece como frase própria ou
+  emendado na última ideia do texto — nem todo post precisa do mesmo
+  apêndice na mesma posição.
+
 **Hashtags**: #[tag1] #[tag2] #[tag3]
 
 ## 6. Elementos de design recomendados

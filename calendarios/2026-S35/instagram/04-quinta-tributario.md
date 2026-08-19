@@ -58,8 +58,8 @@ redução; fala só de modalidades e etapas gerais do pedido.
 
 > Existência de débito tributário não significa ausência de caminho
 > formal — a legislação prevê modalidades de parcelamento, cada uma com
-> regras próprias. O escritório atua em Direito Tributário. Mais no
-> site — link na bio.
+> regras próprias. Esse tipo de processo é tema recorrente na prática
+> de Direito Tributário do escritório. Mais no site, link na bio.
 
 **Hashtags**: #direitotributario #parcelamento #receitafederal
 

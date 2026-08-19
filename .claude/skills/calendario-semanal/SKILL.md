@@ -173,6 +173,12 @@ Um arquivo por post, a partir de `templates/briefing-post.md`, com todas as
 final pronta para arte — sem placeholder, sem colchete sobrando. Escreva no
 tom de `docs/perfil-escritorio.md`.
 
+A seção 5 (legenda, Instagram) e o fechamento do texto longo (LinkedIn)
+nunca repetem a mesma frase-fórmula de post para post ("O escritório
+atua em Direito X. Mais no site — link na bio." em todo post é o padrão
+robotizado a evitar) — variar estrutura a cada post, ver
+`docs/perfil-escritorio.md`, seção "Fechamento e identificação".
+
 No Instagram, a seção 4 (copy) segue os tetos de tamanho e a preferência
 por marcadores em vez de parágrafo denso definidos em
 `templates/briefing-post.md` — o card precisa ser lido em poucos segundos,

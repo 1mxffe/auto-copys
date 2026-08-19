@@ -59,16 +59,18 @@
 > "guardar" hora extra indefinidamente.
 
 **Slide 5**
-> Regras variam conforme o tipo de acordo e a categoria profissional. O
-> escritório atua em Direito Trabalhista.
+> Regras variam conforme o tipo de acordo e a categoria profissional —
+> ponto que a equipe de Direito Trabalhista do escritório revisa caso a
+> caso.
 
 ## 5. Legenda proposta
 
 > Banco de horas só existe dentro de regras específicas — e o prazo
 > para compensar as horas é uma das partes que mais gera dúvida, tanto
 > para quem trabalha quanto para quem gerencia a equipe. Neste
-> carrossel, o que a lei exige para o banco de horas valer. O escritório
-> atua em Direito Trabalhista. Mais no site — link na bio.
+> carrossel, o que a lei exige para o banco de horas valer. É tema que
+> aparece direto na rotina de Direito Trabalhista do escritório. Site e
+> mais posts, link na bio.
 
 **Hashtags**: #direitotrabalhista #bancodehoras #clt
 

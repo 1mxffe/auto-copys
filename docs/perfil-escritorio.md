@@ -77,6 +77,40 @@ canal):
   garantia de resultado, menção a caso real de cliente. Ver checklist
   completo em `docs/normas-oab.md`.
 
+## Fechamento e identificação — variar, nunca repetir fórmula
+
+Identificar a área de atuação no fechamento é permitido (Pergunta 08),
+mas **usar sempre a mesma frase, só trocando o nome da área, é o que
+faz a peça soar robotizada** — é reconhecível de longe, lido em
+sequência, como preenchimento de campo. "O escritório atua em Direito
+X. Mais no site — link na bio." repetida em todo post é exatamente esse
+padrão a evitar, no Instagram e no fechamento do texto longo do
+LinkedIn igualmente.
+
+Regra prática: nunca usar a mesma abertura de frase ("O escritório atua
+em...") em dois posts seguidos. Variar estrutura, verbo e posição do
+CTA. Exemplos de fechamento para o Instagram — rotacionar, não usar o
+mesmo dois posts seguidos, e não se limitar a esta lista:
+
+- "A equipe de Direito X do escritório lida com esse tipo de situação
+  com frequência — mais no site, link na bio."
+- "Isso é rotina em Direito X aqui no escritório. Link na bio pra mais
+  conteúdo."
+- "Direito X é uma das frentes do escritório — detalhes no site, link
+  na bio."
+- Emendado na última ideia do texto, sem virar frase nova: "...e é por
+  isso que o time de Direito X do escritório presta atenção redobrada a
+  esse tipo de cláusula. Mais no site, link na bio."
+- Às vezes o CTA de site/bio pode ficar de fora quando o fechamento do
+  conteúdo já é suficiente — nem todo post precisa do mesmo apêndice.
+
+No LinkedIn, o mesmo princípio vale para o fechamento do texto longo —
+variar entre nomear a área diretamente ("O escritório atua em Direito
+X"), descrever o que a equipe faz na prática ("A equipe de Direito X do
+escritório apoia empresas em [o que o post tratou]") ou fechar só com o
+conteúdo, sem apêndice de identificação em todo post — sempre em
+registro corporativo sóbrio, nunca superlativo.
+
 ## O que cada área tende a cobrir
 
 Estas são linhas editoriais amplas — os temas específicos de cada semana

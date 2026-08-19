@@ -56,8 +56,9 @@
 > Contrato social não é só o documento que formaliza a empresa no
 > registro — é o que define, por escrito, como a sociedade funciona
 > quando as coisas não são óbvias: divisão de lucro, saída de sócio,
-> forma de decidir. O escritório atua em Direito Empresarial e
-> Societário. Mais no site — link na bio.
+> forma de decidir. É esse tipo de ponto que a equipe de Direito
+> Empresarial do escritório costuma revisar já na constituição da
+> sociedade. Mais no site, link na bio.
 
 **Hashtags**: #direitoempresarial #contratosocial #sociedadelimitada
 

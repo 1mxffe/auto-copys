@@ -78,12 +78,17 @@ alerta.
 
 ## 6. Elementos de design recomendados
 
-- Legendas em tela sincronizadas com a fala (acessibilidade).
-- Numeração visual dos 3 pontos (1, 2, 3).
-- Identificação do escritório no encerramento:
-  `Gutmann & Silva Advogados — Direito Trabalhista · [site] · [telefone/WhatsApp]`.
-- Logotipo do escritório permitido; símbolo/logotipo da OAB **não usar**
-  (Pergunta 13, `docs/normas-oab.md`).
+| Tela | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 0:00–0:03 | 3 coisas que a CLT exige no home office | — | Casa/laptop | Sem imagem — só tipografia |
+| 0:03–0:15 | 1. Acordo de teletrabalho por escrito | — | Documento com assinatura | Sem imagem |
+| 0:15–0:27 | 2. Regras de custeio da estrutura | Internet, energia, equipamento | Wi-fi/tomada estilizados | Sem imagem |
+| 0:27–0:38 | 3. Controle de jornada, quando aplicável | — | Relógio | Sem imagem |
+| 0:38–0:45 | Gutmann & Silva | Direito Trabalhista | — | Logotipo do escritório |
+
+Notas gerais: legendas em tela sincronizadas com a fala
+(acessibilidade); numeração visual dos 3 pontos; símbolo/logotipo da
+OAB **não usar** (Pergunta 13, `docs/normas-oab.md`).
 
 ## 7. Conformidade OAB
 

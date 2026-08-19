@@ -12,6 +12,7 @@
 | Tema | Diferença entre elisão e evasão fiscal — planejamento tributário dentro da lei |
 | Fonte do tema | Banco de temas (`temas/tributario.md`, item 3) |
 | Subtipo LinkedIn | Autoridade técnica |
+| Visual LinkedIn | Carrossel curto (5 cards) — decorre do Subtipo, ver `docs/formatos.md` |
 
 ## 2. Diagnóstico de aderência
 
@@ -40,9 +41,21 @@ conceitual — distinção doutrinária, não recomendação de estruturação.
 
 ## 3. Estrutura narrativa
 
+*Estrutura do texto longo (legenda)*
+
 Texto corrido, sem divisão em slides — parágrafos completos, registro
 analítico e denso, com citação de dispositivo legal e referência a órgão
 julgador administrativo.
+
+*Estrutura do visual (Carrossel curto)*
+
+| Card | Conteúdo | Função |
+|---|---|---|
+| 1 (capa) | "A linha entre elisão e evasão fiscal" | Capturar atenção sem alarmismo |
+| 2 | Elisão: economia lícita, em regra antes do fato gerador. Evasão: meio ilícito, posterior ou oculto | Manchete da distinção conceitual |
+| 3 | A zona cinzenta: reorganização lícita, questionada por falta de "propósito negocial" | Manchete do ponto de maior dúvida |
+| 4 | Art. 116, § único, CTN — base das autuações mais relevantes do CARF | Manchete da base legal |
+| 5 (encerramento) | Resumo + identificação do escritório | Encerramento sóbrio |
 
 ## 4. Copy final
 
@@ -78,6 +91,29 @@ julgador administrativo.
 > Gutmann & Silva Advogados atua em Direito Tributário, com foco em
 > estruturação de operações e defesa em autuações fiscais.
 
+**Visual — Carrossel curto**
+
+**Card 1 (capa)**
+> A linha entre elisão e evasão fiscal
+
+**Card 2**
+> Elisão: economia tributária por meios lícitos, em regra antes do fato
+> gerador. Evasão: redução por meio ilícito — sonegação, simulação,
+> fraude.
+
+**Card 3**
+> A dificuldade prática: reorganizações formalmente lícitas, mas
+> questionadas pelo Fisco por ausência de "propósito negocial".
+
+**Card 4**
+> O art. 116, parágrafo único, do CTN autoriza desconsiderar atos sem
+> razão econômica autônoma — sustenta boa parte das autuações do CARF.
+
+**Card 5 (encerramento)**
+> A validade depende menos da forma jurídica e mais de haver, por trás
+> dela, razão de negócio documentável. Gutmann & Silva Advogados —
+> Direito Tributário.
+
 ## 5. Legenda proposta
 
 Não aplicável — no formato Texto longo do LinkedIn, o texto acima já é a
@@ -87,10 +123,17 @@ peça completa a ser publicada, sem legenda separada.
 
 ## 6. Elementos de design recomendados
 
-- Paleta: seguir manual de marca do escritório.
-- Sem elemento visual obrigatório — o formato é predominantemente texto.
-- Logotipo do escritório: permitido na assinatura do post — símbolo/
-  logotipo da OAB **não usar** (Pergunta 13, `docs/normas-oab.md`).
+| Card | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 1 | A linha entre elisão e evasão fiscal | — | Balança ou linha divisória estilizada | Sem imagem — só tipografia/ícone |
+| 2 | Elisão x evasão | Lícito x ilícito | Dois ícones contrastantes (check/x) | Sem imagem |
+| 3 | A zona cinzenta | "Propósito negocial" | Lupa | Sem imagem |
+| 4 | Base legal | Art. 116, § único, CTN | Documento com selo | Sem imagem |
+| 5 (encerramento) | Gutmann & Silva Advogados | Direito Tributário | — | Logotipo do escritório |
+
+Notas gerais: paleta e tipografia seguem o manual de marca; registro
+visual sóbrio e corporativo; símbolo/logotipo da OAB **não usar**
+(Pergunta 13, `docs/normas-oab.md`).
 
 ## 7. Conformidade OAB
 

@@ -17,11 +17,15 @@ semana não foi alterado.
 
 ## LinkedIn (3 posts) — canal 100% B2B, registro Autoridade técnica
 
-| Dia | Área | Formato | Tema | Arquivo | Conformidade OAB |
-|---|---|---|---|---|---|
-| Segunda 17/08 | Empresarial | Texto longo | Três cláusulas que decidem o destino de uma sociedade quando os sócios discordam | `linkedin/01-segunda-empresarial.md` | ✅ |
-| Quarta 19/08 | Trabalhista | Texto longo | O que sua empresa precisa provisionar em cada modalidade de rescisão | `linkedin/02-quarta-trabalhista.md` | ✅ |
-| Sexta 21/08 | Tributário | Texto longo | A linha entre planejamento tributário lícito e evasão fiscal | `linkedin/03-sexta-tributario.md` | ✅ |
+Todo post tem texto longo (legenda) + visual obrigatório — os 3 desta
+semana caem em Autoridade técnica, logo os 3 usam Carrossel curto (ver
+`docs/formatos.md`).
+
+| Dia | Área | Formato | Subtipo | Visual | Tema | Arquivo | Conformidade OAB |
+|---|---|---|---|---|---|---|---|
+| Segunda 17/08 | Empresarial | Texto longo | Autoridade técnica | Carrossel curto | Três cláusulas que decidem o destino de uma sociedade quando os sócios discordam | `linkedin/01-segunda-empresarial.md` | ✅ |
+| Quarta 19/08 | Trabalhista | Texto longo | Autoridade técnica | Carrossel curto | O que sua empresa precisa provisionar em cada modalidade de rescisão | `linkedin/02-quarta-trabalhista.md` | ✅ |
+| Sexta 21/08 | Tributário | Texto longo | Autoridade técnica | Carrossel curto | A linha entre planejamento tributário lícito e evasão fiscal | `linkedin/03-sexta-tributario.md` | ✅ |
 
 ## Instagram (6 posts)
 
@@ -64,3 +68,12 @@ Nenhuma. Regeneração dos 3 posts de LinkedIn sob o reposicionamento B2B
 Notion atualizadas in-place, `temas/historico.md` atualizado (3 linhas de
 LinkedIn substituídas). Os 6 posts do Instagram desta semana não foram
 tocados.
+
+**Atualização de 2026-08-19**: os 9 briefings desta semana foram
+revisados para aplicar as instruções de design por slide/card (título,
+subtítulo, ícone, imagem sugeridos — seção 6) e a regra de brevidade da
+copy (seção 4), e os 3 posts de LinkedIn ganharam o visual obrigatório
+(Carrossel curto, seção 1/3/4/6). Nenhum destes 9 posts tinha arte
+iniciada no Notion (`Link da arte` vazio em todos) — reescrita sem risco
+de invalidar produção em andamento. Conteúdo jurídico e conclusão do
+diagnóstico (seção 2) não mudaram, só estrutura/copy/design.

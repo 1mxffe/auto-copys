@@ -67,11 +67,15 @@ Card único — sem estrutura de slides.
 
 ## 6. Elementos de design recomendados
 
-- Card com tom visual sóbrio, sem apelo emocional exagerado.
-- Identificação do escritório no rodapé do card:
-  `Gutmann & Silva Advogados — Direito de Família · [site] · [telefone/WhatsApp]`.
-- Logotipo do escritório permitido; símbolo/logotipo da OAB **não usar**
-  (Pergunta 13, `docs/normas-oab.md`).
+| Slide/tela | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 1 | Quando a convivência vira união estável? | Requisitos gerais previstos em lei | Aliança estilizada, sem casal/rosto | Sem imagem — só tipografia/ícone |
+
+Notas gerais: tom visual sóbrio, sem apelo emocional exagerado;
+identificação do escritório no rodapé (`Gutmann & Silva Advogados —
+Direito de Família · [site] · [telefone/WhatsApp]`); logotipo do
+escritório permitido; símbolo/logotipo da OAB **não usar** (Pergunta 13,
+`docs/normas-oab.md`).
 
 ## 7. Conformidade OAB
 

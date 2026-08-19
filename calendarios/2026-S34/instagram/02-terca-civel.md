@@ -67,12 +67,14 @@ Card único — sem estrutura de slides.
 
 ## 6. Elementos de design recomendados
 
-- Card com destaque tipográfico para "7 dias".
-- Ícone simples relacionado a compra/entrega.
-- Identificação do escritório no rodapé do card:
-  `Gutmann & Silva Advogados — Direito Cível · [site] · [telefone/WhatsApp]`.
-- Logotipo do escritório permitido; símbolo/logotipo da OAB **não usar**
-  (Pergunta 13, `docs/normas-oab.md`).
+| Slide/tela | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 1 | Você tem 7 dias para desistir de uma compra online | Prazo de arrependimento — Código de Defesa do Consumidor | Pacote/caixa de entrega | Sem imagem — só tipografia/ícone |
+
+Notas gerais: destaque tipográfico para "7 dias"; identificação do
+escritório no rodapé (`Gutmann & Silva Advogados — Direito Cível ·
+[site] · [telefone/WhatsApp]`); logotipo do escritório permitido;
+símbolo/logotipo da OAB **não usar** (Pergunta 13, `docs/normas-oab.md`).
 
 ## 7. Conformidade OAB
 

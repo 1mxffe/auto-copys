@@ -12,6 +12,7 @@
 | Tema | Cláusulas essenciais de um contrato social |
 | Fonte do tema | Banco de temas (`temas/empresarial.md`, item 2) |
 | Subtipo LinkedIn | Autoridade técnica |
+| Visual LinkedIn | Carrossel curto (5 cards) — decorre do Subtipo, ver `docs/formatos.md` |
 
 ## 2. Diagnóstico de aderência
 
@@ -36,8 +37,20 @@ comparação "com cláusula × sem cláusula" em cada ponto.
 
 ## 3. Estrutura narrativa
 
+*Estrutura do texto longo (legenda)*
+
 Texto corrido, sem divisão em slides — parágrafos completos, registro
 analítico e denso, com citação de dispositivo legal em cada ponto.
+
+*Estrutura do visual (Carrossel curto)*
+
+| Card | Conteúdo | Função |
+|---|---|---|
+| 1 (capa) | "3 cláusulas que faltam em muito contrato social" | Capturar atenção sem alarmismo |
+| 2 | Apuração de haveres na saída de sócio (art. 1.031 CC) | Manchete do 1º ponto do texto |
+| 3 | Cláusula de impasse/deadlock (art. 421 c/c 1.053, § único, CC) | Manchete do 2º ponto do texto |
+| 4 | Não concorrência pós-saída (art. 422 CC) | Manchete do 3º ponto do texto |
+| 5 (encerramento) | Resumo + identificação do escritório | Encerramento sóbrio |
 
 ## 4. Copy final
 
@@ -77,6 +90,27 @@ analítico e denso, com citação de dispositivo legal em cada ponto.
 > Gutmann & Silva Advogados atua em Direito Empresarial, com foco em
 > estruturação e revisão de contratos sociais.
 
+**Visual — Carrossel curto**
+
+**Card 1 (capa)**
+> 3 cláusulas que faltam em muito contrato social
+
+**Card 2**
+> Saída de sócio: sem cláusula própria, a apuração de haveres (art.
+> 1.031 CC) vira negociação do zero, sob pressão da saída em curso.
+
+**Card 3**
+> Impasse entre sócios: sem cláusula de deadlock, um empate societário
+> tende a paralisar a operação até o Judiciário decidir.
+
+**Card 4**
+> Não concorrência pós-saída (art. 422 CC): cláusula genérica demais
+> tende a ser mitigada pelo Judiciário.
+
+**Card 5 (encerramento)**
+> Nenhuma das três é complexa de redigir na constituição da sociedade.
+> Gutmann & Silva Advogados — Direito Empresarial.
+
 ## 5. Legenda proposta
 
 Não aplicável — no formato Texto longo do LinkedIn, o texto acima já é a
@@ -86,12 +120,17 @@ peça completa a ser publicada, sem legenda separada.
 
 ## 6. Elementos de design recomendados
 
-- Paleta: seguir manual de marca do escritório.
-- Sem elemento visual obrigatório — o formato é predominantemente texto.
-  Se houver imagem de capa, manter sóbria (ex.: foto institucional ou
-  padrão gráfico neutro), sem citar "resultado obtido para cliente".
-- Logotipo do escritório: permitido na assinatura do post — símbolo/
-  logotipo da OAB **não usar** (Pergunta 13, `docs/normas-oab.md`).
+| Card | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 1 | 3 cláusulas que faltam em muito contrato social | — | Documento/contrato | Sem imagem — só tipografia/ícone |
+| 2 | Apuração de haveres | Art. 1.031 CC | Balança ou cifrão estilizado | Sem imagem |
+| 3 | Cláusula de impasse | Deadlock societário | Duas setas em sentido oposto | Sem imagem |
+| 4 | Não concorrência pós-saída | Art. 422 CC | Documento com selo | Sem imagem |
+| 5 (encerramento) | Gutmann & Silva Advogados | Direito Empresarial | — | Logotipo do escritório |
+
+Notas gerais: paleta e tipografia seguem o manual de marca; registro
+visual sóbrio e corporativo (nada do tom didático-leigo do Instagram);
+símbolo/logotipo da OAB **não usar** (Pergunta 13, `docs/normas-oab.md`).
 
 ## 7. Conformidade OAB
 

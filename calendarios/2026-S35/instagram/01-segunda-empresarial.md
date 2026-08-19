@@ -44,13 +44,12 @@
 **Card (título + corpo)**
 > **3 cláusulas que faltam em muito contrato social**
 >
-> Contrato social pronto em poucos minutos, copiado de modelo pronto, é
-> comum — e também é onde costumam faltar três pontos que só aparecem
-> quando alguém precisa deles: como os lucros são distribuídos entre os
-> sócios, o que acontece quando um sócio quer sair da sociedade, e como
-> as decisões importantes são tomadas quando os sócios não estão de
-> acordo. Definir isso na formação da sociedade é mais simples do que
-> definir depois.
+> Contrato social pronto em poucos minutos costuma deixar de fora:
+> - Como os lucros são divididos entre os sócios
+> - O que acontece quando um sócio quer sair
+> - Como as decisões são tomadas quando não há acordo
+>
+> Definir isso na abertura é mais simples que definir depois.
 
 ## 5. Legenda proposta
 
@@ -64,13 +63,14 @@
 
 ## 6. Elementos de design recomendados
 
-- Paleta: seguir manual de marca do escritório.
-- Ícones/imagens sugeridas: ícone de documento/contrato, três marcadores
-  numerados (1, 2, 3) para as três cláusulas.
-- Logotipo do escritório: rodapé do card — símbolo/logotipo da OAB:
-  **não usar** (Pergunta 13, `docs/normas-oab.md`).
-- Tipografia/hierarquia: título em destaque maior; as 3 cláusulas em
-  lista visualmente separada do restante do corpo.
+| Slide/tela | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 1 | 3 cláusulas que faltam em muito contrato social | Divisão de lucro · saída de sócio · forma de decidir | Documento/contrato com 3 marcadores numerados | Sem imagem — só tipografia/ícone |
+
+Notas gerais: título em destaque maior; as 3 cláusulas em lista
+visualmente separada do resto do corpo; logotipo do escritório no
+rodapé; símbolo/logotipo da OAB **não usar** (Pergunta 13,
+`docs/normas-oab.md`).
 
 ## 7. Conformidade OAB
 

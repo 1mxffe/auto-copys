@@ -74,13 +74,17 @@
 
 ## 6. Elementos de design recomendados
 
-- Paleta: seguir manual de marca do escritório.
-- Ícones/imagens sugeridas: relógio/calendário estilizado para
-  representar compensação de horas; ícone de documento para o acordo.
-- Logotipo do escritório: slide 5 — símbolo/logotipo da OAB: **não
-  usar** (Pergunta 13).
-- Tipografia/hierarquia: prazos (6 meses / 1 ano) em destaque visual no
-  slide 3, por serem o dado mais buscado.
+| Slide | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 1 | Banco de horas: como funciona dentro da lei | — | Relógio estilizado | Sem imagem — só tipografia |
+| 2 | O que é | Compensar hora extra com folga | Relógio + calendário | Sem imagem |
+| 3 | Precisa de acordo formal | Individual: até 6 meses · Coletivo: até 1 ano | Documento com assinatura | Sem imagem — prazos em destaque |
+| 4 | Não compensou no prazo? | Vira hora extra a pagar | Calendário com alerta neutro | Sem imagem |
+| 5 | Gutmann & Silva | Direito Trabalhista | — | Logotipo do escritório |
+
+Notas gerais: prazos (6 meses / 1 ano) em destaque visual no slide 3,
+por serem o dado mais buscado; símbolo/logotipo da OAB **não usar**
+(Pergunta 13).
 
 ## 7. Conformidade OAB
 

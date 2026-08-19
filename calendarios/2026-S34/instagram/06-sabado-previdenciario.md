@@ -78,12 +78,17 @@ sugerir cálculo individual de elegibilidade.
 
 ## 6. Elementos de design recomendados
 
-- Legendas em tela sincronizadas com a fala (acessibilidade).
-- Números (idade mínima) em destaque tipográfico.
-- Identificação do escritório no encerramento:
-  `Gutmann & Silva Advogados — Direito Previdenciário · [site] · [telefone/WhatsApp]`.
-- Logotipo do escritório permitido; símbolo/logotipo da OAB **não usar**
-  (Pergunta 13, `docs/normas-oab.md`).
+| Tela | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 0:00–0:03 | A idade mínima de aposentadoria, hoje | — | Calendário/relógio | Sem imagem — só tipografia |
+| 0:03–0:18 | 65 anos (homem) / 62 anos (mulher) | Regra geral por idade | Número em destaque | Sem imagem |
+| 0:18–0:32 | + tempo mínimo de contribuição | Os dois critérios juntos | Ícone de soma (+) | Sem imagem |
+| 0:32–0:42 | Já contribuía antes da reforma? | Pode ter regra de transição | Documento com seta | Sem imagem |
+| 0:42–0:45 | Gutmann & Silva | Direito Previdenciário | — | Logotipo do escritório |
+
+Notas gerais: legendas em tela sincronizadas com a fala
+(acessibilidade); números (idade mínima) em destaque tipográfico;
+símbolo/logotipo da OAB **não usar** (Pergunta 13, `docs/normas-oab.md`).
 
 ## 7. Conformidade OAB
 

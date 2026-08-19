@@ -49,12 +49,10 @@ redução; fala só de modalidades e etapas gerais do pedido.
 **Card (título + corpo)**
 > **Débito tributário em aberto: existe caminho formal**
 >
-> Débito tributário federal em aberto não precisa ficar indefinido — a
-> legislação prevê modalidades de parcelamento pela Receita Federal e
-> pela PGFN, com adesão feita pelos canais oficiais. Cada modalidade tem
-> regras próprias de prazo e de encargos, definidas na legislação
-> específica de cada programa, e a manutenção das parcelas em dia é
-> condição para permanecer no parcelamento.
+> A legislação prevê parcelamento, pela Receita Federal ou pela PGFN:
+> - Adesão pelos canais oficiais
+> - Cada modalidade tem prazo e encargos próprios, previstos em lei
+> - Parcelas em dia mantêm o parcelamento válido
 
 ## 5. Legenda proposta
 
@@ -67,15 +65,15 @@ redução; fala só de modalidades e etapas gerais do pedido.
 
 ## 6. Elementos de design recomendados
 
-- Paleta: seguir manual de marca do escritório.
-- Ícones/imagens sugeridas: ícone de calendário/parcelas, documento
-  fiscal estilizado — nada que sugira "alívio" ou "desconto" (ex.: sem
-  ícone de porcentagem em destaque).
-- Logotipo do escritório: rodapé do card — símbolo/logotipo da OAB:
-  **não usar** (Pergunta 13).
-- Tipografia/hierarquia: nenhum número de percentual ou valor em
-  destaque tipográfico — evitar que a arte, mesmo sem texto prometendo
-  desconto, sugira visualmente "economia garantida".
+| Slide/tela | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 1 | Débito tributário em aberto: existe caminho formal | Parcelamento — Receita Federal e PGFN | Calendário/parcelas ou documento fiscal | Sem imagem — só tipografia/ícone |
+
+Notas gerais: nenhum ícone/número sugira "alívio" ou "desconto" — sem
+ícone de porcentagem em destaque, sem número de valor em destaque
+tipográfico, para a arte não sugerir visualmente "economia garantida";
+logotipo do escritório no rodapé; símbolo/logotipo da OAB **não usar**
+(Pergunta 13).
 
 ## 7. Conformidade OAB
 

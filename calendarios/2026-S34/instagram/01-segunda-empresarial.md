@@ -89,14 +89,17 @@ comparativo e neutro, e a nota de que EIRELI não é mais constituída.
 
 ## 6. Elementos de design recomendados
 
-- Numeração visual dos slides (1 de 5).
-- Comparação dos 3 regimes no slide 3 em formato de coluna/ícone, para
-  leitura rápida.
-- Texto enxuto — evitar jargão societário sem explicação.
-- Identificação do escritório no slide 5:
-  `Gutmann & Silva Advogados — Direito Empresarial · [site] · [telefone/WhatsApp]`.
-- Logotipo do escritório permitido; símbolo/logotipo da OAB **não usar**
-  (Pergunta 13, `docs/normas-oab.md`).
+| Slide | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 1 | MEI, EI ou sociedade limitada — qual é qual | 1 de 5 | Documento com interrogação | Sem imagem — só tipografia |
+| 2 | Isso te interessa se... | Você está formalizando ou revendo o regime | Silhueta de empreendedor | Sem imagem |
+| 3 | A diferença central | Responsabilidade x patrimônio pessoal | 3 ícones lado a lado (um por regime) | Sem imagem — comparação em coluna |
+| 4 | EIRELI não existe mais | Virou sociedade limitada unipessoal em 2021 | Documento com selo "atualizado" | Sem imagem |
+| 5 | Gutmann & Silva Advogados | Direito Empresarial | — | Logotipo do escritório |
+
+Notas gerais: paleta segue o manual de marca; numeração visual dos
+slides (1 de 5); texto enxuto, sem jargão societário sem explicação;
+símbolo/logotipo da OAB **não usar** (Pergunta 13, `docs/normas-oab.md`).
 
 ## 7. Conformidade OAB
 

@@ -12,6 +12,7 @@
 | Tema | Rescisão de contrato de trabalho — tipos e o que cada um garante |
 | Fonte do tema | Banco de temas (`temas/trabalhista.md`, item 2) |
 | Subtipo LinkedIn | Autoridade técnica |
+| Visual LinkedIn | Carrossel curto (5 cards) — decorre do Subtipo, ver `docs/formatos.md` |
 
 ## 2. Diagnóstico de aderência
 
@@ -39,8 +40,20 @@ obrigação/provisionamento por modalidade, nunca como orientação a um caso.
 
 ## 3. Estrutura narrativa
 
+*Estrutura do texto longo (legenda)*
+
 Texto corrido, sem divisão em slides — parágrafos completos, registro
 analítico e denso, ângulo empregador do início ao fim.
+
+*Estrutura do visual (Carrossel curto)*
+
+| Card | Conteúdo | Função |
+|---|---|---|
+| 1 (capa) | "O que sua empresa provisiona em cada rescisão" | Capturar atenção sem alarmismo |
+| 2 | Demissão sem justa causa: verbas completas + multa de 40% do FGTS | Manchete do 1º cenário do texto |
+| 3 | Demissão por justa causa (art. 482 CLT): ônus da prova é do empregador | Manchete do 2º cenário do texto |
+| 4 | Rescisão indireta (art. 483 CLT): maior exposição da empresa | Manchete do 3º cenário do texto |
+| 5 (encerramento) | Resumo + identificação do escritório | Encerramento sóbrio |
 
 ## 4. Copy final
 
@@ -77,6 +90,27 @@ analítico e denso, ângulo empregador do início ao fim.
 > Gutmann & Silva Advogados atua em Direito Trabalhista, com foco em
 > gestão de risco em desligamentos e passivo trabalhista.
 
+**Visual — Carrossel curto**
+
+**Card 1 (capa)**
+> O que sua empresa provisiona em cada rescisão
+
+**Card 2**
+> Demissão sem justa causa: verbas completas + multa de 40% do FGTS.
+> Prazo de pagamento: até 10 dias corridos (art. 477, § 6º, CLT).
+
+**Card 3**
+> Demissão por justa causa (art. 482 CLT): a empresa fica desobrigada do
+> aviso e da multa — mas o ônus de provar a falta grave é dela.
+
+**Card 4**
+> Rescisão indireta (art. 483 CLT): reconhecida falta grave do
+> empregador, a empresa responde pelas mesmas verbas — é o maior risco.
+
+**Card 5 (encerramento)**
+> Mapear a modalidade certa e documentar a motivação reduz a exposição.
+> Gutmann & Silva Advogados — Direito Trabalhista.
+
 ## 5. Legenda proposta
 
 Não aplicável — no formato Texto longo do LinkedIn, o texto acima já é a
@@ -86,10 +120,17 @@ peça completa a ser publicada, sem legenda separada.
 
 ## 6. Elementos de design recomendados
 
-- Paleta: seguir manual de marca do escritório.
-- Sem elemento visual obrigatório — o formato é predominantemente texto.
-- Logotipo do escritório: permitido na assinatura do post — símbolo/
-  logotipo da OAB **não usar** (Pergunta 13, `docs/normas-oab.md`).
+| Card | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 1 | O que sua empresa provisiona em cada rescisão | — | Pasta/documento trabalhista | Sem imagem — só tipografia/ícone |
+| 2 | Demissão sem justa causa | Multa de 40% do FGTS | Cifrão ou calendário (prazo 10 dias) | Sem imagem |
+| 3 | Demissão por justa causa | Art. 482 CLT | Balança | Sem imagem |
+| 4 | Rescisão indireta | Art. 483 CLT — maior exposição | Alerta neutro (sem tom de urgência) | Sem imagem |
+| 5 (encerramento) | Gutmann & Silva Advogados | Direito Trabalhista | — | Logotipo do escritório |
+
+Notas gerais: paleta e tipografia seguem o manual de marca; registro
+visual sóbrio e corporativo; símbolo/logotipo da OAB **não usar**
+(Pergunta 13, `docs/normas-oab.md`).
 
 ## 7. Conformidade OAB
 

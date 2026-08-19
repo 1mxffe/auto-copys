@@ -5,11 +5,16 @@ completo — o detalhe está no arquivo individual da pasta do canal.
 
 ## LinkedIn (3 posts)
 
-| Dia | Área | Formato | Subtipo | Tema | Arquivo | Conformidade OAB |
-|---|---|---|---|---|---|---|
-| Segunda 24/08 | Empresarial | Texto longo | Informativo direto | LGPD na prática para pequenas e médias empresas | `linkedin/01-segunda-empresarial.md` | ✅ |
-| Quarta 26/08 | Trabalhista | Texto longo | Autoridade técnica | Terceirização — o que pode e o que não pode ser terceirizado | `linkedin/02-quarta-trabalhista.md` | ✅ |
-| Sexta 28/08 | Tributário | Texto longo | Autoridade técnica | Obrigações acessórias — por que atraso gera multa mesmo sem imposto devido | `linkedin/03-sexta-tributario.md` | ✅ |
+| Dia | Área | Formato | Subtipo | Visual | Tema | Arquivo | Conformidade OAB |
+|---|---|---|---|---|---|---|---|
+| Segunda 24/08 | Empresarial | Texto longo | Informativo direto | Card estático¹ | LGPD na prática para pequenas e médias empresas | `linkedin/01-segunda-empresarial.md` | ✅ |
+| Quarta 26/08 | Trabalhista | Texto longo | Autoridade técnica | Carrossel curto¹ | Terceirização — o que pode e o que não pode ser terceirizado | `linkedin/02-quarta-trabalhista.md` | ✅ |
+| Sexta 28/08 | Tributário | Texto longo | Autoridade técnica | Carrossel curto¹ | Obrigações acessórias — por que atraso gera multa mesmo sem imposto devido | `linkedin/03-sexta-tributario.md` | ✅ |
+
+¹ Visual determinado pelo Subtipo (ver `docs/formatos.md`), mas **não
+adicionado ao briefing** — os 3 já têm `Link da arte` preenchido no
+Notion (arte em Figma iniciada sob o formato só-texto anterior). Ver nota
+em "Pendências" abaixo.
 
 ## Instagram (6 posts)
 
@@ -56,3 +61,17 @@ completo — o detalhe está no arquivo individual da pasta do canal.
   execução futura (~2 semanas após a publicação da S34).
 - Nenhum acesso à web nesta execução — todos os 9 temas vieram do banco
   evergreen, sem checagem de atualidade legislativa alternativa.
+
+**Atualização de 2026-08-19**: aplicação retroativa das instruções de
+design por slide/card e da regra de brevidade da copy (mesma mudança de
+`templates/briefing-post.md`) ficou **parcial** nesta semana, por decisão
+explícita do usuário — checado o Notion antes de mexer, 5 dos 9 posts já
+tinham `Link da arte` preenchido (arte em produção/pronta no Figma):
+os 3 do LinkedIn (`linkedin/01`, `02`, `03`) e 2 do Instagram
+(`instagram/05-sexta-familia.md`, `instagram/06-sabado-previdenciario.md`).
+Esses 5 **não foram tocados** — reescrever invalidaria arte já feita.
+Os outros 4 (`instagram/01`, `02`, `03`, `04`) foram revisados
+normalmente: seção 6 virou tabela por slide/tela, seção 4 ganhou
+marcadores no lugar de parágrafo denso onde havia (principalmente
+`instagram/01-segunda-empresarial.md` e `instagram/04-quinta-tributario.md`).
+Conteúdo jurídico e diagnóstico (seção 2) não mudaram em nenhum dos 9.

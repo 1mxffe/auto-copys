@@ -78,12 +78,16 @@ acontece", não em "como aproveitar".
 
 ## 6. Elementos de design recomendados
 
-- Linha do tempo visual no slide 4 (ícone de calendário/timeline).
-- Destaque tipográfico para "IBS" e "CBS" no slide 3.
-- Identificação do escritório no slide 5:
-  `Gutmann & Silva Advogados — Direito Tributário · [site] · [telefone/WhatsApp]`.
-- Logotipo do escritório permitido; símbolo/logotipo da OAB **não usar**
-  (Pergunta 13, `docs/normas-oab.md`).
+| Slide | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 1 | A reforma tributária começou | Veja o cronograma — 1 de 5 | Calendário | Sem imagem — só tipografia |
+| 2 | Isso te interessa se... | Sua empresa recolhe ICMS, ISS, PIS ou COFINS | Prédio/empresa estilizado | Sem imagem |
+| 3 | O que são IBS e CBS | Dois tributos substituem cinco | Moedas/cifrão | Sem imagem |
+| 4 | Linha do tempo da transição | 2026–2033, coexistência dos sistemas | Timeline horizontal | Sem imagem — linha do tempo visual |
+| 5 | Gutmann & Silva Advogados | Direito Tributário | — | Logotipo do escritório |
+
+Notas gerais: destaque tipográfico para "IBS" e "CBS" no slide 3;
+símbolo/logotipo da OAB **não usar** (Pergunta 13, `docs/normas-oab.md`).
 
 ## 7. Conformidade OAB
 

@@ -76,14 +76,16 @@ Roteiro de Reel, 30–45 segundos:
 
 ## 6. Elementos de design recomendados
 
-- Paleta: seguir manual de marca do escritório.
-- Ícones/imagens sugeridas: balança estilizada, ícones neutros de
-  "mais que aborrecimento" (ex.: termômetro de intensidade) sem
-  representar situação real.
-- Logotipo do escritório: canto do último quadro — símbolo/logotipo da
-  OAB: **não usar** (Pergunta 13).
-- Tipografia/hierarquia: texto de tela curto, legível em poucos
-  segundos; sem sobrecarregar cada quadro.
+| Tela | Título | Subtítulo | Ícone sugerido | Imagem sugerida |
+|---|---|---|---|---|
+| 0:00–0:05 | Nem toda chateação vira dano moral | — | Balança estilizada | Sem imagem — só tipografia |
+| 0:05–0:20 | Critério 1: mais que mero aborrecimento | Intensidade do fato | Termômetro de intensidade (neutro) | Sem imagem |
+| 0:20–0:35 | Critério 2: lesão a direito da personalidade | Imagem, honra, dignidade | Escudo/silhueta neutra | Sem imagem |
+| 0:35–0:45 | Cada caso depende de análise concreta | — | — | Logotipo do escritório no canto |
+
+Notas gerais: nenhum ícone/imagem deve representar situação real; texto
+de tela curto, legível em poucos segundos, sem sobrecarregar cada
+quadro; símbolo/logotipo da OAB **não usar** (Pergunta 13).
 
 ## 7. Conformidade OAB
 

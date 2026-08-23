@@ -196,6 +196,16 @@ Registrar a estrutura escolhida no cabeçalho do briefing (seção 1, campo
 anônimo — ver a nota de conformidade específica dessa estrutura em
 `docs/formatos.md`, e reforçar isso no passo 9.
 
+Antes de considerar a copy pronta, confira contra "Ganchos e retenção" em
+`docs/perfil-escritorio.md`: o primeiro slide/parágrafo abre com um gap de
+informação real (mito, pergunta, número contraintuitivo, mudança recente),
+não com definição de dicionário do termo? A abertura varia da usada nos
+posts recentes da mesma estrutura (conferir os últimos arquivos gerados em
+`calendarios/`), em vez de repetir a mesma fórmula? Se a resposta for não
+para qualquer uma das duas, reescreva a abertura antes de seguir para o
+passo 9 — sem nunca recorrer a urgência ou sensacionalismo para compensar
+(essa fronteira é a mesma da Regra 5 de `docs/normas-oab.md`).
+
 ## 9. Rodar o checklist OAB peça por peça
 
 Para cada um dos 9 briefings, aplique as 8 regras de

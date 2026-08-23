@@ -70,6 +70,45 @@ canal):
   garantia de resultado, menção a caso real de cliente. Ver checklist
   completo em `docs/normas-oab.md`.
 
+## Ganchos e retenção — informar sem ser maçante
+
+Desde 2026-08-23: sóbrio não é sinônimo de monótono. O objetivo de cada
+peça não é só transmitir a informação — é fazer quem lê querer acompanhar
+o próximo post do escritório. Isso é escolha de gancho e de fechamento,
+não de conteúdo jurídico (a precisão técnica não muda em nada).
+
+- **Curiosidade real, não isca vazia.** Abrir com um gap de informação
+  genuíno — um mito espalhado, um número que contraria a intuição, uma
+  pergunta que o leitor provavelmente nunca se fez, uma mudança recente —
+  em vez de uma definição de dicionário. "Pejotização" não precisa começar
+  com "Pejotização é..."; pode começar com o que muda na prática ou com o
+  mito mais comum sobre o tema. As 8 estruturas de conteúdo
+  (`docs/formatos.md`) já existem em parte para isso: cada uma abre de um
+  jeito diferente (Mito x verdade abre com a crença errada, Pergunta
+  frequente abre com a pergunta, Situação abre com um cenário) — use essa
+  variedade a favor da retenção, e varie também a frase de abertura dentro
+  de uma mesma estrutura de post a post, para a peça não virar fórmula
+  repetida.
+- **Fronteira com a Regra 5 de `docs/normas-oab.md`**: curiosidade não é
+  urgência. "O que a lei diz sobre essa situação" gera interesse sem
+  alarme; "você pode estar perdendo dinheiro agora" é urgência disfarçada
+  de gancho — isso é proibido, gancho forte nunca é desculpa para
+  sensacionalismo.
+- **Fechamento pode gerar antecipação de forma honesta.** Reconhecer que
+  um tema tem mais camadas do que cabe num post ("isso é só um dos
+  requisitos", "essa discussão segue em aberto no STF") já cria a sensação
+  de "tem mais coisa aqui" sem prometer nada — isso é compatível com a
+  Regra 1 (nenhuma promessa de resultado). Evite prometer explicitamente
+  "no próximo post, vamos detalhar X": o rodízio de área/tema pode não
+  permitir retomar aquele fio na semana seguinte, e um gancho não cumprido
+  é pior do que nenhum gancho.
+- **Evite tom de apostila.** Nenhum post deveria soar substituível por
+  qualquer outro do mesmo tema escrito por qualquer outro escritório —
+  isso normalmente é sintoma de abrir sempre pela definição do termo e só
+  descrever a regra, sem ângulo. Buscar o ângulo que só faz sentido a
+  partir do mito, da pergunta ou da situação daquele tema específico é o
+  que diferencia.
+
 ## O que cada área tende a cobrir
 
 Estas são linhas editoriais amplas — os temas específicos de cada semana

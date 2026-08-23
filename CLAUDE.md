@@ -41,6 +41,14 @@ ajuste, pelo campo **Status**.
   real de desempenho por estrutura. A estrutura "Situação" tem uma trava
   própria: nunca narra desfecho de processo, mesmo com protagonista
   anônimo — ver a nota de conformidade específica dessa estrutura.
+- **Sóbrio não é sinônimo de maçante**: desde 2026-08-23, toda peça abre
+  com um gap de informação real — mito, pergunta, número contraintuitivo,
+  mudança recente — nunca com definição de dicionário do termo, e varia a
+  abertura de post a post dentro da mesma estrutura. O objetivo é fazer
+  quem lê querer acompanhar o próximo post, não só informar uma vez. Ver
+  "Ganchos e retenção" em `docs/perfil-escritorio.md`. Fronteira dura com a
+  Regra 5 de `docs/normas-oab.md`: curiosidade nunca é desculpa para
+  urgência ou sensacionalismo.
 - **Git**: commit direto na branch `main`, sem Pull Request. `git pull origin
   main` sempre antes de commitar. O commit semanal só deve tocar
   `calendarios/<semana nova>/` e o append em `temas/historico.md` — nunca

@@ -22,10 +22,11 @@ quinta 8h (Brasília) ──► Routine dispara sessão nova
              ├─ 4. escolhe os temas dos 9 posts (banco de temas, ou
              │      atualidade se houver web) — 3 para LinkedIn, 6 para
              │      Instagram, sem repetir nada do histórico entre os canais
-             ├─ 5. define área×dia×formato do Instagram (rodízio) e o
-             │      subtipo de registro de cada post do LinkedIn (Autoridade
-             │      técnica 80% / Informativo direto 20% — área é sempre
-             │      Empresarial/Trabalhista/Tributário, sem rodízio)
+             ├─ 5. define área×dia×formato×estrutura de conteúdo do
+             │      Instagram (rodízio) e o subtipo de registro de cada
+             │      post do LinkedIn (Autoridade técnica 80% / Informativo
+             │      direto 20% — área é sempre Empresarial/Trabalhista/
+             │      Tributário, sem rodízio)
              ├─ 6. escreve os 9 briefings completos (copy final incluída)
              ├─ 7. roda o checklist OAB peça por peça — reescreve se
              │      necessário (este passo nunca é afrouxado por métrica)
@@ -89,6 +90,17 @@ corporativo, mais objetivo). Ver `docs/formatos.md` para as specs completas
 e `docs/perfil-escritorio.md` para o tom de voz. O checklist de
 `docs/normas-oab.md` vale integralmente nos dois subtipos — autoridade se
 constrói pela precisão da análise, nunca por autoelogio.
+
+## Instagram — estruturas de conteúdo em teste
+
+Desde 2026-08-20, cada um dos 6 posts de Instagram recebe, além do formato
+visual (Carrossel/Post estático/Reel), uma **estrutura de conteúdo** —
+Padrão, Situação, Mito x verdade, Checklist, Antes x depois, Pergunta
+frequente, Glossário ou Atualização de tema — escolhida em rodízio pra
+gerar dado real de desempenho por estrutura (ver "Instagram — estruturas
+de conteúdo" em `docs/formatos.md`). A estrutura "Situação" tem uma trava
+de conformidade própria: nunca narra desfecho de processo, mesmo com
+protagonista anônimo.
 
 ## Kanban de produção e métricas
 

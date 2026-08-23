@@ -7,7 +7,8 @@
 > registre isso em "Cobertura de dados" — não adivinhe número.
 
 > **Conformidade nunca cede a métrica.** As recomendações abaixo só podem
-> tocar formato, área, tema ou cadência — nunca sugerir afrouxar um item do
+> tocar formato, estrutura de conteúdo, área, tema ou cadência — nunca
+> sugerir afrouxar um item do
 > checklist de `docs/normas-oab.md`. Ver a trava completa em
 > `docs/aprendizados.md`.
 
@@ -49,6 +50,28 @@ média, sem prometer causalidade a partir de amostra pequena]
 
 **Leitura**: [1-2 frases]
 
+## Desempenho por estrutura de conteúdo (Instagram)
+
+Ver "Instagram — estruturas de conteúdo" em `docs/formatos.md`. Só
+Instagram — LinkedIn não usa esse campo. Se a semana analisada é anterior a
+2026-08-20 (linhas de `temas/historico.md` marcadas "—"), pule esta seção
+e registre isso em "Cobertura de dados".
+
+| Estrutura | Alcance médio | Taxa de engajamento média | Nº de posts na amostra |
+|---|---|---|---|
+| Padrão | | | |
+| Situação | | | |
+| Mito x verdade | | | |
+| Checklist | | | |
+| Antes x depois | | | |
+| Pergunta frequente | | | |
+| Glossário | | | |
+| Atualização de tema | | | |
+
+**Leitura**: [1-2 frases — com amostra pequena (poucas semanas de dado),
+não declare uma estrutura "vencedora"; só sinalize tendência a confirmar
+em rodadas futuras]
+
 ## Erros e acertos
 
 **O que funcionou**
@@ -66,7 +89,7 @@ média, sem prometer causalidade a partir de amostra pequena]
 > `docs/aprendizados.md`). Cada recomendação vira uma entrada nova naquele
 > arquivo.
 
-1. [recomendação — formato/área/tema/cadência]
+1. [recomendação — formato/estrutura de conteúdo/área/tema/cadência]
 2. [recomendação]
 3. [recomendação, se houver]
 

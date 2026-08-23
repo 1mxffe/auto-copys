@@ -32,6 +32,15 @@ ajuste, pelo campo **Status**.
   `docs/formatos.md`. Autoridade se constrói pela precisão da análise,
   nunca por autoelogio — isso não abre exceção nenhuma no checklist de
   `docs/normas-oab.md`.
+- **Instagram testa estrutura de conteúdo**: desde 2026-08-20, cada um dos
+  6 posts de Instagram recebe, além do formato visual (Carrossel/Post
+  estático/Reel), uma estrutura de conteúdo escolhida em rodízio entre 8
+  opções (Padrão, Situação, Mito x verdade, Checklist, Antes x depois,
+  Pergunta frequente, Glossário, Atualização de tema — ver "Instagram —
+  estruturas de conteúdo" em `docs/formatos.md`). O objetivo é gerar dado
+  real de desempenho por estrutura. A estrutura "Situação" tem uma trava
+  própria: nunca narra desfecho de processo, mesmo com protagonista
+  anônimo — ver a nota de conformidade específica dessa estrutura.
 - **Git**: commit direto na branch `main`, sem Pull Request. `git pull origin
   main` sempre antes de commitar. O commit semanal só deve tocar
   `calendarios/<semana nova>/` e o append em `temas/historico.md` — nunca
@@ -50,7 +59,8 @@ ajuste, pelo campo **Status**.
   internet.
 - **Conformidade nunca cede a métrica**: o relatório semanal de resultados
   (`docs/aprendizados.md`, `templates/relatorio-semanal.md`) pode recomendar
-  ajuste de formato, área, tema ou cadência — nunca pode sugerir afrouxar um
+  ajuste de formato, estrutura de conteúdo, área, tema ou cadência — nunca
+  pode sugerir afrouxar um
   item de `docs/normas-oab.md`. Otimizar por engajamento é exatamente a
   pressão que empurra copy para urgência e sensacionalismo; essa pressão
   perde sempre.

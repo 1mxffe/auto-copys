@@ -8,7 +8,8 @@ execuções seguintes — ver `docs/formatos.md` e `temas/<area>.md`.
 ## Trava inegociável
 
 > **Conformidade nunca cede a métrica.** Uma recomendação aqui só pode tocar
-> **formato, área, tema ou cadência** — nunca pode sugerir afrouxar um item
+> **formato, estrutura de conteúdo, área, tema ou cadência** — nunca pode
+> sugerir afrouxar um item
 > do checklist de `docs/normas-oab.md`. Otimizar por engajamento é
 > exatamente a pressão que empurra copy para gatilho de urgência,
 > sensacionalismo ou CTA de conversão — o oposto do que o Provimento
@@ -22,7 +23,8 @@ execuções seguintes — ver `docs/formatos.md` e `temas/<area>.md`.
 Toda vez que a skill gera o relatório semanal (posts de ~2 semanas atrás com
 métricas preenchidas no Notion), as 2-3 recomendações do relatório são
 append aqui — nunca reescrever entradas antigas. Uma recomendação só entra
-se for **acionável** (muda uma escolha concreta de formato/área/tema/cadência
+se for **acionável** (muda uma escolha concreta de formato/estrutura de
+conteúdo/área/tema/cadência
 na próxima execução) e **sóbria** (não superinterpreta uma amostra pequena —
 1-2 semanas de dado não é tendência).
 
@@ -40,7 +42,7 @@ Formato de cada entrada, a partir daqui:
 - **Observação**: [o que os números mostraram, com número — ex.: "Reels em
   Trabalhista tiveram taxa de engajamento 2x maior que Post estático na
   mesma área, nas últimas 3 semanas de dado"]
-- **Recomendação**: [ajuste concreto de formato/área/tema/cadência]
+- **Recomendação**: [ajuste concreto de formato/estrutura de conteúdo/área/tema/cadência]
 - **Status**: [Aplicado a partir da Semana AAAA-SNN | Observando mais uma
   rodada antes de aplicar | Descartado — explicar por quê]
 -->

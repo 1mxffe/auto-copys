@@ -12,6 +12,7 @@
 | Tema | [tema, como consta em `temas/<area>.md` ou pauta de atualidade] |
 | Fonte do tema | [Banco de temas | Atualidade jurídica — citar norma/decisão] |
 | Subtipo LinkedIn (só se Canal = LinkedIn) | [Autoridade técnica / Informativo direto — ver `docs/formatos.md`] |
+| Estrutura de conteúdo (só se Canal = Instagram) | [Padrão / Situação / Mito x verdade / Checklist / Antes x depois / Pergunta frequente / Glossário / Atualização de tema — ver "Instagram — estruturas de conteúdo" em `docs/formatos.md`] |
 
 ## 2. Diagnóstico de aderência
 
@@ -29,7 +30,9 @@ qual ajuste]
 ## 3. Estrutura narrativa
 
 Tabela slide/tela × conteúdo × função — adaptar número de linhas ao formato
-(ver `docs/formatos.md`):
+e à estrutura de conteúdo escolhida na seção 1 (ver "Instagram —
+estruturas de conteúdo" em `docs/formatos.md` para o que cada uma exige em
+cada slide/tela; para posts de LinkedIn, ignorar a divisão em slides):
 
 | Slide/tela | Conteúdo | Função |
 |---|---|---|

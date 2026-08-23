@@ -62,7 +62,8 @@ passo 1:
 2. Preencha cobertura de dados, ranking por taxa de engajamento, desempenho
    por área, desempenho por formato, erros e acertos.
 3. Escreva no máximo 3 recomendações — cada uma **acionável** (muda uma
-   escolha concreta de formato/área/tema/cadência) e **sóbria** (não
+   escolha concreta de formato/estrutura de conteúdo/área/tema/cadência) e
+   **sóbria** (não
    superinterpreta amostra pequena). Nenhuma pode sugerir afrouxar
    `docs/normas-oab.md` — ver a trava em `docs/aprendizados.md`.
 4. Salve como `calendarios/AAAA-SNN/relatorio.md` (a pasta da semana
@@ -122,8 +123,19 @@ da semana.
 `docs/formatos.md`). Formato de cada dia vem da semana do ciclo do
 Instagram calculada no passo 3.
 
-Isso dá uma lista de 9 (área, canal, dia, formato, e para LinkedIn também o
-subtipo de registro) para os quais escolher tema.
+Para cada um dos 6, determine também a **estrutura de conteúdo** (ver
+"Instagram — estruturas de conteúdo" em `docs/formatos.md`): entre as
+estruturas compatíveis com o formato do dia, escolha a que aparece há mais
+tempo (ou nunca) na coluna "Estrutura" de `temas/historico.md`, olhando só
+linhas de `Canal = Instagram`. Em empate, siga a ordem em que as estruturas
+aparecem no documento (Padrão, Situação, Mito x verdade, Checklist, Antes
+x depois, Pergunta frequente, Glossário, Atualização de tema). O objetivo é
+rotação real — gerar dado suficiente pra medir, no relatório de métricas,
+quais estruturas performam melhor.
+
+Isso dá uma lista de 9 (área, canal, dia, formato, para LinkedIn também o
+subtipo de registro, para Instagram também a estrutura de conteúdo) para os
+quais escolher tema.
 
 ## 6. Selecionar o tema de cada um dos 9 posts
 
@@ -173,7 +185,16 @@ nunca "você" genérico de pessoa física), no subtipo determinado no passo 5
 `docs/formatos.md`). Trabalhista no LinkedIn é sempre pelo ângulo
 empregador/RH, mesmo que `temas/trabalhista.md` liste público misto para
 aquele tema. Registrar o subtipo escolhido no cabeçalho do briefing (seção
-1, campo novo "Subtipo LinkedIn").
+1, campo "Subtipo LinkedIn").
+
+Para os 6 posts de Instagram: seguir a estrutura de conteúdo determinada
+no passo 5 (ver "Instagram — estruturas de conteúdo" em
+`docs/formatos.md` para o que cada uma exige em cada slide/tela).
+Registrar a estrutura escolhida no cabeçalho do briefing (seção 1, campo
+"Estrutura de conteúdo"). Atenção redobrada quando a estrutura for
+"Situação": nunca narrar desfecho de processo, mesmo com protagonista
+anônimo — ver a nota de conformidade específica dessa estrutura em
+`docs/formatos.md`, e reforçar isso no passo 9.
 
 ## 9. Rodar o checklist OAB peça por peça
 
@@ -184,7 +205,9 @@ com item pendente. Preencha a seção 7 do briefing com o resultado.
 
 Rode também a varredura de termos-gatilho (lista no fim de
 `docs/normas-oab.md`) sobre a copy final de cada peça, como segunda
-checagem.
+checagem. Para posts com estrutura "Situação" (ver `docs/formatos.md`),
+confira especificamente que nenhum desfecho de processo foi narrado — nem
+com protagonista anônimo — antes de marcar a Regra 2 como ✅.
 
 Este passo é **inegociável e não é influenciado por `docs/aprendizados.md`**
 — nenhuma recomendação de desempenho pode reduzir o rigor aqui.
@@ -202,8 +225,8 @@ Este passo é **inegociável e não é influenciado por `docs/aprendizados.md`**
 ## 11. Atualizar `temas/historico.md`
 
 Append de uma linha por post publicado (data, semana, área, canal,
-formato, tema, link do Notion), um por um dos 9 posts. Nunca reescrever
-linhas existentes.
+formato, **estrutura** — só para Instagram, "—" para LinkedIn — tema, link
+do Notion), um por um dos 9 posts. Nunca reescrever linhas existentes.
 
 ## 12. Publicar no Notion
 

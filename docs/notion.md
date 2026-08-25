@@ -22,6 +22,7 @@ Editorial** (não da database), criadas uma por semana:
 |---|---|---|
 | 2026-S34 | Semana 34 · 17–22/08 | `https://app.notion.com/p/3bc1d8cd0ae681568997df9a345a6432` |
 | 2026-S35 | Semana 35 · 24–29/08 | `https://app.notion.com/p/3bf1d8cd0ae681f8a6f1c85e797f0b54` |
+| 2026-S36 | Semana 36 · 31/08–05/09 | `https://app.notion.com/p/3c71d8cd0ae681219763e176a19f6c26` |
 
 Atualize esta tabela ao final de cada execução semanal, com append da nova
 linha — não reescreva as anteriores.

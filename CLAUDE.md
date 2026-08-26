@@ -18,20 +18,34 @@ ajuste, pelo campo **Status**.
 
 ## Regras que não mudam
 
-- **Volume**: 9 posts por semana, em dois calendários de canal
+- **Volume**: 8 posts por semana, em dois calendários de canal
   independentes — **LinkedIn**: 3 posts (segunda, quarta, sexta), sempre
-  formato "Texto longo". **Instagram**: 6 posts (segunda a sábado), um por
-  área — Empresarial, Cível, Trabalhista, Tributário, Família,
-  Previdenciário —, formato em rodízio. Regras completas de área × dia ×
-  formato por canal em `docs/formatos.md`.
+  formato "Texto longo". **Instagram**: 5 posts (segunda a quinta e
+  sábado — sem post na sexta), um por área — Empresarial, Cível,
+  Trabalhista, Tributário, Previdenciário —, formato em rodízio. Regras
+  completas de área × dia × formato por canal em `docs/formatos.md`.
+- **Cível tem subtemas, é a única área que os tem**: desde 2026-08-26,
+  Cível é dividida em 5 subtemas — Imobiliário, Família, Responsabilidade
+  Civil, Direito das coisas, Contratos —, cada um com o próprio banco em
+  `temas/civel/<subtema>.md`. Família deixou de ser área própria do
+  calendário (não tem mais dia fixo isolado no Instagram) e virou um
+  desses 5 subtemas; a terça-feira de Cível escolhe, semana a semana,
+  entre os 5 arquivos pela mesma regra de anti-repetição, sem preferência
+  fixa por subtema — ver `docs/formatos.md`.
+- **Trabalhista tem dois ângulos, um arquivo só**: `temas/trabalhista.md`
+  continua um banco único (sem subpastas), mas cada tema indica se o
+  ângulo predominante é do reclamante, do reclamado, ou de ambos —
+  informação para quem escreve o briefing, não um novo nível de pasta. No
+  LinkedIn o enquadramento continua sempre pelo lado do reclamado
+  (empregador/RH), independente dessa marcação.
 - **LinkedIn é canal 100% B2B**: existe para atrair empresas e reforçar o
   escritório como referência técnica. Só 3 áreas, fixas, sem rodízio —
   Empresarial, Trabalhista (sempre ângulo empregador/RH), Tributário.
-  Cível, Família e Previdenciário ficam só no Instagram. 80% dos posts do
-  LinkedIn em registro "Autoridade técnica", 20% "Informativo direto" — ver
-  `docs/formatos.md`. Autoridade se constrói pela precisão da análise,
-  nunca por autoelogio — isso não abre exceção nenhuma no checklist de
-  `docs/normas-oab.md`.
+  Cível (incluindo o subtema Família) e Previdenciário ficam só no
+  Instagram. 80% dos posts do LinkedIn em registro "Autoridade técnica",
+  20% "Informativo direto" — ver `docs/formatos.md`. Autoridade se
+  constrói pela precisão da análise, nunca por autoelogio — isso não abre
+  exceção nenhuma no checklist de `docs/normas-oab.md`.
 - **Git**: commit direto na branch `main`, sem Pull Request. `git pull origin
   main` sempre antes de commitar. O commit semanal só deve tocar
   `calendarios/<semana nova>/` e o append em `temas/historico.md` — nunca
@@ -72,7 +86,7 @@ ajuste, pelo campo **Status**.
 | `templates/calendario-semanal.md` | Template do panorama semanal (dois calendários, um por canal) |
 | `templates/relatorio-semanal.md` | Template do relatório de métricas — ranking, desempenho por área/formato, recomendações |
 | `docs/aprendizados.md` | Registro cumulativo de recomendações de desempenho, consultado ao escolher tema/área |
-| `temas/<area>.md` | Banco de temas evergreen por área (6 arquivos) |
+| `temas/<area>.md` (Empresarial, Trabalhista, Tributário, Previdenciário) e `temas/civel/<subtema>.md` (Imobiliário, Família, Responsabilidade Civil, Direito das coisas, Contratos) | Banco de temas evergreen — um arquivo por área, exceto Cível, dividida em 5 subtemas |
 | `temas/historico.md` | Registro de tudo já publicado — consultado para evitar repetição |
 | `calendarios/AAAA-SNN/` | Saída de cada semana: `calendario.md` (panorama dos dois canais) + `linkedin/` e `instagram/` (um arquivo por post) + `relatorio.md` (quando gerado, ~2 semanas depois) |
 

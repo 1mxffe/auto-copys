@@ -23,23 +23,26 @@ completo; o resumo do que deve sair:
    área, tema ou cadência — NUNCA sugerir afrouxar o checklist de
    `docs/normas-oab.md`.
 2. Calcule a próxima semana ISO (segunda a sábado) a partir da data de hoje.
-3. Produza 9 posts, em dois calendários com cadência própria:
+3. Produza 8 posts, em dois calendários com cadência própria:
    - LinkedIn: 3 posts (segunda, quarta, sexta), sempre formato "Texto longo",
      canal 100% B2B — só as 3 áreas fixas Empresarial, Trabalhista (ângulo
      empregador/RH) e Tributário, sem rodízio de área. 80% dos posts em
      registro "Autoridade técnica", 20% em "Informativo direto" (ver
      `docs/formatos.md`).
-   - Instagram: 6 posts (segunda a sábado), um por área — Empresarial, Cível,
-     Trabalhista, Tributário, Família, Previdenciário —, formato em rodízio.
+   - Instagram: 5 posts (segunda a quinta e sábado, sem post na sexta), um
+     por área — Empresarial, Cível, Trabalhista, Tributário, Previdenciário
+     —, formato em rodízio. Cível cobre 5 subtemas (Imobiliário, Família,
+     Responsabilidade Civil, Direito das coisas, Contratos).
 4. Determine formato de cada dia do Instagram seguindo a matriz de
    `docs/formatos.md` (ciclo de 3 semanas). As áreas fixas e o subtipo de
    registro do LinkedIn também estão em `docs/formatos.md`.
-5. Escolha os temas em `temas/<area>.md`, sem repetir nada de
-   `temas/historico.md` — a checagem de repetição vale para os dois canais
-   juntos, não separadamente. Considere `docs/aprendizados.md` como critério
-   de desempate entre temas igualmente elegíveis. Se houver acesso à web,
-   você pode trocar uma pauta por assunto de atualidade jurídica relevante;
-   se não houver, use o banco e siga em frente.
+5. Escolha os temas em `temas/<area>.md` (para Cível, em `temas/civel/`, um
+   arquivo por subtema), sem repetir nada de `temas/historico.md` — a
+   checagem de repetição vale para os dois canais juntos, não separadamente.
+   Considere `docs/aprendizados.md` como critério de desempate entre temas
+   igualmente elegíveis. Se houver acesso à web, você pode trocar uma pauta
+   por assunto de atualidade jurídica relevante; se não houver, use o banco
+   e siga em frente.
 6. Escreva um briefing completo por post no formato de
    `templates/briefing-post.md` (incluindo o campo Canal), com a copy final
    pronta para a arte.
@@ -53,7 +56,7 @@ completo; o resumo do que deve sair:
    `calendarios/AAAA-SNN/instagram/`, com um `calendario.md` de panorama na
    raiz da semana, e atualize `temas/historico.md`.
 9. Publique no Notion usando os IDs de `docs/notion.md`: uma linha por post
-   no banco "Posts" (9 linhas, campo Canal preenchido, Status inicial "Em
+   no banco "Posts" (8 linhas, campo Canal preenchido, Status inicial "Em
    aprovação", campos de kanban e de métrica em branco), com o briefing
    completo no corpo da página, mais a sub-página de panorama da semana com
    os dois calendários.

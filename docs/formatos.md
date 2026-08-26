@@ -8,7 +8,11 @@ cadência própria — não é mais um único calendário de 6 posts:
 | Canal | Posts/semana | Dias | Formato |
 |---|---|---|---|
 | LinkedIn | 3 | Segunda, quarta, sexta | Sempre "Texto longo" (sem rodízio) |
-| Instagram | 6 | Segunda a sábado | Rodízio entre Carrossel, Post estático e Reel |
+| Instagram | 5 | Segunda, terça, quarta, quinta e sábado (sem post na sexta) | Rodízio entre Carrossel, Post estático e Reel |
+
+Desde 2026-08-26 o Instagram não publica às sextas-feiras — Família deixou
+de ser área própria do calendário e virou subtema de Cível (ver "Cível —
+subtemas" abaixo). O volume total da semana passou de 9 para 8 posts.
 
 "Site institucional" segue listado como canal da marca em
 `docs/perfil-escritorio.md`, mas não tem formato nem calendário definidos
@@ -105,7 +109,8 @@ precisão da análise, não por autoelogio.
 
 ## Instagram — área × dia (fixo)
 
-Cada área tem um dia fixo, toda semana:
+Cada área tem um dia fixo, toda semana. Sem post na sexta desde
+2026-08-26 (ver nota acima):
 
 | Dia | Área |
 |---|---|
@@ -113,8 +118,26 @@ Cada área tem um dia fixo, toda semana:
 | Terça | Cível |
 | Quarta | Trabalhista |
 | Quinta | Tributário |
-| Sexta | Família |
 | Sábado | Previdenciário |
+
+## Cível — subtemas (desde 2026-08-26)
+
+Cível não tem mais um banco de temas único — o banco vive em
+`temas/civel/`, um arquivo por subtema: `imobiliario.md`, `familia.md`,
+`responsabilidade-civil.md`, `direito-das-coisas.md`, `contratos.md` (ver
+`temas/civel/README.md`).
+
+A terça-feira do Instagram continua sendo o único dia fixo de Cível — não
+há um dia por subtema. Para escolher **qual subtema** usar numa semana
+dada, aplique a mesma regra de anti-repetição de `temas/historico.md` nos
+5 arquivos: pegue o primeiro tema elegível (que não apareça no histórico),
+percorrendo os arquivos na ordem listada acima, sem preferência fixa por
+subtema — a rotação entre subtemas é consequência de qual banco ainda tem
+tema disponível, não uma ordem pré-definida.
+
+Registre o subtema escolhido no campo **Tema** do briefing (ex.: "Família
+— União estável..."). No Notion, a propriedade `Área` continua sendo só
+"Cível" — o Select não tem campo de subtema (ver `docs/notion.md`).
 
 ## Instagram — rodízio de formato (ciclo de 3 semanas)
 
@@ -130,7 +153,6 @@ seguidas na mesma área:
 | Terça | Cível | Post estático |
 | Quarta | Trabalhista | Reel |
 | Quinta | Tributário | Carrossel |
-| Sexta | Família | Post estático |
 | Sábado | Previdenciário | Reel |
 
 **Semana 2 do ciclo**
@@ -141,7 +163,6 @@ seguidas na mesma área:
 | Terça | Cível | Reel |
 | Quarta | Trabalhista | Carrossel |
 | Quinta | Tributário | Post estático |
-| Sexta | Família | Reel |
 | Sábado | Previdenciário | Carrossel |
 
 **Semana 3 do ciclo**
@@ -152,7 +173,6 @@ seguidas na mesma área:
 | Terça | Cível | Carrossel |
 | Quarta | Trabalhista | Post estático |
 | Quinta | Tributário | Reel |
-| Sexta | Família | Carrossel |
 | Sábado | Previdenciário | Post estático |
 
 O ciclo reinicia na semana 4 (= semana 1 novamente). Para saber em que
@@ -164,9 +184,9 @@ substituir o ensaio antigo de 5 formatos e 1 calendário só).
 ## LinkedIn — área × dia (fixo, sem rodízio)
 
 Desde 2026-08-17, o LinkedIn é canal 100% B2B — só as 3 áreas inerentemente
-corporativas, sempre as mesmas, sem alternância de grupo. Cível, Família e
-Previdenciário (áreas de pessoa física) saem do LinkedIn e seguem só no
-Instagram.
+corporativas, sempre as mesmas, sem alternância de grupo. Cível (incluindo
+o subtema Família) e Previdenciário (áreas de pessoa física) saem do
+LinkedIn e seguem só no Instagram.
 
 | Dia | Área | Ângulo |
 |---|---|---|

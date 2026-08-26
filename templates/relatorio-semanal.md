@@ -1,6 +1,6 @@
 # Relatório de resultados — Semana [NN]/[AAAA] ([DD/MM]–[DD/MM])
 
-> Gerado ~2 semanas depois da publicação, quando as métricas dos 9 posts
+> Gerado ~2 semanas depois da publicação, quando as métricas dos 8 posts
 > desta semana já estão preenchidas no banco "Posts" do Notion (Alcance,
 > Curtidas, Comentários, Compartilhamentos, Salvamentos, Cliques no link).
 > Se algum post ainda não tiver métrica preenchida, exclua-o do ranking e
@@ -13,7 +13,7 @@
 
 ## Cobertura de dados
 
-- Posts com métrica completa: [N de 9]
+- Posts com métrica completa: [N de 8]
 - Posts sem métrica (excluídos do ranking): [lista, ou "nenhum"]
 
 ## Ranking por taxa de engajamento
@@ -32,7 +32,6 @@
 | Cível | | | |
 | Trabalhista | | | |
 | Tributário | | | |
-| Família | | | |
 | Previdenciário | | | |
 
 **Leitura**: [1-2 frases — qual área se destacou, qual ficou abaixo da

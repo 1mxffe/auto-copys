@@ -5,11 +5,12 @@
 | Campo | Valor |
 |---|---|
 | Escritório | Gutmann & Silva |
-| Área | [Empresarial / Cível / Trabalhista / Tributário / Família / Previdenciário] |
+| Área | [Empresarial / Cível / Trabalhista / Tributário / Previdenciário] |
+| Subtema (só se Área = Cível) | [Imobiliário / Família / Responsabilidade Civil / Direito das coisas / Contratos] |
 | Canal | [LinkedIn / Instagram] |
 | Formato | [Texto longo (só LinkedIn) / Carrossel / Post estático / Reel (só Instagram)] |
 | Data de publicação | [AAAA-MM-DD, dia da semana] |
-| Tema | [tema, como consta em `temas/<area>.md` ou pauta de atualidade] |
+| Tema | [tema, como consta em `temas/<area>.md` (ou `temas/civel/<subtema>.md`) ou pauta de atualidade] |
 | Fonte do tema | [Banco de temas | Atualidade jurídica — citar norma/decisão] |
 | Subtipo LinkedIn (só se Canal = LinkedIn) | [Autoridade técnica / Informativo direto — ver `docs/formatos.md`] |
 
@@ -21,7 +22,8 @@
 
 **Pontos de atenção**
 - [o que precisa de cuidado redobrado neste tema específico — ex.: tema
-  sensível de Família, tema com risco de soar como captação em Tributário]
+  sensível do subtema Família (Cível), tema com risco de soar como captação
+  em Tributário]
 
 **Conclusão**: [aprovado para produção / aprovado com ajuste de ângulo — e
 qual ajuste]

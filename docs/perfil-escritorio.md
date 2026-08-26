@@ -1,16 +1,17 @@
 # Perfil do escritório — Gutmann & Silva
 
 Referência de marca e tom de voz para toda peça gerada pela automação. Serve
-para manter consistência entre os 9 posts semanais dos dois calendários
+para manter consistência entre os 8 posts semanais dos dois calendários
 (LinkedIn e Instagram — ver `docs/formatos.md`), mesmo escritos em sessões
 diferentes, meses de distância.
 
 ## Identidade
 
 - **Nome**: Gutmann & Silva Advogados Associados
-- **Áreas de atuação cobertas pelo calendário**: Direito Empresarial, Direito
-  Cível, Direito Trabalhista, Direito Tributário, Direito de Família,
-  Direito Previdenciário.
+- **Áreas de atuação cobertas pelo calendário**: Direito Empresarial,
+  Direito Cível (com os subtemas Imobiliário, Família, Responsabilidade
+  Civil, Direito das Coisas e Contratos), Direito Trabalhista, Direito
+  Tributário, Direito Previdenciário.
 - **Canais**: Instagram e LinkedIn têm calendário editorial próprio nesta
   automação — cadência, área×dia e formato de cada um em
   `docs/formatos.md`. Site institucional é canal da marca mas ainda sem
@@ -35,8 +36,9 @@ canal):
   desenvolvido, mas não necessariamente jurídico. Prioridade: relevância
   prática para quem decide na empresa — o que muda na operação, no risco,
   na gestão.
-- **Instagram — misto, por área.** Pessoa física (Cível, Família,
-  Previdenciário, parte de Trabalhista): público leigo, sem vocabulário
+- **Instagram — misto, por área.** Pessoa física (Cível — incluindo o
+  subtema Família —, Previdenciário, parte de Trabalhista): público leigo,
+  sem vocabulário
   jurídico prévio. Prioridade: clareza acima de precisão técnica
   exaustiva — precisão não pode ser sacrificada, mas o texto precisa ser
   lido por quem nunca abriu um código. Pessoa jurídica (Empresarial,
@@ -78,17 +80,27 @@ vêm de `temas/<area>.md`, não daqui.
 - **Empresarial**: contratos, societário, compliance, regulação de
   atividade econômica, mudanças legislativas que afetam operação de
   empresas.
-- **Cível**: contratos entre particulares, responsabilidade civil, direito
-  do consumidor, relações de vizinhança/condomínio.
+- **Cível**: guarda-chuva de 5 subtemas, cada um com o próprio banco em
+  `temas/civel/<subtema>.md` (ver `docs/formatos.md`, seção "Cível —
+  subtemas"):
+  - **Imobiliário**: locação, condomínio, relações de vizinhança.
+  - **Família**: casamento, união estável, divórcio, guarda, herança,
+    planejamento sucessório. Subárea sensível: exige atenção redobrada às
+    Regras 1 e 2 do checklist (nada de promessa de resultado nem menção a
+    caso concreto).
+  - **Responsabilidade Civil**: dano moral, indenização, responsabilidade
+    de plataformas digitais.
+  - **Direito das Coisas**: posse, propriedade, usucapião.
+  - **Contratos**: contratos entre particulares, direito do consumidor,
+    cláusulas abusivas.
 - **Trabalhista**: direitos e deveres na relação de emprego, mudanças na
   CLT e normas correlatas, jornada, rescisão — sempre em nível informativo,
-  nunca como consultoria para caso individual.
+  nunca como consultoria para caso individual. Cada tema do banco
+  (`temas/trabalhista.md`) indica o ângulo predominante — reclamante,
+  reclamado ou ambos — mas o arquivo continua único, sem subpastas.
 - **Tributário**: tributos federais/estaduais/municipais, obrigações
-  acessórias, parcelamentos, reformas tributárias em tramitação ou vigor.
-- **Família**: direito de família e sucessões — casamento, união estável,
-  divórcio, guarda, herança, planejamento sucessório. Área sensível: exige
-  atenção redobrada às Regras 1 e 2 do checklist (nada de promessa de
-  resultado nem menção a caso concreto).
+  acessórias, parcelamentos, reformas tributárias em tramitação ou vigor,
+  isenções (ex.: Imposto de Renda).
 - **Previdenciário**: benefícios do INSS, aposentadoria, mudanças em regras
   previdenciárias, direitos de segurados.
 

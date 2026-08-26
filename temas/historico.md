@@ -43,3 +43,16 @@ in-place — mesmos links de antes.
 | 2026-08-28 | 2026-S35 | Família | Instagram | Reel | Pacto antenupcial — o que é e quando costuma ser considerado | https://app.notion.com/p/3bf1d8cd0ae6815c80a7d75970390790 |
 | 2026-08-28 | 2026-S35 | Tributário | LinkedIn | Texto longo | Obrigações acessórias — por que atraso gera multa mesmo sem imposto devido | https://app.notion.com/p/3bf1d8cd0ae6811aa2f0d3c47bbe375e |
 | 2026-08-29 | 2026-S35 | Previdenciário | Instagram | Carrossel | Aposentadoria por tempo de contribuição — regras de transição | https://app.notion.com/p/3bf1d8cd0ae68100bfecfb55eddd4e40 |
+
+**Exceção registrada em 2026-08-26**: reorganização de temas, decisão
+editorial explícita do usuário. Família deixou de ser área própria do
+calendário e virou subtema de Cível (banco em `temas/civel/familia.md`,
+antes `temas/familia.md`) — sem dia fixo isolado no Instagram; a
+terça-feira de Cível passa a escolher, semana a semana, entre os 5
+subtemas de `temas/civel/` (ver `docs/formatos.md`). O Instagram passou de
+6 para 5 posts/semana (sem post na sexta), e o total semanal de 9 para 8
+posts. As linhas acima com Área = Família continuam válidas como registro
+histórico do que foi publicado quando Família ainda era área própria —
+não foram reescritas. Trabalhista (`temas/trabalhista.md`) passou a marcar
+o ângulo reclamante/reclamado por tema, e Tributário
+(`temas/tributario.md`) ganhou o tema novo "Isenção de Imposto de Renda".

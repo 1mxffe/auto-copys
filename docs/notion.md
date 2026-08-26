@@ -77,6 +77,13 @@ remover uma opção em uso é destrutivo para as páginas que a usam. Toda
 execução a partir da 2026-S34 (regenerada em 2026-08-14 sob o esquema de
 dois calendários) preenche `Canal`.
 
+`Família`, em `Área`, é a mesma situação desde 2026-08-26: a opção fica
+mantida no Select como legado (páginas antigas a usam), mas nenhuma
+execução nova a atribui — Família virou subtema de Cível (banco em
+`temas/civel/familia.md`), e posts sobre esse subtema levam `Área =
+"Cível"`, com o subtema anotado no título (`Tema`) da página, não numa
+propriedade própria (ver `docs/formatos.md`, seção "Cível — subtemas").
+
 `Status` ganhou duas etapas novas na mesma data ("Em produção", "Pronto para
 publicar") — o board "Produção" passou a cobrir o pipeline inteiro, do
 briefing ao post no ar, não só a aprovação editorial. `Responsável` é campo
@@ -104,7 +111,7 @@ explícita do usuário, não algo a construir dentro desta automação.
    conteúdo (sintaxe do Notion Markdown tem particularidades — tabelas em
    XML, não Markdown puro; blocos de código para trechos monoespaçados
    etc.).
-2. Para cada um dos 9 posts (3 LinkedIn + 6 Instagram), `notion-create-pages`
+2. Para cada um dos 8 posts (3 LinkedIn + 5 Instagram), `notion-create-pages`
    com `parent.data_source_id = collection://71818c42-f4bd-4c7b-8471-8ab4bfad9bdd`,
    propriedades (`Tema`, `date:Data:start`, `Semana`, `Área`, `Canal`,
    `Formato`, `Status = "Em aprovação"`, `Gancho`, `Conformidade OAB`) e o
@@ -117,7 +124,7 @@ explícita do usuário, não algo a construir dentro desta automação.
 3. Criar a sub-página da semana (`notion-create-pages`,
    `parent.page_id = 3bb1d8cd0ae680ccad77ccddb430d0ab`) com o panorama da
    semana (os dois calendários, ver `templates/calendario-semanal.md`) e
-   `<mention-page>` para cada um dos 9 posts criados no passo 2.
+   `<mention-page>` para cada um dos 8 posts criados no passo 2.
 4. Não recriar database, data source nem views — eles persistem entre
    execuções.
 5. Registrar a nova sub-página na tabela acima, neste arquivo, e commitar
@@ -125,7 +132,7 @@ explícita do usuário, não algo a construir dentro desta automação.
 
 ## Como publicar o relatório de métricas (passo 2 da skill)
 
-1. Ler as propriedades de métrica dos 9 posts da semana analisada
+1. Ler as propriedades de métrica dos 8 posts da semana analisada
    (`notion-query-database-view` ou `notion-fetch` sobre a página de cada
    post) — nunca recalcular `Taxa de engajamento` manualmente, é Formula.
 2. Escrever `calendarios/AAAA-SNN/relatorio.md` a partir de

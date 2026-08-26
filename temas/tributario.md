@@ -68,3 +68,13 @@
     recomendar decisão para empresa específica.
     **Público**: microempreendedores em crescimento.
     **Risco de conformidade**: baixo.
+
+11. **Tema**: Isenção de Imposto de Renda — quem tem direito e como
+    comprovar.
+    **Ângulo informativo**: hipóteses gerais de isenção (doença grave,
+    rendimento dentro do limite de isenção, verbas específicas), sem
+    calcular caso individual nem prometer deferimento.
+    **Público**: aposentados, pensionistas e pessoas físicas em geral
+    avaliando a declaração de IR.
+    **Risco de conformidade**: médio — evitar prometer "restituição
+    garantida"; manter tom estritamente informativo.

@@ -1,4 +1,4 @@
-# Banco de temas — Direito de Família
+# Banco de temas — Cível › Família
 
 Área sensível por natureza (relações pessoais, herança, guarda de filhos).
 Atenção redobrada às Regras 1, 2 e 5 do checklist de `docs/normas-oab.md`
@@ -69,3 +69,10 @@ em toda pauta desta lista.
     prometer economia tributária específica (interseção com Regra 1/4).
     **Público**: famílias com patrimônio empresarial.
     **Risco de conformidade**: médio.
+
+11. **Tema**: Testamento vital / diretivas antecipadas de vontade — o que é
+    e qual sua validade.
+    **Ângulo informativo**: explicar o instituto, distinto do testamento
+    patrimonial (item 6 acima).
+    **Público**: público geral, tema de planejamento pessoal.
+    **Risco de conformidade**: baixo.

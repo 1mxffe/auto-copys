@@ -3,9 +3,11 @@
 Automação do calendário editorial semanal do escritório **Gutmann & Silva**.
 Toda quinta às 8h (Brasília), uma Routine do Claude Code gera **dois
 calendários separados** — LinkedIn (3 posts/semana, 100% B2B, para atrair
-empresas) e Instagram (6 posts/semana, um por área) —, confere cada peça
-contra o checklist de conformidade da OAB, publica no Notion e comita
-direto na branch `main` deste repositório.
+empresas) e Instagram (5 posts/semana, um por área — Cível cobre os
+subtemas Imobiliário, Família, Responsabilidade Civil, Direito das coisas
+e Contratos) —, confere cada peça contra o checklist de conformidade da
+OAB, publica no Notion e comita direto na branch `main` deste
+repositório.
 
 ## Como funciona
 
@@ -19,14 +21,15 @@ quinta 8h (Brasília) ──► Routine dispara sessão nova
              │      de seguir
              ├─ 3. lê perfil, formatos/canais, normas OAB, histórico de
              │      temas e aprendizados de desempenho
-             ├─ 4. escolhe os temas dos 9 posts (banco de temas, ou
-             │      atualidade se houver web) — 3 para LinkedIn, 6 para
+             ├─ 4. escolhe os temas dos 8 posts (banco de temas, ou
+             │      atualidade se houver web) — 3 para LinkedIn, 5 para
              │      Instagram, sem repetir nada do histórico entre os canais
+             │      (Cível escolhe entre os 5 subtemas em temas/civel/)
              ├─ 5. define área×dia×formato do Instagram (rodízio) e o
              │      subtipo de registro de cada post do LinkedIn (Autoridade
              │      técnica 80% / Informativo direto 20% — área é sempre
              │      Empresarial/Trabalhista/Tributário, sem rodízio)
-             ├─ 6. escreve os 9 briefings completos (copy final incluída)
+             ├─ 6. escreve os 8 briefings completos (copy final incluída)
              ├─ 7. roda o checklist OAB peça por peça — reescreve se
              │      necessário (este passo nunca é afrouxado por métrica)
              ├─ 8. salva em calendarios/AAAA-SNN/{linkedin,instagram}/,
@@ -63,7 +66,7 @@ neste repositório, e não por Pull Request.
 | `docs/notion.md` | IDs do Notion e como publicar |
 | `templates/` | Template de briefing, de panorama semanal e de relatório de métricas |
 | `docs/aprendizados.md` | Recomendações de desempenho acumuladas, semana a semana |
-| `temas/<area>.md` | Banco de temas evergreen, 6 arquivos |
+| `temas/<area>.md` e `temas/civel/<subtema>.md` | Banco de temas evergreen — um arquivo por área, exceto Cível, dividida em 5 subtemas (Imobiliário, Família, Responsabilidade Civil, Direito das coisas, Contratos) |
 | `temas/historico.md` | Anti-repetição — tudo já publicado, nos dois canais |
 | `calendarios/AAAA-SNN/` | Saída de cada semana — `calendario.md` + `linkedin/` + `instagram/` + `relatorio.md` quando gerado |
 

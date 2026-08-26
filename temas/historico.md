@@ -56,3 +56,14 @@ histórico do que foi publicado quando Família ainda era área própria —
 não foram reescritas. Trabalhista (`temas/trabalhista.md`) passou a marcar
 o ângulo reclamante/reclamado por tema, e Tributário
 (`temas/tributario.md`) ganhou o tema novo "Isenção de Imposto de Renda".
+
+| Data | Semana | Área | Canal | Formato | Tema | Link Notion |
+|---|---|---|---|---|---|---|
+| 2026-08-31 | 2026-S36 | Empresarial | Instagram | Reel | Dissolução de sociedade — causas e etapas | https://app.notion.com/p/3c81d8cd0ae681b1a806d5f8221e4126 |
+| 2026-08-31 | 2026-S36 | Empresarial | LinkedIn | Texto longo | Compliance e programas de integridade — por que empresas de médio porte já são cobradas por isso | https://app.notion.com/p/3c81d8cd0ae6818d9ad3d9813b6b8955 |
+| 2026-09-01 | 2026-S36 | Cível (subtema Imobiliário) | Instagram | Carrossel | Vizinhança e condomínio — regras básicas de convivência com respaldo legal | https://app.notion.com/p/3c81d8cd0ae681f1a1bcf548d3238159 |
+| 2026-09-02 | 2026-S36 | Trabalhista | Instagram | Post estático | Equiparação salarial — quando a lei garante mesmo salário para mesma função | https://app.notion.com/p/3c81d8cd0ae681e49341f62d155c7bf8 |
+| 2026-09-02 | 2026-S36 | Trabalhista | LinkedIn | Texto longo | Assédio moral no trabalho — o que caracteriza juridicamente | https://app.notion.com/p/3c81d8cd0ae681419b44f74e80ea303d |
+| 2026-09-03 | 2026-S36 | Tributário | Instagram | Reel | Imposto de Renda para pessoa jurídica — Lucro Real x Presumido x Simples Nacional | https://app.notion.com/p/3c81d8cd0ae68195905ce42b40fa4902 |
+| 2026-09-04 | 2026-S36 | Tributário | LinkedIn | Texto longo | Substituição tributária no ICMS — o que muda para o comércio | https://app.notion.com/p/3c81d8cd0ae681af90b8d1c9b7f019f8 |
+| 2026-09-05 | 2026-S36 | Previdenciário | Instagram | Post estático | Auxílio-doença / auxílio por incapacidade temporária — como funciona o pedido ao INSS | https://app.notion.com/p/3c81d8cd0ae681ebac52d551692ecd08 |

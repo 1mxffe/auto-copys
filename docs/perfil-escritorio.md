@@ -1,7 +1,7 @@
 # Perfil do escritório — Gutmann & Silva
 
 Referência de marca e tom de voz para toda peça gerada pela automação. Serve
-para manter consistência entre os 8 posts semanais dos dois calendários
+para manter consistência entre os 7 posts semanais dos dois calendários
 (LinkedIn e Instagram — ver `docs/formatos.md`), mesmo escritos em sessões
 diferentes, meses de distância.
 
@@ -11,7 +11,7 @@ diferentes, meses de distância.
 - **Áreas de atuação cobertas pelo calendário**: Direito Empresarial,
   Direito Cível (com os subtemas Imobiliário, Família, Responsabilidade
   Civil, Direito das Coisas e Contratos), Direito Trabalhista, Direito
-  Tributário, Direito Previdenciário.
+  Tributário.
 - **Canais**: Instagram e LinkedIn têm calendário editorial próprio nesta
   automação — cadência, área×dia e formato de cada um em
   `docs/formatos.md`. Site institucional é canal da marca mas ainda sem
@@ -37,8 +37,7 @@ canal):
   prática para quem decide na empresa — o que muda na operação, no risco,
   na gestão.
 - **Instagram — misto, por área.** Pessoa física (Cível — incluindo o
-  subtema Família —, Previdenciário, parte de Trabalhista): público leigo,
-  sem vocabulário
+  subtema Família —, parte de Trabalhista): público leigo, sem vocabulário
   jurídico prévio. Prioridade: clareza acima de precisão técnica
   exaustiva — precisão não pode ser sacrificada, mas o texto precisa ser
   lido por quem nunca abriu um código. Pessoa jurídica (Empresarial,
@@ -101,8 +100,6 @@ vêm de `temas/<area>.md`, não daqui.
 - **Tributário**: tributos federais/estaduais/municipais, obrigações
   acessórias, parcelamentos, reformas tributárias em tramitação ou vigor,
   isenções (ex.: Imposto de Renda).
-- **Previdenciário**: benefícios do INSS, aposentadoria, mudanças em regras
-  previdenciárias, direitos de segurados.
 
 ## Assinatura visual (referência para a seção de design dos briefings)
 

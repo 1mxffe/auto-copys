@@ -1,7 +1,7 @@
 # Relatório de resultados — Semana [NN]/[AAAA] ([DD/MM]–[DD/MM])
 
-> Gerado ~2 semanas depois da publicação, quando as métricas dos 8 posts
-> desta semana já estão preenchidas no banco "Posts" do Notion (Alcance,
+> Gerado ~2 semanas depois da publicação, quando as métricas de todos os
+> posts desta semana já estão preenchidas no banco "Posts" do Notion (Alcance,
 > Curtidas, Comentários, Compartilhamentos, Salvamentos, Cliques no link).
 > Se algum post ainda não tiver métrica preenchida, exclua-o do ranking e
 > registre isso em "Cobertura de dados" — não adivinhe número.
@@ -13,7 +13,9 @@
 
 ## Cobertura de dados
 
-- Posts com métrica completa: [N de 8]
+- Posts com métrica completa: [N de total de posts da semana — 7 desde
+  que Previdenciário saiu do calendário em 2026-08-28, 8 ou 9 em semanas
+  anteriores]
 - Posts sem métrica (excluídos do ranking): [lista, ou "nenhum"]
 
 ## Ranking por taxa de engajamento
@@ -32,7 +34,6 @@
 | Cível | | | |
 | Trabalhista | | | |
 | Tributário | | | |
-| Previdenciário | | | |
 
 **Leitura**: [1-2 frases — qual área se destacou, qual ficou abaixo da
 média, sem prometer causalidade a partir de amostra pequena]

@@ -8,11 +8,16 @@ cadência própria — não é mais um único calendário de 6 posts:
 | Canal | Posts/semana | Dias | Formato |
 |---|---|---|---|
 | LinkedIn | 3 | Segunda, quarta, sexta | Sempre "Texto longo" (sem rodízio) |
-| Instagram | 5 | Segunda, terça, quarta, quinta e sábado (sem post na sexta) | Rodízio entre Carrossel, Post estático e Reel |
+| Instagram | 4 | Segunda, terça, quarta e quinta (sem post na sexta nem no sábado) | Rodízio entre Carrossel, Post estático e Reel |
 
 Desde 2026-08-26 o Instagram não publica às sextas-feiras — Família deixou
 de ser área própria do calendário e virou subtema de Cível (ver "Cível —
 subtemas" abaixo). O volume total da semana passou de 9 para 8 posts.
+
+Desde 2026-08-28 o Instagram também não publica mais aos sábados —
+Previdenciário saiu do calendário (decisão editorial explícita do usuário,
+sem substituição por outra área) e não foi trocado por nenhum outro dia ou
+área. O volume total da semana passou de 8 para 7 posts.
 
 "Site institucional" segue listado como canal da marca em
 `docs/perfil-escritorio.md`, mas não tem formato nem calendário definidos
@@ -110,7 +115,7 @@ precisão da análise, não por autoelogio.
 ## Instagram — área × dia (fixo)
 
 Cada área tem um dia fixo, toda semana. Sem post na sexta desde
-2026-08-26 (ver nota acima):
+2026-08-26 nem no sábado desde 2026-08-28 (ver notas acima):
 
 | Dia | Área |
 |---|---|
@@ -118,7 +123,6 @@ Cada área tem um dia fixo, toda semana. Sem post na sexta desde
 | Terça | Cível |
 | Quarta | Trabalhista |
 | Quinta | Tributário |
-| Sábado | Previdenciário |
 
 ## Cível — subtemas (desde 2026-08-26)
 
@@ -153,7 +157,6 @@ seguidas na mesma área:
 | Terça | Cível | Post estático |
 | Quarta | Trabalhista | Reel |
 | Quinta | Tributário | Carrossel |
-| Sábado | Previdenciário | Reel |
 
 **Semana 2 do ciclo**
 
@@ -163,7 +166,6 @@ seguidas na mesma área:
 | Terça | Cível | Reel |
 | Quarta | Trabalhista | Carrossel |
 | Quinta | Tributário | Post estático |
-| Sábado | Previdenciário | Carrossel |
 
 **Semana 3 do ciclo**
 
@@ -173,7 +175,6 @@ seguidas na mesma área:
 | Terça | Cível | Carrossel |
 | Quarta | Trabalhista | Post estático |
 | Quinta | Tributário | Reel |
-| Sábado | Previdenciário | Post estático |
 
 O ciclo reinicia na semana 4 (= semana 1 novamente). Para saber em que
 semana do ciclo do Instagram uma execução está, use `((N - 34) mod 3) + 1`
@@ -185,8 +186,8 @@ substituir o ensaio antigo de 5 formatos e 1 calendário só).
 
 Desde 2026-08-17, o LinkedIn é canal 100% B2B — só as 3 áreas inerentemente
 corporativas, sempre as mesmas, sem alternância de grupo. Cível (incluindo
-o subtema Família) e Previdenciário (áreas de pessoa física) saem do
-LinkedIn e seguem só no Instagram.
+o subtema Família), área de pessoa física, sai do LinkedIn e segue só no
+Instagram.
 
 | Dia | Área | Ângulo |
 |---|---|---|

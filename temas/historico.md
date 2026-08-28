@@ -67,3 +67,12 @@ o ângulo reclamante/reclamado por tema, e Tributário
 | 2026-09-03 | 2026-S36 | Tributário | Instagram | Reel | Imposto de Renda para pessoa jurídica — Lucro Real x Presumido x Simples Nacional | https://app.notion.com/p/3c81d8cd0ae68195905ce42b40fa4902 |
 | 2026-09-04 | 2026-S36 | Tributário | LinkedIn | Texto longo | Substituição tributária no ICMS — o que muda para o comércio | https://app.notion.com/p/3c81d8cd0ae681af90b8d1c9b7f019f8 |
 | 2026-09-05 | 2026-S36 | Previdenciário | Instagram | Post estático | Auxílio-doença / auxílio por incapacidade temporária — como funciona o pedido ao INSS | https://app.notion.com/p/3c81d8cd0ae681ebac52d551692ecd08 |
+
+**Exceção registrada em 2026-08-28**: Previdenciário saiu do calendário
+editorial, decisão editorial explícita do usuário — sem substituição por
+outra área ou dia. O sábado do Instagram deixou de ter post; o volume
+semanal passou de 8 para 7 posts. `temas/previdenciario.md` foi removido.
+As linhas acima com Área = Previdenciário continuam válidas como registro
+histórico do que foi publicado enquanto a área ainda existia no calendário
+— não foram reescritas nem apagadas, e as pastas `calendarios/2026-S34`,
+`2026-S35` e `2026-S36` também permanecem intactas.

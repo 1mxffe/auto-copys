@@ -18,12 +18,12 @@ ajuste, pelo campo **Status**.
 
 ## Regras que não mudam
 
-- **Volume**: 8 posts por semana, em dois calendários de canal
+- **Volume**: 7 posts por semana, em dois calendários de canal
   independentes — **LinkedIn**: 3 posts (segunda, quarta, sexta), sempre
-  formato "Texto longo". **Instagram**: 5 posts (segunda a quinta e
-  sábado — sem post na sexta), um por área — Empresarial, Cível,
-  Trabalhista, Tributário, Previdenciário —, formato em rodízio. Regras
-  completas de área × dia × formato por canal em `docs/formatos.md`.
+  formato "Texto longo". **Instagram**: 4 posts (segunda a quinta — sem
+  post na sexta nem no sábado), um por área — Empresarial, Cível,
+  Trabalhista, Tributário —, formato em rodízio. Regras completas de
+  área × dia × formato por canal em `docs/formatos.md`.
 - **Cível tem subtemas, é a única área que os tem**: desde 2026-08-26,
   Cível é dividida em 5 subtemas — Imobiliário, Família, Responsabilidade
   Civil, Direito das coisas, Contratos —, cada um com o próprio banco em
@@ -41,11 +41,11 @@ ajuste, pelo campo **Status**.
 - **LinkedIn é canal 100% B2B**: existe para atrair empresas e reforçar o
   escritório como referência técnica. Só 3 áreas, fixas, sem rodízio —
   Empresarial, Trabalhista (sempre ângulo empregador/RH), Tributário.
-  Cível (incluindo o subtema Família) e Previdenciário ficam só no
-  Instagram. 80% dos posts do LinkedIn em registro "Autoridade técnica",
-  20% "Informativo direto" — ver `docs/formatos.md`. Autoridade se
-  constrói pela precisão da análise, nunca por autoelogio — isso não abre
-  exceção nenhuma no checklist de `docs/normas-oab.md`.
+  Cível (incluindo o subtema Família) fica só no Instagram. 80% dos posts
+  do LinkedIn em registro "Autoridade técnica", 20% "Informativo direto"
+  — ver `docs/formatos.md`. Autoridade se constrói pela precisão da
+  análise, nunca por autoelogio — isso não abre exceção nenhuma no
+  checklist de `docs/normas-oab.md`.
 - **Git**: commit direto na branch `main`, sem Pull Request. `git pull origin
   main` sempre antes de commitar. O commit semanal só deve tocar
   `calendarios/<semana nova>/` e o append em `temas/historico.md` — nunca
@@ -73,6 +73,15 @@ ajuste, pelo campo **Status**.
   manual — ver `docs/notion.md`). O entregável é briefing + copy; a
   aprovação humana no Notion é o portão antes de qualquer publicação real.
 
+- **Previdenciário saiu do calendário (desde 2026-08-28)**: decisão
+  editorial explícita do usuário. O escritório deixou de publicar sobre
+  Direito Previdenciário — a área saiu do Instagram (que caiu de 5 para 4
+  posts/semana, sem post de sábado) sem ser substituída por outra área no
+  lugar. `temas/previdenciario.md` foi removido. As semanas já geradas
+  antes desta data (`calendarios/2026-S34`, `2026-S35`, `2026-S36`) e as
+  linhas correspondentes em `temas/historico.md` permanecem como registro
+  histórico — não foram reescritas nem apagadas.
+
 ## Onde está cada coisa
 
 | Caminho | Conteúdo |
@@ -86,7 +95,7 @@ ajuste, pelo campo **Status**.
 | `templates/calendario-semanal.md` | Template do panorama semanal (dois calendários, um por canal) |
 | `templates/relatorio-semanal.md` | Template do relatório de métricas — ranking, desempenho por área/formato, recomendações |
 | `docs/aprendizados.md` | Registro cumulativo de recomendações de desempenho, consultado ao escolher tema/área |
-| `temas/<area>.md` (Empresarial, Trabalhista, Tributário, Previdenciário) e `temas/civel/<subtema>.md` (Imobiliário, Família, Responsabilidade Civil, Direito das coisas, Contratos) | Banco de temas evergreen — um arquivo por área, exceto Cível, dividida em 5 subtemas |
+| `temas/<area>.md` (Empresarial, Trabalhista, Tributário) e `temas/civel/<subtema>.md` (Imobiliário, Família, Responsabilidade Civil, Direito das coisas, Contratos) | Banco de temas evergreen — um arquivo por área, exceto Cível, dividida em 5 subtemas |
 | `temas/historico.md` | Registro de tudo já publicado — consultado para evitar repetição |
 | `calendarios/AAAA-SNN/` | Saída de cada semana: `calendario.md` (panorama dos dois canais) + `linkedin/` e `instagram/` (um arquivo por post) + `relatorio.md` (quando gerado, ~2 semanas depois) |
 

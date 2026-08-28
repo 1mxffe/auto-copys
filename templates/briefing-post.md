@@ -5,7 +5,7 @@
 | Campo | Valor |
 |---|---|
 | Escritório | Gutmann & Silva |
-| Área | [Empresarial / Cível / Trabalhista / Tributário / Previdenciário] |
+| Área | [Empresarial / Cível / Trabalhista / Tributário] |
 | Subtema (só se Área = Cível) | [Imobiliário / Família / Responsabilidade Civil / Direito das coisas / Contratos] |
 | Canal | [LinkedIn / Instagram] |
 | Formato | [Texto longo (só LinkedIn) / Carrossel / Post estático / Reel (só Instagram)] |

@@ -23,15 +23,15 @@ completo; o resumo do que deve sair:
    área, tema ou cadência — NUNCA sugerir afrouxar o checklist de
    `docs/normas-oab.md`.
 2. Calcule a próxima semana ISO (segunda a sábado) a partir da data de hoje.
-3. Produza 8 posts, em dois calendários com cadência própria:
+3. Produza 7 posts, em dois calendários com cadência própria:
    - LinkedIn: 3 posts (segunda, quarta, sexta), sempre formato "Texto longo",
      canal 100% B2B — só as 3 áreas fixas Empresarial, Trabalhista (ângulo
      empregador/RH) e Tributário, sem rodízio de área. 80% dos posts em
      registro "Autoridade técnica", 20% em "Informativo direto" (ver
      `docs/formatos.md`).
-   - Instagram: 5 posts (segunda a quinta e sábado, sem post na sexta), um
-     por área — Empresarial, Cível, Trabalhista, Tributário, Previdenciário
-     —, formato em rodízio. Cível cobre 5 subtemas (Imobiliário, Família,
+   - Instagram: 4 posts (segunda a quinta, sem post na sexta nem no
+     sábado), um por área — Empresarial, Cível, Trabalhista, Tributário —,
+     formato em rodízio. Cível cobre 5 subtemas (Imobiliário, Família,
      Responsabilidade Civil, Direito das coisas, Contratos).
 4. Determine formato de cada dia do Instagram seguindo a matriz de
    `docs/formatos.md` (ciclo de 3 semanas). As áreas fixas e o subtipo de
@@ -56,7 +56,7 @@ completo; o resumo do que deve sair:
    `calendarios/AAAA-SNN/instagram/`, com um `calendario.md` de panorama na
    raiz da semana, e atualize `temas/historico.md`.
 9. Publique no Notion usando os IDs de `docs/notion.md`: uma linha por post
-   no banco "Posts" (8 linhas, campo Canal preenchido, Status inicial "Em
+   no banco "Posts" (7 linhas, campo Canal preenchido, Status inicial "Em
    aprovação", campos de kanban e de métrica em branco), com o briefing
    completo no corpo da página, mais a sub-página de panorama da semana com
    os dois calendários.

@@ -11,7 +11,7 @@ completo — o detalhe está no arquivo individual da pasta do canal.
 | Quarta | [área] | Texto longo | [tema] | `linkedin/02-quarta-area.md` | ✅/⚠️ |
 | Sexta | [área] | Texto longo | [tema] | `linkedin/03-sexta-area.md` | ✅/⚠️ |
 
-## Instagram (5 posts)
+## Instagram (4 posts)
 
 | Dia | Área | Formato | Tema | Arquivo | Conformidade OAB |
 |---|---|---|---|---|---|
@@ -19,7 +19,6 @@ completo — o detalhe está no arquivo individual da pasta do canal.
 | Terça | Cível | [formato] | [tema — indicar subtema, ex.: "Família — ..."] | `instagram/02-terca-civel.md` | ✅/⚠️ |
 | Quarta | Trabalhista | [formato] | [tema] | `instagram/03-quarta-trabalhista.md` | ✅/⚠️ |
 | Quinta | Tributário | [formato] | [tema] | `instagram/04-quinta-tributario.md` | ✅/⚠️ |
-| Sábado | Previdenciário | [formato] | [tema] | `instagram/05-sabado-previdenciario.md` | ✅/⚠️ |
 
 ## Fonte dos temas
 
@@ -29,7 +28,7 @@ completo — o detalhe está no arquivo individual da pasta do canal.
 ## Publicação no Notion
 
 - Página: Calendário Editorial (`3bb1d8cd0ae680ccad77ccddb430d0ab`)
-- Banco "Posts": 8 linhas criadas (3 Canal=LinkedIn, 5 Canal=Instagram),
+- Banco "Posts": 7 linhas criadas (3 Canal=LinkedIn, 4 Canal=Instagram),
   status inicial "Em aprovação"
 - Sub-página da semana: [link]
 

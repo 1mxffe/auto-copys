@@ -112,6 +112,28 @@ sem nenhum advogado com afinidade cadastrada (caso do Previdenciário em
 2026-08-31) fica com o campo em branco — sinal de pendência, não erro — até
 o escritório indicar um responsável.
 
+**Pool de advogados por área**, levantado da planilha em 2026-08-31 e
+ajustado manualmente depois. Ordem = ordem de rodízio; para decidir quem
+recebe o próximo post de uma área, conte quantos posts cada advogado já
+tem em `Advogado Responsavel` no banco "Posts" e atribua ao que tiver
+menos (empate: segue a ordem abaixo) — nunca reatribuir um post já
+preenchido.
+
+| Área | Rodízio (ordem) |
+|---|---|
+| Empresarial | Ricardo Gonçalves |
+| Cível (geral, sem subtema específico) | Ricardo Gonçalves, Karin Barbosa Joaquim, Aline Cristina Rivolli, Kethlyn Cristina Pereira, Matheus Gutmann |
+| Cível — subtema Imobiliário | Ricardo Gonçalves (afinidade específica — prioridade sobre o rodízio geral de Cível) |
+| Cível — subtema Contratos | Kethlyn Cristina Pereira (idem) |
+| Família (subtema de Cível) | Karin Barbosa Joaquim (afinidade específica — idem) |
+| Trabalhista | Grazielle Foltran, Fernanda Maria Alves Ferreira, Clayton Jose Batista, Gabriela Munhoz Lacerda, Daiane Baia |
+| Tributário | Amanda Camilo, Larissa |
+| Previdenciário | nenhum advogado com afinidade cadastrada — pendência; não inventar um nome, sinalizar e deixar `Advogado Responsavel` em branco |
+
+Matheus Gutmann não está na planilha original — foi incluído no rodízio
+geral de Cível por decisão explícita do usuário em 2026-08-31, depois de já
+constar como revisor de um post de Cível/Imobiliário.
+
 **Métricas — entrada manual por ora.** Sem conector de Instagram/Meta
 disponível neste ambiente, a coleta é manual: o escritório olha o Instagram
 Insights e preenche os 6 campos numéricos direto na linha do post,

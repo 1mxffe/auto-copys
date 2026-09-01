@@ -48,8 +48,10 @@ CREATE TABLE "Posts" (
   "Canal" SELECT('LinkedIn', 'Instagram'),
   "Formato" SELECT('Carrossel', 'Post estático', 'Reel', 'Stories',
                     'LinkedIn', 'Texto longo'),
-  "Status" SELECT('Rascunho', 'Em aprovação', 'Aprovado', 'Em produção',
-                   'Pronto para publicar', 'Publicado'),
+  "Status" SELECT('Rascunho', 'Briefings', 'Em produção', 'Pronto para
+                   publicar', 'Criação das artes/Edição dos vídeos',
+                   'Gravação', 'Aprovação Dr. Cris', 'Aprovação advogado
+                   da área', 'Publicado'),
   "Gancho" TEXT,
   "Conformidade OAB" SELECT('OK', 'Revisar'),
 
@@ -57,6 +59,7 @@ CREATE TABLE "Posts" (
   "Link da arte" URL,                -- Canva/Figma/Drive, preenchido em "Em produção"
   "Link do post" URL,                -- link do post no ar, preenchido em "Publicado"
   "Responsável" TEXT,                -- quem está produzindo a arte desta peça
+  "Advogado Responsavel" TEXT,       -- advogado(a) que revisa o conteúdo jurídico da peça (seção 8 do briefing)
 
   -- Métricas de desempenho (adicionado em 2026-08-14, preenchimento manual)
   "Alcance" NUMBER,
@@ -89,7 +92,47 @@ propriedade própria (ver `docs/formatos.md`, seção "Cível — subtemas").
 publicar") — o board "Produção" passou a cobrir o pipeline inteiro, do
 briefing ao post no ar, não só a aprovação editorial. `Responsável` é campo
 de texto simples (não Pessoa/People) para não depender de todo o time estar
-cadastrado como membro do workspace Notion.
+cadastrado como membro do workspace Notion. As opções de `Status` foram
+ajustadas diretamente no Notion depois disso (mudança feita fora desta
+automação) para refletir o pipeline real do escritório — a lista acima já
+reflete o estado atual; não recriar nem renomear opções existentes.
+
+`Advogado Responsavel` (campo de texto, mesma lógica de `Responsável`) foi
+adicionado diretamente no Notion para registrar qual advogado(a) da área
+revisa o conteúdo jurídico de cada peça (item "Conteúdo jurídico revisado
+por advogado responsável pela área" da seção 8 do briefing) — é um campo
+distinto de `Responsável`, que segue reservado para quem produz a arte. A
+distribuição é feita cruzando a `Área` (e o subtema, quando houver) de cada
+post com as respostas de afinidade dos advogados a uma planilha de
+formulário (fora deste repositório); quando mais de um advogado tem
+afinidade com a mesma área, o rodízio segue a ordem de resposta do
+formulário, continuando a partir do que já estiver preenchido — nunca
+reatribuindo um post que já tem `Advogado Responsavel` definido. Uma área
+sem nenhum advogado com afinidade cadastrada (caso do Previdenciário em
+2026-08-31) fica com o campo em branco — sinal de pendência, não erro — até
+o escritório indicar um responsável.
+
+**Pool de advogados por área**, levantado da planilha em 2026-08-31 e
+ajustado manualmente depois. Ordem = ordem de rodízio; para decidir quem
+recebe o próximo post de uma área, conte quantos posts cada advogado já
+tem em `Advogado Responsavel` no banco "Posts" e atribua ao que tiver
+menos (empate: segue a ordem abaixo) — nunca reatribuir um post já
+preenchido.
+
+| Área | Rodízio (ordem) |
+|---|---|
+| Empresarial | Ricardo Gonçalves |
+| Cível (geral, sem subtema específico) | Ricardo Gonçalves, Karin Barbosa Joaquim, Aline Cristina Rivolli, Kethlyn Cristina Pereira, Matheus Gutmann |
+| Cível — subtema Imobiliário | Ricardo Gonçalves (afinidade específica — prioridade sobre o rodízio geral de Cível) |
+| Cível — subtema Contratos | Kethlyn Cristina Pereira (idem) |
+| Família (subtema de Cível) | Karin Barbosa Joaquim (afinidade específica — idem) |
+| Trabalhista | Grazielle Foltran, Fernanda Maria Alves Ferreira, Clayton Jose Batista, Gabriela Munhoz Lacerda, Daiane Baia |
+| Tributário | Amanda Camilo, Larissa |
+| Previdenciário | nenhum advogado com afinidade cadastrada — pendência; não inventar um nome, sinalizar e deixar `Advogado Responsavel` em branco |
+
+Matheus Gutmann não está na planilha original — foi incluído no rodízio
+geral de Cível por decisão explícita do usuário em 2026-08-31, depois de já
+constar como revisor de um post de Cível/Imobiliário.
 
 **Métricas — entrada manual por ora.** Sem conector de Instagram/Meta
 disponível neste ambiente, a coleta é manual: o escritório olha o Instagram

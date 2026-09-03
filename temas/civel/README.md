@@ -13,9 +13,10 @@ arquivo:
 Família deixou de ser área própria do calendário (não tem mais dia fixo
 isolado no Instagram) e virou um destes 5 subtemas — o banco antigo de
 `temas/familia.md` foi incorporado integralmente a `familia.md` nesta
-pasta. Ver `docs/formatos.md` (seção "Cível — subtemas") para como a
-terça-feira do Instagram escolhe, a cada semana, qual dos 5 arquivos
-fornece o próximo tema.
+pasta. Ver `docs/formatos.md` (seção "Cível — subtemas") para como, no dia
+que Cível cair na semana (Segunda, Quarta ou Sexta, conforme o ciclo de
+área desde 2026-09-03 — Cível não tem mais dia fixo), a escolha entre os 5
+arquivos é feita.
 
 Os itens do antigo `temas/civel.md` que tratavam de direito do consumidor
 foram redistribuídos entre `contratos.md` (relação contratual de consumo)

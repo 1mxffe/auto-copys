@@ -18,12 +18,21 @@ ajuste, pelo campo **Status**.
 
 ## Regras que não mudam
 
-- **Volume**: 8 posts por semana, em dois calendários de canal
+- **Volume**: 7 posts por semana, em dois calendários de canal
   independentes — **LinkedIn**: 3 posts (segunda, quarta, sexta), sempre
-  formato "Texto longo". **Instagram**: 5 posts (segunda a quinta e
-  sábado — sem post na sexta), um por área — Empresarial, Cível,
-  Trabalhista, Tributário, Previdenciário —, formato em rodízio. Regras
-  completas de área × dia × formato por canal em `docs/formatos.md`.
+  formato "Texto longo". **Instagram**: 4 posts (segunda, quarta, quinta e
+  sexta — sem post na terça nem no sábado desde 2026-09-03). Segunda,
+  quarta e sexta cobrem as áreas gerais — Empresarial, Cível, Trabalhista,
+  Tributário — em rodízio semanal (ciclo de 4 semanas, sem dia fixo por
+  área). Quinta é exclusiva da categoria de produto "Isenção de Imposto de
+  Renda" (aposentados, pensionistas e portadores de doença grave — Lei
+  7.713/88), banco em `temas/isencao-ir.md` — não é área do direito, não
+  entra no rodízio, não some em semana nenhuma. Previdenciário deixou de
+  ter espaço no calendário do Instagram (opção mantida como legado no
+  Select "Área" do Notion, sem novas atribuições). Formato em rodízio
+  entre Reel, Post estático (1 card) e Carrossel (2 a 5 cards), alternando
+  por post em ordem cronológica, não mais por área×dia fixo. Regras
+  completas em `docs/formatos.md`.
 - **Cível tem subtemas, é a única área que os tem**: desde 2026-08-26,
   Cível é dividida em 5 subtemas — Imobiliário, Família, Responsabilidade
   Civil, Direito das coisas, Contratos —, cada um com o próprio banco em
@@ -80,13 +89,15 @@ ajuste, pelo campo **Status**.
 | `.claude/skills/calendario-semanal/SKILL.md` | Procedimento completo, passo a passo, usado pela Routine e por execuções manuais |
 | `docs/normas-oab.md` | Transcrição das 15 perguntas da Cartilha CFOAB + checklist operacional bloqueante |
 | `docs/perfil-escritorio.md` | Marca, tom de voz, público-alvo, áreas de atuação |
+| `docs/produto-isencao-ir.md` | Base editorial do produto "Isenção de Imposto de Renda" — tom, análise de referência de mercado e checklist específico da pauta fixa de quinta-feira do Instagram |
 | `docs/formatos.md` | Canais, cadência, specs de formato e as matrizes de rodízio de cada canal (área × dia × formato) |
 | `docs/notion.md` | IDs do Notion (página, database, views) e como publicar |
 | `templates/briefing-post.md` | Template de briefing por post — 8 seções, espelha o `.docx` original |
 | `templates/calendario-semanal.md` | Template do panorama semanal (dois calendários, um por canal) |
 | `templates/relatorio-semanal.md` | Template do relatório de métricas — ranking, desempenho por área/formato, recomendações |
 | `docs/aprendizados.md` | Registro cumulativo de recomendações de desempenho, consultado ao escolher tema/área |
-| `temas/<area>.md` (Empresarial, Trabalhista, Tributário, Previdenciário) e `temas/civel/<subtema>.md` (Imobiliário, Família, Responsabilidade Civil, Direito das coisas, Contratos) | Banco de temas evergreen — um arquivo por área, exceto Cível, dividida em 5 subtemas |
+| `temas/<area>.md` (Empresarial, Trabalhista, Tributário — Previdenciário mantido como legado, sem novas atribuições) e `temas/civel/<subtema>.md` (Imobiliário, Família, Responsabilidade Civil, Direito das coisas, Contratos) | Banco de temas evergreen — um arquivo por área, exceto Cível, dividida em 5 subtemas |
+| `temas/isencao-ir.md` | Banco de temas da categoria de produto "Isenção de Imposto de Renda" — exclusiva da quinta-feira no Instagram desde 2026-09-03; não é área do direito |
 | `temas/historico.md` | Registro de tudo já publicado — consultado para evitar repetição |
 | `calendarios/AAAA-SNN/` | Saída de cada semana: `calendario.md` (panorama dos dois canais) + `linkedin/` e `instagram/` (um arquivo por post) + `relatorio.md` (quando gerado, ~2 semanas depois) |
 

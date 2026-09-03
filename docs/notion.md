@@ -44,7 +44,7 @@ CREATE TABLE "Posts" (
   "date:Data:start" TEXT,           -- data de publicação (ISO)
   "Semana" TEXT,                    -- ex.: "2026-S34"
   "Área" SELECT('Empresarial', 'Cível', 'Trabalhista', 'Tributário',
-                 'Família', 'Previdenciário'),
+                 'Família', 'Previdenciário', 'Isenção de IR'),
   "Canal" SELECT('LinkedIn', 'Instagram'),
   "Formato" SELECT('Carrossel', 'Post estático', 'Reel', 'Stories',
                     'LinkedIn', 'Texto longo'),
@@ -85,6 +85,15 @@ execução nova a atribui — Família virou subtema de Cível (banco em
 "Cível"`, com o subtema anotado no título (`Tema`) da página, não numa
 propriedade própria (ver `docs/formatos.md`, seção "Cível — subtemas").
 
+`Previdenciário`, em `Área`, entra na mesma situação a partir de
+2026-09-03: a opção fica mantida no Select como legado (páginas antigas a
+usam), mas nenhuma execução nova a atribui — Previdenciário deixou de ter
+espaço no calendário do Instagram (decisão editorial explícita do
+usuário). `Isenção de IR` foi adicionada ao Select na mesma data — é a
+opção ativa para a categoria de produto exclusiva de quinta-feira no
+Instagram (não é área do direito; ver `docs/formatos.md`, seção "Instagram
+— quinta-feira: 'Isenção de IR'").
+
 `Status` ganhou duas etapas novas na mesma data ("Em produção", "Pronto para
 publicar") — o board "Produção" passou a cobrir o pipeline inteiro, do
 briefing ao post no ar, não só a aprovação editorial. `Responsável` é campo
@@ -112,7 +121,7 @@ explícita do usuário, não algo a construir dentro desta automação.
    conteúdo (sintaxe do Notion Markdown tem particularidades — tabelas em
    XML, não Markdown puro; blocos de código para trechos monoespaçados
    etc.).
-2. Para cada um dos 8 posts (3 LinkedIn + 5 Instagram), `notion-create-pages`
+2. Para cada um dos 7 posts (3 LinkedIn + 4 Instagram), `notion-create-pages`
    com `parent.data_source_id = collection://71818c42-f4bd-4c7b-8471-8ab4bfad9bdd`,
    propriedades (`Tema`, `date:Data:start`, `Semana`, `Área`, `Canal`,
    `Formato`, `Status = "Em aprovação"`, `Gancho`, `Conformidade OAB`) e o
@@ -125,7 +134,7 @@ explícita do usuário, não algo a construir dentro desta automação.
 3. Criar a sub-página da semana (`notion-create-pages`,
    `parent.page_id = 3bb1d8cd0ae680ccad77ccddb430d0ab`) com o panorama da
    semana (os dois calendários, ver `templates/calendario-semanal.md`) e
-   `<mention-page>` para cada um dos 8 posts criados no passo 2.
+   `<mention-page>` para cada um dos 7 posts criados no passo 2.
 4. Não recriar database, data source nem views — eles persistem entre
    execuções.
 5. Registrar a nova sub-página na tabela acima, neste arquivo, e commitar
@@ -133,9 +142,11 @@ explícita do usuário, não algo a construir dentro desta automação.
 
 ## Como publicar o relatório de métricas (passo 2 da skill)
 
-1. Ler as propriedades de métrica dos 8 posts da semana analisada
-   (`notion-query-database-view` ou `notion-fetch` sobre a página de cada
-   post) — nunca recalcular `Taxa de engajamento` manualmente, é Formula.
+1. Ler as propriedades de métrica de todos os posts da semana analisada
+   (7, 8 ou 9 posts, conforme a data — ver volume vigente em cada época em
+   `docs/formatos.md`) via `notion-query-database-view` ou `notion-fetch`
+   sobre a página de cada post — nunca recalcular `Taxa de engajamento`
+   manualmente, é Formula.
 2. Escrever `calendarios/AAAA-SNN/relatorio.md` a partir de
    `templates/relatorio-semanal.md`.
 3. Criar a sub-página do relatório (`notion-create-pages`,

@@ -3,11 +3,12 @@
 Automação do calendário editorial semanal do escritório **Gutmann & Silva**.
 Toda quinta às 8h (Brasília), uma Routine do Claude Code gera **dois
 calendários separados** — LinkedIn (3 posts/semana, 100% B2B, para atrair
-empresas) e Instagram (5 posts/semana, um por área — Cível cobre os
-subtemas Imobiliário, Família, Responsabilidade Civil, Direito das coisas
-e Contratos) —, confere cada peça contra o checklist de conformidade da
-OAB, publica no Notion e comita direto na branch `main` deste
-repositório.
+empresas) e Instagram (4 posts/semana: segunda, quarta e sexta em rodízio
+semanal entre as áreas gerais — Cível cobre os subtemas Imobiliário,
+Família, Responsabilidade Civil, Direito das coisas e Contratos —, e
+quinta fixa para a categoria de produto "Isenção de IR") —, confere cada
+peça contra o checklist de conformidade da OAB, publica no Notion e
+comita direto na branch `main` deste repositório.
 
 ## Como funciona
 
@@ -21,15 +22,18 @@ quinta 8h (Brasília) ──► Routine dispara sessão nova
              │      de seguir
              ├─ 3. lê perfil, formatos/canais, normas OAB, histórico de
              │      temas e aprendizados de desempenho
-             ├─ 4. escolhe os temas dos 8 posts (banco de temas, ou
-             │      atualidade se houver web) — 3 para LinkedIn, 5 para
+             ├─ 4. escolhe os temas dos 7 posts (banco de temas, ou
+             │      atualidade se houver web) — 3 para LinkedIn, 4 para
              │      Instagram, sem repetir nada do histórico entre os canais
-             │      (Cível escolhe entre os 5 subtemas em temas/civel/)
-             ├─ 5. define área×dia×formato do Instagram (rodízio) e o
-             │      subtipo de registro de cada post do LinkedIn (Autoridade
-             │      técnica 80% / Informativo direto 20% — área é sempre
+             │      (Cível escolhe entre os 5 subtemas em temas/civel/;
+             │      quinta-feira usa sempre temas/isencao-ir.md)
+             ├─ 5. define área×dia do Instagram (rodízio de 4 semanas para
+             │      segunda/quarta/sexta; quinta é fixa "Isenção de IR"),
+             │      formato de cada post (contador global) e o subtipo de
+             │      registro de cada post do LinkedIn (Autoridade técnica
+             │      80% / Informativo direto 20% — área é sempre
              │      Empresarial/Trabalhista/Tributário, sem rodízio)
-             ├─ 6. escreve os 8 briefings completos (copy final incluída)
+             ├─ 6. escreve os 7 briefings completos (copy final incluída)
              ├─ 7. roda o checklist OAB peça por peça — reescreve se
              │      necessário (este passo nunca é afrouxado por métrica)
              ├─ 8. salva em calendarios/AAAA-SNN/{linkedin,instagram}/,

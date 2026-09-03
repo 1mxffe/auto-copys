@@ -67,3 +67,29 @@ o ângulo reclamante/reclamado por tema, e Tributário
 | 2026-09-03 | 2026-S36 | Tributário | Instagram | Reel | Imposto de Renda para pessoa jurídica — Lucro Real x Presumido x Simples Nacional | https://app.notion.com/p/3c81d8cd0ae68195905ce42b40fa4902 |
 | 2026-09-04 | 2026-S36 | Tributário | LinkedIn | Texto longo | Substituição tributária no ICMS — o que muda para o comércio | https://app.notion.com/p/3c81d8cd0ae681af90b8d1c9b7f019f8 |
 | 2026-09-05 | 2026-S36 | Previdenciário | Instagram | Post estático | Auxílio-doença / auxílio por incapacidade temporária — como funciona o pedido ao INSS | https://app.notion.com/p/3c81d8cd0ae681ebac52d551692ecd08 |
+
+**Exceção registrada em 2026-09-03**: nova reorganização do calendário do
+Instagram, decisão editorial explícita do usuário. O Instagram passou de 5
+para 4 posts/semana e trocou terça e sábado por sexta — os dias passam a
+ser Segunda, Quarta, Quinta e Sexta. Segunda, quarta e sexta continuam
+cobrindo as áreas gerais (Empresarial, Cível, Trabalhista, Tributário),
+mas em rodízio semanal num ciclo de 4 semanas — nenhuma área tem mais dia
+fixo (ver `docs/formatos.md`, seção "Instagram — área × dia"; a posição do
+ciclo usa `(N - 37) mod 4`, âncora na semana 2026-S37, primeira semana
+gerada sob este esquema — a 2026-S36 acima, já em andamento, não é
+retroativa). O formato também deixou de ser matriz fixa por área×dia:
+agora é um contador global por post (ver "Instagram — rodízio de
+formato"). Quinta-feira passa a ser fixa, exclusiva da nova categoria de
+produto "Isenção de Imposto de Renda" (Lei 7.713/88, aposentados/
+pensionistas/portadores de doença grave), banco em `temas/isencao-ir.md`
+e diretrizes de tom/compliance específicas em `docs/produto-isencao-ir.md`
+— não é área do direito. Previdenciário deixou de ter espaço no
+calendário do Instagram (opção mantida como legado no Select "Área" do
+Notion, sem novas atribuições; as linhas acima com Área = Previdenciário
+continuam válidas como registro histórico). O item "Isenção de Imposto de
+Renda" do banco de Tributário (`temas/tributario.md`) foi removido e
+migrado para `temas/isencao-ir.md`, para não duplicar com a nova pauta
+fixa. O volume semanal total passou de 8 para 7 posts.
+
+| Data | Semana | Área | Canal | Formato | Tema | Link Notion |
+|---|---|---|---|---|---|---|

@@ -69,12 +69,9 @@
     **Público**: microempreendedores em crescimento.
     **Risco de conformidade**: baixo.
 
-11. **Tema**: Isenção de Imposto de Renda — quem tem direito e como
-    comprovar.
-    **Ângulo informativo**: hipóteses gerais de isenção (doença grave,
-    rendimento dentro do limite de isenção, verbas específicas), sem
-    calcular caso individual nem prometer deferimento.
-    **Público**: aposentados, pensionistas e pessoas físicas em geral
-    avaliando a declaração de IR.
-    **Risco de conformidade**: médio — evitar prometer "restituição
-    garantida"; manter tom estritamente informativo.
+<!-- Item 11 ("Isenção de Imposto de Renda — quem tem direito e como
+comprovar") foi removido em 2026-09-03 e migrado para
+temas/isencao-ir.md — virou a pauta fixa de quinta-feira do Instagram
+(categoria de produto própria, não mais um tema do banco de Tributário).
+Ver docs/formatos.md, seção "Instagram — quinta-feira: 'Isenção de IR'". -->
+

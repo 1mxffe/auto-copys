@@ -1,7 +1,8 @@
 # Relatório de resultados — Semana [NN]/[AAAA] ([DD/MM]–[DD/MM])
 
-> Gerado ~2 semanas depois da publicação, quando as métricas dos 8 posts
-> desta semana já estão preenchidas no banco "Posts" do Notion (Alcance,
+> Gerado ~2 semanas depois da publicação, quando as métricas de todos os
+> posts desta semana (7, 8 ou 9, conforme a data — ver volume vigente em
+> `docs/formatos.md`) já estão preenchidas no banco "Posts" do Notion (Alcance,
 > Curtidas, Comentários, Compartilhamentos, Salvamentos, Cliques no link).
 > Se algum post ainda não tiver métrica preenchida, exclua-o do ranking e
 > registre isso em "Cobertura de dados" — não adivinhe número.
@@ -13,7 +14,7 @@
 
 ## Cobertura de dados
 
-- Posts com métrica completa: [N de 8]
+- Posts com métrica completa: [N de total]
 - Posts sem métrica (excluídos do ranking): [lista, ou "nenhum"]
 
 ## Ranking por taxa de engajamento
@@ -32,7 +33,11 @@
 | Cível | | | |
 | Trabalhista | | | |
 | Tributário | | | |
-| Previdenciário | | | |
+| Isenção de IR | | | |
+
+<!-- "Previdenciário" só se aplica a relatórios de semanas anteriores a
+2026-09-03 (área retirada do calendário do Instagram nessa data) — usar a
+linha acima ("Isenção de IR") para semanas a partir de 2026-S37. -->
 
 **Leitura**: [1-2 frases — qual área se destacou, qual ficou abaixo da
 média, sem prometer causalidade a partir de amostra pequena]

@@ -5,12 +5,12 @@
 | Campo | Valor |
 |---|---|
 | Escritório | Gutmann & Silva |
-| Área | [Empresarial / Cível / Trabalhista / Tributário / Previdenciário] |
+| Área | [Empresarial / Cível / Trabalhista / Tributário / Isenção de IR (só Instagram, quinta-feira — não é área do direito)] |
 | Subtema (só se Área = Cível) | [Imobiliário / Família / Responsabilidade Civil / Direito das coisas / Contratos] |
 | Canal | [LinkedIn / Instagram] |
 | Formato | [Texto longo (só LinkedIn) / Carrossel / Post estático / Reel (só Instagram)] |
 | Data de publicação | [AAAA-MM-DD, dia da semana] |
-| Tema | [tema, como consta em `temas/<area>.md` (ou `temas/civel/<subtema>.md`) ou pauta de atualidade] |
+| Tema | [tema, como consta em `temas/<area>.md` (`temas/civel/<subtema>.md` ou `temas/isencao-ir.md`) ou pauta de atualidade] |
 | Fonte do tema | [Banco de temas | Atualidade jurídica — citar norma/decisão] |
 | Subtipo LinkedIn (só se Canal = LinkedIn) | [Autoridade técnica / Informativo direto — ver `docs/formatos.md`] |
 

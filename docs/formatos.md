@@ -8,11 +8,25 @@ cadência própria — não é mais um único calendário de 6 posts:
 | Canal | Posts/semana | Dias | Formato |
 |---|---|---|---|
 | LinkedIn | 3 | Segunda, quarta, sexta | Sempre "Texto longo" (sem rodízio) |
-| Instagram | 5 | Segunda, terça, quarta, quinta e sábado (sem post na sexta) | Rodízio entre Carrossel, Post estático e Reel |
+| Instagram | 4 | Segunda, quarta, quinta e sexta (sem post na terça nem no sábado) | Rodízio entre Carrossel, Post estático e Reel, por post |
 
-Desde 2026-08-26 o Instagram não publica às sextas-feiras — Família deixou
-de ser área própria do calendário e virou subtema de Cível (ver "Cível —
-subtemas" abaixo). O volume total da semana passou de 9 para 8 posts.
+Desde 2026-08-26 o Instagram não publicava às sextas-feiras — Família
+deixou de ser área própria do calendário e virou subtema de Cível (ver
+"Cível — subtemas" abaixo).
+
+**Desde 2026-09-03**, nova reorganização, decisão editorial explícita do
+usuário: o Instagram passou de 5 para 4 posts semanais e trocou terça e
+sábado por sexta — os dias passaram a ser Segunda, Quarta, Quinta e Sexta.
+Segunda, quarta e sexta continuam cobrindo as áreas gerais do escritório,
+mas agora em **rodízio semanal** entre elas (ver "Instagram — área × dia"
+abaixo) em vez de dia fixo por área. Quinta-feira passa a ser **exclusiva**
+da categoria de produto "Isenção de Imposto de Renda" (aposentados,
+pensionistas e portadores de doença grave — Lei 7.713/88), com banco
+próprio em `temas/isencao-ir.md` — não é uma área do direito, não entra no
+rodízio de área, não é substituída em nenhuma semana. Previdenciário deixou
+de ter espaço no calendário do Instagram (opção mantida como legado no
+Select "Área" do Notion — ver `docs/notion.md` — sem novas atribuições). O
+volume total da semana passou de 8 para 7 posts.
 
 "Site institucional" segue listado como canal da marca em
 `docs/perfil-escritorio.md`, mas não tem formato nem calendário definidos
@@ -25,13 +39,19 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
 ## Os 3 formatos do Instagram
 
 ### Carrossel
-- **Extensão**: 5 slides.
+- **Extensão**: 2 a 5 slides (cards) — desde 2026-09-03 deixou de ser
+  extensão fixa de 5; o número de slides varia conforme o quanto o tema
+  comporta.
 - **Estrutura fixa**: capa/gancho → identificação (o que é / por que
-  importa) → informação-chave → aprofundamento → encerramento sóbrio.
-- **Entrega**: texto de cada um dos 5 slides + legenda de publicação.
+  importa) → informação-chave → [aprofundamento, se houver slides
+  suficientes] → encerramento sóbrio. Com 2 slides, vá direto de
+  capa/gancho para um encerramento que já entrega a informação-chave; com
+  5, use a sequência completa.
+- **Entrega**: texto de cada slide (2 a 5) + legenda de publicação.
 - **O que a copy precisa entregar**: cada slide deve fazer sentido lido
   isoladamente (usuário desliza rápido), mas a sequência tem que fechar uma
-  ideia completa até o slide 5.
+  ideia completa até o último slide, qualquer que seja a extensão da
+  semana.
 
 ### Post estático
 - **Extensão**: card único.
@@ -107,18 +127,32 @@ escritório relevante ao tema (permitido pela Pergunta 08 de
 "líder") nem CTA de conversão (Pergunta 04). Autoridade se demonstra pela
 precisão da análise, não por autoelogio.
 
-## Instagram — área × dia (fixo)
+## Instagram — área × dia (desde 2026-09-03)
 
-Cada área tem um dia fixo, toda semana. Sem post na sexta desde
-2026-08-26 (ver nota acima):
+Segunda, quarta e sexta rotacionam entre as 4 áreas gerais — Empresarial,
+Cível, Trabalhista, Tributário —, num ciclo de 4 semanas: a cada semana,
+exatamente uma área fica de fora, e as outras três ocupam Segunda, Quarta
+e Sexta, num rodízio que também troca qual área cai em qual dia (nenhuma
+área fica presa a um dia fixo). Quinta-feira **não** entra nesse rodízio —
+é fixa, sempre "Isenção de IR" (ver seção própria abaixo).
 
-| Dia | Área |
-|---|---|
-| Segunda | Empresarial |
-| Terça | Cível |
-| Quarta | Trabalhista |
-| Quinta | Tributário |
-| Sábado | Previdenciário |
+| Posição do ciclo | Segunda | Quarta | Sexta | (fora nesta semana) |
+|---|---|---|---|---|
+| 0 | Empresarial | Cível | Trabalhista | Tributário |
+| 1 | Tributário | Empresarial | Cível | Trabalhista |
+| 2 | Trabalhista | Tributário | Empresarial | Cível |
+| 3 | Cível | Trabalhista | Tributário | Empresarial |
+
+O ciclo reinicia na posição 4 (= posição 0 novamente). Para saber em que
+posição do ciclo uma execução está, use `(N - 37) mod 4` — `N` é o número
+da semana ISO alvo; `37` é a primeira semana gerada já sob este esquema
+(o esquema anterior, de dia fixo por área, valeu até a semana 2026-S36
+inclusive — a reorganização foi decidida em 2026-09-03, no meio da
+2026-S36 já em andamento, e não é retroativa a essa semana).
+
+Cada área, ao longo do ciclo de 4 semanas, passa 3 semanas no calendário e
+1 semana de fora — nenhuma fica ausente por muito tempo, e não há
+preferência fixa entre elas além do que a tabela acima determina.
 
 ## Cível — subtemas (desde 2026-08-26)
 
@@ -127,9 +161,10 @@ Cível não tem mais um banco de temas único — o banco vive em
 `responsabilidade-civil.md`, `direito-das-coisas.md`, `contratos.md` (ver
 `temas/civel/README.md`).
 
-A terça-feira do Instagram continua sendo o único dia fixo de Cível — não
-há um dia por subtema. Para escolher **qual subtema** usar numa semana
-dada, aplique a mesma regra de anti-repetição de `temas/historico.md` nos
+Desde 2026-09-03, Cível não tem mais um dia fixo — cai em Segunda, Quarta
+ou Sexta conforme a posição do ciclo de área da semana (ver acima). Em
+qualquer dia que Cível apareça numa semana, para escolher **qual subtema**
+usar, aplique a mesma regra de anti-repetição de `temas/historico.md` nos
 5 arquivos: pegue o primeiro tema elegível (que não apareça no histórico),
 percorrendo os arquivos na ordem listada acima, sem preferência fixa por
 subtema — a rotação entre subtemas é consequência de qual banco ainda tem
@@ -139,47 +174,49 @@ Registre o subtema escolhido no campo **Tema** do briefing (ex.: "Família
 — União estável..."). No Notion, a propriedade `Área` continua sendo só
 "Cível" — o Select não tem campo de subtema (ver `docs/notion.md`).
 
-## Instagram — rodízio de formato (ciclo de 3 semanas)
+## Instagram — quinta-feira: "Isenção de IR" (desde 2026-09-03)
 
-Formato por dia, variando por semana do ciclo — cada área passa pelos 3
-formatos ao longo de 3 semanas, sem repetir o mesmo formato em duas semanas
-seguidas na mesma área:
+Quinta-feira é fixa, toda semana, para a categoria de produto **"Isenção
+de Imposto de Renda"** — aposentados, pensionistas e portadores de doença
+grave, Lei 7.713/88. Não é uma área do direito (por isso não entra no
+rodízio de área acima) e não é substituída por nenhuma outra pauta: se o
+banco ficar sem tema elegível, é sinal de que `temas/isencao-ir.md`
+precisa de reforço editorial, não motivo para pular a semana.
 
-**Semana 1 do ciclo**
+- **Banco de temas**: `temas/isencao-ir.md` — mesma regra de
+  anti-repetição de `temas/historico.md` que as demais áreas.
+- **Tom e compliance específicos**: leia `docs/produto-isencao-ir.md`
+  antes de escrever qualquer post desta pauta — tem a análise da
+  referência de mercado (VSH Isenta) e um reforço de compliance que soma
+  ao checklist geral de `docs/normas-oab.md`, não o substitui.
+- **Área no Notion**: opção própria `"Isenção de IR"` no Select "Área" (ver
+  `docs/notion.md`) — não usar "Previdenciário" nem "Tributário", ainda que
+  o tema tenha proximidade com os dois.
+- **Formato**: participa do mesmo contador global de formato dos outros 3
+  posts de Instagram da semana (ver seção seguinte) — não tem formato
+  fixo próprio.
 
-| Dia | Área | Formato |
-|---|---|---|
-| Segunda | Empresarial | Carrossel |
-| Terça | Cível | Post estático |
-| Quarta | Trabalhista | Reel |
-| Quinta | Tributário | Carrossel |
-| Sábado | Previdenciário | Reel |
+## Instagram — rodízio de formato (contador global, por post)
 
-**Semana 2 do ciclo**
+Desde 2026-09-03, o rodízio de formato deixou de ser uma matriz fixa por
+área×dia — como a área não tem mais dia fixo (seção acima), o formato
+passa a ser um **contador global por post**, no mesmo padrão do rodízio de
+registro do LinkedIn (ver "Registro: dois subtipos" acima).
 
-| Dia | Área | Formato |
-|---|---|---|
-| Segunda | Empresarial | Post estático |
-| Terça | Cível | Reel |
-| Quarta | Trabalhista | Carrossel |
-| Quinta | Tributário | Post estático |
-| Sábado | Previdenciário | Carrossel |
+A skill mantém um contador de posts de Instagram já publicados (conta as
+linhas com `Canal = Instagram` em `temas/historico.md`). Para cada novo
+post de Instagram da semana, na ordem cronológica de publicação (Segunda →
+Quarta → Quinta → Sexta), incremente o contador e calcule `contador mod
+3`:
 
-**Semana 3 do ciclo**
+| contador mod 3 | Formato |
+|---|---|
+| 0 | Reel |
+| 1 | Post estático |
+| 2 | Carrossel |
 
-| Dia | Área | Formato |
-|---|---|---|
-| Segunda | Empresarial | Reel |
-| Terça | Cível | Carrossel |
-| Quarta | Trabalhista | Post estático |
-| Quinta | Tributário | Reel |
-| Sábado | Previdenciário | Post estático |
-
-O ciclo reinicia na semana 4 (= semana 1 novamente). Para saber em que
-semana do ciclo do Instagram uma execução está, use `((N - 34) mod 3) + 1`
-— `N` é o número da semana ISO e `34` é a primeira semana gerada já sob
-este esquema (a semana 2026-S34 foi regenerada em 2026-08-14 para
-substituir o ensaio antigo de 5 formatos e 1 calendário só).
+O post de "Isenção de IR" da quinta-feira participa do mesmo contador que
+os posts de Segunda, Quarta e Sexta — não tem sequência própria.
 
 ## LinkedIn — área × dia (fixo, sem rodízio)
 
@@ -200,10 +237,15 @@ escolhido (`temas/<area>.md`, sem repetir `temas/historico.md`) e o
 subtipo de registro (Autoridade técnica × Informativo direto, proporção
 80/20 — ver "Registro: dois subtipos" acima), nunca a área em si.
 
-## O ciclo do Instagram continua sozinho
+## Os ciclos do Instagram e do LinkedIn são independentes
 
-Sem o ciclo do LinkedIn, só resta o ciclo de 3 semanas do Instagram (ver
-seção acima) — não há mais combinação de ciclos entre canais.
+O Instagram tem, desde 2026-09-03, dois mecanismos próprios e
+independentes entre si: o ciclo de área de 4 semanas para Segunda/Quarta/
+Sexta, e o contador global de formato por post (ambos acima) — mais a
+quinta-feira fixa de "Isenção de IR", que não participa do ciclo de área.
+O LinkedIn não tem ciclo de semana — as 3 áreas são fixas todo período, e o
+que varia é o contador de registro (Autoridade técnica × Informativo
+direto). Não há combinação de ciclos entre canais.
 
 ## Anti-repetição é por tema, não por canal
 

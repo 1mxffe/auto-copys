@@ -1,7 +1,7 @@
 # Perfil do escritório — Gutmann & Silva
 
 Referência de marca e tom de voz para toda peça gerada pela automação. Serve
-para manter consistência entre os 8 posts semanais dos dois calendários
+para manter consistência entre os 7 posts semanais dos dois calendários
 (LinkedIn e Instagram — ver `docs/formatos.md`), mesmo escritos em sessões
 diferentes, meses de distância.
 
@@ -11,7 +11,12 @@ diferentes, meses de distância.
 - **Áreas de atuação cobertas pelo calendário**: Direito Empresarial,
   Direito Cível (com os subtemas Imobiliário, Família, Responsabilidade
   Civil, Direito das Coisas e Contratos), Direito Trabalhista, Direito
-  Tributário, Direito Previdenciário.
+  Tributário. Desde 2026-09-03, Direito Previdenciário deixou de ter
+  espaço no calendário (segue sendo área de atuação do escritório, só não
+  está mais no rodízio editorial); no lugar, o Instagram ganhou uma pauta
+  fixa de produto, "Isenção de Imposto de Renda" (aposentados, pensionistas
+  e portadores de doença grave — Lei 7.713/88), exclusiva de
+  quinta-feira — ver `docs/produto-isencao-ir.md`.
 - **Canais**: Instagram e LinkedIn têm calendário editorial próprio nesta
   automação — cadência, área×dia e formato de cada um em
   `docs/formatos.md`. Site institucional é canal da marca mas ainda sem
@@ -37,13 +42,17 @@ canal):
   prática para quem decide na empresa — o que muda na operação, no risco,
   na gestão.
 - **Instagram — misto, por área.** Pessoa física (Cível — incluindo o
-  subtema Família —, Previdenciário, parte de Trabalhista): público leigo,
-  sem vocabulário
+  subtema Família —, parte de Trabalhista): público leigo, sem vocabulário
   jurídico prévio. Prioridade: clareza acima de precisão técnica
   exaustiva — precisão não pode ser sacrificada, mas o texto precisa ser
   lido por quem nunca abriu um código. Pessoa jurídica (Empresarial,
   Tributário, parte de Trabalhista): mesmo público de negócios do LinkedIn,
   mas em registro mais curto e didático (ver `docs/formatos.md`).
+- **Instagram — quinta-feira, "Isenção de IR" (público próprio, desde
+  2026-09-03).** Aposentados, pensionistas e portadores de doença grave,
+  majoritariamente 60+: linguagem ainda mais acessível que o restante do
+  Instagram, frases curtas, um conceito por post — ver diretrizes
+  completas em `docs/produto-isencao-ir.md`.
 
 ## Tom de voz
 
@@ -99,10 +108,18 @@ vêm de `temas/<area>.md`, não daqui.
   (`temas/trabalhista.md`) indica o ângulo predominante — reclamante,
   reclamado ou ambos — mas o arquivo continua único, sem subpastas.
 - **Tributário**: tributos federais/estaduais/municipais, obrigações
-  acessórias, parcelamentos, reformas tributárias em tramitação ou vigor,
-  isenções (ex.: Imposto de Renda).
-- **Previdenciário**: benefícios do INSS, aposentadoria, mudanças em regras
-  previdenciárias, direitos de segurados.
+  acessórias, parcelamentos, reformas tributárias em tramitação ou vigor.
+- **Isenção de IR** (categoria de produto, não área do direito — exclusiva
+  de quinta-feira no Instagram desde 2026-09-03): isenção de Imposto de
+  Renda para aposentados, pensionistas e portadores de doença grave (Lei
+  7.713/88). Linha editorial e tom completos em
+  `docs/produto-isencao-ir.md`, banco de temas em `temas/isencao-ir.md`.
+
+Previdenciário em geral (benefícios do INSS, aposentadoria, direitos de
+segurados fora do recorte de isenção de IR) deixou de ter espaço no
+calendário do Instagram desde 2026-09-03 — o banco antigo
+(`temas/previdenciario.md`) fica mantido como legado, sem novas
+atribuições.
 
 ## Assinatura visual (referência para a seção de design dos briefings)
 

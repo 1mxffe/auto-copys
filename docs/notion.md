@@ -52,6 +52,7 @@ CREATE TABLE "Posts" (
                    'Pronto para publicar', 'Publicado'),
   "Gancho" TEXT,
   "Conformidade OAB" SELECT('OK', 'Revisar'),
+  "Advogados revisores" TEXT,        -- nome(s) do(s) advogado(s) da área, ver abaixo
 
   -- Kanban de produção (adicionado em 2026-08-14)
   "Link da arte" URL,                -- Canva/Figma/Drive, preenchido em "Em produção"
@@ -70,6 +71,18 @@ CREATE TABLE "Posts" (
 ```
 
 Todas as opções de Select já existem no data source — não recriar.
+
+**`Advogados revisores` (adicionado em 2026-09-08), distribuição automática
+por área.** Campo TEXT, não Pessoa/People — mesma razão de `Responsável`
+(não depende de todo o time estar cadastrado como membro do workspace
+Notion, e vários advogados só têm telefone/WhatsApp registrado, não e-mail).
+Preenchido automaticamente a cada post, a partir do mapeamento área →
+advogado(s) em `docs/perfil-escritorio.md`, seção "Advogados revisores por
+área" — quando a área tem mais de um nome, todos entram, separados por
+vírgula, sem ordem de prioridade. **Isso não envia e-mail nem notificação
+nenhuma** — só deixa registrado na própria página quem deve revisar; a
+conferência continua manual, pelo Notion (ver "Fora de escopo" em
+`CLAUDE.md`).
 
 `Canal` foi adicionado em 2026-08-14, junto com a opção `Texto longo` em
 `Formato` (renomeação funcional de `LinkedIn`). As opções `Stories` e
@@ -115,7 +128,9 @@ explícita do usuário, não algo a construir dentro desta automação.
 2. Para cada um dos 8 posts (3 LinkedIn + 5 Instagram), `notion-create-pages`
    com `parent.data_source_id = collection://71818c42-f4bd-4c7b-8471-8ab4bfad9bdd`,
    propriedades (`Tema`, `date:Data:start`, `Semana`, `Área`, `Canal`,
-   `Formato`, `Status = "Em aprovação"`, `Gancho`, `Conformidade OAB`) e o
+   `Formato`, `Status = "Em aprovação"`, `Gancho`, `Conformidade OAB`,
+   `Advogados revisores` — nome(s) do mapeamento de
+   `docs/perfil-escritorio.md` para a `Área` do post) e o
    briefing completo (8 seções do template) como `content`. Deixe os campos
    de kanban (`Link da arte`, `Link do post`, `Responsável`) e de métrica
    (`Alcance`, `Curtidas`, `Comentários`, `Compartilhamentos`,

@@ -176,9 +176,12 @@ fluxo automático (ver `CLAUDE.md`).
 ## 8. Redigir os 8 briefings
 
 Um arquivo por post, a partir de `templates/briefing-post.md`, com todas as
-8 seções preenchidas (incluindo o campo **Canal** no cabeçalho) e a copy
-final pronta para arte — sem placeholder, sem colchete sobrando. Escreva no
-tom de `docs/perfil-escritorio.md`.
+8 seções preenchidas (incluindo os campos **Canal** e **Advogado(s)
+revisor(es)** no cabeçalho — este último a partir do mapeamento área →
+advogado(s) em `docs/perfil-escritorio.md`, seção "Advogados revisores por
+área"; se a área tiver mais de um nome, liste todos, separados por vírgula)
+e a copy final pronta para arte — sem placeholder, sem colchete sobrando.
+Escreva no tom de `docs/perfil-escritorio.md`.
 
 Para os 3 posts do LinkedIn especificamente: escreva sempre para público
 exclusivamente PJ (gestores, sócios, jurídico interno, RH, financeiro —
@@ -224,9 +227,10 @@ linhas existentes.
 Siga `docs/notion.md`:
 1. Ler `notion://docs/enhanced-markdown-spec` antes de escrever.
 2. Criar as 8 páginas no data source "Posts" (`Status = "Em aprovação"`,
-   `Canal` preenchido com "LinkedIn" ou "Instagram", campos de kanban —
-   Link da arte, Link do post, Responsável — e de métrica em branco), com o
-   briefing completo como conteúdo da página.
+   `Canal` preenchido com "LinkedIn" ou "Instagram", `Advogados revisores`
+   com o(s) nome(s) da área (ver passo 8 e `docs/perfil-escritorio.md`),
+   campos de kanban — Link da arte, Link do post, Responsável — e de
+   métrica em branco), com o briefing completo como conteúdo da página.
 3. Criar a sub-página da semana em Calendário Editorial, com o panorama dos
    dois calendários e `<mention-page>` para os 8 posts.
 4. Atualizar a tabela de sub-páginas em `docs/notion.md`.

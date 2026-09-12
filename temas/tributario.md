@@ -1,5 +1,12 @@
 # Banco de temas — Direito Tributário
 
+Banco geral de Tributário, usado quando a área sai sorteada no rodízio de
+segunda/quarta/sexta do Instagram (ou no dia fixo de sexta do LinkedIn) —
+ver `docs/formatos.md`. Isenção de Imposto de Renda **não** está mais
+aqui: desde 2026-09-12 tem banco próprio, `temas/tributario-isencao-ir.md`,
+porque virou o conteúdo fixo de terça/quinta e precisava de mais de um
+ângulo para não repetir toda semana.
+
 1. **Tema**: Reforma tributária (EC 132/2023) — o que muda com IBS e CBS.
    **Ângulo informativo**: linha do tempo de transição e o que muda na
    prática para empresas.
@@ -68,13 +75,3 @@
     recomendar decisão para empresa específica.
     **Público**: microempreendedores em crescimento.
     **Risco de conformidade**: baixo.
-
-11. **Tema**: Isenção de Imposto de Renda — quem tem direito e como
-    comprovar.
-    **Ângulo informativo**: hipóteses gerais de isenção (doença grave,
-    rendimento dentro do limite de isenção, verbas específicas), sem
-    calcular caso individual nem prometer deferimento.
-    **Público**: aposentados, pensionistas e pessoas físicas em geral
-    avaliando a declaração de IR.
-    **Risco de conformidade**: médio — evitar prometer "restituição
-    garantida"; manter tom estritamente informativo.

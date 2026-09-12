@@ -7,6 +7,7 @@
 | Escritório | Gutmann & Silva |
 | Área | [Empresarial / Cível / Trabalhista / Tributário / Previdenciário] |
 | Subtema (só se Área = Cível) | [Imobiliário / Família / Responsabilidade Civil / Direito das coisas / Contratos] |
+| Recorte fixo (só terça/quinta do Instagram) | Isenção de Imposto de Renda — ângulo específico no campo Tema abaixo (ex.: "doença grave", "ganho de capital em imóvel único"); `Área` continua "Tributário" |
 | Canal | [LinkedIn / Instagram] |
 | Formato | [Texto longo (só LinkedIn) / Carrossel / Post estático / Reel (só Instagram)] |
 | Data de publicação | [AAAA-MM-DD, dia da semana] |
@@ -44,7 +45,10 @@ Tabela slide/tela × conteúdo × função — adaptar número de linhas ao form
 ## 4. Copy final
 
 Texto exato de cada peça, pronto para a arte — sem placeholder, sem
-colchetes, redação final.
+colchetes, redação final. Use a extensão mais curta que ainda cumpre a
+estrutura fixa do formato (limites em `docs/formatos.md`) — cada frase
+precisa carregar informação nova, sem repetir a mesma ideia entre
+slides/parágrafos.
 
 **Slide/tela 1**
 > [texto final]
@@ -62,7 +66,7 @@ colchetes, redação final.
 > [texto final]
 
 (Para Reel: incluir roteiro com marcação de tempo. Para Texto longo
-(LinkedIn): texto corrido de 250–400 palavras, sem divisão em slides.)
+(LinkedIn): texto corrido de 180–300 palavras, sem divisão em slides.)
 
 ## 5. Legenda proposta
 

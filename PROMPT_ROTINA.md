@@ -22,20 +22,25 @@ completo; o resumo do que deve sair:
    atualize `docs/aprendizados.md`. Recomendações só podem tocar formato,
    área, tema ou cadência — NUNCA sugerir afrouxar o checklist de
    `docs/normas-oab.md`.
-2. Calcule a próxima semana ISO (segunda a sábado) a partir da data de hoje.
+2. Calcule a próxima semana ISO (segunda a sexta, sem sábado) a partir da
+   data de hoje.
 3. Produza 8 posts, em dois calendários com cadência própria:
    - LinkedIn: 3 posts (segunda, quarta, sexta), sempre formato "Texto longo",
      canal 100% B2B — só as 3 áreas fixas Empresarial, Trabalhista (ângulo
      empregador/RH) e Tributário, sem rodízio de área. 80% dos posts em
      registro "Autoridade técnica", 20% em "Informativo direto" (ver
      `docs/formatos.md`).
-   - Instagram: 5 posts (segunda a quinta e sábado, sem post na sexta), um
-     por área — Empresarial, Cível, Trabalhista, Tributário, Previdenciário
-     —, formato em rodízio. Cível cobre 5 subtemas (Imobiliário, Família,
-     Responsabilidade Civil, Direito das coisas, Contratos).
-4. Determine formato de cada dia do Instagram seguindo a matriz de
-   `docs/formatos.md` (ciclo de 3 semanas). As áreas fixas e o subtipo de
-   registro do LinkedIn também estão em `docs/formatos.md`.
+   - Instagram: 5 posts, segunda a sexta (sem sábado). Segunda, quarta e
+     sexta rotacionam entre as 5 áreas — Empresarial, Cível, Trabalhista,
+     Tributário, Previdenciário — sem dia fixo por área (Cível cobre 5
+     subtemas: Imobiliário, Família, Responsabilidade Civil, Direito das
+     coisas, Contratos). Terça e quinta são sempre "Isenção de Imposto de
+     Renda" (Área = Tributário, banco próprio).
+4. Determine a área de cada slot de segunda/quarta/sexta e o formato de
+   cada um dos 5 posts do Instagram seguindo `docs/formatos.md`
+   ("Instagram — rodízio de área" e "Instagram — rodízio de formato"). As
+   áreas fixas e o subtipo de registro do LinkedIn também estão em
+   `docs/formatos.md`.
 5. Escolha os temas em `temas/<area>.md` (para Cível, em `temas/civel/`, um
    arquivo por subtema), sem repetir nada de `temas/historico.md` — a
    checagem de repetição vale para os dois canais juntos, não separadamente.

@@ -85,6 +85,12 @@ execução nova a atribui — Família virou subtema de Cível (banco em
 "Cível"`, com o subtema anotado no título (`Tema`) da página, não numa
 propriedade própria (ver `docs/formatos.md`, seção "Cível — subtemas").
 
+**Isenção de Imposto de Renda** (terça e quinta do Instagram, desde
+2026-09-12) segue a mesma lógica: não é uma área nova no Select. Esses
+posts levam `Área = "Tributário"`, com o ângulo específico (ex.: "Isenção
+de Imposto de Renda — doença grave...") no título (`Tema`) da página — ver
+`docs/formatos.md`, seção "Terça e quinta — Isenção de Imposto de Renda".
+
 `Status` ganhou duas etapas novas na mesma data ("Em produção", "Pronto para
 publicar") — o board "Produção" passou a cobrir o pipeline inteiro, do
 briefing ao post no ar, não só a aprovação editorial. `Responsável` é campo

@@ -58,6 +58,13 @@ canal):
 - **Frases curtas nas peças de mídia social** (carrossel, stories, reel);
   registro mais analítico e com parágrafos completos apenas no formato
   LinkedIn (ver `docs/formatos.md`).
+- **Objetivo e enxuto, em todo canal** (desde 2026-09-12): a versão mais
+  curta que ainda cumpre a estrutura fixa do formato é a versão certa.
+  Cada frase carrega informação nova — sem repetir a mesma ideia com
+  outras palavras entre slide e legenda, ou entre parágrafos do LinkedIn.
+  Isso vale também para variedade de tema: dois posts com títulos
+  diferentes mas o mesmo ângulo de fundo soam repetitivos mesmo sem violar
+  a regra literal de não repetir tema — ver `docs/formatos.md`.
 - **LinkedIn especificamente é registro de autoridade técnica corporativa**
   (ver "Registro: dois subtipos" em `docs/formatos.md`) — cita dispositivo
   legal com precisão, compara antes/depois da norma, usa framing de risco e
@@ -99,8 +106,11 @@ vêm de `temas/<area>.md`, não daqui.
   (`temas/trabalhista.md`) indica o ângulo predominante — reclamante,
   reclamado ou ambos — mas o arquivo continua único, sem subpastas.
 - **Tributário**: tributos federais/estaduais/municipais, obrigações
-  acessórias, parcelamentos, reformas tributárias em tramitação ou vigor,
-  isenções (ex.: Imposto de Renda).
+  acessórias, parcelamentos, reformas tributárias em tramitação ou vigor.
+  Isenção de Imposto de Renda tem recorte próprio, com banco dedicado, por
+  ser conteúdo fixo de terça/quinta no Instagram desde 2026-09-12 (ver
+  `docs/formatos.md`) — os demais temas de Tributário vêm de
+  `temas/tributario.md`.
 - **Previdenciário**: benefícios do INSS, aposentadoria, mudanças em regras
   previdenciárias, direitos de segurados.
 

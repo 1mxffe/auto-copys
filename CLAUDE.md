@@ -20,18 +20,29 @@ ajuste, pelo campo **Status**.
 
 - **Volume**: 8 posts por semana, em dois calendários de canal
   independentes — **LinkedIn**: 3 posts (segunda, quarta, sexta), sempre
-  formato "Texto longo". **Instagram**: 5 posts (segunda a quinta e
-  sábado — sem post na sexta), um por área — Empresarial, Cível,
-  Trabalhista, Tributário, Previdenciário —, formato em rodízio. Regras
-  completas de área × dia × formato por canal em `docs/formatos.md`.
+  formato "Texto longo". **Instagram**: 5 posts, segunda a sexta (sem
+  sábado desde 2026-09-12). Segunda, quarta e sexta rotacionam entre as 5
+  áreas — Empresarial, Cível, Trabalhista, Tributário, Previdenciário —
+  sem dia fixo por área; terça e quinta são sempre "Isenção de Imposto de
+  Renda" (banco próprio, `Área` = Tributário no Notion). Formato em
+  rodízio nos 5 dias. Regras completas de área × dia × formato por canal
+  em `docs/formatos.md`.
 - **Cível tem subtemas, é a única área que os tem**: desde 2026-08-26,
   Cível é dividida em 5 subtemas — Imobiliário, Família, Responsabilidade
   Civil, Direito das coisas, Contratos —, cada um com o próprio banco em
   `temas/civel/<subtema>.md`. Família deixou de ser área própria do
   calendário (não tem mais dia fixo isolado no Instagram) e virou um
-  desses 5 subtemas; a terça-feira de Cível escolhe, semana a semana,
-  entre os 5 arquivos pela mesma regra de anti-repetição, sem preferência
-  fixa por subtema — ver `docs/formatos.md`.
+  desses 5 subtemas; sempre que o rodízio de segunda/quarta/sexta do
+  Instagram sortear Cível como área da semana (Cível não tem mais dia
+  fixo — ver `docs/formatos.md`), escolha entre os 5 arquivos pela mesma
+  regra de anti-repetição, sem preferência fixa por subtema.
+- **Terça e quinta do Instagram são sempre Isenção de Imposto de Renda**:
+  desde 2026-09-12, essas duas datas semanais deixam de rodar entre as 5
+  áreas e viram conteúdo fixo, com banco próprio em
+  `temas/tributario-isencao-ir.md` (ângulos distintos de isenção de IR,
+  para não repetir o mesmo texto toda semana). No Notion, `Área` desses
+  posts continua "Tributário" — é um recorte fixo, não uma área nova no
+  Select. Regras completas em `docs/formatos.md`.
 - **Trabalhista tem dois ângulos, um arquivo só**: `temas/trabalhista.md`
   continua um banco único (sem subpastas), mas cada tema indica se o
   ângulo predominante é do reclamante, do reclamado, ou de ambos —
@@ -56,7 +67,18 @@ ajuste, pelo campo **Status**.
   `docs/normas-oab.md`, item por item, registrado no próprio briefing.
 - **Anti-repetição**: nenhum tema sai duas vezes. Consulte
   `temas/historico.md` antes de escolher pauta; grave a entrada nova ao final
-  da execução.
+  da execução. Repetição não é só título idêntico — dois temas com o
+  mesmo ângulo escrito com palavras diferentes também contam como
+  repetição disfarçada (ver `docs/formatos.md`, seção "Anti-repetição é
+  por tema, não por canal").
+- **Copy objetiva e enxuta**: desde 2026-09-12, todo texto — Instagram e
+  LinkedIn — deve usar a extensão mais curta que ainda cumpre a estrutura
+  fixa do formato (limites revisados em `docs/formatos.md`). Cada frase
+  precisa carregar informação nova; corte redundância, frase de
+  preenchimento e repetição de ideia entre slides/parágrafos. Objetividade
+  nunca reduz precisão técnica nem pula etapa do checklist de
+  `docs/normas-oab.md` — é sobre forma, não sobre omitir conteúdo
+  obrigatório.
 - **Rede é opcional, nunca bloqueante**: se houver acesso à web, prefira
   pauta de atualidade jurídica relevante (mudança legislativa, decisão do
   STF/STJ/TST) no lugar de um tema do banco. Se não houver rede, use o banco
@@ -87,6 +109,7 @@ ajuste, pelo campo **Status**.
 | `templates/relatorio-semanal.md` | Template do relatório de métricas — ranking, desempenho por área/formato, recomendações |
 | `docs/aprendizados.md` | Registro cumulativo de recomendações de desempenho, consultado ao escolher tema/área |
 | `temas/<area>.md` (Empresarial, Trabalhista, Tributário, Previdenciário) e `temas/civel/<subtema>.md` (Imobiliário, Família, Responsabilidade Civil, Direito das coisas, Contratos) | Banco de temas evergreen — um arquivo por área, exceto Cível, dividida em 5 subtemas |
+| `temas/tributario-isencao-ir.md` | Banco próprio para o conteúdo fixo de terça/quinta no Instagram (isenção de Imposto de Renda) — não entra no rodízio de área, só gira dentro dele mesmo |
 | `temas/historico.md` | Registro de tudo já publicado — consultado para evitar repetição |
 | `calendarios/AAAA-SNN/` | Saída de cada semana: `calendario.md` (panorama dos dois canais) + `linkedin/` e `instagram/` (um arquivo por post) + `relatorio.md` (quando gerado, ~2 semanas depois) |
 
@@ -105,6 +128,9 @@ ajuste, pelo campo **Status**.
 - Semana ISO: pasta `calendarios/AAAA-SNN` (ex.: `calendarios/2026-S34`).
 - Post do LinkedIn: `calendarios/AAAA-SNN/linkedin/NN-dia-area.md` (ex.:
   `01-segunda-empresarial.md`).
-- Post do Instagram: `calendarios/AAAA-SNN/instagram/NN-dia-area.md` (ex.:
-  `01-segunda-empresarial.md`).
+- Post do Instagram: `calendarios/AAAA-SNN/instagram/NN-dia-area.md`. Para
+  segunda/quarta/sexta, `area` é a área sorteada naquela semana pelo
+  rodízio (varia semana a semana, ex.: `01-segunda-tributario.md`); para
+  terça/quinta, `area` é sempre `isencao-ir` (ex.:
+  `02-terca-isencao-ir.md`) — ver `docs/formatos.md`.
 - Commit semanal: `Calendário editorial — Semana NN/AAAA`.

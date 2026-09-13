@@ -24,7 +24,8 @@ ajuste, pelo campo **Status**.
   sábado desde 2026-09-12). Segunda, quarta e sexta rotacionam entre as 5
   áreas — Empresarial, Cível, Trabalhista, Tributário, Previdenciário —
   sem dia fixo por área; terça e quinta são sempre "Isenção de Imposto de
-  Renda" (banco próprio, `Área` = Tributário no Notion). Formato em
+  Renda" (banco próprio, `Área` = "Isenção de IR" no Notion — opção
+  própria no Select, corrigido em 2026-09-13, ver `docs/notion.md`). Formato em
   rodízio nos 5 dias. Regras completas de área × dia × formato por canal
   em `docs/formatos.md`.
 - **Cível tem subtemas, é a única área que os tem**: desde 2026-08-26,
@@ -41,8 +42,9 @@ ajuste, pelo campo **Status**.
   áreas e viram conteúdo fixo, com banco próprio em
   `temas/tributario-isencao-ir.md` (ângulos distintos de isenção de IR,
   para não repetir o mesmo texto toda semana). No Notion, `Área` desses
-  posts continua "Tributário" — é um recorte fixo, não uma área nova no
-  Select. Regras completas em `docs/formatos.md`.
+  posts é "Isenção de IR" — opção própria no Select (corrigido em
+  2026-09-13; não é "Tributário" como versões anteriores deste arquivo
+  diziam — ver `docs/notion.md`). Regras completas em `docs/formatos.md`.
 - **Trabalhista tem dois ângulos, um arquivo só**: `temas/trabalhista.md`
   continua um banco único (sem subpastas), mas cada tema indica se o
   ângulo predominante é do reclamante, do reclamado, ou de ambos —

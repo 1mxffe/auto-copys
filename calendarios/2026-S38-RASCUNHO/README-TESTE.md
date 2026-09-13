@@ -11,14 +11,36 @@ gancho magnético, e citação de lei só na legenda.
   semana publicada.
 - `temas/historico.md` **não foi atualizado** — os temas escolhidos abaixo
   continuam disponíveis no banco até uma execução real de fato os usar.
-- **Nada foi publicado no Notion.**
-- `Status` de cada peça está como "Rascunho — teste", não "Em aprovação".
+- `Status` de cada peça no Notion está como "Rascunho", não em uma etapa
+  real do pipeline de produção.
+
+**Atualização de 2026-09-13 — publicado no Notion, como rascunho**: a
+pedido do usuário, as 8 páginas + a página de panorama foram publicadas no
+Notion (`Status = "Rascunho"`), sob o título "Semana 38 (proposta
+alternativa · 5 dias) · 14–18/09" — ver `docs/notion.md` para os links.
+
+**⚠️ Achado importante nessa publicação**: já existia uma página real
+"Semana 38 · 14–19/09" no Notion, publicada por outra sessão (~2026-09-07)
+usando um esquema **diferente e incompatível** (Instagram de 4 dias, 1 dia
+fixo de Isenção de IR, ciclo de 4 semanas, contador global de 3 formatos —
+de uma branch nunca mesclada, `claude/instagram-editorial-calendar-notion-6ku7nf`).
+Decisão do usuário: manter o esquema deste PR (#6) como o vigente; a
+página antiga **não foi apagada nem arquivada** — as duas coexistem no
+Notion por enquanto. Ver `docs/notion.md` para o registro completo do
+conflito.
+
+**Correção feita durante a publicação**: o Select `Área` do Notion já
+tinha uma opção própria `"Isenção de IR"` (criada por aquela outra
+sessão) — os posts de terça/quinta foram publicados com `Área = "Isenção
+de IR"`, não `"Tributário"` como este repositório assumia antes. Os
+arquivos deste rascunho e a documentação (`docs/formatos.md`, `CLAUDE.md`,
+`docs/notion.md`, templates) foram corrigidos para refletir isso.
 
 Se o usuário aprovar o conteúdo e quiser transformar isso na semana
 oficial: mover para `calendarios/2026-S38/` (ajustando nomes de arquivo se
 o rodízio tiver avançado nesse meio-tempo), atualizar
-`temas/historico.md`, publicar no Notion e então apagar esta pasta e este
-aviso.
+`temas/historico.md`, avançar o `Status` das páginas no pipeline real, e
+decidir o que fazer com a página conflitante antiga.
 
 ## Cálculo usado (para auditoria)
 

@@ -35,7 +35,8 @@ completo; o resumo do que deve sair:
      Tributário, Previdenciário — sem dia fixo por área (Cível cobre 5
      subtemas: Imobiliário, Família, Responsabilidade Civil, Direito das
      coisas, Contratos). Terça e quinta são sempre "Isenção de Imposto de
-     Renda" (Área = Tributário, banco próprio).
+     Renda" (Área = "Isenção de IR", opção própria no Select do Notion,
+     banco próprio).
 4. Determine a área de cada slot de segunda/quarta/sexta e o formato de
    cada um dos 5 posts do Instagram seguindo `docs/formatos.md`
    ("Instagram — rodízio de área" e "Instagram — rodízio de formato"). As

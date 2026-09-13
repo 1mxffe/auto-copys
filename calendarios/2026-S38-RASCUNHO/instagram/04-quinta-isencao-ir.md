@@ -5,8 +5,7 @@
 | Campo | Valor |
 |---|---|
 | Escritório | Gutmann & Silva |
-| Área | Tributário |
-| Recorte fixo | Isenção de Imposto de Renda (terça/quinta do Instagram) |
+| Área | Isenção de IR *(opção própria no Select do Notion — corrigido em 2026-09-13, não é "Tributário")* |
 | Canal | Instagram |
 | Formato | Carrossel padrão (5 slides) |
 | Data de publicação | 2026-09-17, quinta-feira |

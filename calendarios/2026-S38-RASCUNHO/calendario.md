@@ -2,11 +2,11 @@
 
 > **Isto não é uma semana oficial.** Gerado para testar as regras novas
 > (rodízio de área, Isenção de IR fixa, 6 formatos, gancho magnético, lei
-> só na legenda). `temas/historico.md` não foi tocado, nada foi publicado
-> no Notion. Ver `README-TESTE.md` nesta pasta para o cálculo completo —
-> incluindo a regra de desempate por colisão de formato, criada durante
-> este mesmo teste depois de o rodízio bruto convergir 3 dos 5 posts para
-> o mesmo formato.
+> só na legenda). `temas/historico.md` não foi tocado. Publicado no Notion
+> como rascunho em 2026-09-13 (ver seção "Publicação no Notion" abaixo).
+> Ver `README-TESTE.md` nesta pasta para o cálculo completo — incluindo a
+> regra de desempate por colisão de formato e o conflito encontrado com
+> outra "Semana 38" já publicada sob um esquema diferente.
 
 ## LinkedIn (3 posts)
 
@@ -24,9 +24,9 @@ Segunda/quarta/sexta em rodízio de área (`p = 0` para esta semana — ver
 | Dia | Área | Formato | Tema | Arquivo | Conformidade OAB |
 |---|---|---|---|---|---|
 | Segunda | Empresarial | Reel rápido | Marcas e propriedade intelectual | `instagram/01-segunda-empresarial.md` | ✅ |
-| Terça | Tributário (Isenção de IR) | Carrossel curto | Isenção de IR — doença grave | `instagram/02-terca-isencao-ir.md` | ✅ |
+| Terça | Isenção de IR | Carrossel curto | Isenção de IR — doença grave | `instagram/02-terca-isencao-ir.md` | ✅ |
 | Quarta | Cível (Imobiliário) | Reel aprofundado *(ajustado — ver nota)* | Contratos de locação residencial | `instagram/03-quarta-civel.md` | ✅ |
-| Quinta | Tributário (Isenção de IR) | Carrossel padrão | Isenção de IR — maiores de 65 anos | `instagram/04-quinta-isencao-ir.md` | ✅ |
+| Quinta | Isenção de IR | Carrossel padrão | Isenção de IR — maiores de 65 anos | `instagram/04-quinta-isencao-ir.md` | ✅ |
 | Sexta | Trabalhista | Carrossel aprofundado *(ajustado — ver nota)* | Licença-maternidade e paternidade | `instagram/05-sexta-trabalhista.md` | ✅ |
 
 **Nota sobre os ajustes**: o rodízio bruto (contador por trilha, sem
@@ -52,13 +52,18 @@ nesta execução de teste, para manter o resultado reproduzível):
 
 ## Publicação no Notion
 
-**Não publicado.** Este é um rascunho de teste — nenhuma página foi criada
-no banco "Posts" nem na página Calendário Editorial.
+**Publicado como rascunho** em 2026-09-13, a pedido do usuário —
+`Status = "Rascunho"` nas 8 páginas, sob a sub-página "Semana 38 (proposta
+alternativa · 5 dias) · 14–18/09", filha de Calendário Editorial. Ver
+`docs/notion.md` para os links e para o registro do conflito com a
+"Semana 38 · 14–19/09" já publicada por outra sessão sob um esquema
+diferente (mantida, não apagada).
 
 ## Pendências / o que ficou de fora
 
 - **Rascunho de teste, não semana oficial**: `temas/historico.md` não foi
-  atualizado; Notion não foi tocado. Ver `README-TESTE.md`.
+  atualizado. Publicado no Notion, mas como rascunho — não entrou no
+  pipeline real de produção/aprovação. Ver `README-TESTE.md`.
 - **Ajuste de formato aplicado durante o teste**: o rodízio bruto convergia
   3 dos 5 posts para Reel rápido (colisão entre trilhas). O usuário pediu
   a correção; foi criada a regra "Desempate por colisão entre trilhas na

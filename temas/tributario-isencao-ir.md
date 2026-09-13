@@ -2,16 +2,17 @@
 
 Banco dedicado ao conteúdo fixo de **terça e quinta no Instagram** (ver
 `docs/formatos.md`, seção "Terça e quinta — Isenção de Imposto de Renda").
-`Área` no briefing e no Notion é sempre "Tributário" — este arquivo só
+`Área` no briefing e no Notion é sempre "Isenção de IR" (opção própria no
+Select, corrigido em 2026-09-13 — ver `docs/notion.md`) — este arquivo só
 existe porque o mesmo assunto de fundo se repete duas vezes por semana, e
 cada entrada aqui é um ângulo diferente para não repetir o mesmo texto.
 
 Mesma regra de anti-repetição de `temas/historico.md` de qualquer outro
 banco: cada ângulo só é usado uma vez até o banco se esgotar. Identifique
-as linhas deste banco em `temas/historico.md` pelo `Tema` começando com
-"Isenção de Imposto de Renda" — é esse prefixo que separa a trilha de
-formato desta lista da trilha geral de Tributário (ver `docs/formatos.md`,
-"Instagram — rodízio de formato").
+as linhas deste banco em `temas/historico.md` por `Área = "Isenção de
+IR"` — um valor de Área próprio, distinto de "Tributário", é o que separa
+a trilha de formato desta lista da trilha geral de Tributário (ver
+`docs/formatos.md`, "Instagram — rodízio de formato").
 
 1. **Tema**: Isenção de Imposto de Renda por doença grave — quais doenças
    dão direito e como comprovar.

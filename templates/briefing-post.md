@@ -5,9 +5,9 @@
 | Campo | Valor |
 |---|---|
 | Escritório | Gutmann & Silva |
-| Área | [Empresarial / Cível / Trabalhista / Tributário / Previdenciário] |
+| Área | [Empresarial / Cível / Trabalhista / Tributário / Previdenciário / Isenção de IR] |
 | Subtema (só se Área = Cível) | [Imobiliário / Família / Responsabilidade Civil / Direito das coisas / Contratos] |
-| Recorte fixo (só terça/quinta do Instagram) | Isenção de Imposto de Renda — ângulo específico no campo Tema abaixo (ex.: "doença grave", "ganho de capital em imóvel único"); `Área` continua "Tributário" |
+| Recorte fixo (só terça/quinta do Instagram) | Isenção de Imposto de Renda — ângulo específico no campo Tema abaixo (ex.: "doença grave", "ganho de capital em imóvel único"); `Área` = "Isenção de IR" |
 | Canal | [LinkedIn / Instagram] |
 | Formato | [Texto longo (só LinkedIn) / Carrossel curto / Carrossel padrão / Carrossel aprofundado / Post estático / Reel rápido / Reel aprofundado (só Instagram — ver `docs/formatos.md`)] |
 | Data de publicação | [AAAA-MM-DD, dia da semana] |

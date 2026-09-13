@@ -26,7 +26,8 @@ subtemas"). O total semanal passou de 9 para 8 posts.
 área fixa por dia em segunda/quarta/sexta — essas 3 datas agora rotacionam
 entre as 5 áreas (ver passo 5 e `docs/formatos.md`, seção "Instagram —
 rodízio de área"). Terça e quinta viraram conteúdo fixo — sempre "Isenção
-de Imposto de Renda", `Área = "Tributário"`, banco próprio em
+de Imposto de Renda", `Área = "Isenção de IR"` (opção própria no Select
+do Notion, corrigido em 2026-09-13 — ver `docs/notion.md`), banco próprio em
 `temas/tributario-isencao-ir.md`. Também desde essa data, toda copy (nos
 dois canais) segue limites de extensão mais curtos e a exigência de gancho
 magnético — ver `docs/formatos.md` e `docs/perfil-escritorio.md`.
@@ -150,14 +151,15 @@ da semana.
   `LISTA[(p+2) mod 5]` (ver `docs/formatos.md`, "Instagram — rodízio de
   área").
 - **Terça e quinta**: sempre "Isenção de Imposto de Renda", `Área =
-  "Tributário"` (ver `docs/formatos.md`, "Terça e quinta — Isenção de
-  Imposto de Renda").
+  "Isenção de IR"` — opção própria no Select do Notion, não "Tributário"
+  (ver `docs/formatos.md`, "Terça e quinta — Isenção de Imposto de
+  Renda", e `docs/notion.md`).
 
 Formato de cada um dos 5 posts do Instagram: conte, em
-`temas/historico.md`, as linhas da trilha correspondente (a área, ou —
-para terça/quinta — `Tema` começando com "Isenção de Imposto de Renda";
-para a trilha de Tributário via rodízio, exclua essas mesmas linhas) e
-aplique `contador mod 6` sobre `[Carrossel curto, Carrossel padrão, Post
+`temas/historico.md`, as linhas com `Área` igual à da trilha
+correspondente (a área sorteada, ou `"Isenção de IR"` para terça/quinta —
+como são valores de Área diferentes, não há necessidade de excluir linha
+nenhuma) e aplique `contador mod 6` sobre `[Carrossel curto, Carrossel padrão, Post
 estático, Reel rápido, Reel aprofundado, Carrossel aprofundado]` — ver
 `docs/formatos.md`, "Instagram — rodízio de formato". Dentro da mesma
 semana, terça é calculada antes de quinta (incrementando o contador da
@@ -196,9 +198,10 @@ Para cada item da lista do passo 5:
 - **Exceção — terça e quinta (Isenção de Imposto de Renda)**: abra
   `temas/tributario-isencao-ir.md` e pegue o primeiro ângulo elegível
   (mesma regra de anti-repetição, identificando linhas já usadas em
-  `temas/historico.md` pelo `Tema` começando com "Isenção de Imposto de
-  Renda"). Use um ângulo diferente para terça e para quinta na mesma
-  semana. `Área` no Notion continua "Tributário".
+  `temas/historico.md` por `Área = "Isenção de IR"`). Use um ângulo
+  diferente para terça e para quinta na mesma semana. `Área` no Notion é
+  "Isenção de IR" — opção própria no Select, não "Tributário" (ver
+  `docs/notion.md`).
 - Empresarial, Trabalhista e Tributário aparecem nos dois canais toda
   semana em que Empresarial/Trabalhista/Tributário forem sorteados pelo
   rodízio do Instagram (são as 3 áreas fixas do LinkedIn; no Instagram,

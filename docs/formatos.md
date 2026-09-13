@@ -292,11 +292,16 @@ Registre o subtema escolhido no campo **Tema** do briefing (ex.: "Família
 
 Terça e quinta do Instagram deixam de rotacionar área — toda semana, os
 dois dias são sobre isenção de Imposto de Renda. No briefing e no Notion,
-`Área` continua "Tributário" (é um recorte fixo dentro de Tributário, não
-uma área nova no Select — ver `docs/notion.md`). O objetivo é dar peso
-extra a um tema recorrente de alto interesse de busca sem esgotar o banco
-geral de Tributário (`temas/tributario.md`), que continua servindo só o
-slot de Tributário quando ele sai no rodízio de segunda/quarta/sexta.
+`Área = "Isenção de IR"` — **opção própria no Select** (corrigido em
+2026-09-13: o Select já tinha essa opção pronta, criada por outra sessão;
+versões anteriores deste documento assumiam, por engano, que era preciso
+reaproveitar "Tributário" — ver `docs/notion.md`). É um recorte editorial
+sob o guarda-chuva de Tributário, mas com valor de Área próprio, o que
+também simplifica a contagem de formato (ver "Instagram — rodízio de
+formato" abaixo). O objetivo é dar peso extra a um tema recorrente de alto
+interesse de busca sem esgotar o banco geral de Tributário
+(`temas/tributario.md`), que continua servindo só o slot de Tributário
+quando ele sai no rodízio de segunda/quarta/sexta.
 
 **Banco próprio**: `temas/tributario-isencao-ir.md` — ângulos distintos de
 isenção de IR (aposentadoria/doença grave, ganho de capital em imóvel
@@ -324,16 +329,16 @@ aprofundado, Carrossel aprofundado]`
 
 — sem repetir o mesmo formato duas vezes seguidas dentro da trilha:
 
-- **Trilha de cada área** (Empresarial, Cível, Trabalhista, Previdenciário,
-  e Tributário quando sai no rodízio de segunda/quarta/sexta): conte, em
-  `temas/historico.md`, quantas linhas já têm `Canal = Instagram` e
-  `Área = <a área>` — para Tributário, **exclua** as linhas cujo `Tema`
-  começa com "Isenção de Imposto de Renda" (essas pertencem à trilha
-  seguinte, não a esta). Esse número é o contador da trilha; o formato do
+- **Trilha de cada área** (Empresarial, Cível, Trabalhista, Tributário,
+  Previdenciário): conte, em `temas/historico.md`, quantas linhas já têm
+  `Canal = Instagram` e `Área = <a área>`. Como Isenção de IR tem seu
+  próprio valor de Área (`"Isenção de IR"`, não "Tributário" — ver
+  `docs/notion.md`), a trilha de Tributário não precisa mais excluir nada:
+  toda linha com `Área = Tributário` já pertence só ao rodízio de
+  segunda/quarta/sexta. Esse número é o contador da trilha; o formato do
   novo post é a lista acima indexada por `contador mod 6`.
 - **Trilha "Isenção de IR"** (terça e quinta): conte as linhas de
-  `temas/historico.md` cujo `Tema` começa com "Isenção de Imposto de
-  Renda" (`Área` sempre "Tributário" nessas linhas) — mesmo cálculo,
+  `temas/historico.md` com `Área = "Isenção de IR"` — mesmo cálculo,
   `contador mod 6`. Dentro da mesma semana, calcule terça primeiro,
   incremente o contador em 1, calcule quinta em seguida — os dois nunca
   saem no mesmo formato na mesma semana.

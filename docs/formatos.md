@@ -355,6 +355,37 @@ formato que efetivamente sair (já resolvido o desempate) é o que conta
 como incremento da trilha para a próxima vez que ela for sorteada — o
 próprio `temas/historico.md`, de novo, é o único estado necessário.
 
+**Formato esquecido — cobertura mínima entre trilhas** (desde 2026-09-13):
+com 6 formatos e só 5 posts de Instagram por semana, é normal e esperado
+que 1 formato fique de fora numa semana qualquer — isso sozinho não é
+problema (achado do teste de 2026-S38-RASCUNHO). O problema seria um
+formato específico ficar de fora **repetidamente**, por muitas semanas
+seguidas, porque nenhuma trilha calha de passar pelo índice dele. Para
+evitar isso:
+
+1. Depois de aplicar o rodízio por trilha e o desempate por colisão acima,
+   calcule o **jejum** de cada um dos 6 formatos: ande para trás a partir
+   da linha mais recente de `Canal = Instagram` em `temas/historico.md`
+   contando quantos posts se passaram desde a última vez que aquele
+   formato apareceu (a própria linha mais recente tem jejum 0; um formato
+   que nunca apareceu tem jejum infinito — é sempre o caso mais urgente).
+2. Se, depois de definidos os 5 formatos da semana (já com o desempate de
+   colisão), sobrar algum formato com **jejum ≥ 6** (não usado em nenhum
+   dos últimos 6 posts nem nesta semana), force esse formato para dentro
+   da semana — substituindo o post cujo formato tem o **menor jejum**
+   entre os 5 já definidos (o que mais recentemente se repetiu em outro
+   lugar, logo o que menos falta faz aqui). Em empate de jejum, prefira
+   substituir o post mais tarde no calendário (sexta antes de quinta,
+   antes de quarta...), para minimizar reescrita se a semana já estiver
+   parcialmente redigida.
+3. Registre a troca na seção "Pendências" de `calendario.md`, com o
+   motivo (jejum e valor).
+
+Isso não conflita com o desempate por colisão — rode primeiro a colisão
+(resolve duplicidade dentro da semana), depois o jejum (resolve ausência
+prolongada entre semanas). Continua sem estado novo: tudo vem de contar
+`temas/historico.md`.
+
 Isso mantém a regra qualitativa de sempre variar formato dentro da mesma
 trilha, sem exigir dia fixo nem ciclo de semana — o próprio histórico é o
 estado, sem precisar guardar posição de ciclo em nenhum outro lugar. Ver

@@ -63,7 +63,24 @@ colisão entre trilhas na mesma semana" em `docs/formatos.md` — calcule os
 um formato colidir com o de outro post já calculado **na mesma semana**,
 avance para o próximo índice da lista (mod 6) ainda não usado nela.
 
-Aplicando a regra a esta semana:
+**Validação adicional — regra de "formato esquecido"**: depois desta
+sessão, foi criada uma segunda regra em `docs/formatos.md` para cobrir o
+caso "por que não teve Post estático esta semana?" — cobertura mínima
+entre trilhas (jejum ≥ 6 força o formato para dentro da semana). Checando
+o histórico real (17 linhas de Instagram em `temas/historico.md`, sem
+contar esta semana de teste): `Carrossel curto`, `Reel rápido` e
+`Carrossel aprofundado` nunca haviam sido usados (jejum infinito — são
+formatos novos desta sessão); `Carrossel padrão` tinha jejum 3; `Reel
+aprofundado` tinha jejum 1; **`Post estático` tinha jejum 0** (foi
+literalmente o último post real publicado, 2026-S36, Previdenciário,
+09-05). O resultado desta semana, depois do desempate por colisão, já
+cobre os 3 formatos nunca usados + os 2 com maior jejum — deixando de fora
+exatamente o único que tinha jejum zero (Post estático). Ou seja: **o
+resultado abaixo já está correto também sob a nova regra**, sem precisar
+reescrever nenhum arquivo — a ausência de Post estático nesta semana
+específica é o resultado certo, não uma falha.
+
+Aplicando a regra de desempate a esta semana:
 - Segunda (Empresarial, índice 3 = Reel rápido) — primeiro post, sem
   colisão possível, mantém.
 - Terça (Isenção de IR, índice 0 = Carrossel curto) — único até aqui,

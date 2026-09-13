@@ -165,7 +165,11 @@ trilha de Isenção de IR em 1 entre uma e outra). Calcule os 5 formatos na
 ordem do calendário (segunda → terça → quarta → quinta → sexta) e, se um
 formato colidir com o de outro post **da mesma semana**, avance para o
 próximo índice ainda não usado nela — ver `docs/formatos.md`, "Desempate
-por colisão entre trilhas na mesma semana". O rodízio pode ser
+por colisão entre trilhas na mesma semana". Em seguida, confira se algum
+dos 6 formatos está em "jejum" (não aparece há 6+ posts nem nesta semana,
+inclusive um formato nunca usado) — se sim, force-o para dentro da semana
+substituindo o post de menor jejum, ver `docs/formatos.md`, "Formato
+esquecido — cobertura mínima entre trilhas". O rodízio pode ser
 substituído por julgamento editorial quando o tema claramente pede outro
 formato — ver `docs/formatos.md`, "Desvio editorial do rodízio de
 formato" — registrando a troca nas Pendências do calendário.

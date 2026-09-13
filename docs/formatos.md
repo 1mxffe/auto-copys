@@ -58,6 +58,18 @@ No Notion, o valor do Select `Formato` de Carrossel padrão continua
 valores já usados por S34-S36; os outros 3 são opções novas no Select
 (ver `docs/notion.md`, seção do esquema "Posts").
 
+### Regra transversal: número de lei/artigo/decisão só na legenda
+
+**Desde 2026-09-13**, por pedido do usuário: slide de carrossel, card de
+post estático e texto de tela de Reel **nunca citam número de lei, artigo
+ou nome/ano de decisão** — só a ideia em linguagem acessível, fácil de
+entender rápido. Precisão técnica não desaparece, ela migra inteira para
+a **legenda** (ver "Legenda do Instagram" abaixo), que é onde o
+aprofundamento acontece. Isso vale para os 5 formatos visuais desta
+seção; o LinkedIn Texto longo não muda — lá a citação precisa continua no
+corpo do texto (ver "O formato do LinkedIn" abaixo), porque não existe
+card/legenda separados nesse canal.
+
 ### Carrossel curto
 - **Extensão**: 3 slides.
 - **Estrutura fixa**: gancho → informação central → fechamento sóbrio.
@@ -132,6 +144,28 @@ valores já usados por S34-S36; os outros 3 são opções novas no Select
   sem CTA de conversão (Pergunta 04). Texto de tela curto: frases de até
   6-7 palavras, uma ideia por tela — não sub-título de artigo colado na
   tela.
+
+## Legenda do Instagram — onde entra a profundidade técnica
+
+Desde 2026-09-13, a legenda deixou de ser um resumo do card e passou a
+carregar o que o card/reel não carrega: número de lei, artigo, nome e ano
+de decisão, exceções e nuance. O card/reel existe para ser entendido em 3
+segundos de rolagem; a legenda existe para quem parou e quer profundidade
+— os dois têm função diferente, não são a mesma informação em dois
+tamanhos.
+
+- **Estrutura**: reforça a ideia central do card em 1-2 frases (sem
+  repetir literalmente o texto do card) → aprofunda com a base legal
+  específica (lei, artigo, decisão) e contexto/exceção relevante → fecha
+  identificando a área de atuação do escritório (permitido pela Pergunta
+  08 de `docs/normas-oab.md`).
+- **Extensão**: sem o limite apertado do card — pode (e deve) ser mais
+  densa —, mas ainda objetiva: sem redundância, sem frase de
+  preenchimento (mesma régua de `docs/perfil-escritorio.md`, "Objetivo e
+  enxuto").
+- **Checklist OAB vale igual na legenda**: profundidade técnica não é
+  isenção — nada de promessa de resultado (Regra 1), caso concreto (Regra
+  2) ou urgência/alarmismo (Regra 5) só porque "é a legenda, não o card".
 
 ### Desvio editorial do rodízio de formato
 

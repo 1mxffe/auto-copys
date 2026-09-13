@@ -239,6 +239,13 @@ do instituto jurídico nem uma das aberturas banidas listadas lá. Antes de
 fechar cada peça, rode o teste de primeira/última frase descrito na mesma
 seção.
 
+Para os 5 posts do Instagram especificamente: slide/card/tela nunca cita
+número de lei, artigo ou nome/ano de decisão — só a ideia em linguagem
+acessível. Essa profundidade técnica vai inteira na legenda (seção 5 do
+briefing) — ver `docs/formatos.md`, "Regra transversal: número de lei/
+artigo/decisão só na legenda" e "Legenda do Instagram". Não vale para o
+LinkedIn, que não tem card/legenda separados.
+
 Para os 3 posts do LinkedIn especificamente: escreva sempre para público
 exclusivamente PJ (gestores, sócios, jurídico interno, RH, financeiro —
 nunca "você" genérico de pessoa física), no subtipo determinado no passo 5

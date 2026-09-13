@@ -51,7 +51,12 @@ Texto exato de cada peça, pronto para a arte — sem placeholder, sem
 colchetes, redação final. Use a extensão mais curta que ainda cumpre a
 estrutura fixa do formato (limites em `docs/formatos.md`) — cada frase
 precisa carregar informação nova, sem repetir a mesma ideia entre
-slides/parágrafos.
+slides/parágrafos. **Instagram (Carrossel/Post estático/Reel)**: nunca
+citar número de lei, artigo ou nome/ano de decisão aqui — isso vai só na
+legenda (seção 5); o slide/card/tela fica com a ideia em linguagem
+acessível (ver `docs/formatos.md`, "Regra transversal: número de lei/
+artigo/decisão só na legenda"). No LinkedIn (Texto longo) a citação
+precisa continua no corpo do texto normalmente.
 
 **Slide/tela 1**
 > [texto final]
@@ -75,6 +80,13 @@ Texto longo (LinkedIn): texto corrido de 180–300 palavras, sem divisão em
 slides.)
 
 ## 5. Legenda proposta
+
+No Instagram, é aqui que entra a profundidade técnica que o slide/card/
+tela não carrega — número de lei, artigo, nome/ano de decisão, exceção
+relevante (ver `docs/formatos.md`, "Legenda do Instagram"). Reforça a
+ideia do card em 1-2 frases sem repetir literalmente, aprofunda, fecha
+identificando a área do escritório. Mesmo checklist de
+`docs/normas-oab.md` vale aqui também.
 
 > [legenda completa, pronta para publicar]
 

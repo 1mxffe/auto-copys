@@ -1,6 +1,6 @@
 ---
 name: calendario-semanal
-description: Gera dois calendários editoriais semanais separados — LinkedIn (3 posts) e Instagram (5 posts, um por área do direito, Cível cobrindo os subtemas Imobiliário/Família/Responsabilidade Civil/Direito das coisas/Contratos) — do escritório Gutmann & Silva, aplica o checklist de conformidade OAB, gera o relatório de métricas pendente, publica no Notion e comita em main. Use quando disparado pela Routine de quinta-feira ou quando pedirem para gerar/ensaiar o calendário de uma semana.
+description: Gera dois calendários editoriais semanais separados — LinkedIn (3 posts, áreas fixas) e Instagram (5 posts: segunda/quarta/sexta em rodízio entre as 5 áreas — Empresarial, Cível (com subtemas Imobiliário/Família/Responsabilidade Civil/Direito das coisas/Contratos), Trabalhista, Tributário, Previdenciário —, terça/quinta fixos em Isenção de Imposto de Renda) — do escritório Gutmann & Silva, aplica o checklist de conformidade OAB, gera o relatório de métricas pendente, publica no Notion e comita em main. Use quando disparado pela Routine de quinta-feira ou quando pedirem para gerar/ensaiar o calendário de uma semana.
 ---
 
 # Calendário editorial semanal — Gutmann & Silva
@@ -15,12 +15,27 @@ canal**, não mais um único calendário de 6 posts:
 | Canal | Posts | Dias | Formato |
 |---|---|---|---|
 | LinkedIn | 3 | Segunda, quarta, sexta | Sempre "Texto longo" |
-| Instagram | 5 | Segunda a quinta e sábado (sem post na sexta) | Rodízio entre Carrossel, Post estático, Reel |
+| Instagram | 5 | Segunda a sexta (sem sábado) | Rodízio entre 6 formatos (ver `docs/formatos.md`) |
 
 Desde 2026-08-26, Família deixou de ser área própria do Instagram e virou
 subtema de Cível — o banco de temas de Cível vive em `temas/civel/`, um
 arquivo por subtema (ver passo 6 e `docs/formatos.md`, seção "Cível —
 subtemas"). O total semanal passou de 9 para 8 posts.
+
+**Desde 2026-09-12**, o Instagram trocou sábado por sexta e deixou de ter
+área fixa por dia em segunda/quarta/sexta — essas 3 datas agora rotacionam
+entre as 5 áreas (ver passo 5 e `docs/formatos.md`, seção "Instagram —
+rodízio de área"). Terça e quinta viraram conteúdo fixo — sempre "Isenção
+de Imposto de Renda", `Área = "Isenção de IR"` (opção própria no Select
+do Notion, corrigido em 2026-09-13 — ver `docs/notion.md`), banco próprio em
+`temas/tributario-isencao-ir.md`. Também desde essa data, toda copy (nos
+dois canais) segue limites de extensão mais curtos e a exigência de gancho
+magnético — ver `docs/formatos.md` e `docs/perfil-escritorio.md`.
+
+**Desde 2026-09-13**, o rodízio de formato do Instagram passou de 3 para
+**6 formatos** (Carrossel curto/padrão/aprofundado, Post estático, Reel
+rápido/aprofundado — ver `docs/formatos.md`, "Os formatos do Instagram"),
+por pedido explícito do usuário para variar mais o tipo de conteúdo.
 
 Desde 2026-08-17, o LinkedIn é canal **100% B2B**, fixo em 3 áreas
 (Empresarial, Trabalhista pelo ângulo empregador, Tributário — sem mais
@@ -82,17 +97,21 @@ passo 1:
 
 ## 3. Calcular a semana ISO alvo (semana nova)
 
-- "Próxima semana" = próxima semana ISO completa (segunda a sábado) a
-  partir da data de hoje. Se hoje é quinta (dia normal de execução da
-  Routine), a próxima semana começa na segunda seguinte (4 dias depois).
+- "Próxima semana" = próxima semana ISO completa (segunda a sexta, desde
+  2026-09-12) a partir da data de hoje. Se hoje é quinta (dia normal de
+  execução da Routine), a próxima semana começa na segunda seguinte (4
+  dias depois).
 - Nomeie a pasta de saída `calendarios/AAAA-SNN` usando o número da semana
   ISO (ex.: `2026-S34`).
-- Determine a posição do ciclo do Instagram, que controla o formato (ver
-  `docs/formatos.md` para as tabelas completas): `((N - 34) mod 3) + 1` —
-  `N` é o número da semana ISO alvo; `34` é a âncora (semana 2026-S34,
-  primeira execução do esquema de dois calendários, 2026-08-14).
-- O LinkedIn não tem mais ciclo de semana — as 3 áreas são fixas todo
-  período (ver passo 5). O que varia por post é o **subtipo de registro**
+- Determine `N`, o número da semana ISO alvo. Ele alimenta dois cálculos
+  distintos, ambos em `docs/formatos.md`:
+  - **Rodízio de área do Instagram** (segunda/quarta/sexta):
+    `p = (3 × (N − 38)) mod 5` — ver "Instagram — rodízio de área".
+  - **Formato de cada post do Instagram** (as 5 áreas + Isenção de IR): não
+    depende de `N`, depende da contagem de linhas de `temas/historico.md`
+    por trilha — ver "Instagram — rodízio de formato".
+- O LinkedIn não tem ciclo de semana — as 3 áreas são fixas todo período
+  (ver passo 5). O que varia por post é o **subtipo de registro**
   (Autoridade técnica × Informativo direto), calculado no passo 5 a partir
   da contagem de posts de LinkedIn já publicados, não da semana ISO.
 
@@ -125,9 +144,37 @@ semana, incremente o contador em 1 e calcule `contador mod 5`: resultado
 proporção 80/20 ao longo do tempo, incremental a cada post, não só dentro
 da semana.
 
-**Instagram (5 posts)**: uma área por dia, segunda a quinta e sábado (sem
-post na sexta), fixo (ver `docs/formatos.md`). Formato de cada dia vem da
-semana do ciclo do Instagram calculada no passo 3.
+**Instagram (5 posts)**, segunda a sexta (sem sábado):
+- **Segunda, quarta, sexta**: aplique `p = (3 × (N − 38)) mod 5` sobre a
+  lista `[Empresarial, Cível, Trabalhista, Tributário, Previdenciário]` —
+  as 3 áreas da semana, na ordem, são `LISTA[p]`, `LISTA[(p+1) mod 5]`,
+  `LISTA[(p+2) mod 5]` (ver `docs/formatos.md`, "Instagram — rodízio de
+  área").
+- **Terça e quinta**: sempre "Isenção de Imposto de Renda", `Área =
+  "Isenção de IR"` — opção própria no Select do Notion, não "Tributário"
+  (ver `docs/formatos.md`, "Terça e quinta — Isenção de Imposto de
+  Renda", e `docs/notion.md`).
+
+Formato de cada um dos 5 posts do Instagram: conte, em
+`temas/historico.md`, as linhas com `Área` igual à da trilha
+correspondente (a área sorteada, ou `"Isenção de IR"` para terça/quinta —
+como são valores de Área diferentes, não há necessidade de excluir linha
+nenhuma) e aplique `contador mod 6` sobre `[Carrossel curto, Carrossel padrão, Post
+estático, Reel rápido, Reel aprofundado, Carrossel aprofundado]` — ver
+`docs/formatos.md`, "Instagram — rodízio de formato". Dentro da mesma
+semana, terça é calculada antes de quinta (incrementando o contador da
+trilha de Isenção de IR em 1 entre uma e outra). Calcule os 5 formatos na
+ordem do calendário (segunda → terça → quarta → quinta → sexta) e, se um
+formato colidir com o de outro post **da mesma semana**, avance para o
+próximo índice ainda não usado nela — ver `docs/formatos.md`, "Desempate
+por colisão entre trilhas na mesma semana". Em seguida, confira se algum
+dos 6 formatos está em "jejum" (não aparece há 6+ posts nem nesta semana,
+inclusive um formato nunca usado) — se sim, force-o para dentro da semana
+substituindo o post de menor jejum, ver `docs/formatos.md`, "Formato
+esquecido — cobertura mínima entre trilhas". O rodízio pode ser
+substituído por julgamento editorial quando o tema claramente pede outro
+formato — ver `docs/formatos.md`, "Desvio editorial do rodízio de
+formato" — registrando a troca nas Pendências do calendário.
 
 Isso dá uma lista de 8 (área, canal, dia, formato, e para LinkedIn também o
 subtipo de registro) para os quais escolher tema.
@@ -140,21 +187,37 @@ Para cada item da lista do passo 5:
   apareça em `temas/historico.md` — a checagem é global entre os dois
   canais: um tema usado no Instagram não pode reaparecer no LinkedIn (nem
   vice-versa), mesmo que a área seja a mesma.
-- **Exceção — Cível (terça-feira)**: não há `temas/civel.md`. Abra os 5
-  arquivos de `temas/civel/` (`imobiliario.md`, `familia.md`,
-  `responsabilidade-civil.md`, `direito-das-coisas.md`, `contratos.md`,
-  nessa ordem) e pegue o primeiro tema elegível entre todos eles, mesma
-  regra de anti-repetição — sem preferência fixa por subtema. Registre o
-  subtema escolhido no campo Tema do briefing (ex.: "Família — União
-  estável..."); no Notion, `Área` continua "Cível" (ver `docs/notion.md`).
-- Empresarial, Trabalhista e Tributário aparecem nos dois canais **toda
-  semana** (são as 3 áreas fixas do LinkedIn, e também têm dia fixo no
-  Instagram) — use sempre dois temas diferentes do banco daquela área, um
-  para cada canal, nunca o mesmo tema nos dois na mesma semana.
+- **Exceção — Cível (sempre que sair no rodízio de segunda/quarta/sexta)**:
+  não há `temas/civel.md`. Abra os 5 arquivos de `temas/civel/`
+  (`imobiliario.md`, `familia.md`, `responsabilidade-civil.md`,
+  `direito-das-coisas.md`, `contratos.md`, nessa ordem) e pegue o primeiro
+  tema elegível entre todos eles, mesma regra de anti-repetição — sem
+  preferência fixa por subtema. Registre o subtema escolhido no campo Tema
+  do briefing (ex.: "Família — União estável..."); no Notion, `Área`
+  continua "Cível" (ver `docs/notion.md`).
+- **Exceção — terça e quinta (Isenção de Imposto de Renda)**: abra
+  `temas/tributario-isencao-ir.md` e pegue o primeiro ângulo elegível
+  (mesma regra de anti-repetição, identificando linhas já usadas em
+  `temas/historico.md` por `Área = "Isenção de IR"`). Use um ângulo
+  diferente para terça e para quinta na mesma semana. `Área` no Notion é
+  "Isenção de IR" — opção própria no Select, não "Tributário" (ver
+  `docs/notion.md`).
+- Empresarial, Trabalhista e Tributário aparecem nos dois canais toda
+  semana em que Empresarial/Trabalhista/Tributário forem sorteados pelo
+  rodízio do Instagram (são as 3 áreas fixas do LinkedIn; no Instagram,
+  desde 2026-09-12, dependem do rodízio de segunda/quarta/sexta, não são
+  mais garantidos toda semana) — quando isso acontecer, use sempre dois
+  temas diferentes do banco daquela área, um para cada canal, nunca o
+  mesmo tema nos dois na mesma semana.
 - Considere `docs/aprendizados.md`: se houver uma recomendação ativa sobre
   área/tema (ex.: "priorizar temas de X"), aplique-a como critério de
   desempate entre temas igualmente elegíveis — nunca como critério que pule
   a fila de anti-repetição.
+- **Diversidade de ângulo, não só de título**: antes de fechar a escolha,
+  compare o Ângulo informativo do candidato com os 2-3 temas mais recentes
+  da mesma trilha em `temas/historico.md`. Se o ângulo for essencialmente o
+  mesmo com palavras diferentes, prefira o próximo elegível do banco — ver
+  `docs/formatos.md`, "Anti-repetição é por tema, não por canal".
 - **Se houver acesso à web nesta execução**: antes de usar o banco, avalie
   se há uma mudança legislativa ou decisão relevante do STF/STJ/TST recente
   e mais pertinente que o próximo item do banco. Se houver, use-a no lugar
@@ -167,18 +230,37 @@ Para cada item da lista do passo 5:
 ## 7. Formato de cada post
 
 Já determinado no passo 5 — LinkedIn é sempre "Texto longo"; o formato de
-cada post do Instagram vem da matriz de rodízio da semana do ciclo
-calculada no passo 3. `docs/aprendizados.md` pode influenciar qual **área**
-ganha qual **tema** (passo 6), nunca a matriz de rodízio de formato em si —
-mudar o rodízio é decisão editorial explícita do usuário, feita fora do
-fluxo automático (ver `CLAUDE.md`).
+cada post do Instagram vem do contador por trilha descrito no passo 5 (ver
+`docs/formatos.md`, "Instagram — rodízio de formato"). `docs/aprendizados.md`
+pode influenciar qual **área** ganha qual **tema** (passo 6), nunca o
+rodízio de formato em si, nem o rodízio de área de segunda/quarta/sexta,
+nem o conteúdo fixo de terça/quinta — mudar qualquer um desses é decisão
+editorial explícita do usuário, feita fora do fluxo automático (ver
+`CLAUDE.md`).
 
 ## 8. Redigir os 8 briefings
 
 Um arquivo por post, a partir de `templates/briefing-post.md`, com todas as
 8 seções preenchidas (incluindo o campo **Canal** no cabeçalho) e a copy
 final pronta para arte — sem placeholder, sem colchete sobrando. Escreva no
-tom de `docs/perfil-escritorio.md`.
+tom de `docs/perfil-escritorio.md`, incluindo a seção "Gancho magnético,
+nunca sensacionalista" — abertura (slide 1, título do card, primeiros 3s
+do Reel, primeiro parágrafo do LinkedIn) nunca é definição de dicionário
+do instituto jurídico nem uma das aberturas banidas listadas lá. Antes de
+fechar cada peça, rode o teste de primeira/última frase descrito na mesma
+seção. O fechamento de cada peça também não pode repetir a mesma
+fórmula post a post ("O escritório atua em Direito X." sempre igual,
+só trocando a área) — ver `docs/perfil-escritorio.md`, "Fechamento e
+identificação — variar, nunca repetir fórmula": antes de fechar os 8
+briefings da semana, confira que nenhum dos fechamentos usa a mesma
+abertura de frase que o anterior, no mesmo canal.
+
+Para os 5 posts do Instagram especificamente: slide/card/tela nunca cita
+número de lei, artigo ou nome/ano de decisão — só a ideia em linguagem
+acessível. Essa profundidade técnica vai inteira na legenda (seção 5 do
+briefing) — ver `docs/formatos.md`, "Regra transversal: número de lei/
+artigo/decisão só na legenda" e "Legenda do Instagram". Não vale para o
+LinkedIn, que não tem card/legenda separados.
 
 Para os 3 posts do LinkedIn especificamente: escreva sempre para público
 exclusivamente PJ (gestores, sócios, jurídico interno, RH, financeiro —
@@ -210,8 +292,12 @@ Este passo é **inegociável e não é influenciado por `docs/aprendizados.md`**
   para cada arquivo de post.
 - `linkedin/NN-dia-area.md` — os 3 posts do LinkedIn (`01-segunda-area.md`,
   `02-quarta-area.md`, `03-sexta-area.md`).
-- `instagram/NN-dia-area.md` — os 5 posts do Instagram
-  (`01-segunda-empresarial.md` até `05-sabado-previdenciario.md`).
+- `instagram/NN-dia-area.md` — os 5 posts do Instagram, `01` a `05` na
+  ordem segunda/terça/quarta/quinta/sexta. Para terça e quinta, o slug de
+  área é `isencao-ir` (ex.: `02-terca-isencao-ir.md`,
+  `04-quinta-isencao-ir.md`); para segunda/quarta/sexta, o slug é a área
+  sorteada naquela semana pelo rodízio (ex.: `01-segunda-tributario.md`,
+  `01-segunda-civel.md` — varia semana a semana, não é mais fixo).
 
 ## 11. Atualizar `temas/historico.md`
 

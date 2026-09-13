@@ -5,10 +5,11 @@
 | Campo | Valor |
 |---|---|
 | Escritório | Gutmann & Silva |
-| Área | [Empresarial / Cível / Trabalhista / Tributário / Previdenciário] |
+| Área | [Empresarial / Cível / Trabalhista / Tributário / Previdenciário / Isenção de IR] |
 | Subtema (só se Área = Cível) | [Imobiliário / Família / Responsabilidade Civil / Direito das coisas / Contratos] |
+| Recorte fixo (só terça/quinta do Instagram) | Isenção de Imposto de Renda — ângulo específico no campo Tema abaixo (ex.: "doença grave", "ganho de capital em imóvel único"); `Área` = "Isenção de IR" |
 | Canal | [LinkedIn / Instagram] |
-| Formato | [Texto longo (só LinkedIn) / Carrossel / Post estático / Reel (só Instagram)] |
+| Formato | [Texto longo (só LinkedIn) / Carrossel curto / Carrossel padrão / Carrossel aprofundado / Post estático / Reel rápido / Reel aprofundado (só Instagram — ver `docs/formatos.md`)] |
 | Data de publicação | [AAAA-MM-DD, dia da semana] |
 | Tema | [tema, como consta em `temas/<area>.md` (ou `temas/civel/<subtema>.md`) ou pauta de atualidade] |
 | Fonte do tema | [Banco de temas | Atualidade jurídica — citar norma/decisão] |
@@ -31,11 +32,14 @@ qual ajuste]
 ## 3. Estrutura narrativa
 
 Tabela slide/tela × conteúdo × função — adaptar número de linhas ao formato
-(ver `docs/formatos.md`):
+(ver `docs/formatos.md`). Slide 1 é o gancho real (situação, número ou
+mal-entendido comum — nunca definição de dicionário do instituto, nunca
+uma das aberturas banidas), ver `docs/perfil-escritorio.md`, "Gancho
+magnético, nunca sensacionalista":
 
 | Slide/tela | Conteúdo | Função |
 |---|---|---|
-| 1 | [texto do gancho/capa] | Capturar atenção sem alarmismo |
+| 1 | [texto do gancho/capa] | Capturar atenção com especificidade, sem alarmismo |
 | 2 | [texto] | [função] |
 | 3 | [texto] | [função] |
 | 4 | [texto] | [função] |
@@ -44,7 +48,15 @@ Tabela slide/tela × conteúdo × função — adaptar número de linhas ao form
 ## 4. Copy final
 
 Texto exato de cada peça, pronto para a arte — sem placeholder, sem
-colchetes, redação final.
+colchetes, redação final. Use a extensão mais curta que ainda cumpre a
+estrutura fixa do formato (limites em `docs/formatos.md`) — cada frase
+precisa carregar informação nova, sem repetir a mesma ideia entre
+slides/parágrafos. **Instagram (Carrossel/Post estático/Reel)**: nunca
+citar número de lei, artigo ou nome/ano de decisão aqui — isso vai só na
+legenda (seção 5); o slide/card/tela fica com a ideia em linguagem
+acessível (ver `docs/formatos.md`, "Regra transversal: número de lei/
+artigo/decisão só na legenda"). No LinkedIn (Texto longo) a citação
+precisa continua no corpo do texto normalmente.
 
 **Slide/tela 1**
 > [texto final]
@@ -61,10 +73,23 @@ colchetes, redação final.
 **Slide/tela 5**
 > [texto final]
 
-(Para Reel: incluir roteiro com marcação de tempo. Para Texto longo
-(LinkedIn): texto corrido de 250–400 palavras, sem divisão em slides.)
+(Ajustar o número de blocos ao formato — ver `docs/formatos.md`: 3 no
+Carrossel curto, 5 no padrão, 7 no aprofundado. Para Reel rápido/
+aprofundado: incluir roteiro com marcação de tempo em vez de slides. Para
+Texto longo (LinkedIn): texto corrido de 180–300 palavras, sem divisão em
+slides.)
 
 ## 5. Legenda proposta
+
+No Instagram, é aqui que entra a profundidade técnica que o slide/card/
+tela não carrega — número de lei, artigo, nome/ano de decisão, exceção
+relevante (ver `docs/formatos.md`, "Legenda do Instagram"). Reforça a
+ideia do card em 1-2 frases sem repetir literalmente, aprofunda, fecha
+identificando a área do escritório — **nunca com a mesma frase de
+fechamento do post anterior** (ver `docs/perfil-escritorio.md`,
+"Fechamento e identificação — variar, nunca repetir fórmula"; às vezes o
+fechamento de identificação nem é necessário). Mesmo checklist de
+`docs/normas-oab.md` vale aqui também.
 
 > [legenda completa, pronta para publicar]
 

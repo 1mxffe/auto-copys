@@ -13,13 +13,17 @@ completo — o detalhe está no arquivo individual da pasta do canal.
 
 ## Instagram (5 posts)
 
+Segunda, quarta e sexta rotacionam entre as 5 áreas (sem dia fixo por
+área desde 2026-09-12); terça e quinta são sempre Isenção de Imposto de
+Renda — ver `docs/formatos.md`.
+
 | Dia | Área | Formato | Tema | Arquivo | Conformidade OAB |
 |---|---|---|---|---|---|
-| Segunda | Empresarial | [formato] | [tema] | `instagram/01-segunda-empresarial.md` | ✅/⚠️ |
-| Terça | Cível | [formato] | [tema — indicar subtema, ex.: "Família — ..."] | `instagram/02-terca-civel.md` | ✅/⚠️ |
-| Quarta | Trabalhista | [formato] | [tema] | `instagram/03-quarta-trabalhista.md` | ✅/⚠️ |
-| Quinta | Tributário | [formato] | [tema] | `instagram/04-quinta-tributario.md` | ✅/⚠️ |
-| Sábado | Previdenciário | [formato] | [tema] | `instagram/05-sabado-previdenciario.md` | ✅/⚠️ |
+| Segunda | [área do rodízio desta semana] | [formato] | [tema] | `instagram/01-segunda-area.md` | ✅/⚠️ |
+| Terça | Tributário (Isenção de IR) | [formato] | [ângulo — ex.: "Isenção de Imposto de Renda — doença grave..."] | `instagram/02-terca-isencao-ir.md` | ✅/⚠️ |
+| Quarta | [área do rodízio desta semana] | [formato] | [tema — se Cível, indicar subtema, ex.: "Família — ..."] | `instagram/03-quarta-area.md` | ✅/⚠️ |
+| Quinta | Tributário (Isenção de IR) | [formato] | [ângulo, diferente da terça] | `instagram/04-quinta-isencao-ir.md` | ✅/⚠️ |
+| Sexta | [área do rodízio desta semana] | [formato] | [tema] | `instagram/05-sexta-area.md` | ✅/⚠️ |
 
 ## Fonte dos temas
 

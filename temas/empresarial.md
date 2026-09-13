@@ -71,3 +71,52 @@ pauta de atualidade legislativa/jurisprudencial da área.
     aquisição, em nível introdutório.
     **Público**: empresários avaliando compra/venda de participação.
     **Risco de conformidade**: baixo.
+
+11. **Tema**: Holding patrimonial — quando faz sentido para proteger e
+    organizar um negócio.
+    **Ângulo informativo**: explicar o instituto em nível introdutório
+    (separação patrimonial, sucessão), sem prometer economia tributária
+    específica — distinto do recorte de holding familiar sucessória do
+    banco de Tributário.
+    **Público**: empresários com patrimônio empresarial relevante.
+    **Risco de conformidade**: médio — não prometer "blindagem total" de
+    patrimônio.
+
+12. **Tema**: Cláusula de não concorrência entre sócios ou com
+    ex-funcionário — limites de validade.
+    **Ângulo informativo**: requisitos gerais que a jurisprudência exige
+    para a cláusula ser válida (prazo, território, contrapartida), sem
+    avaliar contrato específico.
+    **Público**: empresários redigindo contrato social ou de trabalho.
+    **Risco de conformidade**: baixo.
+
+13. **Tema**: Contrato de franquia — o que a Circular de Oferta de
+    Franquia (Lei 13.966/2019) precisa conter.
+    **Ângulo informativo**: itens obrigatórios de divulgação prévia ao
+    franqueado, em nível introdutório.
+    **Público**: franqueadores e franqueados avaliando o negócio.
+    **Risco de conformidade**: baixo.
+
+14. **Tema**: Vesting e acordo entre sócios em startups — conceitos
+    básicos.
+    **Ângulo informativo**: explicar o mecanismo de aquisição gradual de
+    participação e por que reduz disputa societária, nível introdutório.
+    **Público**: fundadores e investidores de startups.
+    **Risco de conformidade**: baixo.
+
+15. **Tema**: Nome empresarial x marca — por que registrar um não protege
+    o outro.
+    **Ângulo informativo**: diferença entre registro na Junta Comercial e
+    registro no INPI, e por que empresas descobrem tarde que não têm a
+    marca protegida.
+    **Público**: empreendedores em fase de abertura ou expansão.
+    **Risco de conformidade**: baixo.
+
+16. **Tema**: Encerramento de empresa — diferença entre baixa simples e
+    dissolução com passivo em aberto.
+    **Ângulo informativo**: panorama geral de quando a baixa é simples e
+    quando exige liquidação prévia de dívidas, sem avaliar caso
+    individual.
+    **Público**: sócios encerrando atividade.
+    **Risco de conformidade**: médio — evitar sugerir formas de encerrar
+    sem quitar passivo.

@@ -36,6 +36,14 @@ de IR"`, não `"Tributário"` como este repositório assumia antes. Os
 arquivos deste rascunho e a documentação (`docs/formatos.md`, `CLAUDE.md`,
 `docs/notion.md`, templates) foram corrigidos para refletir isso.
 
+**Atualização de 2026-09-13 — fechamentos corrigidos**: os 8 arquivos
+locais e as 8 páginas já publicadas no Notion tiveram o fechamento
+reescrito — a fórmula fixa "O escritório atua em Direito X.", repetida
+sem variação em todo post, foi apontada pelo usuário como um dos motivos
+dos CTAs estarem ruins (ver `docs/perfil-escritorio.md`, "Fechamento e
+identificação — variar, nunca repetir fórmula"). Local e Notion estão
+sincronizados.
+
 Se o usuário aprovar o conteúdo e quiser transformar isso na semana
 oficial: mover para `calendarios/2026-S38/` (ajustando nomes de arquivo se
 o rodízio tiver avançado nesse meio-tempo), atualizar

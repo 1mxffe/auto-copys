@@ -46,7 +46,8 @@ CREATE TABLE "Posts" (
   "Área" SELECT('Empresarial', 'Cível', 'Trabalhista', 'Tributário',
                  'Família', 'Previdenciário'),
   "Canal" SELECT('LinkedIn', 'Instagram'),
-  "Formato" SELECT('Carrossel', 'Post estático', 'Reel', 'Stories',
+  "Formato" SELECT('Carrossel', 'Carrossel curto', 'Carrossel aprofundado',
+                    'Post estático', 'Reel', 'Reel rápido', 'Stories',
                     'LinkedIn', 'Texto longo'),
   "Status" SELECT('Rascunho', 'Em aprovação', 'Aprovado', 'Em produção',
                    'Pronto para publicar', 'Publicado'),
@@ -69,7 +70,26 @@ CREATE TABLE "Posts" (
 )
 ```
 
-Todas as opções de Select já existem no data source — não recriar.
+A maioria das opções de Select já existe no data source — não recriar.
+**Exceção**: `Carrossel curto` e `Carrossel aprofundado` (Formato) são
+novas desde 2026-09-13 (ver `docs/formatos.md`, "Os formatos do
+Instagram") e ainda não existem no Select — a primeira execução que gerar
+um post com um desses formatos precisa criar a opção (`notion-update-page`
+ao criar a página normalmente já oferece opção de criar valor novo de
+Select; se o conector recusar, usar `notion-update-data-source` para
+adicionar a opção antes de publicar a página). `Reel rápido` também é
+formato novo, mas reaproveita mais uma vez a distinção: crie a opção do
+mesmo jeito na primeira vez que for usada.
+
+`Carrossel` (Select) segue representando o formato "Carrossel padrão" (5
+slides) e `Reel` segue representando "Reel aprofundado" (30-45s) — os
+nomes internos do Select não foram renomeados para não invalidar as
+páginas já publicadas (S34-S36); a distinção de 3 níveis de Carrossel e 2
+de Reel existe só nos nomes usados pela documentação e pelo briefing (ver
+`docs/formatos.md`), mapeados para os valores de Select como segue: Carrossel
+curto → `Carrossel curto`; Carrossel padrão → `Carrossel`; Carrossel
+aprofundado → `Carrossel aprofundado`; Reel rápido → `Reel rápido`; Reel
+aprofundado → `Reel`.
 
 `Canal` foi adicionado em 2026-08-14, junto com a opção `Texto longo` em
 `Formato` (renomeação funcional de `LinkedIn`). As opções `Stories` e

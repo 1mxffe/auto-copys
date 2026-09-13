@@ -8,7 +8,7 @@ cadência própria — não é mais um único calendário de 6 posts:
 | Canal | Posts/semana | Dias | Formato |
 |---|---|---|---|
 | LinkedIn | 3 | Segunda, quarta, sexta | Sempre "Texto longo" (sem rodízio) |
-| Instagram | 5 | Segunda, terça, quarta, quinta e sexta (sem sábado) | Rodízio entre Carrossel, Post estático e Reel |
+| Instagram | 5 | Segunda, terça, quarta, quinta e sexta (sem sábado) | Rodízio entre 6 formatos (ver "Os formatos do Instagram") |
 
 Desde 2026-08-26 até 2026-09-11 o Instagram publicava segunda a quinta e
 sábado (sem sexta). **Desde 2026-09-12** o dia que sai é o sábado e o que
@@ -37,9 +37,39 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
 `calendarios/AAAA-SNN/linkedin/` e `calendarios/AAAA-SNN/instagram/` (ver
 `.claude/skills/calendario-semanal/SKILL.md`).
 
-## Os 3 formatos do Instagram
+## Os formatos do Instagram (desde 2026-09-13: 6 formatos)
 
-### Carrossel
+Até 2026-09-12 o Instagram girava entre só 3 formatos (Carrossel, Post
+estático, Reel). Desde 2026-09-13, por pedido explícito do usuário para
+variar mais o tipo de conteúdo, o rodízio tem **6 formatos** — duas
+variações de Carrossel e duas de Reel, além de Post estático:
+
+| Família | Formato | Extensão |
+|---|---|---|
+| Carrossel | Carrossel curto | 3 slides |
+| Carrossel | Carrossel padrão | 5 slides |
+| Carrossel | Carrossel aprofundado | 7 slides |
+| Estático | Post estático | card único |
+| Vídeo | Reel rápido | 12–15 segundos |
+| Vídeo | Reel aprofundado | 30–45 segundos |
+
+No Notion, o valor do Select `Formato` de Carrossel padrão continua
+`Carrossel` e o de Reel aprofundado continua `Reel` — reaproveita os
+valores já usados por S34-S36; os outros 3 são opções novas no Select
+(ver `docs/notion.md`, seção do esquema "Posts").
+
+### Carrossel curto
+- **Extensão**: 3 slides.
+- **Estrutura fixa**: gancho → informação central → fechamento sóbrio.
+- **Entrega**: texto dos 3 slides + legenda.
+- **Quando usar**: o tema cabe inteiro numa ideia só, sem precisar do
+  desenvolvimento do carrossel padrão — uma regra específica, um mito, uma
+  atualização pontual.
+- **O que a copy precisa entregar**: direto ao ponto, sem slide de
+  contexto "de aquecimento" — o slide 1 já é o gancho (ver
+  `docs/perfil-escritorio.md`, "Gancho magnético"), o slide 3 já fecha.
+
+### Carrossel padrão
 - **Extensão**: 5 slides.
 - **Estrutura fixa**: capa/gancho → identificação (o que é / por que
   importa) → informação-chave → aprofundamento → encerramento sóbrio.
@@ -48,12 +78,25 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
   isoladamente (usuário desliza rápido), mas a sequência tem que fechar uma
   ideia completa até o slide 5. Curto por slide: até ~20 palavras além do
   gancho/título — se um slide precisa de mais que isso, é sinal de que o
-  tema pede dois slides, não um parágrafo espremido num só.
+  tema pede carrossel aprofundado, não um parágrafo espremido num só.
 - **Slide 1 é o teste de tudo**: nunca a definição do instituto jurídico
   ("O que é usucapião?") — abra com a situação, o número ou o
   mal-entendido que faz a pessoa parar de rolar o feed (ver
   `docs/perfil-escritorio.md`, "Gancho magnético"). Se o slide 1 poderia
   abrir qualquer post da mesma área, não é gancho — é preenchimento.
+
+### Carrossel aprofundado
+- **Extensão**: 7 slides.
+- **Estrutura fixa**: gancho → contexto/identificação → o que a norma diz
+  → primeiro desdobramento prático → segundo desdobramento (ou exceção) →
+  comparação/exemplo genérico → encerramento sóbrio.
+- **Entrega**: texto dos 7 slides + legenda.
+- **Quando usar**: reservado a temas que genuinamente têm mais de uma
+  camada — comparação de regimes, mudança legislativa com várias fases,
+  instituto com múltiplas hipóteses. **Nunca usar só para "encher" um tema
+  simples**: se o conteúdo dos slides 6-7 repete o que os slides 1-5 já
+  disseram com outras palavras, o tema não pedia carrossel aprofundado —
+  volte para o padrão de 5.
 
 ### Post estático
 - **Extensão**: card único.
@@ -66,7 +109,18 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
   alguém para no card ou não; nunca o nome burocrático do instituto
   jurídico sozinho (ver `docs/perfil-escritorio.md`, "Gancho magnético").
 
-### Reel / vídeo curto
+### Reel rápido
+- **Extensão**: roteiro de 12–15 segundos.
+- **Estrutura fixa**: gancho (`0:00–0:03`) → um fato ou dica central
+  (`0:03–0:12`) → fechamento com identificação (`0:12–0:15`) — sem
+  desenvolvimento intermediário.
+- **Entrega**: roteiro marcado + texto de tela + legenda.
+- **O que a copy precisa entregar**: a informação mais "compartilhável" do
+  tema — um mito desfeito numa frase, uma dica isolada — nunca um resumo
+  comprimido do Reel aprofundado. Se depois de cortar ainda sobra mais de
+  uma ideia, o tema pede Reel aprofundado, não rápido.
+
+### Reel aprofundado
 - **Extensão**: roteiro de 30–45 segundos.
 - **Estrutura fixa**: roteiro com marcação de tempo (ex.: `0:00–0:05`,
   `0:05–0:15`...) + texto que aparece na tela em cada trecho.
@@ -78,6 +132,15 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
   sem CTA de conversão (Pergunta 04). Texto de tela curto: frases de até
   6-7 palavras, uma ideia por tela — não sub-título de artigo colado na
   tela.
+
+### Desvio editorial do rodízio de formato
+
+O rodízio (ver "Instagram — rodízio de formato" abaixo) é a distribuição
+padrão, mas não é obrigatório contra a evidência do próprio tema: se o
+tema sorteado é claramente raso demais para 7 slides, ou denso demais para
+caber em 15 segundos, troque para o formato que o tema pede. Registre a
+troca e o motivo na seção "Pendências" de `calendario.md` — isso evita que
+a exceção vire prática arbitrária e mantém o histórico auditável.
 
 > **Descontinuado**: o formato Stories saiu do rodízio. Não usar em novas
 > execuções.
@@ -210,18 +273,22 @@ fundo é sempre o mesmo, escolher um ângulo ainda não publicado é o que
 evita que os dois posts da semana (e as semanas entre si) pareçam
 repetição do mesmo texto.
 
-**Formato**: mesmo rodízio de Carrossel / Post estático / Reel dos outros
-posts do Instagram — ver "Instagram — rodízio de formato" abaixo, trilha
-"Isenção de IR".
+**Formato**: mesmo rodízio de 6 formatos dos outros posts do Instagram —
+ver "Instagram — rodízio de formato" abaixo, trilha "Isenção de IR".
 
 ## Instagram — rodízio de formato
 
 **Desde 2026-09-12**, formato deixou de ser amarrado a dia×área — sem área
 fixa por dia, uma tabela de "semana do ciclo" por dia não faz mais
-sentido. Formato agora roda por contagem, dentro de 6 "trilhas"
-independentes (as 5 áreas + o conteúdo fixo de Isenção de IR), cada uma
-alternando sempre entre `[Carrossel, Post estático, Reel]` sem repetir a
-mesma trilha duas vezes seguidas:
+sentido. **Desde 2026-09-13**, o rodízio passou de 3 para 6 formatos (ver
+"Os formatos do Instagram" acima). Formato roda por contagem, dentro de 6
+"trilhas" independentes (as 5 áreas + o conteúdo fixo de Isenção de IR),
+cada uma alternando sempre entre:
+
+`[Carrossel curto, Carrossel padrão, Post estático, Reel rápido, Reel
+aprofundado, Carrossel aprofundado]`
+
+— sem repetir o mesmo formato duas vezes seguidas dentro da trilha:
 
 - **Trilha de cada área** (Empresarial, Cível, Trabalhista, Previdenciário,
   e Tributário quando sai no rodízio de segunda/quarta/sexta): conte, em
@@ -229,17 +296,19 @@ mesma trilha duas vezes seguidas:
   `Área = <a área>` — para Tributário, **exclua** as linhas cujo `Tema`
   começa com "Isenção de Imposto de Renda" (essas pertencem à trilha
   seguinte, não a esta). Esse número é o contador da trilha; o formato do
-  novo post é `[Carrossel, Post estático, Reel][contador mod 3]`.
+  novo post é a lista acima indexada por `contador mod 6`.
 - **Trilha "Isenção de IR"** (terça e quinta): conte as linhas de
   `temas/historico.md` cujo `Tema` começa com "Isenção de Imposto de
   Renda" (`Área` sempre "Tributário" nessas linhas) — mesmo cálculo,
-  `contador mod 3`. Dentro da mesma semana, calcule terça primeiro,
+  `contador mod 6`. Dentro da mesma semana, calcule terça primeiro,
   incremente o contador em 1, calcule quinta em seguida — os dois nunca
   saem no mesmo formato na mesma semana.
 
 Isso mantém a regra qualitativa de sempre variar formato dentro da mesma
 trilha, sem exigir dia fixo nem ciclo de semana — o próprio histórico é o
-estado, sem precisar guardar posição de ciclo em nenhum outro lugar.
+estado, sem precisar guardar posição de ciclo em nenhum outro lugar. Ver
+também "Desvio editorial do rodízio de formato" acima — o rodízio é a
+distribuição padrão, não uma camisa de força contra a evidência do tema.
 
 ## LinkedIn — área × dia (fixo, sem rodízio)
 

@@ -15,7 +15,7 @@ canal**, não mais um único calendário de 6 posts:
 | Canal | Posts | Dias | Formato |
 |---|---|---|---|
 | LinkedIn | 3 | Segunda, quarta, sexta | Sempre "Texto longo" |
-| Instagram | 5 | Segunda a sexta (sem sábado) | Rodízio entre Carrossel, Post estático, Reel |
+| Instagram | 5 | Segunda a sexta (sem sábado) | Rodízio entre 6 formatos (ver `docs/formatos.md`) |
 
 Desde 2026-08-26, Família deixou de ser área própria do Instagram e virou
 subtema de Cível — o banco de temas de Cível vive em `temas/civel/`, um
@@ -28,8 +28,13 @@ entre as 5 áreas (ver passo 5 e `docs/formatos.md`, seção "Instagram —
 rodízio de área"). Terça e quinta viraram conteúdo fixo — sempre "Isenção
 de Imposto de Renda", `Área = "Tributário"`, banco próprio em
 `temas/tributario-isencao-ir.md`. Também desde essa data, toda copy (nos
-dois canais) segue limites de extensão mais curtos — ver `docs/formatos.md`
-e `docs/perfil-escritorio.md`.
+dois canais) segue limites de extensão mais curtos e a exigência de gancho
+magnético — ver `docs/formatos.md` e `docs/perfil-escritorio.md`.
+
+**Desde 2026-09-13**, o rodízio de formato do Instagram passou de 3 para
+**6 formatos** (Carrossel curto/padrão/aprofundado, Post estático, Reel
+rápido/aprofundado — ver `docs/formatos.md`, "Os formatos do Instagram"),
+por pedido explícito do usuário para variar mais o tipo de conteúdo.
 
 Desde 2026-08-17, o LinkedIn é canal **100% B2B**, fixo em 3 áreas
 (Empresarial, Trabalhista pelo ângulo empregador, Tributário — sem mais
@@ -152,10 +157,14 @@ Formato de cada um dos 5 posts do Instagram: conte, em
 `temas/historico.md`, as linhas da trilha correspondente (a área, ou —
 para terça/quinta — `Tema` começando com "Isenção de Imposto de Renda";
 para a trilha de Tributário via rodízio, exclua essas mesmas linhas) e
-aplique `contador mod 3` sobre `[Carrossel, Post estático, Reel]` — ver
+aplique `contador mod 6` sobre `[Carrossel curto, Carrossel padrão, Post
+estático, Reel rápido, Reel aprofundado, Carrossel aprofundado]` — ver
 `docs/formatos.md`, "Instagram — rodízio de formato". Dentro da mesma
 semana, terça é calculada antes de quinta (incrementando o contador da
-trilha de Isenção de IR em 1 entre uma e outra).
+trilha de Isenção de IR em 1 entre uma e outra). O rodízio pode ser
+substituído por julgamento editorial quando o tema claramente pede outro
+formato — ver `docs/formatos.md`, "Desvio editorial do rodízio de
+formato" — registrando a troca nas Pendências do calendário.
 
 Isso dá uma lista de 8 (área, canal, dia, formato, e para LinkedIn também o
 subtipo de registro) para os quais escolher tema.

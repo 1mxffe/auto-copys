@@ -9,7 +9,7 @@
 | Subtema (só se Área = Cível) | [Imobiliário / Família / Responsabilidade Civil / Direito das coisas / Contratos] |
 | Recorte fixo (só terça/quinta do Instagram) | Isenção de Imposto de Renda — ângulo específico no campo Tema abaixo (ex.: "doença grave", "ganho de capital em imóvel único"); `Área` continua "Tributário" |
 | Canal | [LinkedIn / Instagram] |
-| Formato | [Texto longo (só LinkedIn) / Carrossel / Post estático / Reel (só Instagram)] |
+| Formato | [Texto longo (só LinkedIn) / Carrossel curto / Carrossel padrão / Carrossel aprofundado / Post estático / Reel rápido / Reel aprofundado (só Instagram — ver `docs/formatos.md`)] |
 | Data de publicação | [AAAA-MM-DD, dia da semana] |
 | Tema | [tema, como consta em `temas/<area>.md` (ou `temas/civel/<subtema>.md`) ou pauta de atualidade] |
 | Fonte do tema | [Banco de temas | Atualidade jurídica — citar norma/decisão] |
@@ -68,8 +68,11 @@ slides/parágrafos.
 **Slide/tela 5**
 > [texto final]
 
-(Para Reel: incluir roteiro com marcação de tempo. Para Texto longo
-(LinkedIn): texto corrido de 180–300 palavras, sem divisão em slides.)
+(Ajustar o número de blocos ao formato — ver `docs/formatos.md`: 3 no
+Carrossel curto, 5 no padrão, 7 no aprofundado. Para Reel rápido/
+aprofundado: incluir roteiro com marcação de tempo em vez de slides. Para
+Texto longo (LinkedIn): texto corrido de 180–300 palavras, sem divisão em
+slides.)
 
 ## 5. Legenda proposta
 

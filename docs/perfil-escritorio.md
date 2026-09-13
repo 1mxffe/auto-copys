@@ -89,6 +89,32 @@ canal):
     meio, reescreva. Extensão curta (ver `docs/formatos.md`) é consequência
     de cortar o que não sustenta essa curva de atenção — não é o objetivo
     em si.
+- **Menu de estilos de gancho** (desde 2026-09-13): variar o *estilo* do
+  gancho é tão importante quanto ele existir — usar sempre a mesma fórmula
+  (ex.: sempre "número surpreendente") cansa tanto quanto abrir sempre com
+  definição. Antes de escrever, escolha conscientemente um estilo — e
+  evite repetir o mesmo estilo da última peça publicada na mesma trilha
+  (`temas/historico.md` não registra estilo de gancho hoje; usar
+  julgamento e o próprio arquivo da semana anterior como referência):
+  - **Cena do cotidiano**: abrir dentro de uma situação reconhecível, como
+    quem descreve uma cena, não uma regra ("Você abre o aplicativo do
+    banco e vê um desconto que não reconhece.").
+  - **Mito x verdade**: contrapor uma crença comum equivocada à regra
+    real ("Isso, na prática, é o inverso do que a maioria imagina.").
+  - **Número ou dado concreto**: uma estatística, prazo ou valor
+    específico que por si já gera surpresa.
+  - **Pergunta direta**: uma pergunta que o público já se fez de verdade
+    — nunca isca de engajamento vazia ("Comenta aqui!", "Marca um
+    amigo!").
+  - **Contraste temporal**: antes/depois de uma mudança na lei ou na
+    jurisprudência.
+  - **Erro comum**: nomear o erro mais frequente que o escritório observa
+    nesse tipo de situação, sem citar caso concreto nem cliente (Regra 2
+    do checklist).
+  Todo estilo continua sob as mesmas travas: nenhum vira gatilho de
+  urgência ou sensacionalismo (Regra 5), nenhum menciona caso real (Regra
+  2) — inovar na forma não abre exceção no conteúdo do checklist de
+  `docs/normas-oab.md`.
 - **LinkedIn especificamente é registro de autoridade técnica corporativa**
   (ver "Registro: dois subtipos" em `docs/formatos.md`) — cita dispositivo
   legal com precisão, compara antes/depois da norma, usa framing de risco e

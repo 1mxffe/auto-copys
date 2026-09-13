@@ -115,6 +115,39 @@ canal):
   urgência ou sensacionalismo (Regra 5), nenhum menciona caso real (Regra
   2) — inovar na forma não abre exceção no conteúdo do checklist de
   `docs/normas-oab.md`.
+- **Fechamento e identificação — variar, nunca repetir fórmula** (desde
+  2026-09-13): identificar a área de atuação no fechamento é permitido
+  (Pergunta 08), mas **usar sempre a mesma frase, só trocando o nome da
+  área, é o que faz a peça soar robotizada e é exatamente a queixa sobre
+  os CTAs** — "O escritório atua em Direito X." em todo post, sem
+  variação, lê como preenchimento de campo, não como fechamento de
+  verdade. Isso vale tanto para o card/slide/tela do Instagram quanto
+  para a legenda e para o fechamento do Texto longo do LinkedIn.
+  - **Nunca a mesma abertura de frase de fechamento em dois posts
+    seguidos** ("O escritório atua em..." toda vez é o padrão banido).
+    Varie estrutura, verbo e posição.
+  - Exemplos de fechamento a **rotacionar** (não usar o mesmo dois posts
+    seguidos, e não se limitar a esta lista):
+    - "A equipe de Direito X do escritório lida com esse tipo de situação
+      com frequência."
+    - "Isso é rotina em Direito X aqui no escritório."
+    - "Direito X é uma das frentes do escritório."
+    - Emendado na última ideia do conteúdo, sem virar frase solta: "...e
+      é por isso que o time de Direito X do escritório presta atenção
+      redobrada a esse tipo de cláusula."
+    - **Às vezes, nenhum fechamento de identificação** — quando a última
+      ideia do conteúdo já fecha bem sozinha, apender "O escritório atua
+      em..." de qualquer jeito é o próprio problema. Identificação em
+      todo post não é obrigatória.
+  - No Instagram, quando o card/slide tem fechamento de identificação
+    curto ("Direito Cível.", por exemplo — ver `docs/formatos.md`), é a
+    **legenda** que deve variar a frase mais completa — os dois nunca
+    usam a mesma fórmula juntos na mesma peça.
+  - No LinkedIn, alterne entre nomear a área diretamente, descrever o que
+    a equipe faz na prática ("A equipe de Direito X do escritório apoia
+    empresas em [o que o post tratou]") ou fechar só com o conteúdo, sem
+    apêndice de identificação — sempre em registro corporativo sóbrio,
+    nunca superlativo.
 - **LinkedIn especificamente é registro de autoridade técnica corporativa**
   (ver "Registro: dois subtipos" em `docs/formatos.md`) — cita dispositivo
   legal com precisão, compara antes/depois da norma, usa framing de risco e

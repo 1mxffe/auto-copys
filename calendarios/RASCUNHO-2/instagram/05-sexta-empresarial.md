@@ -36,7 +36,7 @@ sóbrio.
 **Slide 2**: É um instituto para reorganizar dívidas e manter a empresa
 funcionando, com prazo de suspensão das execuções contra ela.
 
-**Slide 3**: O escritório atua em Direito Empresarial.
+**Slide 3**: Direito Empresarial, aqui no escritório.
 
 *(Sem citar lei nem prazo exato nos slides — fica na legenda.)*
 
@@ -53,7 +53,7 @@ funcionando, com prazo de suspensão das execuções contra ela.
 > plano precisa ser aprovado pelos credores — não é garantia de
 > reorganização bem-sucedida em todo caso.
 >
-> O escritório atua em Direito Empresarial, incluindo processos de
+> A equipe de Direito Empresarial do escritório atua em processos de
 > recuperação judicial.
 
 **Hashtags**: #DireitoEmpresarial #RecuperaçãoJudicial #GestãoDeCrise

@@ -55,9 +55,8 @@ calibrada, desenvolve a base jurisprudencial, fecha com framing de gestão.
 >
 > O ponto de atenção prático: antes de formalizar uma condição individual
 > divergente, checar se a matéria está na lista do art. 611-A ou se a
-> convenção coletiva da categoria já trata do assunto de forma vinculante.
->
-> O escritório atua em Direito Trabalhista, do lado da gestão de pessoas.
+> convenção coletiva da categoria já trata do assunto de forma
+> vinculante — é isso que evita a nulidade lá na frente.
 
 *(≈220 palavras — dentro do limite de 180–300.)*
 

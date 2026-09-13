@@ -48,8 +48,6 @@ Post estático — título (gancho) → 2-3 linhas de corpo → legenda.
 >
 > É diferente da isenção por reinvestimento em outro imóvel em até 180
 > dias — os dois mecanismos não se confundem e têm requisitos próprios.
->
-> O escritório atua em Direito Tributário.
 
 **Hashtags**: #ImpostoDeRenda #DireitoTributário #GanhoDeCapital
 

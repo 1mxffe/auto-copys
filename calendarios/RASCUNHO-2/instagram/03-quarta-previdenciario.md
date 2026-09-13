@@ -46,8 +46,8 @@ diferente de contribuição."
 `0:28–0:38` (tela: "Avaliação social e médica") — "O enquadramento passa
 por avaliação médica e social feita pelo INSS, não é autodeclaração."
 
-`0:38–0:45` (tela: "Direito Previdenciário") — "O escritório atua em
-Direito Previdenciário."
+`0:38–0:45` (tela: "Direito Previdenciário") — "Direito Previdenciário,
+aqui no escritório."
 
 *(Sem citar lei ou número de tempo exato no roteiro — fica na legenda.)*
 
@@ -62,7 +62,8 @@ Direito Previdenciário."
 > contestação), que reconhece o grau da deficiência para fins
 > previdenciários — distinto de laudos usados para outros fins.
 >
-> O escritório atua em Direito Previdenciário.
+> A equipe de Direito Previdenciário do escritório acompanha esse tipo
+> de enquadramento com frequência.
 
 **Hashtags**: #DireitoPrevidenciário #Aposentadoria #PessoaComDeficiência
 

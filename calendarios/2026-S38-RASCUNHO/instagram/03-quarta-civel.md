@@ -72,7 +72,7 @@ Narração: "Em caso de dúvida, comparar o laudo de vistoria de quando
 entrou com o de quando saiu costuma resolver quem tem razão."
 
 `0:40–0:45` — (texto de tela: "Direito Cível")
-Narração: "O escritório atua em Direito Cível."
+Narração: "Direito Cível é uma das frentes do escritório."
 
 *(Nenhuma menção a número de lei ou artigo no roteiro — fica para a
 legenda, ver seção 5.)*
@@ -92,7 +92,8 @@ legenda, ver seção 5.)*
 > o que é dano, um laudo de vistoria comparando o estado de entrada e
 > saída do imóvel costuma ser a prova mais objetiva.
 >
-> O escritório atua em Direito Cível, incluindo locação residencial.
+> A equipe de Direito Cível do escritório lida com esse tipo de situação
+> com frequência.
 
 **Hashtags**: #DireitoCível #LocaçãoResidencial #DireitoImobiliário
 

@@ -51,7 +51,8 @@ doutrinária aprofundada.
 > própria) — não como garantia de resultado num eventual processo, mas
 > como registro do modelo efetivamente praticado.
 >
-> O escritório acompanha o tema e atua em Direito Trabalhista.
+> A equipe de Direito Trabalhista do escritório acompanha esse debate de
+> perto.
 
 **Hashtags**: #DireitoTrabalhista #EconomiaDigital #GestãoDePessoas
 

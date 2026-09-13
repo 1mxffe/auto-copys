@@ -49,7 +49,7 @@ que a norma diz → primeiro desdobramento prático → segundo desdobramento
 | 4 | "Nesse programa, a paternidade pode chegar a 20 dias, e a maternidade a 180." | Primeiro desdobramento prático |
 | 5 | "Mas a prorrogação não é automática — depende de a empresa estar cadastrada e do pedido ser feito no prazo certo." | Segundo desdobramento (exceção) |
 | 6 | "E o tipo de vínculo também muda a regra: CLT, servidora pública e autônoma seguem critérios próprios." | Comparação/exemplo genérico |
-| 7 | "O escritório atua em Direito Trabalhista." | Encerramento sóbrio + identificação |
+| 7 | "A equipe de Direito Trabalhista do escritório acompanha esse tipo de regra de perto." | Encerramento sóbrio + identificação |
 
 ## 4. Copy final
 
@@ -77,7 +77,8 @@ que a norma diz → primeiro desdobramento prático → segundo desdobramento
 > autônoma seguem critérios próprios.
 
 **Slide 7**
-> O escritório atua em Direito Trabalhista.
+> A equipe de Direito Trabalhista do escritório acompanha esse tipo de
+> regra de perto.
 
 *(Nenhuma menção a número de lei ou nome do programa fiscal nos slides —
 fica para a legenda, ver seção 5.)*
@@ -96,8 +97,6 @@ fica para a legenda, ver seção 5.)*
 > programa. Vale notar que os critérios de prorrogação, e quem tem direito
 > a solicitá-la, variam conforme o vínculo (CLT, servidora pública,
 > autônoma) — cada categoria segue regras próprias.
->
-> O escritório atua em Direito Trabalhista.
 
 **Hashtags**: #DireitoTrabalhista #LicençaPaternidade #LicençaMaternidade
 

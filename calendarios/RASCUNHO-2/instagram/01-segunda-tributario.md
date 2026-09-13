@@ -43,8 +43,8 @@ pode estar pagando imposto a mais sem saber."
 mecanismo que credita parte do que já foi pago mais atrás na cadeia
 produtiva — e boa parte das empresas simplesmente não aproveita."
 
-`0:12–0:15` (tela: "Direito Tributário.") — "O escritório atua em Direito
-Tributário."
+`0:12–0:15` (tela: "Direito Tributário.") — "Isso é rotina em Direito
+Tributário aqui no escritório."
 
 *(Sem citar lei ou sigla no roteiro — fica na legenda.)*
 
@@ -59,8 +59,8 @@ Tributário."
 > "insumo" para esse fim — um conceito mais amplo do que parece à
 > primeira vista.
 >
-> O escritório atua em Direito Tributário, incluindo revisão de créditos
-> fiscais.
+> A equipe de Direito Tributário do escritório revisa esse tipo de
+> crédito com frequência.
 
 **Hashtags**: #DireitoTributário #GestãoFiscal #PISCOFINS
 

@@ -59,8 +59,8 @@ desenvolvem a base legal e o framing de gestão, o fechamento identifica a
 > multa com critério, foro definido. É isso que transforma um contrato de
 > "documento de boa-fé" em instrumento de gestão de risco.
 >
-> O escritório atua em Direito Empresarial, incluindo estruturação de
-> contratos entre empresas.
+> A equipe de Direito Empresarial do escritório apoia empresas nessa
+> padronização contratual.
 
 *(≈230 palavras — dentro do limite de 180–300.)*
 

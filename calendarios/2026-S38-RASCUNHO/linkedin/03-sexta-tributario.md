@@ -60,8 +60,8 @@ planejamento patrimonial empresarial.
 > variação entre estados chega tarde — o momento de avaliar isso é antes
 > da sucessão acontecer, não depois de aberto o inventário.
 >
-> O escritório atua em Direito Tributário e planejamento sucessório
-> empresarial.
+> Planejamento sucessório é uma das frentes do escritório em Direito
+> Tributário.
 
 *(≈235 palavras — dentro do limite de 180–300.)*
 

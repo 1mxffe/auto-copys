@@ -36,7 +36,7 @@ sóbrio (ver `docs/formatos.md`).
 |---|---|---|
 | 1 | "Diagnóstico de doença grave também muda a declaração do Imposto de Renda." | Gancho por situação concreta, sem alarmismo |
 | 2 | "Quem tem certas doenças graves pode ter isenção sobre aposentadoria e pensão — mas depende de laudo oficial, não é automático." | Informação central, sem citar número de lei (fica na legenda) |
-| 3 | "O escritório atua em Direito Tributário." | Encerramento sóbrio + identificação |
+| 3 | "Isso é rotina em Direito Tributário aqui no escritório." | Encerramento sóbrio + identificação |
 
 ## 4. Copy final
 
@@ -50,7 +50,7 @@ sóbrio (ver `docs/formatos.md`).
 > acontece sozinho.
 
 **Slide 3**
-> O escritório atua em Direito Tributário.
+> Isso é rotina em Direito Tributário aqui no escritório.
 
 *(Nenhuma menção a número de lei, artigo específico ou nome de doença
 individual no card — a lista de doenças e a base legal ficam na legenda,
@@ -72,8 +72,6 @@ ver seção 5.)*
 > Vale notar: a isenção recai sobre o benefício de aposentadoria/pensão em
 > si, não sobre todo e qualquer rendimento da pessoa — outros rendimentos
 > continuam sujeitos à tributação normal.
->
-> O escritório atua em Direito Tributário.
 
 **Hashtags**: #ImpostoDeRenda #DireitoTributário #IsençãoFiscal
 

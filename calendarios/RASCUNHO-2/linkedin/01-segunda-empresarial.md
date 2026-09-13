@@ -54,8 +54,7 @@ de sócios), fechamento identificando a área.
 > de atenção é o momento de formalizar isso: antes da sucessão gerar
 > disputa, não como remédio depois que já gerou.
 >
-> O escritório atua em Direito Empresarial, incluindo governança
-> societária.
+> Governança societária é uma das frentes do escritório.
 
 **Hashtags**: #DireitoEmpresarial #GovernançaCorporativa #EmpresaFamiliar
 

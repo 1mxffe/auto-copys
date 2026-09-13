@@ -85,7 +85,10 @@ No Instagram, é aqui que entra a profundidade técnica que o slide/card/
 tela não carrega — número de lei, artigo, nome/ano de decisão, exceção
 relevante (ver `docs/formatos.md`, "Legenda do Instagram"). Reforça a
 ideia do card em 1-2 frases sem repetir literalmente, aprofunda, fecha
-identificando a área do escritório. Mesmo checklist de
+identificando a área do escritório — **nunca com a mesma frase de
+fechamento do post anterior** (ver `docs/perfil-escritorio.md`,
+"Fechamento e identificação — variar, nunca repetir fórmula"; às vezes o
+fechamento de identificação nem é necessário). Mesmo checklist de
 `docs/normas-oab.md` vale aqui também.
 
 > [legenda completa, pronta para publicar]

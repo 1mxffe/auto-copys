@@ -53,8 +53,8 @@ processual, fechamento identificando a área.
 > empresa — deixar para avaliar depois costuma ser o erro que
 > compromete a defesa.
 >
-> O escritório atua em Direito Tributário, incluindo defesa
-> administrativa fiscal.
+> Defesa administrativa fiscal é uma das frentes do escritório em
+> Direito Tributário.
 
 **Hashtags**: #DireitoTributário #ContenciosoTributário #GestãoDeRisco
 

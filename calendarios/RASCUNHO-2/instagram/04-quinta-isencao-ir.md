@@ -49,7 +49,7 @@ anos — não é para toda venda.
 **Slide 6**: É diferente da isenção do único imóvel (sem exigir compra de
 outro) — os dois não se confundem.
 
-**Slide 7**: O escritório atua em Direito Tributário.
+**Slide 7**: Isso é rotina em Direito Tributário aqui no escritório.
 
 *(Sem citar prazo exato em dias nem lei nos slides — fica na legenda.)*
 
@@ -66,8 +66,6 @@ outro) — os dois não se confundem.
 >
 > É um mecanismo diferente do de terça-feira (isenção do único imóvel,
 > sem exigência de reinvestimento) — cada um tem requisito próprio.
->
-> O escritório atua em Direito Tributário.
 
 **Hashtags**: #ImpostoDeRenda #DireitoTributário #MercadoImobiliário
 

@@ -240,7 +240,11 @@ técnica**. Como o LinkedIn publica 3x/semana, o subtipo muda de área para
 escritório relevante ao tema (permitido pela Pergunta 08 de
 `docs/normas-oab.md`) — nunca com superlativo ("referência no mercado",
 "líder") nem CTA de conversão (Pergunta 04). Autoridade se demonstra pela
-precisão da análise, não por autoelogio.
+precisão da análise, não por autoelogio. **Nunca repetir a mesma frase de
+fechamento post a post** (ex.: sempre "O escritório atua em Direito X.")
+— isso é exatamente o que soa robotizado e mala-direta; varie estrutura e
+verbo a cada post, ver `docs/perfil-escritorio.md`, "Fechamento e
+identificação — variar, nunca repetir fórmula".
 
 ## Instagram — rodízio de área (segunda, quarta e sexta)
 

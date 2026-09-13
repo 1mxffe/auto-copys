@@ -248,7 +248,12 @@ nunca sensacionalista" — abertura (slide 1, título do card, primeiros 3s
 do Reel, primeiro parágrafo do LinkedIn) nunca é definição de dicionário
 do instituto jurídico nem uma das aberturas banidas listadas lá. Antes de
 fechar cada peça, rode o teste de primeira/última frase descrito na mesma
-seção.
+seção. O fechamento de cada peça também não pode repetir a mesma
+fórmula post a post ("O escritório atua em Direito X." sempre igual,
+só trocando a área) — ver `docs/perfil-escritorio.md`, "Fechamento e
+identificação — variar, nunca repetir fórmula": antes de fechar os 8
+briefings da semana, confira que nenhum dos fechamentos usa a mesma
+abertura de frase que o anterior, no mesmo canal.
 
 Para os 5 posts do Instagram especificamente: slide/card/tela nunca cita
 número de lei, artigo ou nome/ano de decisão — só a ideia em linguagem

@@ -35,7 +35,7 @@ desenvolvimento intermediário (ver `docs/formatos.md`).
 |---|---|---|
 | 1 (0:00–0:03) | "Registrar o nome não registra a marca." | Gancho por erro comum, sem alarmismo |
 | 2 (0:03–0:12) | "São dois registros diferentes. Um garante o nome da empresa. O outro protege a marca de verdade." | Informação central, sem citar número de lei (fica na legenda) |
-| 3 (0:12–0:15) | "O escritório atua com propriedade intelectual." | Encerramento sóbrio + identificação |
+| 3 (0:12–0:15) | "Propriedade intelectual, aqui no escritório." | Encerramento sóbrio + identificação |
 
 ## 4. Copy final
 
@@ -50,7 +50,7 @@ outro protege a marca — e sem ele, outra empresa pode registrar antes de
 você."
 
 `0:12–0:15` — (texto de tela: "Propriedade intelectual.")
-Narração: "O escritório atua com propriedade intelectual."
+Narração: "Propriedade intelectual, aqui no escritório."
 
 *(Nenhuma menção a número de lei, artigo ou órgão específico no roteiro —
 fica para a legenda, ver seção 5.)*
@@ -70,8 +70,8 @@ fica para a legenda, ver seção 5.)*
 > de registro pode levar tempo, então quanto antes for avaliado, menor o
 > risco de crescer uma marca que depois não pode mais usar com exclusividade.
 >
-> O escritório atua em Direito Empresarial, incluindo propriedade
-> intelectual.
+> A equipe de Direito Empresarial cuida desse tipo de registro
+> rotineiramente.
 
 **Hashtags**: #DireitoEmpresarial #PropriedadeIntelectual #Empreendedorismo
 

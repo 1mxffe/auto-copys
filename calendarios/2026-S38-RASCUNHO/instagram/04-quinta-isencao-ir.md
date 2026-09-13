@@ -37,7 +37,7 @@ chave → aprofundamento → encerramento sóbrio (ver `docs/formatos.md`).
 | 2 | "Existe uma parcela isenta extra só para quem tem 65 anos ou mais — além da isenção normal da tabela." | Identificação do que é |
 | 3 | "Ela incide sobre aposentadoria e pensão, mês a mês, automaticamente na fonte pagadora." | Informação-chave, sem citar número de lei |
 | 4 | "Outros rendimentos (aluguel, por exemplo) não entram nessa faixa extra — só o benefício de aposentadoria/pensão." | Aprofundamento (o que não é isento) |
-| 5 | "O escritório atua em Direito Tributário." | Encerramento sóbrio + identificação |
+| 5 | "Vale conferir se essa faixa já está aplicada na sua declaração." | Encerramento sóbrio, sem identificação nesta peça (a legenda identifica a área) |
 
 ## 4. Copy final
 
@@ -57,7 +57,7 @@ chave → aprofundamento → encerramento sóbrio (ver `docs/formatos.md`).
 > vale só para o benefício de aposentadoria ou pensão.
 
 **Slide 5**
-> O escritório atua em Direito Tributário.
+> Vale conferir se essa faixa já está aplicada na sua declaração.
 
 *(Nenhuma menção a número de lei, valor exato da faixa ou artigo no
 card — isso fica na legenda, ver seção 5, porque o valor da parcela isenta
@@ -82,7 +82,7 @@ desatualizado sem controle de versão.)*
 > previdência privada) — não depende de pedido separado do beneficiário
 > para começar a valer a partir do mês em que completa 65 anos.
 >
-> O escritório atua em Direito Tributário.
+> Direito Tributário é uma das frentes do escritório.
 
 **Hashtags**: #ImpostoDeRenda #DireitoTributário #Aposentadoria
 

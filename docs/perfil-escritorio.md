@@ -65,6 +65,30 @@ canal):
   Isso vale também para variedade de tema: dois posts com títulos
   diferentes mas o mesmo ângulo de fundo soam repetitivos mesmo sem violar
   a regra literal de não repetir tema — ver `docs/formatos.md`.
+- **Gancho magnético, nunca sensacionalista** (desde 2026-09-12): a queixa
+  recorrente sobre a copy é que ela é longa, previsível e soa como resumo
+  de lei — correta, mas nada que prenda atenção. Precisão técnica e texto
+  magnético não se excluem; o que concilia os dois é **especificidade
+  concreta**, não alarme — alarme é Regra 5 do checklist
+  (`docs/normas-oab.md`), vedada sem exceção.
+  - Abra com uma situação reconhecível, um número específico ou um
+    mal-entendido comum ("a maioria acha que X — não é bem assim") —
+    nunca com definição de dicionário do instituto jurídico.
+  - Sustente uma reviravolta ou contraste (antes/depois da norma, o que
+    parece óbvio e não é) ao longo da peça — é isso que dá curva a um
+    carrossel ou Reel, não uma lista de fatos em sequência.
+  - Feche com uma ideia que fica na cabeça, nunca um resumo repetido do
+    que já foi dito.
+  - **Aberturas banidas**, por serem genéricas e mornas: "O que é
+    [instituto]?", "De acordo com a lei...", "É importante saber que...",
+    "Muitas pessoas têm dúvidas sobre...". Se a peça abre assim, reescreva
+    — o gancho é o que o leitor não esperava ouvir de um escritório de
+    advocacia, não a introdução padrão de qualquer post jurídico.
+  - **Teste antes de fechar a copy**: leia só a primeira e a última frase.
+    Se a primeira não dá vontade de ler a segunda, ou a última só repete o
+    meio, reescreva. Extensão curta (ver `docs/formatos.md`) é consequência
+    de cortar o que não sustenta essa curva de atenção — não é o objetivo
+    em si.
 - **LinkedIn especificamente é registro de autoridade técnica corporativa**
   (ver "Registro: dois subtipos" em `docs/formatos.md`) — cita dispositivo
   legal com precisão, compara antes/depois da norma, usa framing de risco e

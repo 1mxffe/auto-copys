@@ -71,14 +71,18 @@ ajuste, pelo campo **Status**.
   mesmo ângulo escrito com palavras diferentes também contam como
   repetição disfarçada (ver `docs/formatos.md`, seção "Anti-repetição é
   por tema, não por canal").
-- **Copy objetiva e enxuta**: desde 2026-09-12, todo texto — Instagram e
-  LinkedIn — deve usar a extensão mais curta que ainda cumpre a estrutura
-  fixa do formato (limites revisados em `docs/formatos.md`). Cada frase
-  precisa carregar informação nova; corte redundância, frase de
-  preenchimento e repetição de ideia entre slides/parágrafos. Objetividade
-  nunca reduz precisão técnica nem pula etapa do checklist de
-  `docs/normas-oab.md` — é sobre forma, não sobre omitir conteúdo
-  obrigatório.
+- **Copy objetiva, enxuta e com gancho magnético**: desde 2026-09-12, todo
+  texto — Instagram e LinkedIn — deve usar a extensão mais curta que ainda
+  cumpre a estrutura fixa do formato (limites em `docs/formatos.md`). Cada
+  frase precisa carregar informação nova; corte redundância, frase de
+  preenchimento e repetição de ideia entre slides/parágrafos. Abertura
+  (slide 1, título do card, primeiros 3s do Reel, primeiro parágrafo do
+  LinkedIn) nunca é definição de dicionário do instituto jurídico — é
+  situação concreta, número específico ou mal-entendido comum, com lista
+  de aberturas banidas em `docs/perfil-escritorio.md`, "Gancho magnético,
+  nunca sensacionalista". Objetividade e magnetismo nunca reduzem precisão
+  técnica nem pulam etapa do checklist de `docs/normas-oab.md` — é sobre
+  forma, nunca sobre alarmismo (Regra 5) ou omitir conteúdo obrigatório.
 - **Rede é opcional, nunca bloqueante**: se houver acesso à web, prefira
   pauta de atualidade jurídica relevante (mudança legislativa, decisão do
   STF/STJ/TST) no lugar de um tema do banco. Se não houver rede, use o banco

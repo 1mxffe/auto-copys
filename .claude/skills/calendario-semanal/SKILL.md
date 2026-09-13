@@ -223,7 +223,12 @@ editorial explícita do usuário, feita fora do fluxo automático (ver
 Um arquivo por post, a partir de `templates/briefing-post.md`, com todas as
 8 seções preenchidas (incluindo o campo **Canal** no cabeçalho) e a copy
 final pronta para arte — sem placeholder, sem colchete sobrando. Escreva no
-tom de `docs/perfil-escritorio.md`.
+tom de `docs/perfil-escritorio.md`, incluindo a seção "Gancho magnético,
+nunca sensacionalista" — abertura (slide 1, título do card, primeiros 3s
+do Reel, primeiro parágrafo do LinkedIn) nunca é definição de dicionário
+do instituto jurídico nem uma das aberturas banidas listadas lá. Antes de
+fechar cada peça, rode o teste de primeira/última frase descrito na mesma
+seção.
 
 Para os 3 posts do LinkedIn especificamente: escreva sempre para público
 exclusivamente PJ (gestores, sócios, jurídico interno, RH, financeiro —

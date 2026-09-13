@@ -46,9 +46,14 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
 - **Entrega**: texto de cada um dos 5 slides + legenda de publicação.
 - **O que a copy precisa entregar**: cada slide deve fazer sentido lido
   isoladamente (usuário desliza rápido), mas a sequência tem que fechar uma
-  ideia completa até o slide 5. Curto por slide: até ~25 palavras além do
+  ideia completa até o slide 5. Curto por slide: até ~20 palavras além do
   gancho/título — se um slide precisa de mais que isso, é sinal de que o
   tema pede dois slides, não um parágrafo espremido num só.
+- **Slide 1 é o teste de tudo**: nunca a definição do instituto jurídico
+  ("O que é usucapião?") — abra com a situação, o número ou o
+  mal-entendido que faz a pessoa parar de rolar o feed (ver
+  `docs/perfil-escritorio.md`, "Gancho magnético"). Se o slide 1 poderia
+  abrir qualquer post da mesma área, não é gancho — é preenchimento.
 
 ### Post estático
 - **Extensão**: card único.
@@ -57,14 +62,18 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
 - **O que a copy precisa entregar**: uma ideia só, dita do jeito mais curto
   que ainda fica claro — sem tentar caber o carrossel inteiro num card. Se
   o tema pede mais que 3 linhas de corpo, não é candidato a post estático
-  naquela semana.
+  naquela semana. O **título** carrega o gancho — é ele que decide se
+  alguém para no card ou não; nunca o nome burocrático do instituto
+  jurídico sozinho (ver `docs/perfil-escritorio.md`, "Gancho magnético").
 
 ### Reel / vídeo curto
 - **Extensão**: roteiro de 30–45 segundos.
 - **Estrutura fixa**: roteiro com marcação de tempo (ex.: `0:00–0:05`,
   `0:05–0:15`...) + texto que aparece na tela em cada trecho.
 - **Entrega**: roteiro marcado + texto de tela + legenda.
-- **O que a copy precisa entregar**: gancho nos primeiros 3 segundos,
+- **O que a copy precisa entregar**: gancho real nos primeiros 3 segundos
+  — uma situação, número ou mal-entendido, nunca "hoje vamos falar sobre
+  [instituto]" (ver `docs/perfil-escritorio.md`, "Gancho magnético") —,
   informação central até os 30s, fechamento sóbrio nos últimos segundos —
   sem CTA de conversão (Pergunta 04). Texto de tela curto: frases de até
   6-7 palavras, uma ideia por tela — não sub-título de artigo colado na
@@ -88,6 +97,11 @@ Cada canal gera sua própria pasta de saída dentro da mesma semana:
   norma, comparação antes/depois, mas cada frase precisa carregar
   informação nova. Não é o carrossel reescrito em prosa, e também não é
   redação floreada: corte a frase se ela só estiver preparando a próxima.
+  **O primeiro parágrafo carrega o gancho**, nunca um parágrafo de
+  contextualização genérica ("no cenário empresarial atual...") — abra
+  direto com o risco, a mudança ou o número que interessa a quem decide
+  na empresa (ver `docs/perfil-escritorio.md`, "Gancho magnético"); quem
+  lê LinkedIn decide em uma linha se continua.
 - Único formato do canal — os 3 posts semanais do LinkedIn usam sempre
   "Texto longo", sem rodízio.
 

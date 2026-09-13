@@ -32,11 +32,14 @@ qual ajuste]
 ## 3. Estrutura narrativa
 
 Tabela slide/tela × conteúdo × função — adaptar número de linhas ao formato
-(ver `docs/formatos.md`):
+(ver `docs/formatos.md`). Slide 1 é o gancho real (situação, número ou
+mal-entendido comum — nunca definição de dicionário do instituto, nunca
+uma das aberturas banidas), ver `docs/perfil-escritorio.md`, "Gancho
+magnético, nunca sensacionalista":
 
 | Slide/tela | Conteúdo | Função |
 |---|---|---|
-| 1 | [texto do gancho/capa] | Capturar atenção sem alarmismo |
+| 1 | [texto do gancho/capa] | Capturar atenção com especificidade, sem alarmismo |
 | 2 | [texto] | [função] |
 | 3 | [texto] | [função] |
 | 4 | [texto] | [função] |

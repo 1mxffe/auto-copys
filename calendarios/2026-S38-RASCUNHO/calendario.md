@@ -3,8 +3,10 @@
 > **Isto não é uma semana oficial.** Gerado para testar as regras novas
 > (rodízio de área, Isenção de IR fixa, 6 formatos, gancho magnético, lei
 > só na legenda). `temas/historico.md` não foi tocado, nada foi publicado
-> no Notion. Ver `README-TESTE.md` nesta pasta para o cálculo completo e
-> um efeito colateral do algoritmo encontrado neste teste.
+> no Notion. Ver `README-TESTE.md` nesta pasta para o cálculo completo —
+> incluindo a regra de desempate por colisão de formato, criada durante
+> este mesmo teste depois de o rodízio bruto convergir 3 dos 5 posts para
+> o mesmo formato.
 
 ## LinkedIn (3 posts)
 
@@ -23,9 +25,17 @@ Segunda/quarta/sexta em rodízio de área (`p = 0` para esta semana — ver
 |---|---|---|---|---|---|
 | Segunda | Empresarial | Reel rápido | Marcas e propriedade intelectual | `instagram/01-segunda-empresarial.md` | ✅ |
 | Terça | Tributário (Isenção de IR) | Carrossel curto | Isenção de IR — doença grave | `instagram/02-terca-isencao-ir.md` | ✅ |
-| Quarta | Cível (Imobiliário) | Reel rápido | Contratos de locação residencial | `instagram/03-quarta-civel.md` | ✅ |
+| Quarta | Cível (Imobiliário) | Reel aprofundado *(ajustado — ver nota)* | Contratos de locação residencial | `instagram/03-quarta-civel.md` | ✅ |
 | Quinta | Tributário (Isenção de IR) | Carrossel padrão | Isenção de IR — maiores de 65 anos | `instagram/04-quinta-isencao-ir.md` | ✅ |
-| Sexta | Trabalhista | Reel rápido | Licença-maternidade e paternidade | `instagram/05-sexta-trabalhista.md` | ✅ |
+| Sexta | Trabalhista | Carrossel aprofundado *(ajustado — ver nota)* | Licença-maternidade e paternidade | `instagram/05-sexta-trabalhista.md` | ✅ |
+
+**Nota sobre os ajustes**: o rodízio bruto (contador por trilha, sem
+desempate) apontava Reel rápido para Empresarial, Cível *e* Trabalhista
+na mesma semana — colisão tripla por simetria do histórico atual. Depois
+de reportado, foi criada a regra "Desempate por colisão entre trilhas na
+mesma semana" (`docs/formatos.md`) e aplicada aqui: Quarta avança para
+Reel aprofundado, Sexta avança (pulando o já ocupado Reel aprofundado)
+até Carrossel aprofundado. Ver `README-TESTE.md` para o detalhe.
 
 ## Fonte dos temas
 
@@ -49,15 +59,12 @@ no banco "Posts" nem na página Calendário Editorial.
 
 - **Rascunho de teste, não semana oficial**: `temas/historico.md` não foi
   atualizado; Notion não foi tocado. Ver `README-TESTE.md`.
-- **Efeito colateral do rodízio de formato**: Empresarial, Cível e
-  Trabalhista convergiram para o mesmo formato (Reel rápido) nesta semana,
-  porque as três trilhas chegaram ao mesmo contador (3) por simetria do
-  histórico atual (S34-S36, cada área usou 1 vez cada um dos 3 formatos
-  antigos). Não apliquei o "Desvio editorial do rodízio de formato" para
-  corrigir isso, porque esse desvio existe para incompatibilidade entre
-  tema e formato, não para evitar coincidência entre trilhas — decisão de
-  ajustar o algoritmo (se quiser) cabe ao usuário. Ver sugestão na
-  resposta desta sessão.
+- **Ajuste de formato aplicado durante o teste**: o rodízio bruto convergia
+  3 dos 5 posts para Reel rápido (colisão entre trilhas). O usuário pediu
+  a correção; foi criada a regra "Desempate por colisão entre trilhas na
+  mesma semana" (`docs/formatos.md`) e os posts de Quarta (Cível) e Sexta
+  (Trabalhista) foram regravados nos formatos resultantes (Reel
+  aprofundado e Carrossel aprofundado, respectivamente).
 - **Sem checagem de atualidade jurídica**: todos os 8 temas vieram do
   banco, sem consulta à web, para manter o teste determinístico e
   reproduzível.

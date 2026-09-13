@@ -44,21 +44,43 @@ aviso.
   ("Contratos de locação residencial"), porque o item 1 já foi usado em
   2026-S36.
 
-## ⚠️ Efeito colateral notado no algoritmo (reportar ao usuário)
+## ⚠️→✅ Efeito colateral notado e corrigido durante o teste
 
-**3 dos 5 posts do Instagram desta semana caíram no mesmo formato — Reel
-rápido** (Empresarial, Cível e Trabalhista, todos com contador = 3). Isso
-acontece porque o histórico atual (S34-S36) é simétrico: cada uma das 5
-áreas já usou exatamente 1 Carrossel, 1 Post estático e 1 Reel, uma vez
-cada, nas 3 semanas antigas — então todas chegam ao rodízio de 6 formatos
-no mesmo ponto (índice 3) ao mesmo tempo. É uma consequência correta do
-algoritmo como documentado, não um bug de implementação — mas o resultado
-prático (3 Reels na mesma semana) contraria o próprio objetivo de variar
-formato que motivou ir de 3 para 6 formatos.
+**Achado original**: 3 dos 5 posts do Instagram desta semana caíam no
+mesmo formato — Reel rápido (Empresarial, Cível e Trabalhista, todos com
+contador = 3). Isso acontecia porque o histórico atual (S34-S36) é
+simétrico: cada uma das 5 áreas já usou exatamente 1 Carrossel, 1 Post
+estático e 1 Reel, uma vez cada, nas 3 semanas antigas — então todas
+chegavam ao rodízio de 6 formatos no mesmo ponto (índice 3) ao mesmo
+tempo. Consequência correta do algoritmo como documentado até então, não
+um bug de implementação — mas o resultado prático (3 Reels na mesma
+semana) contrariava o próprio objetivo de variar formato que motivou ir de
+3 para 6 formatos.
 
-**Não apliquei o "Desvio editorial do rodízio de formato" para corrigir
-isso** — esse desvio é para quando o *tema* não cabe no formato sorteado,
-não para evitar coincidência entre trilhas diferentes; usá-lo aqui seria
-inventar uma regra nova sem autorização. Fica como observação para o
-usuário decidir se quer um ajuste permanente (ver sugestão na mensagem de
-resposta).
+**Correção aplicada** (a pedido do usuário): nova regra "Desempate por
+colisão entre trilhas na mesma semana" em `docs/formatos.md` — calcule os
+5 formatos na ordem do calendário (segunda→terça→quarta→quinta→sexta); se
+um formato colidir com o de outro post já calculado **na mesma semana**,
+avance para o próximo índice da lista (mod 6) ainda não usado nela.
+
+Aplicando a regra a esta semana:
+- Segunda (Empresarial, índice 3 = Reel rápido) — primeiro post, sem
+  colisão possível, mantém.
+- Terça (Isenção de IR, índice 0 = Carrossel curto) — único até aqui,
+  mantém.
+- Quarta (Cível, índice 3 = Reel rápido) — **colide com Segunda** → avança
+  para índice 4 = **Reel aprofundado** (livre).
+- Quinta (Isenção de IR, índice 1 = Carrossel padrão) — único até aqui,
+  mantém.
+- Sexta (Trabalhista, índice 3 = Reel rápido) — **colide com Segunda** →
+  tenta índice 4 (Reel aprofundado), **também ocupado por Quarta** → avança
+  para índice 5 = **Carrossel aprofundado** (livre).
+
+Resultado final da semana: Reel rápido, Carrossel curto, Reel aprofundado,
+Carrossel padrão, Carrossel aprofundado — **5 formatos diferentes em 5
+posts**, o oposto do problema original. Os briefings de Quarta
+(`instagram/03-quarta-civel.md`) e Sexta
+(`instagram/05-sexta-trabalhista.md`) foram regravados com copy adequada
+ao novo formato (roteiro de 30-45s e carrossel de 7 slides,
+respectivamente) — a legenda de ambos não mudou de conteúdo técnico, só a
+peça visual.

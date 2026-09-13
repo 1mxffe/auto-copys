@@ -161,7 +161,11 @@ aplique `contador mod 6` sobre `[Carrossel curto, Carrossel padrão, Post
 estático, Reel rápido, Reel aprofundado, Carrossel aprofundado]` — ver
 `docs/formatos.md`, "Instagram — rodízio de formato". Dentro da mesma
 semana, terça é calculada antes de quinta (incrementando o contador da
-trilha de Isenção de IR em 1 entre uma e outra). O rodízio pode ser
+trilha de Isenção de IR em 1 entre uma e outra). Calcule os 5 formatos na
+ordem do calendário (segunda → terça → quarta → quinta → sexta) e, se um
+formato colidir com o de outro post **da mesma semana**, avance para o
+próximo índice ainda não usado nela — ver `docs/formatos.md`, "Desempate
+por colisão entre trilhas na mesma semana". O rodízio pode ser
 substituído por julgamento editorial quando o tema claramente pede outro
 formato — ver `docs/formatos.md`, "Desvio editorial do rodízio de
 formato" — registrando a troca nas Pendências do calendário.

@@ -8,10 +8,13 @@
 | Área | Cível |
 | Subtema | Imobiliário |
 | Canal | Instagram |
-| Formato | Reel rápido (12–15s) |
+| Formato | Reel aprofundado (30–45s) |
 | Data de publicação | 2026-09-16, quarta-feira |
 | Tema | Imobiliário — Contratos de locação residencial: direitos e deveres de locador e locatário |
 | Fonte do tema | Banco de temas (`temas/civel/imobiliario.md`, item 2) |
+
+*Formato ajustado de Reel rápido para Reel aprofundado pela regra de
+desempate por colisão entre trilhas — ver `README-TESTE.md`.*
 
 ## 2. Diagnóstico de aderência
 
@@ -21,6 +24,8 @@
 - Primeiro tema elegível na fila de Cível (item 1 de `imobiliario.md` já
   usado em 2026-S36); segue a regra de anti-repetição sem preferência por
   subtema.
+- Tema comporta desdobramento real (desgaste x dano, papel da vistoria) —
+  cabe nos 30-45s do Reel aprofundado sem parecer esticado.
 
 **Pontos de atenção**
 - Cuidado para não parecer orientação para disputa específica de
@@ -30,14 +35,17 @@
 
 ## 3. Estrutura narrativa
 
-Reel rápido (12–15s) — gancho → fato central → fechamento (ver
-`docs/formatos.md`).
+Reel aprofundado (30–45s) — roteiro com marcação de tempo (ver
+`docs/formatos.md`):
 
 | Tela | Conteúdo | Função |
 |---|---|---|
-| 1 (0:00–0:03) | "Saiu do imóvel e não recebeu a caução de volta?" | Gancho por pergunta direta/cena do cotidiano |
-| 2 (0:03–0:12) | "Devolução da caução e reforma têm regra: quem causou o desgaste é quem paga. Uso normal não conta." | Informação central, sem citar artigo (fica na legenda) |
-| 3 (0:12–0:15) | "O escritório atua em Direito Cível." | Encerramento sóbrio + identificação |
+| 1 (0:00–0:03) | "Não recebeu a caução de volta?" | Gancho por pergunta direta/cena do cotidiano |
+| 2 (0:03–0:12) | "Desgaste normal ≠ dano do inquilino" | Identificação da distinção central |
+| 3 (0:12–0:22) | "Uso normal é conta do dono" | Informação-chave, sem citar artigo |
+| 4 (0:22–0:32) | "Dano por mau uso pode descontar" | Aprofundamento — a exceção que confirma a regra |
+| 5 (0:32–0:40) | "Vistoria de entrada e saída ajuda" | Aprofundamento — como provar na prática |
+| 6 (0:40–0:45) | "Direito Cível" | Encerramento sóbrio + identificação |
 
 ## 4. Copy final
 
@@ -46,12 +54,24 @@ Reel rápido (12–15s) — gancho → fato central → fechamento (ver
 `0:00–0:03` — (texto de tela: "Não recebeu a caução de volta?")
 Narração: "Saiu do imóvel e não recebeu a caução de volta?"
 
-`0:03–0:12` — (texto de tela: "Uso normal não é dano.")
-Narração: "Existe regra para isso. Reforma por desgaste natural de uso
-normal é conta do dono do imóvel — só o dano causado pelo inquilino pode
-ser descontado da caução."
+`0:03–0:12` — (texto de tela: "Desgaste normal ≠ dano do inquilino")
+Narração: "Existe uma diferença que resolve a maior parte dessas
+discussões: desgaste natural de uso não é a mesma coisa que dano causado
+pelo inquilino."
 
-`0:12–0:15` — (texto de tela: "Direito Cível.")
+`0:12–0:22` — (texto de tela: "Uso normal é conta do dono")
+Narração: "Pintura desbotada, piso com marca de uso — isso é desgaste
+normal, e é conta do dono do imóvel, não pode ser descontado da caução."
+
+`0:22–0:32` — (texto de tela: "Dano por mau uso pode descontar")
+Narração: "Já buraco na parede ou equipamento quebrado por mau uso? Isso,
+sim, pode ser descontado."
+
+`0:32–0:40` — (texto de tela: "Vistoria de entrada e saída ajuda")
+Narração: "Em caso de dúvida, comparar o laudo de vistoria de quando
+entrou com o de quando saiu costuma resolver quem tem razão."
+
+`0:40–0:45` — (texto de tela: "Direito Cível")
 Narração: "O escritório atua em Direito Cível."
 
 *(Nenhuma menção a número de lei ou artigo no roteiro — fica para a

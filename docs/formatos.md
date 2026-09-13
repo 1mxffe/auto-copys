@@ -338,6 +338,23 @@ aprofundado, Carrossel aprofundado]`
   incremente o contador em 1, calcule quinta em seguida — os dois nunca
   saem no mesmo formato na mesma semana.
 
+**Desempate por colisão entre trilhas na mesma semana** (desde
+2026-09-13): as 5-6 trilhas são independentes entre si, então nada impede
+que duas trilhas diferentes cheguem ao **mesmo** índice na mesma semana —
+descoberto num teste em que histórico simétrico (cada área com o mesmo
+número de posts anteriores) fez 3 dos 5 posts da semana caírem no mesmo
+formato. Para evitar isso: calcule o formato de cada um dos 5 posts do
+Instagram **na ordem do calendário** (segunda → terça → quarta → quinta →
+sexta). Se o formato calculado para um post já foi usado por outro post
+**da mesma semana**, avance esse post para o próximo índice da lista (mod
+6) que ainda não apareça nessa semana — repita o avanço se colidir de
+novo. O primeiro post do calendário nunca é afetado por esta regra (não
+há nada anterior na semana para colidir); os seguintes só avançam quando
+há colisão real. Isso resolve por semana, sem guardar estado novo: o
+formato que efetivamente sair (já resolvido o desempate) é o que conta
+como incremento da trilha para a próxima vez que ela for sorteada — o
+próprio `temas/historico.md`, de novo, é o único estado necessário.
+
 Isso mantém a regra qualitativa de sempre variar formato dentro da mesma
 trilha, sem exigir dia fixo nem ciclo de semana — o próprio histórico é o
 estado, sem precisar guardar posição de ciclo em nenhum outro lugar. Ver

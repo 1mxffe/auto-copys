@@ -7,17 +7,24 @@
 | Escritório | Gutmann & Silva |
 | Área | Trabalhista |
 | Canal | Instagram |
-| Formato | Reel rápido (12–15s) |
+| Formato | Carrossel aprofundado (7 slides) |
 | Data de publicação | 2026-09-18, sexta-feira |
 | Tema | Licença-maternidade e paternidade — direitos previstos em lei |
 | Fonte do tema | Banco de temas (`temas/trabalhista.md`, item 8) |
+
+*Formato ajustado de Reel rápido para Carrossel aprofundado pela regra de
+desempate por colisão entre trilhas — ver `README-TESTE.md`. O tema
+comporta as 7 camadas exigidas (prazo padrão x prorrogado, paternidade x
+maternidade, variação por tipo de vínculo).*
 
 ## 2. Diagnóstico de aderência
 
 **Pontos a favor**
 - Tema com mal-entendido comum real (achar que só CLT tem direito, ou que
-  a licença-paternidade é só 5 dias sempre) — bom gancho de mito x
-  verdade.
+  a licença-paternidade é sempre 5 dias) — bom gancho de mito x verdade.
+- Múltiplas camadas genuínas (prazo padrão x Empresa Cidadã, maternidade x
+  paternidade, variação por vínculo) — justifica carrossel aprofundado em
+  vez de "encher" um tema simples.
 - Diferente do tema de Trabalhista usado no LinkedIn desta semana (Acordo
   individual x convenção coletiva) — dois temas distintos, um por canal.
 
@@ -29,30 +36,50 @@
 
 ## 3. Estrutura narrativa
 
-Reel rápido (12–15s) — gancho → fato central → fechamento (ver
+Carrossel aprofundado (7 slides) — gancho → contexto/identificação → o
+que a norma diz → primeiro desdobramento prático → segundo desdobramento
+(exceção) → comparação/exemplo genérico → encerramento sóbrio (ver
 `docs/formatos.md`).
 
-| Tela | Conteúdo | Função |
+| Slide | Conteúdo | Função |
 |---|---|---|
-| 1 (0:00–0:03) | "Achou que licença-paternidade é sempre só 5 dias?" | Gancho por mito x verdade |
-| 2 (0:03–0:12) | "Em empresas do programa Empresa Cidadã, o pai pode ter até 20 dias — não é regra única para todo mundo." | Informação central, sem citar lei (fica na legenda) |
-| 3 (0:12–0:15) | "O escritório atua em Direito Trabalhista." | Encerramento sóbrio + identificação |
+| 1 | "Achou que licença-paternidade é sempre só 5 dias?" | Gancho por mito x verdade |
+| 2 | "Maternidade e paternidade têm prazos diferentes — e nem sempre o mesmo prazo para todo mundo." | Contexto/identificação |
+| 3 | "Existe um prazo padrão, e existe um prazo maior para quem trabalha em empresa de um programa específico." | O que a norma diz, sem citar número |
+| 4 | "Nesse programa, a paternidade pode chegar a 20 dias, e a maternidade a 180." | Primeiro desdobramento prático |
+| 5 | "Mas a prorrogação não é automática — depende de a empresa estar cadastrada e do pedido ser feito no prazo certo." | Segundo desdobramento (exceção) |
+| 6 | "E o tipo de vínculo também muda a regra: CLT, servidora pública e autônoma seguem critérios próprios." | Comparação/exemplo genérico |
+| 7 | "O escritório atua em Direito Trabalhista." | Encerramento sóbrio + identificação |
 
 ## 4. Copy final
 
-**Roteiro com marcação de tempo:**
+**Slide 1**
+> Achou que licença-paternidade é sempre só 5 dias?
 
-`0:00–0:03` — (texto de tela: "Paternidade é sempre 5 dias?")
-Narração: "Achou que licença-paternidade é sempre só 5 dias?"
+**Slide 2**
+> Maternidade e paternidade têm prazos diferentes — e nem sempre o mesmo
+> prazo para todo mundo.
 
-`0:03–0:12` — (texto de tela: "Depende da empresa.")
-Narração: "Em empresas cadastradas num programa específico, o pai pode
-ter até 20 dias — o prazo não é o mesmo em toda empresa."
+**Slide 3**
+> Existe um prazo padrão, e existe um prazo maior para quem trabalha numa
+> empresa de um programa específico de incentivo.
 
-`0:12–0:15` — (texto de tela: "Direito Trabalhista.")
-Narração: "O escritório atua em Direito Trabalhista."
+**Slide 4**
+> Nesse programa, a licença-paternidade pode chegar a 20 dias, e a
+> licença-maternidade a 180.
 
-*(Nenhuma menção a número de lei ou nome do programa fiscal no roteiro —
+**Slide 5**
+> Mas a prorrogação não é automática — depende de a empresa estar
+> cadastrada no programa e do pedido ser feito dentro do prazo.
+
+**Slide 6**
+> E o tipo de vínculo também muda a regra: CLT, servidora pública e
+> autônoma seguem critérios próprios.
+
+**Slide 7**
+> O escritório atua em Direito Trabalhista.
+
+*(Nenhuma menção a número de lei ou nome do programa fiscal nos slides —
 fica para a legenda, ver seção 5.)*
 
 ## 5. Legenda proposta
@@ -79,8 +106,9 @@ fica para a legenda, ver seção 5.)*
 - Paleta: manual de marca do escritório.
 - Ícones/imagens sugeridas: ícone neutro de calendário/família
   estilizado — sem foto de bebê ou família real identificável.
-- Logotipo do escritório: canto do vídeo. Símbolo da OAB: não usar.
-- Tipografia/hierarquia: texto de tela grande, alto contraste.
+- Logotipo do escritório: slide 7. Símbolo da OAB: não usar.
+- Tipografia/hierarquia: número de dias (5, 20, 120, 180) em destaque nos
+  slides 3-4, para reforçar o contraste sem precisar citar a lei ali.
 
 ## 7. Conformidade OAB
 

@@ -57,9 +57,11 @@ completo; o resumo do que deve sair:
    raiz da semana, e atualize `temas/historico.md`.
 9. Publique no Notion usando os IDs de `docs/notion.md`: uma linha por post
    no banco "Posts" (8 linhas, campo Canal preenchido, Status inicial "Em
-   aprovação", campos de kanban e de métrica em branco), com o briefing
-   completo no corpo da página, mais a sub-página de panorama da semana com
-   os dois calendários.
+   aprovação", campo `Advogado Responsavel` com o nome escolhido por rodízio
+   dentro da área do post — ver `docs/perfil-escritorio.md` e o
+   procedimento em `docs/notion.md` —, campos de kanban e de métrica em
+   branco), com o briefing completo no corpo da página, mais a sub-página de
+   panorama da semana com os dois calendários.
 10. Comite direto na branch `main` e dê push. NÃO abra Pull Request. Faça
     `git pull origin main` antes de commitar. Mensagem do commit:
     "Calendário editorial — Semana NN/AAAA".

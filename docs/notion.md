@@ -52,11 +52,12 @@ CREATE TABLE "Posts" (
                    'Pronto para publicar', 'Publicado'),
   "Gancho" TEXT,
   "Conformidade OAB" SELECT('OK', 'Revisar'),
+  "Advogado Responsavel" TEXT,       -- advogado revisor, um nome por post, por rodízio na área — ver abaixo (nome do campo sem acento, exatamente como está no Notion)
 
   -- Kanban de produção (adicionado em 2026-08-14)
   "Link da arte" URL,                -- Canva/Figma/Drive, preenchido em "Em produção"
   "Link do post" URL,                -- link do post no ar, preenchido em "Publicado"
-  "Responsável" TEXT,                -- quem está produzindo a arte desta peça
+  "Responsável" TEXT,                -- quem está produzindo a arte desta peça (campo distinto de "Advogado Responsavel", acima, apesar do nome parecido)
 
   -- Métricas de desempenho (adicionado em 2026-08-14, preenchimento manual)
   "Alcance" NUMBER,
@@ -70,6 +71,32 @@ CREATE TABLE "Posts" (
 ```
 
 Todas as opções de Select já existem no data source — não recriar.
+
+**`Advogado Responsavel` (adicionado em 2026-09-08), rodízio automático de
+revisor por área.** Campo TEXT, não Pessoa/People — mesma razão de
+`Responsável` (não depende de todo o time estar cadastrado como membro do
+workspace Notion, e vários advogados só têm telefone/WhatsApp registrado,
+não e-mail). Não confundir com `Responsável` (kanban de produção da arte,
+acima) — são dois campos de texto distintos, apesar do nome parecido.
+
+Ao contrário de uma lista com todos os nomes da área, este campo leva **um
+único nome por post**, escolhido por rodízio dentro do time elegível daquela
+área (mapeamento em `docs/perfil-escritorio.md`, seção "Advogado responsável
+por área — rodízio"):
+
+1. Se a área tiver só um nome no mapeamento (Empresarial, Previdenciário),
+   use sempre esse nome — não há rodízio a fazer.
+2. Se a área tiver mais de um nome (Cível, Trabalhista, Tributário/Isenção de
+   IR), consulte no Notion os posts mais recentes daquela área
+   (`notion-query-data-sources`, filtrando por `Área`, ordenado por
+   `createdTime` decrescente) e veja quem já apareceu em
+   `Advogado Responsavel`. Escolha o nome do mapeamento que está há mais
+   tempo sem aparecer — ou que nunca apareceu ainda — para aquela área. Isso
+   distribui a carga de revisão sem precisar manter um contador à parte.
+
+**Isso não envia e-mail nem notificação nenhuma** — só deixa registrado na
+própria página quem deve revisar; a conferência continua manual, pelo Notion
+(ver "Fora de escopo" em `CLAUDE.md`).
 
 `Canal` foi adicionado em 2026-08-14, junto com a opção `Texto longo` em
 `Formato` (renomeação funcional de `LinkedIn`). As opções `Stories` e
@@ -115,7 +142,9 @@ explícita do usuário, não algo a construir dentro desta automação.
 2. Para cada um dos 8 posts (3 LinkedIn + 5 Instagram), `notion-create-pages`
    com `parent.data_source_id = collection://71818c42-f4bd-4c7b-8471-8ab4bfad9bdd`,
    propriedades (`Tema`, `date:Data:start`, `Semana`, `Área`, `Canal`,
-   `Formato`, `Status = "Em aprovação"`, `Gancho`, `Conformidade OAB`) e o
+   `Formato`, `Status = "Em aprovação"`, `Gancho`, `Conformidade OAB`,
+   `Advogado Responsavel` — nome único escolhido por rodízio dentro da área
+   do post, ver acima e `docs/perfil-escritorio.md`) e o
    briefing completo (8 seções do template) como `content`. Deixe os campos
    de kanban (`Link da arte`, `Link do post`, `Responsável`) e de métrica
    (`Alcance`, `Curtidas`, `Comentários`, `Compartilhamentos`,

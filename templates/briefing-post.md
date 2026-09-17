@@ -13,7 +13,7 @@
 | Tema | [tema, como consta em `temas/<area>.md` (ou `temas/civel/<subtema>.md`) ou pauta de atualidade] |
 | Fonte do tema | [Banco de temas | Atualidade jurídica — citar norma/decisão] |
 | Subtipo LinkedIn (só se Canal = LinkedIn) | [Autoridade técnica / Informativo direto — ver `docs/formatos.md`] |
-| Advogado(s) revisor(es) | [nome(s) da área, ver `docs/perfil-escritorio.md`, seção "Advogados revisores por área"] |
+| Advogado responsável (revisor) | [nome único escolhido por rodízio na área, ver `docs/perfil-escritorio.md`, seção "Advogado responsável por área — rodízio", e o procedimento em `docs/notion.md`] |
 
 ## 2. Diagnóstico de aderência
 
@@ -99,7 +99,7 @@ Checklist de `docs/normas-oab.md`, aplicado item por item a esta peça:
 ## 8. Aprovação
 
 - [ ] Conteúdo jurídico revisado por advogado responsável pela área (ver
-  campo "Advogado(s) revisor(es)" na seção 1)
+  campo "Advogado responsável (revisor)" na seção 1)
 - [ ] Conformidade OAB conferida (seção 7 completa, sem ⚠️ em aberto)
 - [ ] Copy final aprovada para produção de arte
 - [ ] Data de publicação confirmada na grade

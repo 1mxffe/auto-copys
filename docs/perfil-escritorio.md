@@ -22,17 +22,22 @@ diferentes, meses de distância.
   interno; não necessariamente o canal público de contato do escritório —
   confirmar com o time antes de publicar em peça voltada ao público).
 
-## Advogados revisores por área
+## Advogado responsável por área — rodízio
 
-Desde 2026-09-08, cada post publicado no Notion registra automaticamente o
-nome do(s) advogado(s) revisor(es) da área, no campo `Advogados revisores`
-do banco "Posts" (ver `docs/notion.md`) — **apenas o nome**, sem disparo de
-e-mail, Slack ou WhatsApp: é o time que confere o Notion, não uma
+Desde 2026-09-08, cada post publicado no Notion registra automaticamente,
+no campo `Advogado Responsavel` do banco "Posts" (ver `docs/notion.md`), o
+nome de **um** advogado revisor daquela área — **apenas o nome**, sem
+disparo de e-mail, Slack ou WhatsApp: é o time que confere o Notion, não uma
 notificação ativa (ver "Fora de escopo" em `CLAUDE.md`). Levantamento feito
-por formulário interno em 2026-08-31; mais de uma pessoa por área é
-intencional — todas aparecem no campo, sem ordem de prioridade entre elas:
+por formulário interno em 2026-08-31.
 
-| Área | Advogado(s) revisor(es) |
+Cada área tem uma lista de advogados elegíveis. Quando há só um nome, é
+sempre ele. Quando há mais de um, a automação faz **rodízio**: escolhe, a
+cada post novo, quem está há mais tempo sem revisar naquela área — nunca
+grava a lista inteira de uma vez. O procedimento completo (como consultar o
+histórico no Notion e decidir a vez de cada um) está em `docs/notion.md`.
+
+| Área | Advogado(s) elegível(is) |
 |---|---|
 | Empresarial | Ricardo Gonçalves |
 | Cível (todos os 5 subtemas) | Ricardo Gonçalves, Karin Barbosa Joaquim, Aline Cristina Rivolli, Kethlyn Cristina Pereira, Matheus Gutmann |

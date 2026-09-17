@@ -68,13 +68,15 @@ ajuste, pelo campo **Status**.
   item de `docs/normas-oab.md`. Otimizar por engajamento é exatamente a
   pressão que empurra copy para urgência e sensacionalismo; essa pressão
   perde sempre.
-- **Distribuição para advogados revisores é só registro, nunca notificação**:
-  desde 2026-09-08, cada post publicado no Notion grava automaticamente, no
-  campo `Advogados revisores`, o(s) nome(s) do(s) advogado(s) daquela área
-  (mapeamento em `docs/perfil-escritorio.md`, seção "Advogados revisores por
-  área"). É texto simples, não campo Pessoa/People — não dispara e-mail,
-  Slack, WhatsApp nem menção que notifique alguém. Quem revisa precisa abrir
-  o Notion; a automação nunca envia nada para fora dele.
+- **Distribuição para advogado revisor é só registro, nunca notificação, um
+  nome por post em rodízio**: desde 2026-09-08, cada post publicado no
+  Notion grava automaticamente, no campo `Advogado Responsavel`, o nome de
+  **um único** advogado daquela área, escolhido por rodízio dentro do time
+  elegível (mapeamento e procedimento em `docs/perfil-escritorio.md`, seção
+  "Advogado responsável por área — rodízio", e `docs/notion.md`). É texto
+  simples, não campo Pessoa/People — não dispara e-mail, Slack, WhatsApp nem
+  menção que notifique alguém. Quem revisa precisa abrir o Notion; a
+  automação nunca envia nada para fora dele.
 - **Fora de escopo**: geração de arte/design visual, publicação automática
   em redes sociais, automação da coleta de métricas via API (a entrada é
   manual — ver `docs/notion.md`), e qualquer notificação ativa (e-mail,

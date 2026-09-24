@@ -1,18 +1,21 @@
 # auto-copys
 
 Automação do calendário editorial semanal do escritório **Gutmann & Silva**.
-Toda quinta às 8h (Brasília), uma Routine do Claude Code gera **dois
-calendários separados** — LinkedIn (3 posts/semana, 100% B2B, para atrair
-empresas) e Instagram (5 posts/semana, um por área — Cível cobre os
-subtemas Imobiliário, Família, Responsabilidade Civil, Direito das coisas
-e Contratos) —, confere cada peça contra o checklist de conformidade da
-OAB, publica no Notion e comita direto na branch `main` deste
-repositório.
+Toda segunda às 8h (Brasília), uma Routine do Claude Code gera **dois
+calendários separados** para a semana seguinte — LinkedIn (3 posts/semana,
+100% B2B, para atrair empresas) e Instagram (5 posts/semana: segunda,
+quarta e sexta em rodízio entre 5 áreas — Cível cobre os subtemas
+Imobiliário, Família, Responsabilidade Civil, Direito das coisas e
+Contratos —, terça e quinta fixas em "Isenção de Imposto de Renda") —,
+confere cada peça contra o checklist de conformidade da OAB, publica no
+Notion e comita direto na branch `main` deste repositório. Rodar na
+segunda da semana anterior à de publicação dá a semana inteira de folga
+para aprovar no Notion e produzir a arte.
 
 ## Como funciona
 
 ```
-quinta 8h (Brasília) ──► Routine dispara sessão nova
+segunda 8h (Brasília) ──► Routine dispara sessão nova
              │
              ├─ 1. git pull origin main
              ├─ 2. verifica se há relatório de métricas pendente (posts de
@@ -24,11 +27,14 @@ quinta 8h (Brasília) ──► Routine dispara sessão nova
              ├─ 4. escolhe os temas dos 8 posts (banco de temas, ou
              │      atualidade se houver web) — 3 para LinkedIn, 5 para
              │      Instagram, sem repetir nada do histórico entre os canais
-             │      (Cível escolhe entre os 5 subtemas em temas/civel/)
-             ├─ 5. define área×dia×formato do Instagram (rodízio) e o
-             │      subtipo de registro de cada post do LinkedIn (Autoridade
-             │      técnica 80% / Informativo direto 20% — área é sempre
-             │      Empresarial/Trabalhista/Tributário, sem rodízio)
+             │      (Cível escolhe entre os 5 subtemas em temas/civel/;
+             │      terça/quinta usam o banco próprio de Isenção de IR)
+             ├─ 5. define área×formato de segunda/quarta/sexta do Instagram
+             │      (rodízio de 5 áreas), o formato de terça/quinta
+             │      (Isenção de IR) e o subtipo de registro de cada post do
+             │      LinkedIn (Autoridade técnica 80% / Informativo direto
+             │      20% — área é sempre Empresarial/Trabalhista/Tributário,
+             │      sem rodízio)
              ├─ 6. escreve os 8 briefings completos (copy final incluída)
              ├─ 7. roda o checklist OAB peça por peça — reescreve se
              │      necessário (este passo nunca é afrouxado por métrica)
@@ -96,11 +102,13 @@ constrói pela precisão da análise, nunca por autoelogio.
 ## Kanban de produção e métricas
 
 O banco "Posts" do Notion também acompanha a produção depois da aprovação
-editorial — Status com 6 etapas (Rascunho → Em aprovação → Aprovado → Em
-produção → Pronto para publicar → Publicado), mais `Link da arte`, `Link do
-post` e `Responsável`. E acumula métricas de desempenho (Alcance, Curtidas,
-Comentários, Compartilhamentos, Salvamentos, Cliques, Taxa de engajamento),
-preenchidas manualmente pelo escritório ~2 semanas após a publicação.
+editorial — Status com 9 etapas reais (Rascunho → Briefings → Em produção →
+Pronto para publicar → Criação das artes/Edição dos vídeos → Gravação →
+Aprovação Dr. Cris → Aprovação advogado da área → Publicado), mais `Link da
+arte`, `Link do post`, `Responsável` e `Advogado Responsavel`. E acumula
+métricas de desempenho (Alcance, Curtidas, Comentários, Compartilhamentos,
+Salvamentos, Taxa de engajamento), preenchidas manualmente pelo escritório
+~2 semanas após a publicação. Ver `docs/notion.md` para o schema completo.
 
 A cada execução semanal, a rotina verifica se há métricas novas prontas para
 virar relatório (`templates/relatorio-semanal.md`) — ranking, desempenho por

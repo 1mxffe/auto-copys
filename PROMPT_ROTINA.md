@@ -1,9 +1,10 @@
 # Prompt da Routine — calendário editorial semanal
 
-Cole este texto como prompt da Routine (quinta-feira, 8h de Brasília — cron
-`0 11 * * 4`, UTC). O conector **Notion** precisa estar anexado à Routine —
-sessões disparadas por trigger não herdam os conectores da conversa em que
-a Routine foi criada.
+Cole este texto como prompt da Routine (segunda-feira, 8h de Brasília — cron
+`0 11 * * 1`, UTC). Rodar na segunda dá a semana inteira (segunda a domingo)
+para aprovar no Notion e produzir a arte antes da semana de publicação. O
+conector **Notion** precisa estar anexado à Routine — sessões disparadas por
+trigger não herdam os conectores da conversa em que a Routine foi criada.
 
 ---
 
@@ -22,20 +23,26 @@ completo; o resumo do que deve sair:
    atualize `docs/aprendizados.md`. Recomendações só podem tocar formato,
    área, tema ou cadência — NUNCA sugerir afrouxar o checklist de
    `docs/normas-oab.md`.
-2. Calcule a próxima semana ISO (segunda a sábado) a partir da data de hoje.
+2. Calcule a próxima semana ISO (segunda a sexta, sem sábado) a partir da
+   data de hoje.
 3. Produza 8 posts, em dois calendários com cadência própria:
    - LinkedIn: 3 posts (segunda, quarta, sexta), sempre formato "Texto longo",
      canal 100% B2B — só as 3 áreas fixas Empresarial, Trabalhista (ângulo
      empregador/RH) e Tributário, sem rodízio de área. 80% dos posts em
      registro "Autoridade técnica", 20% em "Informativo direto" (ver
      `docs/formatos.md`).
-   - Instagram: 5 posts (segunda a quinta e sábado, sem post na sexta), um
-     por área — Empresarial, Cível, Trabalhista, Tributário, Previdenciário
-     —, formato em rodízio. Cível cobre 5 subtemas (Imobiliário, Família,
-     Responsabilidade Civil, Direito das coisas, Contratos).
-4. Determine formato de cada dia do Instagram seguindo a matriz de
-   `docs/formatos.md` (ciclo de 3 semanas). As áreas fixas e o subtipo de
-   registro do LinkedIn também estão em `docs/formatos.md`.
+   - Instagram: 5 posts, segunda a sexta (sem sábado). Segunda, quarta e
+     sexta rotacionam entre as 5 áreas — Empresarial, Cível, Trabalhista,
+     Tributário, Previdenciário — sem dia fixo por área (Cível cobre 5
+     subtemas: Imobiliário, Família, Responsabilidade Civil, Direito das
+     coisas, Contratos). Terça e quinta são sempre "Isenção de Imposto de
+     Renda" (Área = "Isenção de IR", opção própria no Select do Notion,
+     banco próprio).
+4. Determine a área de cada slot de segunda/quarta/sexta e o formato de
+   cada um dos 5 posts do Instagram seguindo `docs/formatos.md`
+   ("Instagram — rodízio de área" e "Instagram — rodízio de formato"). As
+   áreas fixas e o subtipo de registro do LinkedIn também estão em
+   `docs/formatos.md`.
 5. Escolha os temas em `temas/<area>.md` (para Cível, em `temas/civel/`, um
    arquivo por subtema), sem repetir nada de `temas/historico.md` — a
    checagem de repetição vale para os dois canais juntos, não separadamente.
@@ -56,8 +63,8 @@ completo; o resumo do que deve sair:
    `calendarios/AAAA-SNN/instagram/`, com um `calendario.md` de panorama na
    raiz da semana, e atualize `temas/historico.md`.
 9. Publique no Notion usando os IDs de `docs/notion.md`: uma linha por post
-   no banco "Posts" (8 linhas, campo Canal preenchido, Status inicial "Em
-   aprovação", campo `Advogado Responsavel` com o nome escolhido por rodízio
+   no banco "Posts" (8 linhas, campo Canal preenchido, Status inicial
+   "Rascunho", campo `Advogado Responsavel` com o nome escolhido por rodízio
    dentro da área do post — ver `docs/perfil-escritorio.md` e o
    procedimento em `docs/notion.md` —, campos de kanban e de métrica em
    branco), com o briefing completo no corpo da página, mais a sub-página de
@@ -74,7 +81,7 @@ commit e na sub-página do Notion o que ficou de fora e por quê — e em qual c
 
 ## Checklist de configuração da Routine
 
-- [ ] `cron_expression`: `0 11 * * 4` (UTC) = 8h de Brasília, quinta-feira
+- [ ] `cron_expression`: `0 11 * * 1` (UTC) = 8h de Brasília, segunda-feira
 - [ ] `connectors`: `["Notion"]` — se sua organização bloquear o parâmetro
       `connectors` na criação via ferramenta, anexe manualmente pela
       interface de Routines do claude.ai depois de criar o trigger.

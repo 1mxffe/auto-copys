@@ -64,3 +64,51 @@
     pós-reforma, em nível introdutório.
     **Público**: segurados em geral.
     **Risco de conformidade**: baixo.
+
+11. **Tema**: Auxílio-reclusão — quem tem direito e requisitos gerais.
+    **Ângulo informativo**: critérios gerais (baixa renda do segurado,
+    regime de cumprimento de pena), desfazendo confusão comum sobre o
+    benefício, sem avaliar caso individual.
+    **Público**: dependentes de segurados presos.
+    **Risco de conformidade**: médio — tema socialmente sensível; tom
+    estritamente informativo, sem juízo de valor.
+
+12. **Tema**: Salário-maternidade — regras gerais para diferentes
+    categorias de seguradas.
+    **Ângulo informativo**: panorama por categoria (empregada, contribuinte
+    individual, segurada especial), sem calcular valor do caso da leitora.
+    **Público**: gestantes seguradas do INSS.
+    **Risco de conformidade**: baixo.
+
+13. **Tema**: Desaposentação — por que essa estratégia não é mais
+    possível segundo o STF.
+    **Ângulo informativo**: explicar a tese, a decisão do STF que a
+    afastou e o que resta de opção legal, evitando repetir promessa
+    ultrapassada.
+    **Público**: aposentados que continuaram contribuindo.
+    **Risco de conformidade**: médio — cuidado para não sugerir via que
+    já foi vedada.
+
+14. **Tema**: Contagem de tempo rural para aposentadoria — o que costuma
+    ser aceito como início de prova.
+    **Ângulo informativo**: panorama geral de documentos comumente aceitos
+    (autodeclaração, prova material), sem avaliar documentação de caso
+    concreto.
+    **Público**: trabalhadores rurais e ex-trabalhadores rurais.
+    **Risco de conformidade**: médio.
+
+15. **Tema**: Perda da qualidade de segurado — o que é o "período de
+    graça" e como evitar perder direitos.
+    **Ângulo informativo**: prazos gerais de manutenção da qualidade de
+    segurado após parar de contribuir, em nível introdutório.
+    **Público**: pessoas com histórico de contribuição interrompido.
+    **Risco de conformidade**: baixo.
+
+16. **Tema**: Empréstimo consignado para aposentados e pensionistas do
+    INSS — limites e cuidados gerais.
+    **Ângulo informativo**: teto de margem consignável e canais oficiais
+    de contratação, alertando sobre fraude sem citar instituição
+    específica.
+    **Público**: aposentados e pensionistas do INSS.
+    **Risco de conformidade**: médio — não indicar instituição financeira
+    nem fazer promessa de aprovação.

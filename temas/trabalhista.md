@@ -83,3 +83,58 @@ briefing; no LinkedIn o enquadramento é sempre pelo lado do reclamado
     caso de atraso, em nível geral.
     **Público**: RH e trabalhadores.
     **Risco de conformidade**: baixo.
+
+11. **Tema**: Jornada 12x36 — quando é válida e o que precisa constar em
+    acordo ou convenção.
+    **Ângulo (reclamante/reclamado)**: Reclamado.
+    **Ângulo informativo**: requisitos gerais de validade da escala
+    (previsão em norma coletiva ou acordo individual, remuneração de
+    feriados), sem avaliar escala específica.
+    **Público**: RH de setores com escala 12x36 (saúde, segurança).
+    **Risco de conformidade**: baixo.
+
+12. **Tema**: Estabilidade provisória — hipóteses gerais previstas em lei
+    (gestante, CIPA, acidente de trabalho).
+    **Ângulo (reclamante/reclamado)**: Ambos.
+    **Ângulo informativo**: panorama de cada hipótese e o prazo de
+    garantia, sem avaliar caso individual de desligamento.
+    **Público**: trabalhadores e RH.
+    **Risco de conformidade**: médio — evitar que soe como orientação
+    para caso específico de demissão.
+
+13. **Tema**: Trabalho intermitente — como funciona a modalidade prevista
+    na reforma trabalhista.
+    **Ângulo (reclamante/reclamado)**: Ambos.
+    **Ângulo informativo**: características gerais do contrato
+    intermitente (convocação, remuneração por período trabalhado), nível
+    introdutório.
+    **Público**: trabalhadores e empresas de setores com demanda
+    variável.
+    **Risco de conformidade**: baixo.
+
+14. **Tema**: Insalubridade e periculosidade — diferença e por que os
+    adicionais não se acumulam.
+    **Ângulo (reclamante/reclamado)**: Ambos.
+    **Ângulo informativo**: critérios gerais de caracterização de cada
+    adicional e a regra de não cumulação, sem avaliar posto de trabalho
+    específico.
+    **Público**: trabalhadores e RH/SESMT.
+    **Risco de conformidade**: baixo.
+
+15. **Tema**: Metas abusivas e dano moral no ambiente de trabalho —
+    panorama do que a jurisprudência já reconhece.
+    **Ângulo (reclamante/reclamado)**: Ambos.
+    **Ângulo informativo**: critérios gerais que diferenciam cobrança
+    normal de gestão de conduta abusiva, tom sóbrio, sem exemplo de caso
+    real.
+    **Público**: trabalhadores e RH/gestores de equipe.
+    **Risco de conformidade**: alto — tema sensível; nenhuma menção a
+    caso concreto, nenhuma promessa de indenização.
+
+16. **Tema**: Aviso prévio proporcional — como se calcula o adicional por
+    tempo de serviço.
+    **Ângulo (reclamante/reclamado)**: Ambos.
+    **Ângulo informativo**: regra geral da Lei 12.506/2011 (dias
+    adicionais por ano trabalhado), sem calcular valor do caso do leitor.
+    **Público**: trabalhadores e RH/folha de pagamento.
+    **Risco de conformidade**: baixo.

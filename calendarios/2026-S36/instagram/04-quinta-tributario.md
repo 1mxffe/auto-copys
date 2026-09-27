@@ -82,7 +82,7 @@
 
 ## 8. Aprovação
 
-- [x] Conteúdo jurídico revisado por advogado responsável pela área
+- [ ] Conteúdo jurídico revisado por advogado responsável pela área
 - [x] Conformidade OAB conferida (seção 7 completa, sem ⚠️ em aberto)
 - [x] Copy final aprovada para produção de arte
 - [x] Data de publicação confirmada na grade

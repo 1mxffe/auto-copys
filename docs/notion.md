@@ -156,7 +156,9 @@ depender de todo o time estar cadastrado como membro do workspace Notion.
 `Advogado Responsavel` (também texto simples, sem acento no nome da
 propriedade) é distinto — registra quem faz a revisão jurídica da peça,
 usado pelas etapas "Aprovação Dr. Cris" e "Aprovação advogado da área" do
-`Status`.
+`Status`. Desde 2026-10-02, **Dr. Clayton Jose Batista** e **Dra. Grazi
+(trabalhista)** não fazem mais revisões jurídicas — nunca atribuí-los a
+posts novos (Trabalhista segue com os demais advogados da área).
 
 **Métricas — entrada manual por ora.** Sem conector de Instagram/Meta
 disponível neste ambiente, a coleta é manual: o escritório olha o Instagram

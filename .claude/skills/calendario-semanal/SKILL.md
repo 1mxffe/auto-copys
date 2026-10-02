@@ -242,19 +242,26 @@ editorial explícita do usuário, feita fora do fluxo automático (ver
 ## 8. Redigir os 8 briefings
 
 Um arquivo por post, a partir de `templates/briefing-post.md`, com todas as
-8 seções preenchidas (incluindo o campo **Canal** no cabeçalho) e a copy
-final pronta para arte — sem placeholder, sem colchete sobrando. Escreva no
-tom de `docs/perfil-escritorio.md`, incluindo a seção "Gancho magnético,
-nunca sensacionalista" — abertura (slide 1, título do card, primeiros 3s
-do Reel, primeiro parágrafo do LinkedIn) nunca é definição de dicionário
-do instituto jurídico nem uma das aberturas banidas listadas lá. Antes de
-fechar cada peça, rode o teste de primeira/última frase descrito na mesma
-seção. O fechamento de cada peça também não pode repetir a mesma
-fórmula post a post ("O escritório atua em Direito X." sempre igual,
-só trocando a área) — ver `docs/perfil-escritorio.md`, "Fechamento e
-identificação — variar, nunca repetir fórmula": antes de fechar os 8
-briefings da semana, confira que nenhum dos fechamentos usa a mesma
-abertura de frase que o anterior, no mesmo canal.
+8 seções preenchidas (incluindo os campos **Canal** e **Advogado responsável
+(revisor)** no cabeçalho — este último **um único nome**, escolhido por
+rodízio dentro do time elegível da área em `docs/perfil-escritorio.md`,
+seção "Advogado responsável por área — rodízio": se a área tiver só um nome,
+use-o direto; se tiver mais de um, consulte no Notion quem revisou os posts
+mais recentes daquela área e escolha quem está há mais tempo sem aparecer —
+ou quem nunca apareceu ainda — ver procedimento completo em
+`docs/notion.md`) e a copy final pronta para arte — sem placeholder, sem
+colchete sobrando. Escreva no tom de `docs/perfil-escritorio.md`, incluindo
+a seção "Gancho magnético, nunca sensacionalista" — abertura (slide 1,
+título do card, primeiros 3s do Reel, primeiro parágrafo do LinkedIn) nunca
+é definição de dicionário do instituto jurídico nem uma das aberturas
+banidas listadas lá. Antes de fechar cada peça, rode o teste de
+primeira/última frase descrito na mesma seção. O fechamento de cada peça
+também não pode repetir a mesma fórmula post a post ("O escritório atua em
+Direito X." sempre igual, só trocando a área) — ver
+`docs/perfil-escritorio.md`, "Fechamento e identificação — variar, nunca
+repetir fórmula": antes de fechar os 8 briefings da semana, confira que
+nenhum dos fechamentos usa a mesma abertura de frase que o anterior, no
+mesmo canal.
 
 Para os 5 posts do Instagram especificamente: slide/card/tela nunca cita
 número de lei, artigo ou nome/ano de decisão — só a ideia em linguagem
@@ -310,10 +317,12 @@ linhas existentes.
 
 Siga `docs/notion.md`:
 1. Ler `notion://docs/enhanced-markdown-spec` antes de escrever.
-2. Criar as 8 páginas no data source "Posts" (`Status = "Em aprovação"`,
-   `Canal` preenchido com "LinkedIn" ou "Instagram", campos de kanban —
-   Link da arte, Link do post, Responsável — e de métrica em branco), com o
-   briefing completo como conteúdo da página.
+2. Criar as 8 páginas no data source "Posts" (`Status = "Rascunho"`,
+   `Canal` preenchido com "LinkedIn" ou "Instagram", `Advogado Responsavel`
+   com o nome único escolhido por rodízio no passo 8 (ver
+   `docs/perfil-escritorio.md`), campos de kanban — Link da arte, Link do
+   post, Responsável — e de métrica em branco), com o briefing completo
+   como conteúdo da página.
 3. Criar a sub-página da semana em Calendário Editorial, com o panorama dos
    dois calendários e `<mention-page>` para os 8 posts.
 4. Atualizar a tabela de sub-páginas em `docs/notion.md`.

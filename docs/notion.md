@@ -79,12 +79,12 @@ CREATE TABLE "Posts" (
                    'Publicado'),
   "Gancho" TEXT,
   "Conformidade OAB" SELECT('OK', 'Revisar'),
+  "Advogado Responsavel" TEXT,       -- advogado revisor, um nome por post, por rodízio na área — ver abaixo (nome do campo sem acento, exatamente como está no Notion)
 
   -- Kanban de produção
   "Link da arte" URL,                -- Canva/Figma/Drive
   "Link do post" URL,                -- link do post no ar, preenchido em "Publicado"
-  "Responsável" TEXT,                -- quem está produzindo a arte desta peça
-  "Advogado Responsavel" TEXT,       -- advogado que revisa/aprova juridicamente a peça
+  "Responsável" TEXT,                -- quem está produzindo a arte desta peça (campo distinto de "Advogado Responsavel", acima, apesar do nome parecido)
 
   -- Métricas de desempenho (preenchimento manual)
   "Alcance" NUMBER,
@@ -130,6 +130,36 @@ curto → `Carrossel curto`; Carrossel padrão → `Carrossel`; Carrossel
 aprofundado → `Carrossel aprofundado`; Reel rápido → `Reel rápido`; Reel
 aprofundado → `Reel`.
 
+**`Advogado Responsavel` (adicionado em 2026-09-08), rodízio automático de
+revisor por área.** Campo TEXT, não Pessoa/People — mesma razão de
+`Responsável` (não depende de todo o time estar cadastrado como membro do
+workspace Notion, e vários advogados só têm telefone/WhatsApp registrado,
+não e-mail). Não confundir com `Responsável` (kanban de produção da arte,
+acima) — são dois campos de texto distintos, apesar do nome parecido.
+
+Ao contrário de uma lista com todos os nomes da área, este campo leva **um
+único nome por post**, escolhido por rodízio dentro do time elegível daquela
+área (mapeamento em `docs/perfil-escritorio.md`, seção "Advogado responsável
+por área — rodízio"):
+
+1. Se a área tiver só um nome no mapeamento (Empresarial, Previdenciário),
+   use sempre esse nome — não há rodízio a fazer.
+2. Se a área tiver mais de um nome (Cível, Trabalhista, Tributário/Isenção de
+   IR), consulte no Notion os posts mais recentes daquela área
+   (`notion-query-data-sources`, filtrando por `Área`, ordenado por
+   `createdTime` decrescente) e veja quem já apareceu em
+   `Advogado Responsavel`. Escolha o nome do mapeamento que está há mais
+   tempo sem aparecer — ou que nunca apareceu ainda — para aquela área. Isso
+   distribui a carga de revisão sem precisar manter um contador à parte.
+
+O nome gravado pela automação é usado depois pelas etapas "Aprovação Dr.
+Cris" e "Aprovação advogado da área" do `Status` — a automação só sugere
+quem revisa por rodízio; a aprovação de fato continua sendo um passo manual
+do pipeline, feito pela pessoa indicada. **Isso não envia e-mail nem
+notificação nenhuma** — só deixa registrado na própria página quem deve
+revisar; a conferência continua manual, pelo Notion (ver "Fora de escopo"
+em `CLAUDE.md`).
+
 `Canal` foi adicionado em 2026-08-14, junto com a opção `Texto longo` em
 `Formato` (renomeação funcional de `LinkedIn`). As opções `Stories` e
 `LinkedIn` (Formato) ficam mantidas como legado no Select mesmo sem uso —
@@ -150,13 +180,6 @@ de IR"`**, que já existe no Select ao vivo (corrigido em 2026-09-13 — ver
 nota acima). O ângulo específico (ex.: "Isenção de Imposto de Renda —
 doença grave...") vai no título (`Tema`) da página, além da própria opção
 de Área já indicar o recorte.
-
-`Responsável` é campo de texto simples (não Pessoa/People) para não
-depender de todo o time estar cadastrado como membro do workspace Notion.
-`Advogado Responsavel` (também texto simples, sem acento no nome da
-propriedade) é distinto — registra quem faz a revisão jurídica da peça,
-usado pelas etapas "Aprovação Dr. Cris" e "Aprovação advogado da área" do
-`Status`.
 
 **Métricas — entrada manual por ora.** Sem conector de Instagram/Meta
 disponível neste ambiente, a coleta é manual: o escritório olha o Instagram
@@ -183,13 +206,14 @@ explícita do usuário, não algo a construir dentro desta automação.
    com `parent.data_source_id` = o UUID puro da data source (sem o prefixo
    `collection://` — o parser da API rejeita esse prefixo), propriedades
    (`Tema`, `date:Data:start`, `Área`, `Canal`, `Formato`, `Status =
-   "Rascunho"`, `Gancho`, `Conformidade OAB`) e o briefing completo como
-   `content`. Não existe propriedade `Semana` — mencione a semana só no
-   texto. Deixe os campos de kanban (`Link da arte`, `Link do post`,
-   `Responsável`, `Advogado Responsavel`) e de métrica (`Alcance`,
-   `Curtidas`, `Comentários`, `Compartilhamentos`, `Salvamentos`) em
-   branco — são preenchidos depois, manualmente, conforme a peça avança no
-   pipeline real (`Status`) e o post acumula resultado.
+   "Rascunho"`, `Gancho`, `Conformidade OAB`, `Advogado Responsavel` — nome
+   único escolhido por rodízio dentro da área do post, ver acima e
+   `docs/perfil-escritorio.md`) e o briefing completo como `content`. Não
+   existe propriedade `Semana` — mencione a semana só no texto. Deixe os
+   campos de kanban (`Link da arte`, `Link do post`, `Responsável`) e de
+   métrica (`Alcance`, `Curtidas`, `Comentários`, `Compartilhamentos`,
+   `Salvamentos`) em branco — são preenchidos depois, manualmente, conforme
+   a peça avança no pipeline real (`Status`) e o post acumula resultado.
 3. Criar a sub-página da semana (`notion-create-pages`,
    `parent.page_id = 3bb1d8cd0ae680ccad77ccddb430d0ab`) com o panorama da
    semana (os dois calendários, ver `templates/calendario-semanal.md`) e
